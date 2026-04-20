@@ -6,15 +6,24 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC1-UAT1.1** | CycloneDX 1.5 JSON | [releases/RC1-UAT1.1](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.1) | 790 |
+| **RC1-UAT1.10** | CycloneDX 1.5 JSON | [releases/RC1-UAT1.10](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.10) | 801 |
+| RC1-UAT1.9 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.9](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.9) | 801 |
+| RC1-UAT1.8 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.8](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.8) | 801 |
+| RC1-UAT1.7 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.7](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.7) | 801 |
+| RC1-UAT1.6 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.6](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.6) | 801 |
+| RC1-UAT1.5 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.5](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.5) | 801 |
+| RC1-UAT1.4 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.4](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.4) | 801 |
+| RC1-UAT1.3 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.3](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.3) | 790 |
+| RC1-UAT1.2 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.2](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.2) | 790 |
+| RC1-UAT1.1 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.1](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.1) | 790 |
 
 ## Fetch URLs
 
 **GitHub release asset** (preferred for OSPO feeds):
-<https://github.com/rAIdio-bot/sbom/releases/download/RC1-UAT1.1/rAIdio.bot-RC1-UAT1.1.cdx.json>
+<https://github.com/rAIdio-bot/sbom/releases/download/RC1-UAT1.10/rAIdio.bot-RC1-UAT1.10.cdx.json>
 
 **Raw stable path** (for tools that pin to a directory):
-<https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/RC1-UAT1.1/rAIdio.bot-RC1-UAT1.1.cdx.json>
+<https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/RC1-UAT1.10/rAIdio.bot-RC1-UAT1.10.cdx.json>
 
 Both URLs are unauthenticated and permanent.
 
@@ -40,8 +49,8 @@ Ingest into a compatible OSPO tool:
 | Tool | Command |
 |------|---------|
 | OWASP Dependency-Track | upload via the web UI or API |
-| `cyclonedx-cli` | `cyclonedx validate --input-file rAIdio.bot-RC1-UAT1.1.cdx.json` |
-| `grype` / `syft` | `grype sbom:rAIdio.bot-RC1-UAT1.1.cdx.json` |
+| `cyclonedx-cli` | `cyclonedx validate --input-file rAIdio.bot-RC1-UAT1.10.cdx.json` |
+| `grype` / `syft` | `grype sbom:rAIdio.bot-RC1-UAT1.10.cdx.json` |
 
 ## Generation
 
