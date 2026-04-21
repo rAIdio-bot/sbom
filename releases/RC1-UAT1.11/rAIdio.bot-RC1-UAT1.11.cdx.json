@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:cb0b5996-7352-4400-947a-6b84c4ddb25d",
+  "serialNumber": "urn:uuid:bf4eeb1b-43e6-4731-97d9-f7d557d3999e",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-04-21T13:49:59+00:00",
+    "timestamp": "2026-04-21T17:58:21+00:00",
     "tools": [
       {
         "vendor": "rAIdio.bot",
@@ -43,6 +43,32 @@
     }
   },
   "components": [
+    {
+      "type": "application",
+      "bom-ref": "pkg:generic/CPython@3.12.10",
+      "name": "CPython",
+      "version": "3.12.10",
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:generic/CPython@3.12.10",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.python.org/"
+        }
+      ],
+      "properties": [
+        {
+          "name": "raidio:category",
+          "value": "System Tools"
+        }
+      ]
+    },
     {
       "type": "application",
       "bom-ref": "pkg:generic/ffmpeg@7.1",
