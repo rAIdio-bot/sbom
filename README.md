@@ -6,7 +6,8 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC1-UAT1.10** | CycloneDX 1.5 JSON | [releases/RC1-UAT1.10](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.10) | 801 |
+| **RC1-UAT1.11** | CycloneDX 1.5 JSON | [releases/RC1-UAT1.11](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.11) | 800 |
+| RC1-UAT1.10 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.10](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.10) | 801 |
 | RC1-UAT1.9 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.9](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.9) | 801 |
 | RC1-UAT1.8 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.8](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.8) | 801 |
 | RC1-UAT1.7 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.7](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.7) | 801 |
@@ -20,10 +21,10 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 ## Fetch URLs
 
 **GitHub release asset** (preferred for OSPO feeds):
-<https://github.com/rAIdio-bot/sbom/releases/download/RC1-UAT1.10/rAIdio.bot-RC1-UAT1.10.cdx.json>
+<https://github.com/rAIdio-bot/sbom/releases/download/RC1-UAT1.11/rAIdio.bot-RC1-UAT1.11.cdx.json>
 
 **Raw stable path** (for tools that pin to a directory):
-<https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/RC1-UAT1.10/rAIdio.bot-RC1-UAT1.10.cdx.json>
+<https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/RC1-UAT1.11/rAIdio.bot-RC1-UAT1.11.cdx.json>
 
 Both URLs are unauthenticated and permanent.
 
@@ -49,8 +50,8 @@ Ingest into a compatible OSPO tool:
 | Tool | Command |
 |------|---------|
 | OWASP Dependency-Track | upload via the web UI or API |
-| `cyclonedx-cli` | `cyclonedx validate --input-file rAIdio.bot-RC1-UAT1.10.cdx.json` |
-| `grype` / `syft` | `grype sbom:rAIdio.bot-RC1-UAT1.10.cdx.json` |
+| `cyclonedx-cli` | `cyclonedx validate --input-file rAIdio.bot-RC1-UAT1.11.cdx.json` |
+| `grype` / `syft` | `grype sbom:rAIdio.bot-RC1-UAT1.11.cdx.json` |
 
 ## Generation
 
