@@ -20,86 +20,62 @@ a deserialiser we ship.
 The defense is at the load site: don't deserialise pickles whose
 contents indicate code-execution intent.
 
-## Phase 2a — `00_rAIdio_safe_load_patch` (LIVE)
+## Phase 2a + 2b — `00_rAIdio_safe_load_patch` (LIVE)
 
-A monkey-patch package in
+A single monkey-patch package in
 [`rAIdio-bot/rAIdio-nodes`](https://github.com/rAIdio-bot/rAIdio-nodes/tree/main/00_rAIdio_safe_load_patch)
 shipped in the AI content depot. Same pattern as
-`00_rAIdio_rvc_patch` and `00_rAIdio_torchaudio_patch` — wraps an
-upstream function at custom-node import time, never modifies FOSS
-source.
+`00_rAIdio_rvc_patch` and `00_rAIdio_torchaudio_patch` — wraps
+upstream functions at custom-node import time, never modifies FOSS
+source. The `00_` filename prefix forces ComfyUI to import the patch
+BEFORE any node that touches the wrapped primitives.
 
-The `00_` filename prefix forces ComfyUI to load this BEFORE any
-node that calls `torch.load` at import, so the rebind is in place
-before the first call.
+### Three wrappers, one shared rule set
 
-### Two-layer wrapper
+| Primitive | Layer 1 (kernel-level) | Layer 2 (picklescan gate) | Failure mode |
+|-----------|------------------------|---------------------------|--------------|
+| `torch.load` | `kwargs.setdefault("weights_only", True)` — PyTorch 2.6+ refuses `__reduce__` opcodes. | `scan_file_path` on path argument; refuse on dangerous globals. | Picklescan parse error → log warning, continue with `weights_only=True` (kernel still safe). |
+| `pickle.load`, `pickle.loads` | (none — raw pickle has no kernel safety net) | `scan_file_path` for files-with-name; `scan_pickle_bytes(io.BytesIO(buf))` for `BytesIO` and for `pickle.loads`. | **Fail closed** — picklescan parse error raises `RuntimeError`, no deserialisation. |
+| `numpy.load` | `kwargs.setdefault("allow_pickle", False)` — numpy refuses pickled arrays itself when False. | `scan_file_path` (`.npy`) or `scan_zip_bytes` (`.npz`) when caller insists on `allow_pickle=True`. | Picklescan parse error → log warning, let numpy proceed (allow_pickle handling unchanged). |
 
-1. **`weights_only=True` default.** PyTorch 2.6+ refuses to execute
-   pickle opcodes like `__reduce__` when this flag is set. Our
-   wrapper calls `kwargs.setdefault("weights_only", True)` so any
-   `torch.load(path)` without an explicit `weights_only=False`
-   becomes safe-by-default.
+The shared dangerous-globals set, identical across all three
+wrappers:
 
-2. **`picklescan` defense-in-depth.** When `torch.load` is given a
-   path, the wrapper runs `picklescan.scan_file_path` first and
-   refuses if any of these globals appear in the pickle:
+```
+os.system, os.popen, nt.system, posix.system,
+subprocess.{Popen,call,check_call,check_output,run},
+builtins.{eval,exec,compile,open,__import__},
+shutil.rmtree, pty.spawn, platform.popen
+```
 
-   ```
-   os.system, os.popen, nt.system, posix.system,
-   subprocess.{Popen,call,check_call,check_output,run},
-   builtins.{eval,exec,compile,open,__import__},
-   shutil.rmtree, pty.spawn, platform.popen
-   ```
-
-   Picklescan refusal happens BEFORE the deserialiser is invoked,
-   so even a caller that explicitly passes `weights_only=False`
-   (some legacy paths in custom nodes do this for full-module
-   pickles) is still gated.
+Refusal happens BEFORE the deserialiser is invoked, so callers that
+explicitly opt into legacy modes (`weights_only=False` on torch.load,
+`allow_pickle=True` on numpy.load, raw `pickle.load*` calls) are still
+gated by the picklescan layer.
 
 ### What this covers
 
-Every `torch.load` call in the bundled ComfyUI Python — 23 sites
-across RVC, SeedVC, QwenTTS, ACE-Step, plus any future nodes —
-gets the wrapper for free. The audit that informed this work is
-in the chat record from the 2026-04-26 session; the load sites
-themselves are not modified.
+Every standard pickle deserialisation in the bundled ComfyUI Python:
 
-The user-selected RVC voice path (`vc/modules.py:get_vc()`
-calling `torch.load(person)` on a user-controlled `sid`) is THE
-attack surface in our threat model, and is closed by the same
-patch that closes the bundled paths.
+- 23 `torch.load` sites across RVC, SeedVC, QwenTTS, ACE-Step
+  (audit 2026-04-26).
+- 1 `pickle.load` site at `rvc/infer/lib/jit/__init__.py:104`
+  (RVC JIT export).
+- Any future call site in any node — the wrappers apply globally.
 
-### What this does NOT cover
+The user-selected RVC voice path (`vc/modules.py:get_vc()` calling
+`torch.load(person)` on a user-controlled `sid`) — **THE** attack
+surface in our threat model — is closed.
 
-- **Files loaded via `pickle.load` directly** (not via `torch.load`).
-  Audit found one such site in RVC's JIT export module
-  (`rvc/infer/lib/jit/__init__.py:104`). Phase 2b sweep will gate
-  it.
-- **`numpy.load(..., allow_pickle=True)`.** No instances in our
-  audit, but Phase 2b will add a separate wrapper.
-- **Auto-conversion to safetensors.** Phase 2c. Diverges from
-  upstream RVC's training-output format and is deferred until
-  there's a strong reason.
+### What this does NOT cover (Phase 2c, deferred)
 
-## Phase 2b — full sweep (planned, not started)
-
-- Audit + gate every `pickle.load` / `joblib.load` /
-  `numpy.load(allow_pickle=True)` site in our patches.
-- Add `fickling` as a second-opinion scanner alongside picklescan
-  (the two have different rule sets; running both reduces false
-  negatives).
-- Add a Tauri frontend gate that runs picklescan on a file *before*
-  it lands in the voice-models folder, so the user sees the
-  rejection in the UI rather than at generation time.
-
-## Phase 2c — convert-and-cache (deferred)
-
-- On first load of a verified-clean `.pth`, convert to
-  `.safetensors` and cache. Subsequent loads bypass pickle
-  entirely.
-- Diverges from upstream RVC's training-output format; not
-  pursued until there's a clear user-experience win.
+- **Auto-conversion to safetensors.** Diverges from upstream RVC's
+  training-output format; not pursued until a clear UX win.
+- **Tauri frontend pre-drop gate.** The load-time wrapper IS the
+  defense; a UI gate would be belt-and-braces. Useful but not urgent.
+- **`fickling` as a second-opinion scanner.** Picklescan covers the
+  declared threat model. fickling is more useful as a CI-time check
+  on inbound model files than as a runtime gate.
 
 ## Verification at release time
 
@@ -113,9 +89,11 @@ Per `RELEASE.md`, every build runs:
 For an explicit security smoke (recommended on any RC that touches
 the patch):
 
-1. **Patch loaded**: `Documents\rAIdio.bot\raidio.log` contains
-   `[rAIdio] torch.load patched: weights_only=True default + picklescan gate`
-   on backend startup.
+1. **Patch loaded**: `Documents\rAIdio.bot\raidio.log` contains all
+   three lines on backend startup:
+   - `[rAIdio] torch.load patched: weights_only=True default + picklescan gate`
+   - `[rAIdio] pickle.load/loads patched: picklescan gate (fail-closed)`
+   - `[rAIdio] numpy.load patched: allow_pickle=False default + picklescan gate when allow_pickle=True`
 2. **Benign load works**: a normal voice generation succeeds; no
    regression.
 3. **Malicious load rejected**: this script writes a
