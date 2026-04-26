@@ -69,13 +69,36 @@ surface in our threat model — is closed.
 
 ### What this does NOT cover (Phase 2c, deferred)
 
-- **Auto-conversion to safetensors.** Diverges from upstream RVC's
-  training-output format; not pursued until a clear UX win.
-- **Tauri frontend pre-drop gate.** The load-time wrapper IS the
-  defense; a UI gate would be belt-and-braces. Useful but not urgent.
-- **`fickling` as a second-opinion scanner.** Picklescan covers the
-  declared threat model. fickling is more useful as a CI-time check
-  on inbound model files than as a runtime gate.
+#### Tauri frontend pre-drop gate (deferred)
+
+A UI surface that runs picklescan on a `.pth` file BEFORE it lands in
+the RVC voice folder, surfacing the verdict to the user as a
+yellow-banner warning. Two implementation paths, both deferred:
+
+1. **Voice-model-import UI** — new flow in the Voice panel where the
+   user picks a `.pth` file, the backend picklescans it in a
+   subprocess, and the frontend renders pass/fail before copying into
+   the voice folder.
+2. **Filesystem watcher** — Tauri-side watcher on
+   `Backend\models\RVC\` that picklescans every new file dropped
+   manually, deletes-and-warns on hits.
+
+Why deferred: the load-time wrapper IS the defense — by the time RVC
+calls `torch.load` on the file, the picklescan + weights_only gate
+already runs. A UI-side gate is genuinely belt-and-braces (catches
+the file before it can sit on disk under a tempting filename), but
+not urgent given the runtime defense is sound.
+
+#### Auto-conversion to safetensors (NOT pursued)
+
+Originally listed as Phase 2c. Removed from the roadmap on
+2026-04-26 — the runtime wrapper makes `.pth` loading safe, so any
+conversion would be a *performance* win, not a *security* one. RVC's
+`.pth` files also contain non-tensor metadata (`config`, `info`,
+`f0`, `version`) that safetensors cannot represent without a sidecar
+JSON, and replacing the user's `.pth` files would diverge from
+upstream RVC's expected training output. Not worth the architectural
+cost for a perf-only payoff.
 
 ## Verification at release time
 
