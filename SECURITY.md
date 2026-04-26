@@ -6,7 +6,6 @@ Email both addresses in parallel; whichever is monitored that day will
 respond fastest.
 
 - `info@rAIdio.bot` — general intake (founder + ops).
-- `chris@neitzert.com` — direct line to the maintainer.
 
 A dedicated `security@rAIdio.bot` alias is planned and will be added
 to this file when live. Until then, the two addresses above are the
