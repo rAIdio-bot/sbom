@@ -18,6 +18,14 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 | RC1-UAT1.2 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.2](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.2) | 790 |
 | RC1-UAT1.1 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.1](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.1) | 790 |
 
+> **License audit erratum (2026-04-26):** A license audit on
+> 2026-04-26 corrected six material errors and one provenance
+> error in SBOMs published prior to today. The current
+> `RC1-UAT1.16` CycloneDX has been regenerated with the
+> corrected data. Older RCs have not been retroactively edited —
+> see [ERRATA_2026-04-26.md](./ERRATA_2026-04-26.md) for the
+> authoritative correction record.
+
 ## Verify your install
 
 Every release from RC1-UAT1.13 onward publishes the sha256 of the

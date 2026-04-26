@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:df146206-5a21-41d4-b3c9-3d53686929da",
+  "serialNumber": "urn:uuid:d9996612-48bd-4238-9c1e-4ccb8d8c0ade",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-04-26T10:44:52+00:00",
+    "timestamp": "2026-04-26T18:19:07+00:00",
     "tools": [
       {
         "vendor": "rAIdio.bot",
@@ -77,7 +77,7 @@
       "licenses": [
         {
           "license": {
-            "id": "LGPL-2.1"
+            "id": "GPL-3.0-or-later"
           }
         }
       ],
@@ -545,7 +545,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "Apache-2.0"
           }
         }
       ],
@@ -597,7 +597,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "GPL-3.0"
           }
         }
       ],
@@ -643,9 +643,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:generic/00_rAIdio_rvc_patch@90b109e",
+      "bom-ref": "pkg:generic/00_rAIdio_rvc_patch@2a20a2b",
       "name": "00_rAIdio_rvc_patch",
-      "version": "90b109e",
+      "version": "2a20a2b",
       "licenses": [
         {
           "license": {
@@ -653,7 +653,33 @@
           }
         }
       ],
-      "purl": "pkg:generic/00_rAIdio_rvc_patch@90b109e",
+      "purl": "pkg:generic/00_rAIdio_rvc_patch@2a20a2b",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/rAIdio-bot/rAIdio-nodes"
+        }
+      ],
+      "properties": [
+        {
+          "name": "raidio:category",
+          "value": "ComfyUI Nodes"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:generic/00_rAIdio_safe_load_patch@2a20a2b",
+      "name": "00_rAIdio_safe_load_patch",
+      "version": "2a20a2b",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ],
+      "purl": "pkg:generic/00_rAIdio_safe_load_patch@2a20a2b",
       "externalReferences": [
         {
           "type": "website",
@@ -2695,9 +2721,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:generic/ComfyUI-ChordMidi@90b109e",
+      "bom-ref": "pkg:generic/ComfyUI-ChordMidi@2a20a2b",
       "name": "ComfyUI-ChordMidi",
-      "version": "90b109e",
+      "version": "2a20a2b",
       "licenses": [
         {
           "license": {
@@ -2705,7 +2731,7 @@
           }
         }
       ],
-      "purl": "pkg:generic/ComfyUI-ChordMidi@90b109e",
+      "purl": "pkg:generic/ComfyUI-ChordMidi@2a20a2b",
       "externalReferences": [
         {
           "type": "website",
@@ -2727,7 +2753,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "NOASSERTION"
           }
         }
       ],
@@ -9758,9 +9784,7 @@
       "version": "4.13.0.92",
       "licenses": [
         {
-          "license": {
-            "id": "Apache-2.0"
-          }
+          "expression": "MIT AND Apache-2.0"
         }
       ],
       "purl": "pkg:pypi/opencv-python-headless@4.13.0.92",
@@ -10761,6 +10785,32 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:pypi/picklescan@1.0.4",
+      "name": "picklescan",
+      "version": "1.0.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/picklescan@1.0.4",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mmaitre314/picklescan"
+        }
+      ],
+      "properties": [
+        {
+          "name": "raidio:category",
+          "value": "Python Packages"
+        }
+      ]
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:cargo/pin-project-lite@0.2.17",
       "name": "pin-project-lite",
       "version": "0.2.17",
@@ -11645,9 +11695,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:generic/rAIdio_nodes@90b109e",
+      "bom-ref": "pkg:generic/rAIdio_nodes@2a20a2b",
       "name": "rAIdio_nodes",
-      "version": "90b109e",
+      "version": "2a20a2b",
       "licenses": [
         {
           "license": {
@@ -11655,7 +11705,7 @@
           }
         }
       ],
-      "purl": "pkg:generic/rAIdio_nodes@90b109e",
+      "purl": "pkg:generic/rAIdio_nodes@2a20a2b",
       "externalReferences": [
         {
           "type": "website",
@@ -11671,9 +11721,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:generic/rAIdio_xl_patch@90b109e",
+      "bom-ref": "pkg:generic/rAIdio_xl_patch@2a20a2b",
       "name": "rAIdio_xl_patch",
-      "version": "90b109e",
+      "version": "2a20a2b",
       "licenses": [
         {
           "license": {
@@ -11681,7 +11731,7 @@
           }
         }
       ],
-      "purl": "pkg:generic/rAIdio_xl_patch@90b109e",
+      "purl": "pkg:generic/rAIdio_xl_patch@2a20a2b",
       "externalReferences": [
         {
           "type": "website",
@@ -13261,7 +13311,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT"
+            "id": "GPL-3.0"
           }
         }
       ],
@@ -20819,9 +20869,9 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:generic/zz_rAIdio_rvc_bool_fix@90b109e",
+      "bom-ref": "pkg:generic/zz_rAIdio_rvc_bool_fix@2a20a2b",
       "name": "zz_rAIdio_rvc_bool_fix",
-      "version": "90b109e",
+      "version": "2a20a2b",
       "licenses": [
         {
           "license": {
@@ -20829,7 +20879,7 @@
           }
         }
       ],
-      "purl": "pkg:generic/zz_rAIdio_rvc_bool_fix@90b109e",
+      "purl": "pkg:generic/zz_rAIdio_rvc_bool_fix@2a20a2b",
       "externalReferences": [
         {
           "type": "website",
