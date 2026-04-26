@@ -1,119 +1,47 @@
-# Code Signing & Hash Publication
+# Binary Hash Publication
 
-## Threat model
+## What is published
 
-The defended-against attack: a user installs a repackaged `raidio-bot.exe`
-that has been modified — most plausibly to add a cryptocurrency miner or
-exfiltrate user-trained voices — and believes it to be the genuine
-Creative Mayhem build. Distribution channels for such a repackage include
-torrents, third-party "free download" sites, and SEO-poisoned mirrors.
-
-Two independent mechanisms address this. Phase 1 is live today; Phase 2
-is deferred behind hardware procurement.
-
-## Phase 1 — GitHub-hosted hash publication (LIVE)
-
-Every Steam release publishes the sha256 of the shipped exe to
-[`github.com/rAIdio-bot/sbom`](https://github.com/rAIdio-bot/sbom)
-under `releases/<tag>/`. Two artefacts:
+Every release of `raidio-bot.exe` is hashed and the hash committed to
+this repository at `releases/<tag>/`. Two formats:
 
 - `hashes.json` — machine-readable: tag, AppID, depot ID, raw BuildID,
-  `files[]` with filename + sha256 + size, generated_at timestamp.
-- `SHA256SUMS` — Linux-distro-style plain text, one line per file:
-  `<sha256>  *<filename>`. Compatible with `sha256sum -c`.
+  `files[]` with filename, sha256, size, and a UTC timestamp.
+- `SHA256SUMS` — plain text, one line per file: `<sha256>  *<filename>`.
+  Compatible with `sha256sum -c`.
 
-Both are committed alongside the existing `rAIdio.bot-<tag>.cdx.json`
-SBOM. Single commit on the public repo means a user has *one* URL to
-trust per release.
+Both files ship alongside the CycloneDX SBOM
+(`rAIdio.bot-<tag>.cdx.json`) in the same directory and the same git
+commit, so a researcher fetches the SBOM and the hashes from a single
+URL.
 
-### How it's wired
+## What the hashes prove
 
-The release pipeline computes `sha256` of the binary that just went
-into the Steam app depot and writes both files into this repo
-alongside the CycloneDX SBOM. The operator commits and pushes both
-artefacts together so the SBOM and the hash file move as a unit.
-
-### What it covers
-
-A user can independently confirm the bytes they have on disk match the
-bytes published by Creative Mayhem at release time:
+The bytes a user has on disk match the bytes that were committed to
+this public repository at release time. Verify with:
 
 ```powershell
-(Get-FileHash 'C:\Program Files (x86)\Steam\steamapps\common\rAIdio.bot\raidio-bot.exe' -Algorithm SHA256).Hash.ToLower()
+$tag = 'RC1-UAT1.16'   # change to your installed RC (see About dialog)
+$exe = Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\rAIdio.bot\raidio-bot.exe'
+$local     = (Get-FileHash $exe -Algorithm SHA256).Hash.ToLower()
+$published = (Invoke-RestMethod "https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/$tag/SHA256SUMS").Split(' ')[0]
+if ($local -eq $published) { 'OK — matches release' } else { "MISMATCH — local $local vs published $published" }
 ```
 
-Compared against:
-`https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/<tag>/SHA256SUMS`
+A `MISMATCH` indicates the binary on disk is not the released build —
+the install is corrupted, an update is in flight, or the binary was
+replaced. Re-install from Steam or report via
+[SECURITY.md](../../SECURITY.md).
 
-If the values differ, the binary on disk is not the released build —
-either the install is corrupted, an update is in flight, or the binary
-has been replaced.
+## What the hashes do not prove
 
-### What it does *not* cover
-
-- **No cryptographic identity.** Anyone can compute a sha256 of any file
-  and host it on a GitHub repo they control. The hash file proves only
-  that a published-and-installed pair match — not that the publisher is
-  the legitimate vendor. Defense against that is Phase 2 (Authenticode).
-- **No SmartScreen / Defender warning suppression.** Windows still flags
-  unsigned binaries. Phase 2 fixes this.
-- **No protection against compromise of the rAIdio-bot org GitHub
-  account.** An attacker with push access to the sbom repo could rewrite
-  hashes alongside a malicious binary. GitHub commit history (audit log,
-  immutable releases) is the substitute defense; signed-commits-only on
-  the sbom repo is a planned hardening step.
-
-## Phase 2 — Authenticode signing with HSM (DEFERRED)
-
-When hardware is acquired and operationalised, the build pipeline will
-additionally sign `raidio-bot.exe` with a hardware-backed EV code-signing
-certificate. This adds:
-
-- Windows SmartScreen reputation accrual.
-- An identifiable "Creative Mayhem UG" publisher in the file properties.
-- Cryptographic chain-of-custody from a public CA root to the binary.
-
-### Deferred procurement
-
-- **HSM**: YubiHSM 2 or equivalent. Required for storing the EV cert
-  private key.
-- **EV code-signing certificate**: from DigiCert, Sectigo, or equivalent.
-  Multi-day vetting; ~€300–500/yr for a 1-year EV cert. Must be issued
-  to "Creative Mayhem UG" matching the legal entity on file.
-- **Signing agent**: a build host with no inbound internet exposure, not
-  reachable from developer workstations, with the HSM physically
-  attached. Outbound limited to the timestamp authority.
-
-### Build-pipeline integration plan
-
-`build.ps1` adds a gated `signtool sign /v /sha1 <thumbprint> /fd
-sha256 /tr http://timestamp.digicert.com /td sha256` step that runs
-when `RAIDIO_SIGN_HSM=1` is set in the environment. Default off so
-developer builds remain unsigned.
-
-### Key rotation
-
-- **Default cadence**: annual. Cert renewal triggers a key rotation —
-  the new cert generates a new key in the HSM, the previous key is
-  retained inside the HSM for verification of historical builds only,
-  never for new signing.
-- **On suspected exposure**: immediate rotation. Notify users via the
-  same `releases/` channel (a `revocations.md` note beside the affected
-  RC's `hashes.json`). Re-sign the latest unaffected RC with the new
-  cert and ship as a hotfix RC.
-- **Recovery**: HSM is offline-air-gap-backed-up to a sealed envelope
-  in the founder's bank deposit box. The recovery procedure assumes
-  total loss of the active HSM and re-issuance of the EV cert from the
-  CA.
-
-### Identity continuity through Phase 1 → Phase 2
-
-The sha256 hashes published in Phase 1 will continue to be published
-under Phase 2. They remain a valid independent verification path —
-Authenticode adds a second mechanism, doesn't replace the first.
+A sha256 hosted on a repository proves only that a published-and-
+installed pair match; it does not prove the publisher is the
+legitimate vendor. Defense against a hypothetical repository
+compromise is the public audit log on GitHub commits and the public
+attention of users actually checking.
 
 ## See also
 
-- [docs/security/transparency.md](./transparency.md) — pointer to all
-  publicly-published security artefacts.
+- [transparency.md](./transparency.md) — full list of published artefacts.
 - [SECURITY.md](../../SECURITY.md) — researcher contact and scope.

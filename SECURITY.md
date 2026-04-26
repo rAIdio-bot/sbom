@@ -7,10 +7,6 @@ respond fastest.
 
 - `info@rAIdio.bot` — general intake (founder + ops).
 
-A dedicated `security@rAIdio.bot` alias is planned and will be added
-to this file when live. Until then, the two addresses above are the
-canonical channel.
-
 Please give a working description of the issue, steps to reproduce, and
 your expected impact. PGP is welcome but not required; we will not gate
 acknowledgement on it.
@@ -52,9 +48,9 @@ exe, compare against the published `SHA256SUMS` for your release tag at
 
 ## Advisories
 
-No security advisories have been published. When the first one ships,
-it will live in this section as a dated entry plus a tagged release on
-the [sbom repo](https://github.com/rAIdio-bot/sbom/releases).
+No security advisories have been published. Advisories live in this
+section as dated entries with a tagged release on the
+[sbom repo](https://github.com/rAIdio-bot/sbom/releases).
 
 ## Continuous monitoring
 
@@ -63,7 +59,7 @@ at push time and re-polled daily by a workflow in the sbom repo. Flags
 from Microsoft Defender or any major AV vendor (ESET / Kaspersky /
 BitDefender / Sophos / F-Secure) escalate to a tracked GitHub issue.
 See [docs/security/virustotal.md](./docs/security/virustotal.md) for
-the full alert tier table and operator runbook.
+the full alert tier table.
 
 ## What we will and will not do
 

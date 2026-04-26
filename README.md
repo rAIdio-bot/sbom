@@ -42,11 +42,8 @@ sometimes reshuffles content depots and an old binary may linger after
 an update. Reproduce on a clean install before raising a security
 issue.
 
-This is a hash-publication mechanism, not a code-signing one. It
-proves the file you have matches what we released; it does not prove
-we are who we say we are. Authenticode signing with a hardware-backed
-EV cert is planned and will land alongside the existing hash file —
-hashes will continue to be published.
+This is a hash-publication mechanism. It proves the file you have
+matches what we released; it does not prove we are who we say we are.
 
 [security-md]: ./SECURITY.md
 
@@ -96,7 +93,8 @@ Both are stdlib-only Python; no paid tooling, no external service calls at gener
 
 ## Signing
 
-The SBOM is not yet signed. The rAIdio.bot app's C2PA provenance key (ES256, per-install) could be extended to sign SBOM artifacts in a later release. Tracked as future work alongside the TSA (trusted timestamp authority) integration. This does not affect SBOM validity — the content is fetchable from a known URL with a known repo owner — but a signed manifest would let downstream consumers prove the file came from us and was not modified in transit.
+The SBOM is not signed. Integrity rests on fetching it from this
+repository over HTTPS; the GitHub commit history is the audit trail.
 
 ## Contact
 
