@@ -1,0 +1,120 @@
+name: VirusTotal monitor
+
+# Daily poll of every release that has a virustotal.json (written by the
+# source repo's steam/push.ps1 step 5). Compares against tools/virustotal_state.json,
+# opens / comments / escalates GitHub issues on retro-flags.
+#
+# Maintainer routing lives in tools/virustotal_poll.py (MAINTAINERS + MENTION).
+# Single maintainer for now; add a co-maintainer by editing those two
+# constants in the poll script.
+#
+# Required repo secret:
+#   VIRUSTOTAL_API_KEY   free-tier key from virustotal.com/gui/my-apikey
+#
+# The default GITHUB_TOKEN already has issues: write permission for
+# the repository it runs against, so no PAT is needed.
+
+on:
+  schedule:
+    - cron: "17 7 * * *"   # daily at 07:17 UTC
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write    # commit updated state file
+  issues: write      # open / comment / label
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run VirusTotal poll
+        env:
+          VIRUSTOTAL_API_KEY: ${{ secrets.VIRUSTOTAL_API_KEY }}
+        run: |
+          python tools/virustotal_poll.py \
+            --releases-dir releases \
+            --state tools/virustotal_state.json \
+            --decisions-out /tmp/decisions.json
+          echo "Decisions:"
+          cat /tmp/decisions.json
+
+      - name: Process decisions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python <<'PY'
+          import json, os, subprocess, sys, pathlib
+
+          decisions = json.load(open("/tmp/decisions.json"))
+          state_path = pathlib.Path("tools/virustotal_state.json")
+          state = json.load(open(state_path)) if state_path.exists() else {}
+
+          def gh(args, **kw):
+              return subprocess.run(["gh", *args], check=True, capture_output=True, text=True, **kw)
+
+          def ensure_label(name):
+              # Idempotent: gh label create errors if it exists, which is fine.
+              try:
+                  subprocess.run(
+                      ["gh", "label", "create", name, "--color", "B60205"],
+                      check=False, capture_output=True, text=True,
+                  )
+              except Exception:
+                  pass
+
+          for d in decisions:
+              kind = d["kind"]
+              tag = d["tag"]
+              if kind == "create_issue":
+                  for lbl in d.get("labels") or []:
+                      ensure_label(lbl)
+                  args = ["issue", "create", "--title", d["title"], "--body", d["body"]]
+                  for lbl in d.get("labels") or []:
+                      args += ["--label", lbl]
+                  for a in d.get("assignees") or []:
+                      args += ["--assignee", a]
+                  result = gh(args)
+                  url = result.stdout.strip().splitlines()[-1]
+                  number = int(url.rsplit("/", 1)[-1])
+                  state.setdefault(tag, {})["issue_number"] = number
+                  print(f"  created issue #{number} for {tag}")
+              elif kind == "comment":
+                  num = str(d["issue_number"])
+                  gh(["issue", "comment", num, "--body", d["body"]])
+                  print(f"  commented on #{num} for {tag}")
+              elif kind == "escalate":
+                  num = str(d["issue_number"])
+                  for lbl in d.get("labels_add") or []:
+                      ensure_label(lbl)
+                      gh(["issue", "edit", num, "--add-label", lbl])
+                  for a in d.get("assignees") or []:
+                      gh(["issue", "edit", num, "--add-assignee", a])
+                  gh(["issue", "comment", num, "--body", d["body"]])
+                  print(f"  escalated #{num} for {tag}")
+              else:
+                  print(f"  unknown decision kind: {kind}", file=sys.stderr)
+
+          # Save back the state with any new issue numbers attached.
+          with open(state_path, "w") as f:
+              json.dump(state, f, indent=2, sort_keys=True)
+              f.write("\n")
+          PY
+
+      - name: Commit state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain tools/virustotal_state.json)" ]; then
+            git add tools/virustotal_state.json
+            git commit -m "vt-monitor: update state $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no state change"
+          fi
