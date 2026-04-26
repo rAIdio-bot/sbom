@@ -131,52 +131,6 @@ MENTION = "@neitzert"        # Literal string interpolated into issue bodies
 To add a co-maintainer, append to both lists. No workflow YAML changes
 needed.
 
-## Setup
-
-### 1. VirusTotal API key
-
-Create a free account at <https://www.virustotal.com>. Get the personal
-API key from <https://www.virustotal.com/gui/my-apikey>. Free tier
-gives 4 req/min and 500/day — comfortably enough for one daily poll
-across all RCs and one upload per release.
-
-### 2. Operator-side (release machine)
-
-Set the env var before running `steam/push.ps1`:
-
-```powershell
-$env:VIRUSTOTAL_API_KEY = "<your key>"
-powershell steam\push.ps1 -Vdf steam\app_build_app_only.vdf
-```
-
-If the env var is missing, push.ps1 prints a yellow warning and skips
-VT submission. The push itself succeeds.
-
-For permanence: store the key in your user-scoped env vars
-(`[Environment]::SetEnvironmentVariable('VIRUSTOTAL_API_KEY', '<key>', 'User')`)
-or a credential manager you load on shell start.
-
-### 3. GitHub Actions side (sbom repo)
-
-The same key needs to live in the sbom repo as a secret named
-`VIRUSTOTAL_API_KEY`:
-
-- Go to <https://github.com/rAIdio-bot/sbom/settings/secrets/actions>
-- New repository secret → name `VIRUSTOTAL_API_KEY` → value (the same key)
-
-The workflow uses the default `GITHUB_TOKEN` for issue actions, which
-already has the necessary `issues: write` and `contents: write`
-permissions. No PAT required.
-
-### 4. Watch settings
-
-So GitHub mails you on the email-emitting tiers, set the sbom repo's
-watch level to "All Activity" or at minimum "Issues":
-
-<https://github.com/rAIdio-bot/sbom> → top-right → Watch → Custom →
-tick "Issues". (Mention + Assignee mails arrive regardless of watch
-level, but watch=Issues is a third independent path.)
-
 ## Privacy disclosure
 
 **Uploading a file to VT shares it with VirusTotal enterprise
@@ -191,45 +145,12 @@ user-trained voices). The current pipeline submits only the public
 Steam-shipped exe; do not extend it to user data without re-evaluating
 this section.
 
-## Backfilling pre-VT releases
-
-RCs that shipped before this integration (RC1-UAT1.13 .. RC1-UAT1.16
-at time of writing) have `hashes.json` and `SHA256SUMS` but no
-`virustotal_*.json`. The NAS archive only stores `raidio-bot.exe`;
-backfilling `python.exe` / `ffmpeg.exe` for those RCs is not possible
-without re-staging the content depot from a then-current install
-(impractical). The app exe is the highest-value binary anyway, so
-backfill that:
-
-```powershell
-$env:VIRUSTOTAL_API_KEY = "<your key>"
-$rcs = @(
-  @{ tag="RC1-UAT1.13"; folder="RC1-UAT1.13_20260425_f00bd8f" },
-  @{ tag="RC1-UAT1.14"; folder="RC1-UAT1.14_20260425_0bc12ae" },
-  @{ tag="RC1-UAT1.15"; folder="RC1-UAT1.15_20260425_852d2b7" },
-  @{ tag="RC1-UAT1.16"; folder="RC1-UAT1.16_20260426_80db858" }
-)
-foreach ($r in $rcs) {
-  $exe = "Z:\Builds\rAIdio.bot_rust\steam_master\$($r.folder)\app\raidio-bot.exe"
-  $out = "C:\dev2\sbom\releases\$($r.tag)\virustotal_raidio-bot.exe.json"
-  python tools\virustotal_submit.py --exe $exe --tag $r.tag --filename raidio-bot.exe --out $out
-  Start-Sleep -Seconds 20  # respect free-tier rate limits
-}
-cd C:\dev2\sbom ; git add releases ; git commit -m "VT backfill RC1-UAT1.13..1.16 (raidio-bot.exe only)" ; git push
-```
-
-Free-tier upload limits: 4 requests/min. The 20-second pause between
-RCs keeps us safely under that.
-
-The first content push from RC1-UAT1.17 onward will populate
-`python.exe` / `ffmpeg.exe` scans automatically.
-
 ## Failure modes
 
 | Failure | Behaviour |
 |---------|-----------|
-| `VIRUSTOTAL_API_KEY` unset on operator machine | push.ps1 prints "skipping" and continues. Push succeeds. |
-| VT API returns 5xx during push | push.ps1 prints a yellow warning and continues. Push succeeds. The next workflow run will pick up the missing scan. |
-| VT analysis takes >5 min (timeout) | push.ps1 prints a warning and continues. Re-run the submit script manually to retry. |
-| GitHub Actions secret missing | Workflow fails on the poll step with an explicit message. No issues are opened/missed; rerun after adding the secret. |
-| GitHub `@mention` not delivered | The assignee notification still fires. Two-channel design assumes either path can fail. |
+| API key unset at submit time | The release proceeds without VT submission; the next daily poll picks up no new file but does not fail. |
+| VT API returns 5xx during submission | Submission is best-effort and never gates a release. The next daily poll retries via the cached hash. |
+| VT analysis times out | Submission is logged as incomplete; manual re-run available. |
+| Workflow secret missing | Workflow fails on the poll step with an explicit message; no issues are opened or missed. |
+| `@mention` not delivered | Assignee notification still fires; two-channel design assumes either path can fail. |

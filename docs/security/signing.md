@@ -28,11 +28,10 @@ trust per release.
 
 ### How it's wired
 
-`steam\push.ps1` — Step 4 ("Publish SBOM + hashes"). Runs after
-`steamcmd` succeeds; hashes the staged exe at
-`D:\staging\rAIdio.bot\app\raidio-bot.exe` (the bytes that just went
-into Depot 4600001) and writes both files into the sbom repo. The
-operator commits and pushes in a single `git push` with the SBOM.
+The release pipeline computes `sha256` of the binary that just went
+into the Steam app depot and writes both files into this repo
+alongside the CycloneDX SBOM. The operator commits and pushes both
+artefacts together so the SBOM and the hash file move as a unit.
 
 ### What it covers
 
@@ -113,24 +112,8 @@ The sha256 hashes published in Phase 1 will continue to be published
 under Phase 2. They remain a valid independent verification path —
 Authenticode adds a second mechanism, doesn't replace the first.
 
-## Per-release operator checklist
-
-Already enforced by `push.ps1`; documented here for audit:
-
-- [ ] HEAD is tagged with the RC tag.
-- [ ] `prepare_depots.ps1` ran and `D:\staging\rAIdio.bot\app\raidio-bot.exe`
-      exists.
-- [ ] `push.ps1` completed with `[4/4] Publish SBOM + hashes` printed.
-- [ ] `git status` in `C:\dev2\sbom` shows `releases/<tag>/` with three
-      new files: `*.cdx.json`, `hashes.json`, `SHA256SUMS`.
-- [ ] Single `git commit` and `git push` lands all three.
-- [ ] Verify-command sanity check from a different machine succeeds
-      against the just-published file.
-
 ## See also
 
 - [docs/security/transparency.md](./transparency.md) — pointer to all
   publicly-published security artefacts.
 - [SECURITY.md](../../SECURITY.md) — researcher contact and scope.
-- `steam/push.ps1` — implementation of Phase 1.
-- `RELEASE.md` §8 — full Steam push flow.
