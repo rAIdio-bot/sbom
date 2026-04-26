@@ -127,14 +127,30 @@ def render_body(tag, sha256, vt_link, stats, flags, header):
 
 
 def collect_releases(releases_dir):
+    """Return list of dicts loaded from each releases/<tag>/virustotal_*.json.
+
+    Each release directory may contain multiple virustotal_*.json files
+    (one per native binary scanned at release time — raidio-bot.exe,
+    python.exe, ffmpeg.exe, etc.). The poll script tracks each (tag,
+    filename) pair independently.
+    """
     out = []
     for entry in sorted(pathlib.Path(releases_dir).iterdir()):
-        vt_path = entry / "virustotal.json"
-        if not vt_path.exists():
+        if not entry.is_dir():
             continue
-        with open(vt_path, "r", encoding="utf-8") as f:
-            out.append(json.load(f))
+        for vt_path in sorted(entry.glob("virustotal_*.json")):
+            with open(vt_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            # Defence-in-depth: older artefacts (pre-multi-binary) may not have
+            # `filename` set. Derive from the file path stem in that case.
+            if not data.get("filename"):
+                data["filename"] = vt_path.stem.replace("virustotal_", "", 1)
+            out.append(data)
     return out
+
+
+def state_key(tag, filename):
+    return f"{tag}/{filename}"
 
 
 def main():
@@ -157,16 +173,20 @@ def main():
 
     decisions = []
     releases = collect_releases(args.releases_dir)
-    print(f"Polling {len(releases)} release(s) with virustotal.json", file=sys.stderr)
+    print(f"Polling {len(releases)} (tag, filename) pair(s)", file=sys.stderr)
 
     for rel in releases:
         tag = rel["tag"]
+        filename = rel["filename"]
         sha256 = rel["sha256"]
         vt_link = rel.get("vt_link") or f"https://www.virustotal.com/gui/file/{sha256}"
+        key = state_key(tag, filename)
+        label = f"{tag} / {filename}"
+
         try:
             file_data = vt_get_file(sha256, api_key)
         except urllib.error.HTTPError as e:
-            print(f"  {tag}: VT GET failed ({e.code}); skipping", file=sys.stderr)
+            print(f"  {label}: VT GET failed ({e.code}); skipping", file=sys.stderr)
             continue
 
         attrs = file_data.get("attributes", {})
@@ -174,16 +194,16 @@ def main():
         results = attrs.get("last_analysis_results", {}) or {}
         flags = flagged_engines(results)
 
-        prior = state.get(tag)
+        prior = state.get(key)
         if prior is None:
             tier = compute_tier(stats, flags)
             body = render_body(
-                tag,
+                label,
                 sha256,
                 vt_link,
                 stats,
                 flags,
-                "Baseline VirusTotal scan recorded for this release.",
+                "Baseline VirusTotal scan recorded for this binary.",
             )
             labels = ["vt-baseline"]
             if tier in ("alert", "major", "defender"):
@@ -195,8 +215,8 @@ def main():
                 decisions.append(
                     {
                         "kind": "create_issue",
-                        "tag": tag,
-                        "title": f"VirusTotal: {tag} — scan tracker",
+                        "key": key,
+                        "title": f"VirusTotal: {label} — scan tracker",
                         "body": body,
                         "labels": labels,
                         "assignees": MAINTAINERS,
@@ -206,14 +226,16 @@ def main():
                 decisions.append(
                     {
                         "kind": "create_issue",
-                        "tag": tag,
-                        "title": f"VirusTotal: {tag} — scan tracker",
+                        "key": key,
+                        "title": f"VirusTotal: {label} — scan tracker",
                         "body": body,
                         "labels": labels,
                         "assignees": [],
                     }
                 )
-            state[tag] = {
+            state[key] = {
+                "tag": tag,
+                "filename": filename,
                 "sha256": sha256,
                 "vt_link": vt_link,
                 "last_seen_stats": stats,
@@ -232,9 +254,8 @@ def main():
         tier = compute_tier(stats, flags)
         prior_tier = prior.get("tier", "silent")
 
-        # If the tier didn't escalate but stats changed, comment-only.
         comment_body = render_body(
-            tag,
+            label,
             sha256,
             vt_link,
             stats,
@@ -249,7 +270,7 @@ def main():
         if prior.get("issue_number"):
             decision = {
                 "kind": "comment",
-                "tag": tag,
+                "key": key,
                 "issue_number": prior["issue_number"],
                 "body": comment_body,
             }
@@ -268,8 +289,8 @@ def main():
             decisions.append(
                 {
                     "kind": "create_issue",
-                    "tag": tag,
-                    "title": f"VirusTotal: {tag} — scan tracker",
+                    "key": key,
+                    "title": f"VirusTotal: {label} — scan tracker",
                     "body": comment_body,
                     "labels": [f"vt-{tier}"] if tier != "silent" else ["vt-baseline"],
                     "assignees": MAINTAINERS if tier in ("alert", "major", "defender") else [],

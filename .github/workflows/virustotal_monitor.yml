@@ -71,7 +71,7 @@ jobs:
 
           for d in decisions:
               kind = d["kind"]
-              tag = d["tag"]
+              key = d["key"]   # "<tag>/<filename>" — uniquely identifies a tracker
               if kind == "create_issue":
                   for lbl in d.get("labels") or []:
                       ensure_label(lbl)
@@ -83,12 +83,12 @@ jobs:
                   result = gh(args)
                   url = result.stdout.strip().splitlines()[-1]
                   number = int(url.rsplit("/", 1)[-1])
-                  state.setdefault(tag, {})["issue_number"] = number
-                  print(f"  created issue #{number} for {tag}")
+                  state.setdefault(key, {})["issue_number"] = number
+                  print(f"  created issue #{number} for {key}")
               elif kind == "comment":
                   num = str(d["issue_number"])
                   gh(["issue", "comment", num, "--body", d["body"]])
-                  print(f"  commented on #{num} for {tag}")
+                  print(f"  commented on #{num} for {key}")
               elif kind == "escalate":
                   num = str(d["issue_number"])
                   for lbl in d.get("labels_add") or []:
@@ -97,7 +97,7 @@ jobs:
                   for a in d.get("assignees") or []:
                       gh(["issue", "edit", num, "--add-assignee", a])
                   gh(["issue", "comment", num, "--body", d["body"]])
-                  print(f"  escalated #{num} for {tag}")
+                  print(f"  escalated #{num} for {key}")
               else:
                   print(f"  unknown decision kind: {kind}", file=sys.stderr)
 
