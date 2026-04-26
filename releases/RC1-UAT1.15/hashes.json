@@ -1,0 +1,15 @@
+{
+    "tag":  "RC1-UAT1.15",
+    "app_id":  "4600000",
+    "depot_id":  "4600001",
+    "raw_buildid":  "22949540",
+    "generated_at":  "2026-04-26T13:00:00Z",
+    "generator":  "steam/push.ps1 (backfill from NAS archive)",
+    "files":  [
+                  {
+                      "filename":  "raidio-bot.exe",
+                      "sha256":  "b29421138f2f353e14a424e82c535b6b962faa8ad43d5dc05be26de8ca5d4979",
+                      "size":  31966720
+                  }
+              ]
+}

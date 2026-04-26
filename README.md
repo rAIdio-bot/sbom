@@ -18,6 +18,38 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 | RC1-UAT1.2 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.2](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.2) | 790 |
 | RC1-UAT1.1 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.1](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.1) | 790 |
 
+## Verify your install
+
+Every release from RC1-UAT1.13 onward publishes the sha256 of the
+shipped `raidio-bot.exe` here. Confirm the binary on your machine
+matches what was released:
+
+```powershell
+$tag = 'RC1-UAT1.16'   # change to your installed RC (see About dialog)
+$exe = Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\rAIdio.bot\raidio-bot.exe'
+$local     = (Get-FileHash $exe -Algorithm SHA256).Hash.ToLower()
+$published = (Invoke-RestMethod "https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/$tag/SHA256SUMS").Split(' ')[0]
+if ($local -eq $published) { 'OK — matches release' } else { "MISMATCH — local $local vs published $published" }
+```
+
+If the values differ, the binary on disk is not the released build —
+either the install is corrupted, an update is in flight, or the binary
+has been replaced. Re-install from Steam or report at the security
+contact in [SECURITY.md][security-md] of the source repo.
+
+A `MISMATCH` is **not** by itself proof of compromise — Steam
+sometimes reshuffles content depots and an old binary may linger after
+an update. Reproduce on a clean install before raising a security
+issue.
+
+This is a hash-publication mechanism, not a code-signing one. It
+proves the file you have matches what we released; it does not prove
+we are who we say we are. Authenticode signing with a hardware-backed
+EV cert is planned and will land alongside the existing hash file —
+hashes will continue to be published.
+
+[security-md]: https://github.com/neitzert/rAIdio-rust/blob/master/SECURITY.md
+
 ## Fetch URLs
 
 **GitHub release asset** (preferred for OSPO feeds):
