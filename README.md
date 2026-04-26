@@ -48,7 +48,7 @@ we are who we say we are. Authenticode signing with a hardware-backed
 EV cert is planned and will land alongside the existing hash file —
 hashes will continue to be published.
 
-[security-md]: https://github.com/neitzert/rAIdio-rust/blob/master/SECURITY.md
+[security-md]: ./SECURITY.md
 
 ## Fetch URLs
 
