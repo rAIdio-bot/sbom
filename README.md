@@ -6,7 +6,14 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC1-UAT1.11** | CycloneDX 1.5 JSON | [releases/RC1-UAT1.11](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.11) | 801 |
+| **RC-1-Gold-0.2** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.2](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.2) | 805 |
+| RC1-UAT1.17 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.17](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.17) | 803 |
+| RC1-UAT1.16 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.16](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.16) | 803 |
+| RC1-UAT1.15 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.15](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.15) | 801 |
+| RC1-UAT1.14 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.14](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.14) | 801 |
+| RC1-UAT1.13 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.13](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.13) | 801 |
+| RC1-UAT1.12 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.12](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.12) | 801 |
+| RC1-UAT1.11 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.11](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.11) | 801 |
 | RC1-UAT1.10 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.10](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.10) | 801 |
 | RC1-UAT1.9 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.9](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.9) | 801 |
 | RC1-UAT1.8 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.8](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.8) | 801 |
@@ -33,7 +40,7 @@ shipped `raidio-bot.exe` here. Confirm the binary on your machine
 matches what was released:
 
 ```powershell
-$tag = 'RC1-UAT1.16'   # change to your installed RC (see About dialog)
+$tag = 'RC-1-Gold-0.2'   # change to your installed RC (see About dialog)
 $exe = Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\rAIdio.bot\raidio-bot.exe'
 $local     = (Get-FileHash $exe -Algorithm SHA256).Hash.ToLower()
 $published = (Invoke-RestMethod "https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/$tag/SHA256SUMS").Split(' ')[0]
@@ -58,10 +65,10 @@ matches what we released; it does not prove we are who we say we are.
 ## Fetch URLs
 
 **GitHub release asset** (preferred for OSPO feeds):
-<https://github.com/rAIdio-bot/sbom/releases/download/RC1-UAT1.11/rAIdio.bot-RC1-UAT1.11.cdx.json>
+<https://github.com/rAIdio-bot/sbom/releases/download/RC-1-Gold-0.2/rAIdio.bot-RC-1-Gold-0.2.cdx.json>
 
 **Raw stable path** (for tools that pin to a directory):
-<https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/RC1-UAT1.11/rAIdio.bot-RC1-UAT1.11.cdx.json>
+<https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/RC-1-Gold-0.2/rAIdio.bot-RC-1-Gold-0.2.cdx.json>
 
 Both URLs are unauthenticated and permanent.
 
@@ -72,7 +79,7 @@ Both URLs are unauthenticated and permanent.
 - **Python dependencies** in the bundled ComfyUI backend we vendor (`torchcodec`, `opencv-python-headless`, `opencc-python-reimplemented`, …) — pinned to exact installed versions.
 - **ComfyUI core + custom nodes** — pinned to upstream release tag (ComfyUI itself) or the HEAD SHA of our [memescreamer](https://github.com/memescreamer) mirror that feeds the Steam content depot, or [rAIdio-bot/rAIdio-nodes](https://github.com/rAIdio-bot/rAIdio-nodes) for our own patches.
 - **AI models** distributed via the Steam content depot — pinned to HuggingFace revision SHA of the `memescreamer/*` HF mirror that carries the actual model files.
-- **System tools** (ffmpeg, yt-dlp, …) — pinned to shipped executable version.
+- **System tools** (ffmpeg, …) — pinned to shipped executable version.
 
 Each component carries an SPDX license identifier, a package URL (purl), a homepage where available, and a `raidio:category` property indicating which of the six layers above it belongs to.
 

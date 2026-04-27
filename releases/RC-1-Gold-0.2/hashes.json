@@ -1,0 +1,16 @@
+{
+    "tag":  "RC-1-Gold-0.2",
+    "app_id":  "4600000",
+    "depot_id":  "4600001",
+    "raw_buildid":  null,
+    "generated_at":  "2026-04-27T17:59:00Z",
+    "generator":  "manual hash + CycloneDX regen",
+    "note":  "Patch on RC-1-Gold-0.1 with mixer FX-strips, vocals-toggle UX, source-named stem outputs. No SBOM-affecting changes from RC-1-Gold-0.1 — same 805 components. Steam push pending; raw_buildid will be added when SetLive completes.",
+    "files":  [
+                  {
+                      "filename":  "raidio-bot.exe",
+                      "sha256":  "3db9cba0c0bd4a4963511e4f371f45ef59e2b89aec2ac48137f4d9342a02ff6e",
+                      "size":  32021504
+                  }
+              ]
+}
