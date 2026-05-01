@@ -6,7 +6,11 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC-1-Gold-0.2** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.2](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.2) | 805 |
+| **RC-1-Gold-0.6** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.6](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.6) | 814 |
+| RC-1-Gold-0.5 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.5](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.5) | 807 |
+| RC-1-Gold-0.4 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.4](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.4) | 805 |
+| RC-1-Gold-0.3 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.3](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.3) | 805 |
+| RC-1-Gold-0.2 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.2](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.2) | 805 |
 | RC1-UAT1.17 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.17](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.17) | 803 |
 | RC1-UAT1.16 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.16](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.16) | 803 |
 | RC1-UAT1.15 | CycloneDX 1.5 JSON | [releases/RC1-UAT1.15](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC1-UAT1.15) | 801 |
