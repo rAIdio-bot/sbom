@@ -6,7 +6,8 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC-1-Gold-0.7** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.7](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.7) | 815 |
+| **RC-1-Gold-0.8** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.8](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.8) | 815 |
+| RC-1-Gold-0.7 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.7](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.7) | 815 |
 | RC-1-Gold-0.6 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.6](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.6) | 814 |
 | RC-1-Gold-0.5 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.5](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.5) | 807 |
 | RC-1-Gold-0.4 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.4](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.4) | 805 |
