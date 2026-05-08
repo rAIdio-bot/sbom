@@ -1,9 +1,9 @@
 {
   "tag": "RC-1-Gold-0.22",
   "filename": "raidio-bot.exe",
-  "sha256": "b92b476e91f2e4da3a3cb0be3260c8b5823fa1c112c6d59b48700440832586cc",
-  "vt_link": "https://www.virustotal.com/gui/file/b92b476e91f2e4da3a3cb0be3260c8b5823fa1c112c6d59b48700440832586cc",
-  "fetched_at": "2026-05-08T17:46:19Z",
+  "sha256": "72f3e74e097a641b1843ea5e144ee692f46ace4a5344e1d00cbe81ce229e7344",
+  "vt_link": "https://www.virustotal.com/gui/file/72f3e74e097a641b1843ea5e144ee692f46ace4a5344e1d00cbe81ce229e7344",
+  "fetched_at": "2026-05-08T17:49:14Z",
   "last_analysis_stats": {
     "malicious": 1,
     "suspicious": 0,
@@ -87,10 +87,10 @@
       "category": "undetected",
       "result": null
     },
-    "Zillya": {
+    "VIPRE": {
       "method": "blacklist",
-      "engine_name": "Zillya",
-      "engine_version": "2.0.0.5598",
+      "engine_name": "VIPRE",
+      "engine_version": "6.0.0.35",
       "engine_update": "20260508",
       "category": "undetected",
       "result": null
@@ -143,14 +143,6 @@
       "category": "undetected",
       "result": null
     },
-    "huorong": {
-      "method": "blacklist",
-      "engine_name": "huorong",
-      "engine_version": "3845b8a:3845b8a:867c14b:867c14b",
-      "engine_update": "20260508",
-      "category": "undetected",
-      "result": null
-    },
     "VirIT": {
       "method": "blacklist",
       "engine_name": "VirIT",
@@ -199,10 +191,10 @@
       "category": "undetected",
       "result": null
     },
-    "Avast": {
+    "Paloalto": {
       "method": "blacklist",
-      "engine_name": "Avast",
-      "engine_version": "23.9.8494.0",
+      "engine_name": "Paloalto",
+      "engine_version": "0.9.0.1003",
       "engine_update": "20260508",
       "category": "undetected",
       "result": null
@@ -255,10 +247,18 @@
       "category": "undetected",
       "result": null
     },
-    "Sophos": {
+    "Emsisoft": {
       "method": "blacklist",
-      "engine_name": "Sophos",
-      "engine_version": "3.4.1.0",
+      "engine_name": "Emsisoft",
+      "engine_version": "2024.8.0.61147",
+      "engine_update": "20260508",
+      "category": "undetected",
+      "result": null
+    },
+    "Google": {
+      "method": "blacklist",
+      "engine_name": "Google",
+      "engine_version": "1778259657",
       "engine_update": "20260508",
       "category": "undetected",
       "result": null
@@ -279,11 +279,11 @@
       "category": "undetected",
       "result": null
     },
-    "VIPRE": {
+    "Zillya": {
       "method": "blacklist",
-      "engine_name": "VIPRE",
-      "engine_version": "6.0.0.35",
-      "engine_update": "20260508",
+      "engine_name": "Zillya",
+      "engine_version": "2.0.0.5597",
+      "engine_update": "20260507",
       "category": "undetected",
       "result": null
     },
@@ -303,6 +303,14 @@
       "category": "undetected",
       "result": null
     },
+    "SentinelOne": {
+      "method": "blacklist",
+      "engine_name": "SentinelOne",
+      "engine_version": "7.6.2.19",
+      "engine_update": "20260324",
+      "category": "undetected",
+      "result": null
+    },
     "Trapmine": {
       "method": "blacklist",
       "engine_name": "Trapmine",
@@ -319,10 +327,10 @@
       "category": "undetected",
       "result": null
     },
-    "Emsisoft": {
+    "Sophos": {
       "method": "blacklist",
-      "engine_name": "Emsisoft",
-      "engine_version": "2024.8.0.61147",
+      "engine_name": "Sophos",
+      "engine_version": "3.4.1.0",
       "engine_update": "20260508",
       "category": "undetected",
       "result": null
@@ -351,10 +359,10 @@
       "category": "undetected",
       "result": null
     },
-    "Google": {
+    "Varist": {
       "method": "blacklist",
-      "engine_name": "Google",
-      "engine_version": "1778259657",
+      "engine_name": "Varist",
+      "engine_version": "6.6.1.3",
       "engine_update": "20260508",
       "category": "undetected",
       "result": null
@@ -364,14 +372,6 @@
       "engine_name": "Avira",
       "engine_version": "8.3.3.24",
       "engine_update": "20260507",
-      "category": "undetected",
-      "result": null
-    },
-    "Varist": {
-      "method": "blacklist",
-      "engine_name": "Varist",
-      "engine_version": "6.6.1.3",
-      "engine_update": "20260508",
       "category": "undetected",
       "result": null
     },
@@ -419,7 +419,7 @@
       "method": "blacklist",
       "engine_name": "SUPERAntiSpyware",
       "engine_version": "5.6.0.1032",
-      "engine_update": "20260508",
+      "engine_update": "20260507",
       "category": "undetected",
       "result": null
     },
@@ -535,11 +535,11 @@
       "category": "undetected",
       "result": null
     },
-    "SentinelOne": {
+    "huorong": {
       "method": "blacklist",
-      "engine_name": "SentinelOne",
-      "engine_version": "7.6.2.19",
-      "engine_update": "20260324",
+      "engine_name": "huorong",
+      "engine_version": "3845b8a:3845b8a:867c14b:867c14b",
+      "engine_update": "20260508",
       "category": "undetected",
       "result": null
     },
@@ -567,10 +567,10 @@
       "category": "undetected",
       "result": null
     },
-    "Paloalto": {
+    "Avast": {
       "method": "blacklist",
-      "engine_name": "Paloalto",
-      "engine_version": "0.9.0.1003",
+      "engine_name": "Avast",
+      "engine_version": "23.9.8494.0",
       "engine_update": "20260508",
       "category": "undetected",
       "result": null
