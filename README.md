@@ -4,9 +4,23 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/a
 
 ## Current
 
+Releases `0.16` through `0.21` were Steam-pushed without their SBOM
+artefacts being archived to this repository at push time. The
+dependency state at those tags is reconstructable from source via the
+SBOM pipeline described in `## Generation` below; on-request
+reconstruction is available via the issue tracker.
+
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC-1-Gold-0.15** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.15](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.15) | 815 |
+| **RC-1-Gold-0.23** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.23](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.23) | 815 |
+| RC-1-Gold-0.22 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.22](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.22) | 815 |
+| RC-1-Gold-0.21 | CycloneDX 1.5 JSON | (not archived at push time) | — |
+| RC-1-Gold-0.20 | CycloneDX 1.5 JSON | (not archived at push time) | — |
+| RC-1-Gold-0.19 | CycloneDX 1.5 JSON | (not archived at push time) | — |
+| RC-1-Gold-0.18 | CycloneDX 1.5 JSON | (not archived at push time) | — |
+| RC-1-Gold-0.17 | CycloneDX 1.5 JSON | (not archived at push time) | — |
+| RC-1-Gold-0.16 | CycloneDX 1.5 JSON | (not archived at push time) | — |
+| RC-1-Gold-0.15 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.15](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.15) | 815 |
 | RC-1-Gold-0.14 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.14](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.14) | 815 |
 | RC-1-Gold-0.13 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.13](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.13) | 815 |
 | RC-1-Gold-0.12 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.12](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.12) | 815 |
