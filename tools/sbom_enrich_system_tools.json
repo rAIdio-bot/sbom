@@ -1,0 +1,36 @@
+{
+  "_comment": "Manual curation map for SBOM enrichment of `raidio:category == 'System Tools'`. Each component in generate_sbom.py SYSTEM_TOOLS needs an entry here, keyed by `<name>@<version>`. ffmpeg + python are not pip/cargo/npm packages so there's no canonical tarball-resolver origin — these entries name the source archive explicitly. When SYSTEM_TOOLS gains a new entry, a corresponding entry MUST be added here or sbom_enrich.py logs `unresolvable-license` for it and the release push surfaces it for review.",
+
+  "ffmpeg@7.1": {
+    "source_tarball": "https://ffmpeg.org/releases/ffmpeg-7.1.tar.gz",
+    "tarball_root_prefix": "ffmpeg-7.1/",
+    "license_files_in_tarball": [
+      "COPYING.GPLv3",
+      "COPYING.GPLv2",
+      "COPYING.LGPLv2.1",
+      "COPYING.LGPLv3"
+    ],
+    "primary_license_id": "GPL-3.0-or-later",
+    "notice_files_in_tarball": ["CREDITS"],
+    "copyright_seed": [
+      "Copyright (c) FFmpeg developers. See the CREDITS file for the full author list.",
+      "Copyright (c) 2000-2024 the FFmpeg developers"
+    ],
+    "rationale": "Shipped binary effective license is GPL-3.0-or-later per build flags --enable-gpl --enable-version3 verified locally via ffmpeg.exe -version. All four COPYING files concatenated into licenses[].license.text in declaration order: GPLv3 (effective), GPLv2 (inherited from older components), LGPLv2.1 (LGPL components present), LGPLv3 (LGPL components built against GPLv3 framework). CREDITS file appended as NOTICE."
+  },
+
+  "CPython@3.12.10": {
+    "source_tarball": "https://www.python.org/ftp/python/3.12.10/Python-3.12.10.tgz",
+    "tarball_root_prefix": "Python-3.12.10/",
+    "license_files_in_tarball": ["LICENSE"],
+    "primary_license_id": "PSF-2.0",
+    "notice_files_in_tarball": [],
+    "copyright_seed": [
+      "Copyright (c) 2001-2024 Python Software Foundation. All rights reserved.",
+      "Copyright (c) 2000 BeOpen.com. All rights reserved.",
+      "Copyright (c) 1995-2001 Corporation for National Research Initiatives. All rights reserved.",
+      "Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam. All rights reserved."
+    ],
+    "rationale": "PSF-2.0 LICENSE file at root preserves the full historical chain (Stichting Mathematisch Centrum / Amsterdam -> CNRI -> BeOpen.com -> Python Software Foundation). Single LICENSE file contains the complete attribution chain."
+  }
+}

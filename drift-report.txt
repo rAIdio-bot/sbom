@@ -4,9 +4,9 @@ Total drift entries: 23
 
 Each entry below has a declared SPDX license in the SBOM that does NOT
 match what the source LICENSE file actually says. Each must be audited:
-  - If the declared license is the right call (deliberate override per
-    incident-35 hand-curation, or a more permissive of the dual), mark
-    it in the curation log and remove from this file.
+  - If the declared license is the right call (a deliberate hand-
+    curation override, or a more permissive choice from a dual-license
+    expression), mark it in the curation log and remove from this file.
   - If the upstream license changed and our SBOM didn't catch up, update
     tools/generate_sbom.py and re-run.
 
