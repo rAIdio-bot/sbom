@@ -1,0 +1,7 @@
+{
+  "_comment": "Known-deliberate license declaration overrides. When a component's declared SPDX in the SBOM disagrees with what the source LICENSE file says BY DESIGN, list it here keyed by `<name>@<version>` so the drift detector in sbom_enrich.py stops flagging it on every release. Each entry should carry a `rationale` for the audit trail.",
+
+  "SeedVC-ComfyUI@0f6481215b64": {
+    "rationale": "AIFSH upstream has NO LICENSE file. The memescreamer mirror added an MIT LICENSE (Copyright 2024 memescreamer) but that's not a legally valid relicensing of upstream code. The custom node imports seed-vc, which is GPL-3.0. Under GPL inheritance the redistributed binary is effectively GPL-3.0, so we declare GPL-3.0 in the SBOM rather than the mirror-added MIT. Drift detector flags this as MIT-vs-GPL-3.0 every run; that's correct (the source LICENSE says MIT) but the SBOM declaration is the more-conservative legally-correct choice."
+  }
+}

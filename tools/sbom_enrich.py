@@ -659,43 +659,97 @@ def sanitize_list(items: list[str]) -> list[str]:
 # ---------------------------------------------------------------------------
 
 
+# Optional curation log of known-deliberate license overrides. Loaded
+# lazily so the script still works when the file is absent. Entries
+# in here suppress drift detection — the SBOM declares X by design
+# (e.g., GPL inheritance from a dependency, hand-curated correction
+# of a misleading upstream declaration) and we don't want the report
+# re-flagging it on every release.
+_DRIFT_CURATION_PATH = REPO_ROOT / "tools" / "sbom_drift_curation.json"
+_DRIFT_CURATION_CACHE: Optional[dict] = None
+
+
+def _load_drift_curation() -> dict:
+    global _DRIFT_CURATION_CACHE
+    if _DRIFT_CURATION_CACHE is not None:
+        return _DRIFT_CURATION_CACHE
+    if _DRIFT_CURATION_PATH.exists():
+        try:
+            data = json.loads(_DRIFT_CURATION_PATH.read_text(encoding="utf-8"))
+            data.pop("_comment", None)
+            _DRIFT_CURATION_CACHE = data
+        except Exception:
+            _DRIFT_CURATION_CACHE = {}
+    else:
+        _DRIFT_CURATION_CACHE = {}
+    return _DRIFT_CURATION_CACHE
+
+
 def detect_drift(component: dict, license_info: dict, source_text: str) -> Optional[dict]:
     """Quick drift heuristic: declared SPDX vs what the source LICENSE looks
     like. Returns a drift-report entry or None."""
     if not source_text or license_info["kind"] == "none":
         return None
     declared = license_info["value"]
-    text_lower = source_text[:3000].lower()
+    text_lower = source_text[:5000].lower()
 
-    # Map of "obviously this license" content fingerprints
-    fingerprints = {
-        "GPL-3.0": "gnu general public license\n                       version 3",
-        "GPL-2.0": "gnu general public license\n                       version 2",
-        "LGPL-2.1": "gnu lesser general public license\n                       version 2.1",
-        "Apache-2.0": "apache license\n                           version 2.0",
-        "MIT": "permission is hereby granted, free of charge",
-        "BSD-3-Clause": "redistribution and use in source and binary forms",
-        "ISC": "permission to use, copy, modify, and/or distribute",
-        "MPL-2.0": "mozilla public license version 2.0",
-        "PSF-2.0": "python software foundation license",
-    }
-    detected: list[str] = []
-    for sid, fp in fingerprints.items():
-        if fp in text_lower:
-            detected.append(sid)
-    if not detected:
+    # Curation log: skip drift detection for known-deliberate overrides.
+    curation = _load_drift_curation()
+    key = f"{component.get('name', '')}@{component.get('version', '')}"
+    if key in curation:
         return None
 
-    # Normalize declared id for comparison (strip "-or-later", etc.)
+    # Map of "obviously this license" content fingerprints. Order matters
+    # for the early-exit case below — more-specific fingerprints first.
+    # Unicode-3.0 must precede MIT because Unicode-3.0 contains the
+    # phrase "permission is hereby granted, free of charge" verbatim
+    # inside its longer body; without the explicit Unicode-3.0 match
+    # ICU/Unicode crates would all false-positive as MIT.
+    fingerprints = [
+        ("Unicode-3.0", "unicode license v3"),
+        ("Unicode-3.0", "unicode, inc. license v3"),
+        # Rust ecosystem dual-license boilerplate — common to many
+        # rust-lang crates that bundle both Apache + MIT. Must precede
+        # the bare Apache and BSD-3 matches so the dual is detected.
+        ("Apache-2.0 OR MIT", "rust project is dual-licensed under apache 2.0 and mit"),
+        ("GPL-3.0", "gnu general public license\n                       version 3"),
+        ("GPL-2.0", "gnu general public license\n                       version 2"),
+        ("LGPL-2.1", "gnu lesser general public license\n                       version 2.1"),
+        ("Apache-2.0", "apache license\n                           version 2.0"),
+        ("MIT", "permission is hereby granted, free of charge"),
+        ("BSD-3-Clause", "redistribution and use in source and binary forms"),
+        ("ISC", "permission to use, copy, modify, and/or distribute"),
+        ("MPL-2.0", "mozilla public license version 2.0"),
+        ("PSF-2.0", "python software foundation license"),
+    ]
+    detected_set: list[str] = []
+    for sid, fp in fingerprints:
+        if fp in text_lower and sid not in detected_set:
+            detected_set.append(sid)
+    if not detected_set:
+        return None
+
+    # Normalize declared id for comparison: strip GPL-style suffixes and
+    # SPDX exception clauses (e.g., "Apache-2.0 WITH LLVM-exception"
+    # normalizes to "apache-2.0" so the WITH-clause doesn't cause drift).
     def norm(x: str) -> str:
-        return x.replace("-or-later", "").replace("-only", "").lower()
+        x = x.split(" WITH ")[0]
+        return x.replace("-or-later", "").replace("-only", "").strip().lower()
 
     declared_norm = norm(declared)
     declared_ids_norm = [norm(d) for d in license_info["all_ids"]]
-    detected_norm = [norm(d) for d in detected]
+    detected_norm = [norm(d) for d in detected_set]
 
-    # Pass if any declared id matches any detected
-    if any(d in detected_norm for d in declared_ids_norm or [declared_norm]):
+    # Expand dual-license detection into its component ids for matching.
+    # "Apache-2.0 OR MIT" in detected expands to both ids individually.
+    expanded_detected: set[str] = set()
+    for d in detected_norm:
+        for part in re.split(r"\s+or\s+|\s+and\s+", d):
+            expanded_detected.add(part.strip())
+
+    # Pass if any declared id matches any detected id (post-expansion).
+    candidates = declared_ids_norm or [declared_norm]
+    if any(d in expanded_detected for d in candidates):
         return None
 
     return {
@@ -703,7 +757,7 @@ def detect_drift(component: dict, license_info: dict, source_text: str) -> Optio
         "name": component.get("name", ""),
         "version": component.get("version", ""),
         "declared": declared,
-        "detected": ", ".join(detected),
+        "detected": ", ".join(detected_set),
         "evidence": source_text[:500],
     }
 
