@@ -1,0 +1,22 @@
+rAIdio.bot SBOM enrichment — processing report
+
+================================================================
+
+Counts by status:
+  enriched: 815
+
+Skip math:
+  total_in_sbom: 815
+  processed: 815
+  skipped: 0
+  enriched: 815
+  failed: 0
+
+Per-component (non-success rows only):
+----------------------------------------------------------------
+
+Source-tag distribution (enriched components):
+  concatenated-dual: 4
+  longest-file: 30
+  matched: 651
+  spdx-canonical-fallback: 130

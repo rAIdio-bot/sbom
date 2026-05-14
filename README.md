@@ -2,6 +2,23 @@
 
 Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/app/4600000) releases. Every release gets a CycloneDX 1.5 JSON covering every Rust crate, NPM package, Python dependency, ComfyUI custom node, AI model, and system tool shipped in the binary and its bundled backend.
 
+## Canonical files (FOSS compliance)
+
+For per-component **verbatim license texts and copyright notices** (what an OSPO scanner or legal reviewer needs for FOSS compliance audits):
+
+- **[`sbom.json`](sbom.json)** — the canonical enriched CycloneDX 1.5 SBOM. Reflects the most recent release. Every non-proprietary component carries its full LICENSE / COPYING / NOTICE text under `licenses[].license.text` (base64-encoded UTF-8 plain text) and harvested copyright lines under `component.copyright`. The CycloneDX 1.5 spec field for both.
+- **[`NOTICES.txt`](NOTICES.txt)** — plain-text rendering of `sbom.json` for human reading. UTF-8, English, per-component block. Derived from `sbom.json` at release time, never edited by hand.
+- **[`enrich-report.txt`](enrich-report.txt)** — processing summary for the most recent enrichment run: counts by status, per-component failures, source-tag distribution.
+- **[`drift-report.txt`](drift-report.txt)** — queue of components where the declared SPDX license disagrees with what the source LICENSE file actually says. Each entry needs a human-audit decision. While non-empty, the `steam/push.ps1` pipeline refuses to ship the next release.
+
+**Methodology:** [`tools/sbom_enrich.py`](https://github.com/neitzert/rAIdio-rust/blob/master/tools/sbom_enrich.py) in the source repo downloads source artifacts per ecosystem (crates.io for Rust, npm registry for NPM, PyPI for Python, our pinned [memescreamer](https://huggingface.co/memescreamer) mirrors for AI models, GitHub raw for ComfyUI nodes, ffmpeg.org and python.org for system tools), extracts LICENSE / COPYING / NOTICE files verbatim, harvests copyright lines from license bodies and source headers, base64-encodes the result into the SBOM. Stdlib-only Python; no external dependencies. Reproducible: re-running against the same SBOM produces a byte-identical output.
+
+**ScanCode-style file-level evidence** in the CycloneDX `evidence[]` field is planned as a follow-up pass for components needing deeper provenance.
+
+## Historical releases
+
+The per-release `releases/RC-1-Gold-0.X/` tree below is the audit trail — what shipped, when. Those snapshots stay unenriched as the historical record; `sbom.json` at the root is the current truth.
+
 ## Current
 
 Releases `0.16` through `0.21` were Steam-pushed without their SBOM
