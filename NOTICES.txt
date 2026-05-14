@@ -5195,7 +5195,7 @@ THE SOFTWARE.
 
 ═══════════════════════════════════════════════════════════════════════════
 COMPONENT:    brotli-decompressor 5.0.0
-LICENSE:      MIT
+LICENSE:      BSD-3-Clause
 HOMEPAGE:     https://github.com/dropbox/rust-brotli-decompressor
 PURL:         pkg:cargo/brotli-decompressor@5.0.0
 
@@ -5697,7 +5697,7 @@ DEALINGS IN THE SOFTWARE.
 
 ═══════════════════════════════════════════════════════════════════════════
 COMPONENT:    cargo_toml 0.22.3
-LICENSE:      MIT
+LICENSE:      Apache-2.0
 HOMEPAGE:     https://lib.rs/cargo_toml
 PURL:         pkg:cargo/cargo_toml@0.22.3
 

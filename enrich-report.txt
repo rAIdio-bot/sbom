@@ -17,6 +17,6 @@ Per-component (non-success rows only):
 
 Source-tag distribution (enriched components):
   concatenated-dual: 4
-  longest-file: 30
-  matched: 651
+  longest-file: 28
+  matched: 653
   spdx-canonical-fallback: 130

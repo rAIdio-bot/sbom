@@ -1,0 +1,15 @@
+{
+  "tag": "RC-1-Gold-0.29",
+  "app_id": "4600000",
+  "depot_id": "4600001",
+  "raw_buildid": "23231368",
+  "generated_at": "2026-05-14T11:14:00Z",
+  "generator": "manual recovery after push.ps1 step-4 PowerShell stderr-wrapping bug",
+  "files": [
+    {
+      "filename": "raidio-bot.exe",
+      "sha256": "1f0c809fdfdd6b13422310ee789b80dba63327cf5950a511cc64f9207f476b19",
+      "size": 32517120
+    }
+  ]
+}
