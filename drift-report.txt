@@ -1,2 +1,156 @@
-# Drift report — no entries.
-# Next push is unblocked.
+rAIdio.bot SBOM enrichment — license drift report
+================================================================
+Total entries:                 13
+  blocking:                    13  (push refuses to ship while > 0)
+  multi-license-expected:      0  (audit-trail only; push not blocked)
+
+license-file detector: fingerprints the LICENSE body content against
+  canonical SPDX text. Strong evidence — always classified as blocking.
+source-header detector: aggregates SPDX-License-Identifier markers
+  observed in actual source files. May be blocking or
+  multi-license-expected depending on tools/sbom_drift_curation.json.
+
+Adversarial-discovery posture: nothing is suppressed. Every divergence
+is recorded here with its classification. multi-license-expected
+entries carry a rationale field documenting why the divergence is
+expected (typically: the source tree IS multi-licensed, and the
+effective license of the shipped binary is determined by build
+configuration rather than by every individual file header).
+
+Audit workflow:
+  - blocking entries must be either curated (add classification field
+    in tools/sbom_drift_curation.json with rationale) or corrected
+    (update tools/generate_sbom.py for the right SPDX expression).
+  - multi-license-expected entries need no action; they are recorded
+    for transparency and propagate into the SBOM as the
+    com.raidio.bundled-licenses-detected property.
+
+While the blocking count is > 0, steam/push.ps1 refuses to push.
+================================================================
+
+--- blocking (13) ---
+
+  decorator 5.2.1  [kind=license-file]
+    purl:     pkg:pypi/decorator@5.2.1
+    declared: BSD-2-Clause
+    detected: BSD-3-Clause
+    evidence (first 500 chars):
+      | Copyright (c) 2005-2025, Michele Simionato
+      | All rights reserved.
+      | 
+      | Redistribution and use in source and binary forms, with or without
+      | modification, are permitted provided that the following conditions are
+      | met:
+      | 
+      | * Redistributions of source code must retain the above copyright
+      |   notice, this list of conditions and the following disclaimer.
+      | 
+
+  grpcio 1.78.0  [kind=source-header]
+    purl:     pkg:pypi/grpcio@1.78.0
+    declared: Apache-2.0
+    detected: bsd-3-clause, mit
+    files with SPDX markers: 168
+
+  kiwisolver 1.5.0  [kind=source-header]
+    purl:     pkg:pypi/kiwisolver@1.5.0
+    declared: BSD-3-Clause
+    detected: mit
+    files with SPDX markers: 1
+
+  multidict 6.7.1  [kind=source-header]
+    purl:     pkg:pypi/multidict@6.7.1
+    declared: Apache-2.0
+    detected: 0bsd
+    files with SPDX markers: 1
+
+  numba 0.64.0  [kind=source-header]
+    purl:     pkg:pypi/numba@0.64.0
+    declared: BSD-3-Clause
+    detected: 0bsd, bsd-2-clause
+    files with SPDX markers: 12
+
+  onnxruntime 1.24.3  [kind=source-header]
+    purl:     pkg:pypi/onnxruntime@1.24.3
+    declared: MIT
+    detected: apache-2.0
+    files with SPDX markers: 7
+
+  onnxruntime-gpu 1.19.0  [kind=source-header]
+    purl:     pkg:pypi/onnxruntime-gpu@1.19.0
+    declared: MIT
+    detected: apache-2.0
+    files with SPDX markers: 7
+
+  pillow 12.1.0  [kind=license-file]
+    purl:     pkg:pypi/pillow@12.1.0
+    declared: HPND
+    detected: MIT
+    evidence (first 500 chars):
+      | DejaVuSans-24-{1,2,4,8}-stripped.ttf are based on DejaVuSans.ttf converted using FontForge to add bitmap strikes and keep only the ASCII range.
+      | 
+      | DejaVu Fonts — License
+      | Fonts are © Bitstream (see below). DejaVu changes are in public domain. Explanation of copyright is on Gnome page on Bitstream Vera fonts. Glyphs imported from Arev fonts are © Tavmjung Bah (see below)
+      | 
+      | Bitstream Vera Fonts Copyright
+      | Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstr
+
+  pillow 12.1.0  [kind=source-header]
+    purl:     pkg:pypi/pillow@12.1.0
+    declared: HPND
+    detected: 0bsd
+    files with SPDX markers: 1
+
+  praat-parselmouth 0.4.7  [kind=source-header]
+    purl:     pkg:pypi/praat-parselmouth@0.4.7
+    declared: GPL-3.0
+    detected: (mit, cc0-1.0)
+    files with SPDX markers: 1
+
+  pyasn1 0.6.2  [kind=license-file]
+    purl:     pkg:pypi/pyasn1@0.6.2
+    declared: BSD-2-Clause
+    detected: BSD-3-Clause
+    evidence (first 500 chars):
+      | Copyright (c) 2005-2020, Ilya Etingof <etingof@gmail.com>
+      | All rights reserved.
+      | 
+      | Redistribution and use in source and binary forms, with or without
+      | modification, are permitted provided that the following conditions are met:
+      | 
+      |   * Redistributions of source code must retain the above copyright notice, 
+      |     this list of conditions and the following disclaimer.
+      | 
+      |   * Redistributions in binary form must reproduce the above copyright notice,
+
+  Pygments 2.19.2  [kind=license-file]
+    purl:     pkg:pypi/Pygments@2.19.2
+    declared: BSD-2-Clause
+    detected: BSD-3-Clause
+    evidence (first 500 chars):
+      | Copyright (c) 2006-2022 by the respective authors (see AUTHORS file).
+      | All rights reserved.
+      | 
+      | Redistribution and use in source and binary forms, with or without
+      | modification, are permitted provided that the following conditions are
+      | met:
+      | 
+      | * Redistributions of source code must retain the above copyright
+      |   notice, this list of conditions and the following disclaimer.
+      | 
+
+  wrapt 2.1.2  [kind=license-file]
+    purl:     pkg:pypi/wrapt@2.1.2
+    declared: BSD-2-Clause
+    detected: BSD-3-Clause
+    evidence (first 500 chars):
+      | Copyright (c) 2013-2026, Graham Dumpleton
+      | All rights reserved.
+      | 
+      | Redistribution and use in source and binary forms, with or without
+      | modification, are permitted provided that the following conditions are met:
+      | 
+      | * Redistributions of source code must retain the above copyright notice, this
+      |   list of conditions and the following disclaimer.
+      | 
+      | * Redistributions in binary form must reproduce the above copyright notice,

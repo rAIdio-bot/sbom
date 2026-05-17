@@ -3,24 +3,27 @@ rAIdio.bot SBOM enrichment — processing report
 ================================================================
 
 Counts by status:
-  enriched: 824
+  enriched: 1035
+  unresolvable-license: 2
 
 Skip math:
-  total_in_sbom: 824
-  processed: 824
+  total_in_sbom: 1037
+  processed: 1037
   skipped: 0
-  enriched: 824
-  failed: 0
+  enriched: 1035
+  failed: 2
 
 Per-component (non-success rows only):
 ----------------------------------------------------------------
+  [unresolvable-license] aiohappyeyeballs 2.6.1 (Python Packages): suspicious-license-text
+  [unresolvable-license] typing_extensions 4.15.0 (Python Packages): suspicious-license-text
 
 Source-tag distribution (enriched components):
-  concatenated-dual: 463
-  longest-file: 25
-  matched: 200
-  spdx-canonical-fallback: 136
+  concatenated-dual: 471
+  longest-file: 38
+  matched: 378
+  spdx-canonical-fallback: 148
 
 Evidence pass (file-level SPDX markers from cached tarballs):
-  components with evidence:   32 / 824 (3.9% of enriched)
-  source files contributing:  618
+  components with evidence:   51 / 1035 (4.9% of enriched)
+  source files contributing:  2292
