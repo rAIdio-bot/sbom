@@ -2,7 +2,6 @@
   "RC-1-Gold-0.22/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 1,
     "last_polled": "2026-05-18T11:12:05Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -22,7 +21,6 @@
   "RC-1-Gold-0.22/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 2,
     "last_polled": "2026-05-18T11:12:06Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -64,7 +62,6 @@
   "RC-1-Gold-0.22/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 4,
     "last_polled": "2026-05-18T11:12:07Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -84,7 +81,6 @@
   "RC-1-Gold-0.23/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 5,
     "last_polled": "2026-05-18T11:12:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -104,7 +100,6 @@
   "RC-1-Gold-0.23/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 6,
     "last_polled": "2026-05-18T11:12:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -146,7 +141,6 @@
   "RC-1-Gold-0.23/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 8,
     "last_polled": "2026-05-18T11:12:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -166,7 +160,6 @@
   "RC-1-Gold-0.24/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 9,
     "last_polled": "2026-05-18T11:12:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -186,7 +179,6 @@
   "RC-1-Gold-0.24/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 10,
     "last_polled": "2026-05-18T11:12:09Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -228,7 +220,6 @@
   "RC-1-Gold-0.24/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 12,
     "last_polled": "2026-05-18T11:12:09Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -248,7 +239,6 @@
   "RC-1-Gold-0.25/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 13,
     "last_polled": "2026-05-18T11:12:09Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -268,7 +258,6 @@
   "RC-1-Gold-0.25/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 14,
     "last_polled": "2026-05-18T11:12:10Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -310,7 +299,6 @@
   "RC-1-Gold-0.25/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 16,
     "last_polled": "2026-05-18T11:12:10Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -330,7 +318,6 @@
   "RC-1-Gold-0.26/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 17,
     "last_polled": "2026-05-18T11:12:10Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -350,7 +337,6 @@
   "RC-1-Gold-0.26/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 18,
     "last_polled": "2026-05-18T11:12:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -392,7 +378,6 @@
   "RC-1-Gold-0.26/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 20,
     "last_polled": "2026-05-18T11:12:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -412,7 +397,6 @@
   "RC-1-Gold-0.27/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 21,
     "last_polled": "2026-05-18T11:12:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -432,7 +416,6 @@
   "RC-1-Gold-0.27/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 22,
     "last_polled": "2026-05-18T11:12:12Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -474,7 +457,6 @@
   "RC-1-Gold-0.27/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 24,
     "last_polled": "2026-05-18T11:12:12Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -494,7 +476,6 @@
   "RC-1-Gold-0.28/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 25,
     "last_polled": "2026-05-18T11:12:12Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -514,7 +495,6 @@
   "RC-1-Gold-0.28/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 26,
     "last_polled": "2026-05-18T11:12:13Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -556,7 +536,6 @@
   "RC-1-Gold-0.28/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 28,
     "last_polled": "2026-05-18T11:12:14Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -576,7 +555,6 @@
   "RC-1-Gold-0.30/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 29,
     "last_polled": "2026-05-18T11:12:14Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -596,7 +574,6 @@
   "RC-1-Gold-0.30/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 30,
     "last_polled": "2026-05-18T11:12:14Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -638,7 +615,6 @@
   "RC-1-Gold-0.30/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 32,
     "last_polled": "2026-05-18T11:12:15Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -658,7 +634,6 @@
   "RC-1-Gold-0.31/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 33,
     "last_polled": "2026-05-18T11:12:15Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -678,7 +653,6 @@
   "RC-1-Gold-0.31/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 34,
     "last_polled": "2026-05-18T11:12:16Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -720,7 +694,6 @@
   "RC-1-Gold-0.31/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 36,
     "last_polled": "2026-05-18T11:12:16Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -740,7 +713,6 @@
   "RC-1-Gold-0.32/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 37,
     "last_polled": "2026-05-18T11:12:17Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -760,7 +732,6 @@
   "RC-1-Gold-0.32/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 38,
     "last_polled": "2026-05-18T11:12:17Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -803,7 +774,6 @@
   "RC-1-Gold-0.32/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 40,
     "last_polled": "2026-05-18T11:12:17Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -823,7 +793,6 @@
   "RC-1-Gold-0.33/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 41,
     "last_polled": "2026-05-18T11:12:18Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -843,7 +812,6 @@
   "RC-1-Gold-0.33/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 42,
     "last_polled": "2026-05-18T11:12:18Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -886,7 +854,6 @@
   "RC-1-Gold-0.33/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 44,
     "last_polled": "2026-05-18T11:12:18Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -906,7 +873,6 @@
   "RC-1-Gold-0.34/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 45,
     "last_polled": "2026-05-18T11:12:18Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -926,7 +892,6 @@
   "RC-1-Gold-0.34/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 46,
     "last_polled": "2026-05-18T11:12:19Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -969,7 +934,6 @@
   "RC-1-Gold-0.34/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 48,
     "last_polled": "2026-05-18T11:12:19Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -989,7 +953,6 @@
   "RC-1-Gold-0.35/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "issue_number": 49,
     "last_polled": "2026-05-18T11:12:19Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -1009,7 +972,6 @@
   "RC-1-Gold-0.35/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "issue_number": 50,
     "last_polled": "2026-05-18T11:12:19Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
@@ -1052,7 +1014,6 @@
   "RC-1-Gold-0.35/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "issue_number": 52,
     "last_polled": "2026-05-18T11:12:20Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
