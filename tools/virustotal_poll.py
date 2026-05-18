@@ -11,7 +11,16 @@ workflow consumes to open / comment / escalate GitHub issues.
 Tier rules (single-maintainer policy — change MAINTAINERS / MENTION
 below to add co-maintainers):
 
-  baseline   First time we see this RC. Create issue, no email.
+  baseline   First time we see this RC. Create issue ONLY when at least
+             one engine flagged (any malicious/suspicious verdict, or
+             tier >= alert). For a clean first scan (every engine
+             undetected) we record the baseline in state and stay
+             silent — no tracker is opened. If a later poll flips a
+             flag on that binary, the regular comment/escalate path
+             notices the missing issue_number and opens a fresh
+             tracker then. Prior behaviour opened ~4 trackers per RC
+             unconditionally, which produced burst-noise on
+             back-to-back releases and on cron catch-up days.
   silent     Stats unchanged. No-op (state timestamp updated only).
   minor      malicious+suspicious ticked up by 1, no major/Defender hit.
              Comment on the existing issue. No email.
@@ -197,42 +206,49 @@ def main():
         prior = state.get(key)
         if prior is None:
             tier = compute_tier(stats, flags)
-            body = render_body(
-                label,
-                sha256,
-                vt_link,
-                stats,
-                flags,
-                "Baseline VirusTotal scan recorded for this binary.",
-            )
-            labels = ["vt-baseline"]
-            if tier in ("alert", "major", "defender"):
-                # If the very first scan is already bad, escalate immediately.
-                labels.append(f"vt-{tier}")
-                if tier == "defender":
-                    labels.append("priority/critical")
-                body = body + f"\n\n{MENTION} — first scan already in tier `{tier}`."
-                decisions.append(
-                    {
-                        "kind": "create_issue",
-                        "key": key,
-                        "title": f"VirusTotal: {label} — scan tracker",
-                        "body": body,
-                        "labels": labels,
-                        "assignees": MAINTAINERS,
-                    }
+            # Quiet-baseline policy: only open a tracker if something
+            # actually flagged. Clean baselines record state and stay
+            # silent. See docstring "baseline" tier for rationale.
+            is_flagged = bool(flags) or tier in ("alert", "major", "defender")
+            if is_flagged:
+                body = render_body(
+                    label,
+                    sha256,
+                    vt_link,
+                    stats,
+                    flags,
+                    "Baseline VirusTotal scan recorded for this binary.",
                 )
+                labels = ["vt-baseline"]
+                if tier in ("alert", "major", "defender"):
+                    # If the very first scan is already bad, escalate immediately.
+                    labels.append(f"vt-{tier}")
+                    if tier == "defender":
+                        labels.append("priority/critical")
+                    body = body + f"\n\n{MENTION} — first scan already in tier `{tier}`."
+                    decisions.append(
+                        {
+                            "kind": "create_issue",
+                            "key": key,
+                            "title": f"VirusTotal: {label} — scan tracker",
+                            "body": body,
+                            "labels": labels,
+                            "assignees": MAINTAINERS,
+                        }
+                    )
+                else:
+                    decisions.append(
+                        {
+                            "kind": "create_issue",
+                            "key": key,
+                            "title": f"VirusTotal: {label} — scan tracker",
+                            "body": body,
+                            "labels": labels,
+                            "assignees": [],
+                        }
+                    )
             else:
-                decisions.append(
-                    {
-                        "kind": "create_issue",
-                        "key": key,
-                        "title": f"VirusTotal: {label} — scan tracker",
-                        "body": body,
-                        "labels": labels,
-                        "assignees": [],
-                    }
-                )
+                print(f"  {label}: baseline-clean (no flags), state-only", file=sys.stderr)
             state[key] = {
                 "tag": tag,
                 "filename": filename,
@@ -285,7 +301,11 @@ def main():
                 decision["body"] = decision["body"] + f"\n\n{MENTION}"
             decisions.append(decision)
         else:
-            # Lost the issue number somehow — recreate.
+            # No issue_number on file. Two cases land here:
+            #   (1) Lost the issue number somehow (legacy fallback).
+            #   (2) Baseline-clean: first scan had zero flags so the
+            #       quiet-baseline policy didn't open a tracker, and
+            #       now a later poll discovered a flag — open one now.
             decisions.append(
                 {
                     "kind": "create_issue",
