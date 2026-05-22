@@ -1,5 +1,33 @@
 rAIdio.bot SBOM enrichment — license drift report
 ================================================================
+
+WHAT THIS FILE IS (Till Jaeger Q4 follow-up, 2026-05-22).
+
+drift-report.txt is a TRANSPARENCY LOG, not a missing-components
+list. Presence in this report does NOT mean a component is missing
+from NOTICES.txt or the SBOM — every component listed here IS in
+both. This file enumerates the cases where what we declare as the
+component's license differs from what our deep-scanner observes
+in the source tree, with one of two outcomes:
+
+  * multi-license-expected — the source tree contains files with
+    licenses that are NOT the same as the declared package
+    license, but this is by design: the package vendors third-
+    party code (e.g. grpcio vendors zlib + abseil + boringssl
+    fragments) whose original per-file licenses we preserve.
+    These entries are documented + curated and do NOT block the
+    next release push.
+  * blocking — divergence not yet curated. The next push is
+    refused until either curated (with rationale in
+    tools/sbom_drift_curation.json) or corrected (in
+    tools/generate_sbom.py).
+
+Look in NOTICES.txt to see what we actually preserve for any
+component listed here; the TOC at the top of that file lists
+every component with its line number for quick lookup.
+
+================================================================
+
 Total entries:                 8
   blocking:                    0  (push refuses to ship while > 0)
   multi-license-expected:      8  (audit-trail only; push not blocked)

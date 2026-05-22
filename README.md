@@ -2,6 +2,12 @@
 
 Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/app/4600000) releases. Every release gets a CycloneDX 1.5 JSON covering every Rust crate, NPM package, Python dependency, ComfyUI custom node, AI model, and system tool shipped in the binary and its bundled backend.
 
+## Where to look for a specific component
+
+`NOTICES.txt` has grown past 190,000 lines (~1,000+ components). To find any single component, use the **Table of Contents at the top of [`NOTICES.txt`](NOTICES.txt)** — every component is listed alphabetically with the line number where its block starts. For markdown reading, [`NOTICES.md`](NOTICES.md) opens with a clickable per-component TOC linking to anchor headings. Ad-hoc Ctrl-F in the GitHub raw viewer is brittle at this file size; the TOC is faster and reliable.
+
+For machine queries, [`sbom.json`](sbom.json) is the authoritative source — every component carries `purl`, `licenses`, embedded LICENSE text, and several `com.raidio.*` properties for filtering (`com.raidio.depot`, `com.raidio.runs-in`, `com.raidio.scan-coverage`, `com.raidio.embedded-in`).
+
 ## Canonical files (FOSS compliance)
 
 For per-component **verbatim license texts and copyright notices** (what an OSPO scanner or legal reviewer needs for FOSS compliance audits):
@@ -11,9 +17,23 @@ For per-component **verbatim license texts and copyright notices** (what an OSPO
 - **[`enrich-report.txt`](enrich-report.txt)** — processing summary for the most recent enrichment run: counts by status, per-component failures, source-tag distribution.
 - **[`drift-report.txt`](drift-report.txt)** — queue of components where the declared SPDX license disagrees with what the source LICENSE file actually says. Each entry needs a human-audit decision. While non-empty, the `steam/push.ps1` pipeline refuses to ship the next release.
 
-**Methodology:** [`tools/sbom_enrich.py`](tools/sbom_enrich.py) (mirrored here for public auditability; the source-of-truth copy runs from the build pipeline) downloads source artifacts per ecosystem (crates.io for Rust, npm registry for NPM, PyPI for Python, our pinned [memescreamer](https://huggingface.co/memescreamer) mirrors for AI models, GitHub raw for ComfyUI nodes, ffmpeg.org and python.org for system tools), extracts LICENSE / COPYING / NOTICE files verbatim, harvests copyright lines from license bodies and source headers, base64-encodes the result into the SBOM. Per-ecosystem source resolution is configured by [`tools/sbom_enrich_system_tools.json`](tools/sbom_enrich_system_tools.json) for the small set of components that don't have a canonical package-manager origin (ffmpeg, CPython). Stdlib-only Python; no external dependencies. Reproducible: re-running against the same SBOM produces a byte-identical output.
+**Methodology (per-category — precision matters here, see Till Jaeger Q3 follow-up 2026-05-22):** [`tools/sbom_enrich.py`](tools/sbom_enrich.py) (mirrored here for public auditability; the source-of-truth copy runs from the build pipeline) resolves each component's source to one of several fetch plans depending on its `raidio:category`. Stdlib-only Python; no external dependencies; deterministic and reproducible.
 
-**ScanCode-style file-level evidence** in the CycloneDX `evidence[]` field is planned as a follow-up pass for components needing deeper provenance.
+| Category | Source resolution | What we extract |
+|---|---|---|
+| Rust Crates | crates.io `.crate` tarball | LICENSE-named files at root + sample of source-header copyrights (max 300 files × first 50 lines each) |
+| NPM Packages | npm registry tarball | LICENSE-named files at root |
+| Python Packages | PyPI sdist preferred, wheel fallback. For PEP 440 `+local` segment packages (torch family — `+cu128` etc.) the GitHub release-tag source tarball preferred over the wheel, because wheels are binary blobs that hide the source tree | LICENSE-named files at root + sample of source-header copyrights (max 300 files × first 50 lines each) |
+| AI Models | HuggingFace mirror probe for LICENSE-named files. If absent (our memescreamer mirrors carry weights only), fall back to the `upstream_source_url` (set via `tools/generate_sbom.py:AI_MODELS`) and probe that GitHub repo's root for LICENSE-named files instead | LICENSE / NOTICE / COPYING files at upstream repo root |
+| ComfyUI Nodes | GitHub raw single-file probe at the pinned revision SHA | LICENSE-named files at repo root |
+| Embedded Python Overrides | Same as ComfyUI Nodes | LICENSE-named files at repo root |
+| System Tools | `tools/sbom_enrich_system_tools.json` curation map (ffmpeg, CPython) names the source tarball + which LICENSE files to extract | Curated list of LICENSE / COPYING / CREDITS files in declaration order |
+
+For every category, every extracted LICENSE / COPYING / NOTICE file is base64-embedded into the SBOM's `licenses[].license.text` field verbatim. Copyright lines are harvested from the LICENSE bodies AND (where source-header sampling is in scope) from the first 50 lines of up to 300 source files matching the source-extension regex, and aggregated into `component.copyright`.
+
+**Source-header sampling caveat.** The 300-file cap is sufficient for most components (~95% have fewer source files). For large multi-vendor projects like torchvision, the cap is NOT sufficient — vendored sub-trees beyond the first 300 sampled files are not reached. The new `com.raidio.scan-coverage` property on each component (added 2026-05-22) records the actual coverage tier (`license-only` / `sampled` / `exhaustive`) so a reviewer can filter the SBOM to find every component whose scan was incomplete.
+
+**ScanCode-style file-level evidence** in the CycloneDX `evidence[]` field is populated by the offline [`tools/sbom_deep_scan.py`](tools/sbom_deep_scan.py) pass for components where the sampling cap is insufficient. Deep-scan runs at release cadence and feeds the in-pipeline enricher with cached source archives.
 
 ## Historical releases
 
