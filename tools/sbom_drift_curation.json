@@ -3,5 +3,15 @@
 
   "SeedVC-ComfyUI@0f6481215b64": {
     "rationale": "AIFSH upstream has NO LICENSE file. The memescreamer mirror added an MIT LICENSE (Copyright 2024 memescreamer) but that's not a legally valid relicensing of upstream code. The custom node imports seed-vc, which is GPL-3.0. Under GPL inheritance the redistributed binary is effectively GPL-3.0, so we declare GPL-3.0 in the SBOM rather than the mirror-added MIT. Drift detector flags this as MIT-vs-GPL-3.0 every run; that's correct (the source LICENSE says MIT) but the SBOM declaration is the more-conservative legally-correct choice."
+  },
+
+  "ACE-Step 1.5 XL Turbo@a0e60e0f4ad7": {
+    "rationale": "Mirror-our-source principle: memescreamer/ace_step_1.5_xl_turbo was consolidated from ACE-Step/acestep-v15-xl-turbo's 4-shard upstream into a single bf16 safetensors file. The mirror's documented upstream is therefore the ACE-Step team's own HF repo (separate provenance from the 5 non-XL ACE-Step components, which come from Comfy-Org's repack). ACE-Step/acestep-v15-xl-turbo at HEAD declares license=mit on its HF model card; we mirror that declaration. The github code repo ace-step/ACE-Step is Apache-2.0 (governs code), but the weight artefact's licensing comes from the HF publishing channel where the rights-holder declared MIT. Verified via HF API 2026-05-26."
+  },
+  "Whisper-small@fce938ed4d5c": {
+    "rationale": "Mirror-our-source principle: memescreamer/whisper-small documents its upstream (in the mirror's README frontmatter) as openai/whisper-small. OpenAI's HF model card for whisper-small (and every other Whisper variant) declares license=apache-2.0. The github openai/whisper code repo carries an MIT LICENSE — but that governs the Python code, not the weights distribution. The weights are HF-only artefacts and the publishing channel's declaration controls. SBOM records Apache-2.0 to match what our source declared. Verified via HF API 2026-05-26."
+  },
+  "CAMPPlus Speaker Embedder@18652420ac91": {
+    "rationale": "Mirror-our-source principle: memescreamer/campplus documents its upstream as funasr/campplus. The funasr/campplus HF model card declares license=apache-2.0. The github FunASR framework repo (modelscope/FunASR) is MIT — but that governs the framework code, not the speaker-embedder weights distributed at funasr/campplus. SBOM records Apache-2.0 to match what our source declared. (Note: the upstream-of-upstream is Alibaba's ModelScope iic/speech_campplus_sv_zh-cn_16k-common, which is gated behind ModelScope login (HTTP 401) and not reachable via the HF API; we cannot independently verify their declaration. funasr/campplus is the closest verifiable source, and it agrees with Apache-2.0.) Verified via HF API 2026-05-26."
   }
 }
