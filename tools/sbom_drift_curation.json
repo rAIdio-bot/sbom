@@ -3,24 +3,5 @@
 
   "SeedVC-ComfyUI@0f6481215b64": {
     "rationale": "AIFSH upstream has NO LICENSE file. The memescreamer mirror added an MIT LICENSE (Copyright 2024 memescreamer) but that's not a legally valid relicensing of upstream code. The custom node imports seed-vc, which is GPL-3.0. Under GPL inheritance the redistributed binary is effectively GPL-3.0, so we declare GPL-3.0 in the SBOM rather than the mirror-added MIT. Drift detector flags this as MIT-vs-GPL-3.0 every run; that's correct (the source LICENSE says MIT) but the SBOM declaration is the more-conservative legally-correct choice."
-  },
-
-  "ACE-Step 1.5 AIO@b521ef1e632b": {
-    "rationale": "ACE-Step weight provenance: the pinned SHA b521ef1e632b resolves in Comfy-Org/ace_step_1.5_ComfyUI_files (the ComfyUI-format repack). At that SHA, the source repo carried NO LICENSE file and NO cardData.license — license-silent. Comfy-Org HEAD today declares apache-2.0 but cannot legally relicense someone else's weights. The original rights-holder, the ACE-Step team, declares license=mit on their own HF model card at ACE-Step/Ace-Step1.5 (HEAD 19671f40). The rights-holder's declaration controls. SBOM records MIT. The github canonical-LICENSE rule does not override here because the github repo (ace-step/ACE-Step) holds the code, not the weights — the weights are HF-only artefacts. Verified via HF API 2026-05-26."
-  },
-  "ACE-Step 1.5 CLIP 0.6B@b521ef1e632b": {
-    "rationale": "Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT."
-  },
-  "ACE-Step 1.5 CLIP 4B@b521ef1e632b": {
-    "rationale": "Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT."
-  },
-  "ACE-Step 1.5 UNet@b521ef1e632b": {
-    "rationale": "Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT."
-  },
-  "ACE-Step 1.5 VAE@b521ef1e632b": {
-    "rationale": "Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT."
-  },
-  "ACE-Step 1.5 XL Turbo@a0e60e0f4ad7": {
-    "rationale": "ACE-Step XL Turbo weight provenance: the pinned SHA a0e60e0f4ad7 resolves in our own memescreamer/ace_step_1.5_xl_turbo mirror. At that SHA, no LICENSE file and no cardData.license. The original rights-holder, the ACE-Step team, declares license=mit on their own HF model card at ACE-Step/acestep-v15-xl-turbo (HEAD d4a0b288). The github repo (ace-step/ACE-Step) holds the code under Apache-2.0; the XL Turbo weights are HF-only artefacts and the rights-holder's HF declaration controls. SBOM records MIT. Verified via HF API 2026-05-26."
   }
 }

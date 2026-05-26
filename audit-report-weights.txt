@@ -1,64 +1,95 @@
 rAIdio.bot SBOM — AI Model weights license audit
 Components audited: 21
-Method: per component, check (1) the upstream rights-holder's HF publisher repo at HEAD, (2) the HF mirror at our pinned SHA, (3) the github canonical LICENSE as a code-repo tiebreaker, (4) sbom_drift_curation.json for documented overrides. The rights-holder's own declaration controls for HF-only weight artefacts; the github canonical-LICENSE rule applies only when github actually hosts the artefact being licensed.
+Method: HuggingFace API at the pinned revision SHA. Reports ACK / MISMATCH / UNKNOWN per component.
+Upstream github LICENSE outweighs HF metadata in conflicts (per feedback_license_authority.md). UNKNOWN / MISMATCH items require manual triage.
 
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   ACE-Step 1.5 AIO
 PIN:         b521ef1e632b
-RECORDED:    MIT
+RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files
-VCS:         https://huggingface.co/ACE-Step/Ace-Step1.5
-VERDICT:     CURATED
-DETAIL:      sbom_drift_curation.json: ACE-Step weight provenance: the pinned SHA b521ef1e632b resolves in Comfy-Org/ace_step_1.5_ComfyUI_files (the ComfyUI-format repack). At that SHA, the source repo carried NO LICENSE file and NO cardDa...
+VCS:         https://github.com/ace-step/ACE-Step
+HF_REPO:     memescreamer/ace_step_1.5_ComfyUI_files
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (could not fetch HF metadata: HTTP 404)
+GH_REPO:     ace-step/ACE-Step
+GH_SPDX:     'Apache-2.0'
+VERDICT:     ACK
+DETAIL:      github canonical LICENSE detected as 'Apache-2.0'
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   ACE-Step 1.5 CLIP 0.6B
 PIN:         b521ef1e632b
-RECORDED:    MIT
+RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files
-VCS:         https://huggingface.co/ACE-Step/Ace-Step1.5
-VERDICT:     CURATED
-DETAIL:      sbom_drift_curation.json: Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT.
+VCS:         https://github.com/ace-step/ACE-Step
+HF_REPO:     memescreamer/ace_step_1.5_ComfyUI_files
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (could not fetch HF metadata: HTTP 404)
+GH_REPO:     ace-step/ACE-Step
+GH_SPDX:     'Apache-2.0'
+VERDICT:     ACK
+DETAIL:      github canonical LICENSE detected as 'Apache-2.0'
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   ACE-Step 1.5 CLIP 4B
 PIN:         b521ef1e632b
-RECORDED:    MIT
+RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files
-VCS:         https://huggingface.co/ACE-Step/Ace-Step1.5
-VERDICT:     CURATED
-DETAIL:      sbom_drift_curation.json: Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT.
+VCS:         https://github.com/ace-step/ACE-Step
+HF_REPO:     memescreamer/ace_step_1.5_ComfyUI_files
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (could not fetch HF metadata: HTTP 404)
+GH_REPO:     ace-step/ACE-Step
+GH_SPDX:     'Apache-2.0'
+VERDICT:     ACK
+DETAIL:      github canonical LICENSE detected as 'Apache-2.0'
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   ACE-Step 1.5 UNet
 PIN:         b521ef1e632b
-RECORDED:    MIT
+RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files
-VCS:         https://huggingface.co/ACE-Step/Ace-Step1.5
-VERDICT:     CURATED
-DETAIL:      sbom_drift_curation.json: Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT.
+VCS:         https://github.com/ace-step/ACE-Step
+HF_REPO:     memescreamer/ace_step_1.5_ComfyUI_files
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (could not fetch HF metadata: HTTP 404)
+GH_REPO:     ace-step/ACE-Step
+GH_SPDX:     'Apache-2.0'
+VERDICT:     ACK
+DETAIL:      github canonical LICENSE detected as 'Apache-2.0'
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   ACE-Step 1.5 VAE
 PIN:         b521ef1e632b
-RECORDED:    MIT
+RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files
-VCS:         https://huggingface.co/ACE-Step/Ace-Step1.5
-VERDICT:     CURATED
-DETAIL:      sbom_drift_curation.json: Same provenance as ACE-Step 1.5 AIO@b521ef1e632b — sourced via Comfy-Org repack, original rights-holder ACE-Step declares MIT on ACE-Step/Ace-Step1.5 HF card. SBOM records MIT.
+VCS:         https://github.com/ace-step/ACE-Step
+HF_REPO:     memescreamer/ace_step_1.5_ComfyUI_files
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (could not fetch HF metadata: HTTP 404)
+GH_REPO:     ace-step/ACE-Step
+GH_SPDX:     'Apache-2.0'
+VERDICT:     ACK
+DETAIL:      github canonical LICENSE detected as 'Apache-2.0'
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   ACE-Step 1.5 XL Turbo
 PIN:         a0e60e0f4ad7
-RECORDED:    MIT
+RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/ace_step_1.5_xl_turbo
-VCS:         https://huggingface.co/ACE-Step/acestep-v15-xl-turbo
-VERDICT:     CURATED
-DETAIL:      sbom_drift_curation.json: ACE-Step XL Turbo weight provenance: the pinned SHA a0e60e0f4ad7 resolves in our own memescreamer/ace_step_1.5_xl_turbo mirror. At that SHA, no LICENSE file and no cardData.license. The original right...
+VCS:         https://github.com/ace-step/ACE-Step
+HF_REPO:     memescreamer/ace_step_1.5_xl_turbo
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
+GH_REPO:     ace-step/ACE-Step
+GH_SPDX:     'Apache-2.0'
+VERDICT:     ACK
+DETAIL:      github canonical LICENSE detected as 'Apache-2.0'
 ───────────────────────────────────────────────────────────────────────────
 COMPONENT:   BigVGAN 22kHz Vocoder
 PIN:         42dfaf7cbff4
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/bigvgan_v2_22khz_80band_256x
 VCS:         https://github.com/NVIDIA/BigVGAN
-MIRROR_HF:   memescreamer/bigvgan_v2_22khz_80band_256x
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/bigvgan_v2_22khz_80band_256x
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     NVIDIA/BigVGAN
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -69,9 +100,9 @@ PIN:         66b434c9c1c0
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/bigvgan_v2_44khz_128band_512x
 VCS:         https://github.com/NVIDIA/BigVGAN
-MIRROR_HF:   memescreamer/bigvgan_v2_44khz_128band_512x
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/bigvgan_v2_44khz_128band_512x
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     NVIDIA/BigVGAN
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -82,9 +113,9 @@ PIN:         18652420ac91
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/campplus
 VCS:         https://github.com/modelscope/FunASR
-MIRROR_HF:   memescreamer/campplus
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/campplus
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     modelscope/FunASR
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -95,9 +126,9 @@ PIN:         2fd1cf07cafc
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/demucs-models
 VCS:         https://github.com/facebookresearch/demucs
-MIRROR_HF:   memescreamer/demucs-models
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/demucs-models
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     facebookresearch/demucs
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -108,9 +139,9 @@ PIN:         2fd1cf07cafc
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/demucs-models
 VCS:         https://github.com/facebookresearch/demucs
-MIRROR_HF:   memescreamer/demucs-models
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/demucs-models
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     facebookresearch/demucs
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -121,9 +152,9 @@ PIN:         a81b3a547af5
 RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-0.6B-Base
 VCS:         https://github.com/QwenLM/Qwen3-TTS
-MIRROR_HF:   memescreamer/Qwen3-TTS-12Hz-0.6B-Base
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Qwen3-TTS-12Hz-0.6B-Base
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     QwenLM/Qwen3-TTS
 GH_SPDX:     'Apache-2.0'
 VERDICT:     ACK
@@ -134,9 +165,9 @@ PIN:         be5c4cf9473e
 RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-0.6B-CustomVoice
 VCS:         https://github.com/QwenLM/Qwen3-TTS
-MIRROR_HF:   memescreamer/Qwen3-TTS-12Hz-0.6B-CustomVoice
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Qwen3-TTS-12Hz-0.6B-CustomVoice
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     QwenLM/Qwen3-TTS
 GH_SPDX:     'Apache-2.0'
 VERDICT:     ACK
@@ -147,9 +178,9 @@ PIN:         8ed08da77b63
 RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-1.7B-Base
 VCS:         https://github.com/QwenLM/Qwen3-TTS
-MIRROR_HF:   memescreamer/Qwen3-TTS-12Hz-1.7B-Base
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Qwen3-TTS-12Hz-1.7B-Base
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     QwenLM/Qwen3-TTS
 GH_SPDX:     'Apache-2.0'
 VERDICT:     ACK
@@ -160,9 +191,9 @@ PIN:         f1ce73f98515
 RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-1.7B-CustomVoice
 VCS:         https://github.com/QwenLM/Qwen3-TTS
-MIRROR_HF:   memescreamer/Qwen3-TTS-12Hz-1.7B-CustomVoice
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Qwen3-TTS-12Hz-1.7B-CustomVoice
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     QwenLM/Qwen3-TTS
 GH_SPDX:     'Apache-2.0'
 VERDICT:     ACK
@@ -173,9 +204,9 @@ PIN:         efe663638df8
 RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-1.7B-VoiceDesign
 VCS:         https://github.com/QwenLM/Qwen3-TTS
-MIRROR_HF:   memescreamer/Qwen3-TTS-12Hz-1.7B-VoiceDesign
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Qwen3-TTS-12Hz-1.7B-VoiceDesign
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     QwenLM/Qwen3-TTS
 GH_SPDX:     'Apache-2.0'
 VERDICT:     ACK
@@ -186,9 +217,9 @@ PIN:         b928115acc44
 RECORDED:    Apache-2.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Qwen3-TTS-Tokenizer-12Hz
 VCS:         https://github.com/QwenLM/Qwen3-TTS
-MIRROR_HF:   memescreamer/Qwen3-TTS-Tokenizer-12Hz
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Qwen3-TTS-Tokenizer-12Hz
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     QwenLM/Qwen3-TTS
 GH_SPDX:     'Apache-2.0'
 VERDICT:     ACK
@@ -208,9 +239,9 @@ PIN:         b0494e0bb44e
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/VoiceConversionWebUI
 VCS:         https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI
-MIRROR_HF:   memescreamer/VoiceConversionWebUI
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/VoiceConversionWebUI
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     RVC-Project/Retrieval-based-Voice-Conversion-WebUI
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -221,9 +252,9 @@ PIN:         169031db493a
 RECORDED:    GPL-3.0
 HOMEPAGE:    https://huggingface.co/memescreamer/Seed-VC
 VCS:         https://github.com/Plachtaa/seed-vc
-MIRROR_HF:   memescreamer/Seed-VC
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/Seed-VC
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     Plachtaa/seed-vc
 GH_SPDX:     'GPL-3.0'
 VERDICT:     ACK
@@ -234,9 +265,9 @@ PIN:         fce938ed4d5c
 RECORDED:    MIT
 HOMEPAGE:    https://huggingface.co/memescreamer/whisper-small
 VCS:         https://github.com/openai/whisper
-MIRROR_HF:   memescreamer/whisper-small
-MIR_LICENSE: None
-MIR_VERDICT: UNKNOWN (HF cardData carries no license/license_name field)
+HF_REPO:     memescreamer/whisper-small
+HF_LICENSE:  None
+HF_VERDICT:  UNKNOWN (HF cardData carries no license/license_name field)
 GH_REPO:     openai/whisper
 GH_SPDX:     'MIT'
 VERDICT:     ACK
@@ -244,7 +275,6 @@ DETAIL:      github canonical LICENSE detected as 'MIT'
 ───────────────────────────────────────────────────────────────────────────
 
 SUMMARY
-  ACK: 15
+  ACK: 21
   MISMATCH: 0
   UNKNOWN: 0
-  CURATED: 6

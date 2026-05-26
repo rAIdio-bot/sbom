@@ -28,11 +28,10 @@ from typing import Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SBOM_PATH = REPO_ROOT / "sbom.json"
-CURATION_PATH = REPO_ROOT / "tools" / "sbom_drift_curation.json"
 REPORT_PATH = REPO_ROOT / "audit-report-weights.txt"
 
 HTTP_TIMEOUT_S = 30
-USER_AGENT = "rAIdio-bot-sbom-audit/0.2 (+https://github.com/rAIdio-bot/sbom)"
+USER_AGENT = "rAIdio-bot-sbom-audit/0.1 (+https://github.com/rAIdio-bot/sbom)"
 
 
 def get_property(component: dict, name: str) -> Optional[str]:
@@ -163,16 +162,8 @@ def classify(recorded: str, hf_license: Optional[str], hf_license_name: Optional
             + (f" / license_name={hf_license_name!r}" if hf_license_name else ""))
 
 
-def load_curation() -> dict:
-    if not CURATION_PATH.exists():
-        return {}
-    raw = json.loads(CURATION_PATH.read_text(encoding="utf-8"))
-    return {k: v for k, v in raw.items() if not k.startswith("_")}
-
-
 def main() -> int:
     sbom = json.loads(SBOM_PATH.read_text(encoding="utf-8"))
-    curation = load_curation()
 
     weights: list[dict] = []
     for c in sbom.get("components", []):
@@ -183,16 +174,14 @@ def main() -> int:
     lines: list[str] = []
     lines.append("rAIdio.bot SBOM — AI Model weights license audit")
     lines.append(f"Components audited: {len(weights)}")
-    lines.append("Method: per component, check (1) the upstream rights-holder's "
-                 "HF publisher repo at HEAD, (2) the HF mirror at our pinned SHA, "
-                 "(3) the github canonical LICENSE as a code-repo tiebreaker, "
-                 "(4) sbom_drift_curation.json for documented overrides. The "
-                 "rights-holder's own declaration controls for HF-only weight "
-                 "artefacts; the github canonical-LICENSE rule applies only when "
-                 "github actually hosts the artefact being licensed.")
+    lines.append("Method: HuggingFace API at the pinned revision SHA. "
+                 "Reports ACK / MISMATCH / UNKNOWN per component.")
+    lines.append("Upstream github LICENSE outweighs HF metadata in conflicts "
+                 "(per feedback_license_authority.md). UNKNOWN / MISMATCH "
+                 "items require manual triage.")
     lines.append("")
 
-    counts = {"ACK": 0, "MISMATCH": 0, "UNKNOWN": 0, "CURATED": 0}
+    counts = {"ACK": 0, "MISMATCH": 0, "UNKNOWN": 0}
 
     for c in weights:
         name = c.get("name", "?")
@@ -200,11 +189,8 @@ def main() -> int:
         recorded = recorded_license(c)
         homepage = get_homepage(c) or ""
         vcs = get_vcs(c) or ""
-        # mirror_repo_id is the HF mirror in homepage (our memescreamer mirror)
-        mirror_repo_id = hf_repo_id_from_url(homepage)
-        # upstream_hf_repo_id is the rights-holder's own HF (from vcs if HF, else None)
-        upstream_hf_repo_id = hf_repo_id_from_url(vcs)
-        # github fallback if vcs (or homepage) is a github URL
+        hf_repo_id = hf_repo_id_from_url(homepage)
+        # vcs ref preferred for github; fall back to homepage if homepage is github
         gh_repo_id = github_repo_id_from_url(vcs) or github_repo_id_from_url(homepage)
 
         lines.append("─" * 75)
@@ -215,48 +201,23 @@ def main() -> int:
         if vcs:
             lines.append(f"VCS:         {vcs}")
 
-        # 1. Documented curation override
-        curation_key = f"{name}@{version}"
-        if curation_key in curation:
-            rationale = curation[curation_key].get("rationale", "(no rationale recorded)")
-            counts["CURATED"] += 1
-            lines.append(f"VERDICT:     CURATED")
-            lines.append(f"DETAIL:      sbom_drift_curation.json: {rationale[:200]}"
-                         + ("..." if len(rationale) > 200 else ""))
-            continue
-
         verdict: Optional[str] = None
         detail: Optional[str] = None
 
-        # 2. Upstream rights-holder's HF publisher (HEAD) — most authoritative for HF-only weights
-        if upstream_hf_repo_id:
-            up_meta = fetch_hf_metadata(upstream_hf_repo_id, "main")
-            up_lic, up_lic_name = hf_declared_license(up_meta) if up_meta else (None, None)
-            lines.append(f"UPSTREAM_HF: {upstream_hf_repo_id}")
-            lines.append(f"UP_LICENSE:  {up_lic!r}")
-            if up_lic and not (up_meta or {}).get("_error"):
-                n_recorded = normalise_for_compare(recorded)
-                n_up = normalise_for_compare(up_lic)
-                if n_recorded == n_up:
-                    verdict, detail = "ACK", f"upstream HF publisher declares {up_lic!r}"
-                else:
-                    verdict, detail = "MISMATCH", (
-                        f"recorded={recorded!r} vs upstream HF publisher declares {up_lic!r}"
-                    )
-
-        # 3. HF mirror at pinned SHA
-        if verdict is None and mirror_repo_id:
-            mir_meta = fetch_hf_metadata(mirror_repo_id, version)
-            mir_lic, mir_lic_name = hf_declared_license(mir_meta) if mir_meta else (None, None)
-            lines.append(f"MIRROR_HF:   {mirror_repo_id}")
-            lines.append(f"MIR_LICENSE: {mir_lic!r}")
-            mir_verdict, mir_detail = classify(recorded, mir_lic, mir_lic_name, mir_meta)
-            if mir_verdict == "ACK":
-                verdict, detail = mir_verdict, f"HF mirror declares {mir_lic!r}"
+        if hf_repo_id:
+            meta = fetch_hf_metadata(hf_repo_id, version)
+            hf_lic, hf_lic_name = hf_declared_license(meta) if meta else (None, None)
+            lines.append(f"HF_REPO:     {hf_repo_id}")
+            lines.append(f"HF_LICENSE:  {hf_lic!r}")
+            if hf_lic_name:
+                lines.append(f"HF_LIC_NAME: {hf_lic_name!r}")
+            hf_verdict, hf_detail = classify(recorded, hf_lic, hf_lic_name, meta)
+            # ACK on HF is sufficient. UNKNOWN or MISMATCH → fall through to github.
+            if hf_verdict == "ACK":
+                verdict, detail = hf_verdict, hf_detail
             else:
-                lines.append(f"MIR_VERDICT: {mir_verdict} ({mir_detail})")
+                lines.append(f"HF_VERDICT:  {hf_verdict} ({hf_detail})")
 
-        # 4. github canonical LICENSE — only applies if github hosts the artefact (code repos)
         if verdict is None and gh_repo_id:
             gh_meta = fetch_github_license(gh_repo_id)
             gh_spdx = github_declared_license(gh_meta)
@@ -277,7 +238,7 @@ def main() -> int:
                     )
 
         if verdict is None:
-            verdict, detail = "UNKNOWN", "no upstream HF, no mirror metadata, no usable github ref"
+            verdict, detail = "UNKNOWN", "no HF mirror metadata and no usable upstream github ref"
 
         counts[verdict] += 1
         lines.append(f"VERDICT:     {verdict}")
@@ -286,7 +247,7 @@ def main() -> int:
     lines.append("─" * 75)
     lines.append("")
     lines.append("SUMMARY")
-    for k in ("ACK", "MISMATCH", "UNKNOWN", "CURATED"):
+    for k in ("ACK", "MISMATCH", "UNKNOWN"):
         lines.append(f"  {k}: {counts[k]}")
 
     report = "\n".join(lines) + "\n"
