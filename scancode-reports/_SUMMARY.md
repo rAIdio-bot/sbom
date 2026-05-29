@@ -4,9 +4,9 @@ First ScanCode integration pass. Scans the 13 packages in
 `rAIdio-nodes` (the 11 GPL-3.0 patches + 2 Apache-2.0 utility
 packages) for source-header license declarations.
 
-Per Till Jaeger's 2026-05-27 §1 guidance: "there are usually false
-positives. I recommend to look manually into unexpected findings
-(e.g. copyleft licenses in a project under a permissive license)."
+Per standard ScanCode-triage practice: "there are usually false
+positives — look manually into unexpected findings (e.g. copyleft
+licenses in a project under a permissive license)."
 
 | Package | Declared | Files | Conflicts | No-license |
 |---------|----------|-------|-----------|------------|

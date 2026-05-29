@@ -1,7 +1,7 @@
 rAIdio.bot SBOM enrichment — license drift report
 ================================================================
 
-WHAT THIS FILE IS (Till Jaeger Q4 follow-up, 2026-05-22).
+WHAT THIS FILE IS (per FOSS-compliance review feedback, 2026-05-22).
 
 drift-report.txt is a TRANSPARENCY LOG, not a missing-components
 list. Presence in this report does NOT mean a component is missing

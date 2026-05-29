@@ -1,12 +1,11 @@
 """ScanCode-based source-header license scan for SBOM components.
 
-Per Till Jaeger's 2026-05-27 §1 guidance: tooling that only reads
-LICENSE files (and SPDX/PyPI heuristics) misses license declarations
-embedded in file headers. ScanCode addresses that by walking the
-source tree and scanning every file. Till specifically noted: "there
-are usually false positives. I recommend to look manually into
-unexpected findings (e.g. copyleft licenses in a project under a
-permissive license)."
+Tooling that only reads LICENSE files (and SPDX/PyPI heuristics)
+misses license declarations embedded in file headers. ScanCode
+addresses that by walking the source tree and scanning every file.
+Standard triage practice: "there are usually false positives — look
+manually into unexpected findings (e.g. copyleft licenses in a
+project under a permissive license)."
 
 This wrapper:
   1. Takes a target directory to scan (one component's source tree).
@@ -143,10 +142,10 @@ def write_component_report(component_name: str, target: Path, declared: str | No
     if summary["conflicts"]:
         lines.append(f"## ⚠️  Conflicts with declared license ({len(summary['conflicts'])})")
         lines.append("")
-        lines.append("Per Till Jaeger's guidance: \"look manually into unexpected")
-        lines.append("findings (e.g. copyleft licenses in a project under a permissive")
-        lines.append("license).\" Each conflict below merits manual review before being")
-        lines.append("classified as false positive or genuine drift.")
+        lines.append("Per standard ScanCode-triage practice: look manually into")
+        lines.append("unexpected findings (e.g. copyleft licenses in a project under")
+        lines.append("a permissive license). Each conflict below merits manual")
+        lines.append("review before being classified as false positive or genuine drift.")
         lines.append("")
         lines.append("| File | Detected SPDX | Top score |")
         lines.append("|------|---------------|-----------|")

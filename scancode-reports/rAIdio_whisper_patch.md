@@ -11,9 +11,9 @@
 
 ## ⚠️  Conflicts with declared license (2)
 
-Per Till Jaeger's guidance: "look manually into unexpected
+Per standard ScanCode-triage practice: look manually into unexpected
 findings (e.g. copyleft licenses in a project under a permissive
-license)." Each conflict below merits manual review before being
+license). Each conflict below merits manual review before being
 classified as false positive or genuine drift.
 
 | File | Detected SPDX | Top score |

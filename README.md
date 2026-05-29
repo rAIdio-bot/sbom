@@ -17,7 +17,7 @@ For per-component **verbatim license texts and copyright notices** (what an OSPO
 - **[`enrich-report.txt`](enrich-report.txt)** — processing summary for the most recent enrichment run: counts by status, per-component failures, source-tag distribution.
 - **[`drift-report.txt`](drift-report.txt)** — queue of components where the declared SPDX license disagrees with what the source LICENSE file actually says. Each entry needs a human-audit decision. While non-empty, the `steam/push.ps1` pipeline refuses to ship the next release.
 
-**Methodology (per-category — precision matters here, see Till Jaeger Q3 follow-up 2026-05-22):** [`tools/sbom_enrich.py`](tools/sbom_enrich.py) (mirrored here for public auditability; the source-of-truth copy runs from the build pipeline) resolves each component's source to one of several fetch plans depending on its `raidio:category`. Stdlib-only Python; no external dependencies; deterministic and reproducible.
+**Methodology (per-category — precision matters here, per FOSS-compliance review feedback 2026-05-22):** [`tools/sbom_enrich.py`](tools/sbom_enrich.py) (mirrored here for public auditability; the source-of-truth copy runs from the build pipeline) resolves each component's source to one of several fetch plans depending on its `raidio:category`. Stdlib-only Python; no external dependencies; deterministic and reproducible.
 
 | Category | Source resolution | What we extract |
 |---|---|---|
