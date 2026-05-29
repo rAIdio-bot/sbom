@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# ScanCode raw JSON output (~200MB total). Regenerate via
+# scancode-fullpass/_run_all.sh; the meaningful artefacts are
+# deviations.md (mechanical diff vs sbom.json) and
+# scancode-fullpass-summary.md (human-triaged report).
+scancode-fullpass/

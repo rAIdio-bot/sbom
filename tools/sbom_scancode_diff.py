@@ -2,7 +2,7 @@
 
 Reads JSON files produced by scancode-fullpass/_run_all.sh and produces
 deviations.md — a per-component diff between the ScanCode-detected
-license and the SBOM-declared license, with Till Jaeger's known
+license and the SBOM-declared license, with standard ScanCode-triage
 false-positive patterns filtered out.
 
 False-positive filters applied:
@@ -353,8 +353,8 @@ def main() -> int:
                  "(Rust crates, NPM packages, Python deps, ComfyUI nodes, "
                  "embedded-Python overrides). Detected per-component dominant "
                  "license expression compared against the SBOM-declared license. "
-                 "Known-false-positive patterns from Till Jaeger's 2026-05-27 "
-                 "guidance are filtered automatically (GPL appendix \"or any later "
+                 "Known-false-positive patterns are filtered automatically "
+                 "(GPL appendix \"or any later "
                  "version\" recommendation; phantom commercial-OR disjuncts; "
                  "trivially-redundant AND-conjunctions).")
     lines.append("")

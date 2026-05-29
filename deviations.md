@@ -1,6 +1,6 @@
 # ScanCode full-pass deviations report
 
-Full ScanCode v32.5.0 scan over every shipped component bucket (Rust crates, NPM packages, Python deps, ComfyUI nodes, embedded-Python overrides). Detected per-component dominant license expression compared against the SBOM-declared license. Known-false-positive patterns from Till Jaeger's 2026-05-27 guidance are filtered automatically (GPL appendix "or any later version" recommendation; phantom commercial-OR disjuncts; trivially-redundant AND-conjunctions).
+Full ScanCode v32.5.0 scan over every shipped component bucket (Rust crates, NPM packages, Python deps, ComfyUI nodes, embedded-Python overrides). Detected per-component dominant license expression compared against the SBOM-declared license. Known-false-positive patterns are filtered automatically (GPL appendix "or any later version" recommendation; phantom commercial-OR disjuncts; trivially-redundant AND-conjunctions).
 
 ## Summary
 

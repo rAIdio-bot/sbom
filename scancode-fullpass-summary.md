@@ -4,9 +4,8 @@ ScanCode v32.5.0 was run against every shipped component bucket on
 2026-05-29 (3 h 54 min wall-clock). Raw per-component output in
 `scancode-fullpass/*.json`; mechanical diff vs `sbom.json` in
 `deviations.md`; this file explains each remaining MISMATCH and
-applies Till Jaeger's 2026-05-27 §1 guidance ("there are usually
-false positives. I recommend to look manually into unexpected
-findings").
+applies standard ScanCode-triage practice ("there are usually
+false positives — look manually into unexpected findings").
 
 ## Aggregate result
 
