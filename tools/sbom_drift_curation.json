@@ -13,5 +13,9 @@
   },
   "CAMPPlus Speaker Embedder@18652420ac91": {
     "rationale": "Mirror-our-source principle: memescreamer/campplus documents its upstream as funasr/campplus. The funasr/campplus HF model card declares license=apache-2.0. The github FunASR framework repo (modelscope/FunASR) is MIT — but that governs the framework code, not the speaker-embedder weights distributed at funasr/campplus. SBOM records Apache-2.0 to match what our source declared. (Note: the upstream-of-upstream is Alibaba's ModelScope iic/speech_campplus_sv_zh-cn_16k-common, which is gated behind ModelScope login (HTTP 401) and not reachable via the HF API; we cannot independently verify their declaration. funasr/campplus is the closest verifiable source, and it agrees with Apache-2.0.) Verified via HF API 2026-05-26."
+  },
+
+  "comfyui-frontend-package@1.38.14": {
+    "rationale": "Conservative-declaration override (same pattern as SeedVC-ComfyUI@0f6481215b64). The pip package `comfyui-frontend-package` is itself published as MIT on PyPI (LICENSE-free dist-info; PyPI metadata says MIT). However the bundled Vue/Vite frontend it ships IS the ComfyUI web UI, which forms part of ComfyUI's GPL-3.0 application surface. When the frontend bundle ships inside our ComfyUI Backend depot alongside ComfyUI core (GPL-3.0) and is loaded by the GPL-3.0 ComfyUI process, the redistributed combined work is effectively GPL-3.0 under copyleft inheritance. The SBOM declares GPL-3.0 as the more-conservative legally-correct choice. ScanCode reports MIT (correct for the package as published in isolation); the drift is intentional. Verified via direct file inspection 2026-05-29."
   }
 }
