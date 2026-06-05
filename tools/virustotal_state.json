@@ -2,7 +2,7 @@
   "RC-1-Gold-0.22/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:52Z",
+    "last_polled": "2026-06-05T10:53:54Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -22,7 +22,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 53,
-    "last_polled": "2026-06-04T10:43:52Z",
+    "last_polled": "2026-06-05T10:53:54Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -44,7 +44,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 3,
-    "last_polled": "2026-06-04T10:43:52Z",
+    "last_polled": "2026-06-05T10:53:55Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -64,7 +64,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 54,
-    "last_polled": "2026-06-04T10:43:53Z",
+    "last_polled": "2026-06-05T10:53:55Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -83,7 +83,7 @@
   "RC-1-Gold-0.23/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:53Z",
+    "last_polled": "2026-06-05T10:53:55Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -103,7 +103,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 55,
-    "last_polled": "2026-06-04T10:43:53Z",
+    "last_polled": "2026-06-05T10:53:56Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -125,7 +125,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 7,
-    "last_polled": "2026-06-04T10:43:53Z",
+    "last_polled": "2026-06-05T10:53:56Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 3,
@@ -145,7 +145,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 56,
-    "last_polled": "2026-06-04T10:43:54Z",
+    "last_polled": "2026-06-05T10:53:56Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -164,7 +164,7 @@
   "RC-1-Gold-0.24/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:54Z",
+    "last_polled": "2026-06-05T10:53:57Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -184,7 +184,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 57,
-    "last_polled": "2026-06-04T10:43:54Z",
+    "last_polled": "2026-06-05T10:53:57Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -206,7 +206,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 11,
-    "last_polled": "2026-06-04T10:43:54Z",
+    "last_polled": "2026-06-05T10:53:57Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 11,
@@ -226,7 +226,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 58,
-    "last_polled": "2026-06-04T10:43:55Z",
+    "last_polled": "2026-06-05T10:53:58Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -245,7 +245,7 @@
   "RC-1-Gold-0.25/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:55Z",
+    "last_polled": "2026-06-05T10:53:58Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -265,7 +265,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 59,
-    "last_polled": "2026-06-04T10:43:55Z",
+    "last_polled": "2026-06-05T10:53:58Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -287,7 +287,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 15,
-    "last_polled": "2026-06-04T10:43:55Z",
+    "last_polled": "2026-06-05T10:53:58Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -307,7 +307,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 60,
-    "last_polled": "2026-06-04T10:43:55Z",
+    "last_polled": "2026-06-05T10:53:59Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -326,7 +326,7 @@
   "RC-1-Gold-0.26/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:56Z",
+    "last_polled": "2026-06-05T10:53:59Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -346,7 +346,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 61,
-    "last_polled": "2026-06-04T10:43:56Z",
+    "last_polled": "2026-06-05T10:53:59Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -368,7 +368,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 19,
-    "last_polled": "2026-06-04T10:43:56Z",
+    "last_polled": "2026-06-05T10:53:59Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 2,
@@ -388,7 +388,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 62,
-    "last_polled": "2026-06-04T10:43:57Z",
+    "last_polled": "2026-06-05T10:53:59Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -407,7 +407,7 @@
   "RC-1-Gold-0.27/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:58Z",
+    "last_polled": "2026-06-05T10:54:01Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -427,7 +427,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 63,
-    "last_polled": "2026-06-04T10:43:58Z",
+    "last_polled": "2026-06-05T10:54:01Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -449,7 +449,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 23,
-    "last_polled": "2026-06-04T10:43:58Z",
+    "last_polled": "2026-06-05T10:54:01Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -469,7 +469,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 64,
-    "last_polled": "2026-06-04T10:43:58Z",
+    "last_polled": "2026-06-05T10:54:01Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -488,7 +488,7 @@
   "RC-1-Gold-0.28/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:58Z",
+    "last_polled": "2026-06-05T10:54:02Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -508,7 +508,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 65,
-    "last_polled": "2026-06-04T10:43:59Z",
+    "last_polled": "2026-06-05T10:54:02Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -530,7 +530,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 27,
-    "last_polled": "2026-06-04T10:43:59Z",
+    "last_polled": "2026-06-05T10:54:02Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 2,
@@ -550,7 +550,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 66,
-    "last_polled": "2026-06-04T10:43:59Z",
+    "last_polled": "2026-06-05T10:54:03Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -569,7 +569,7 @@
   "RC-1-Gold-0.30/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:43:59Z",
+    "last_polled": "2026-06-05T10:54:03Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -589,7 +589,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 67,
-    "last_polled": "2026-06-04T10:44:00Z",
+    "last_polled": "2026-06-05T10:54:03Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -611,7 +611,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 31,
-    "last_polled": "2026-06-04T10:44:00Z",
+    "last_polled": "2026-06-05T10:54:04Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -631,7 +631,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 68,
-    "last_polled": "2026-06-04T10:44:00Z",
+    "last_polled": "2026-06-05T10:54:04Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -650,7 +650,7 @@
   "RC-1-Gold-0.31/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:00Z",
+    "last_polled": "2026-06-05T10:54:04Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -670,7 +670,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 69,
-    "last_polled": "2026-06-04T10:44:01Z",
+    "last_polled": "2026-06-05T10:54:05Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -692,7 +692,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 35,
-    "last_polled": "2026-06-04T10:44:01Z",
+    "last_polled": "2026-06-05T10:54:05Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -712,7 +712,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 70,
-    "last_polled": "2026-06-04T10:44:01Z",
+    "last_polled": "2026-06-05T10:54:06Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -731,7 +731,7 @@
   "RC-1-Gold-0.32/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:01Z",
+    "last_polled": "2026-06-05T10:54:06Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -751,7 +751,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 71,
-    "last_polled": "2026-06-04T10:44:01Z",
+    "last_polled": "2026-06-05T10:54:06Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -773,7 +773,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 39,
-    "last_polled": "2026-06-04T10:44:01Z",
+    "last_polled": "2026-06-05T10:54:07Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 7,
@@ -793,7 +793,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 72,
-    "last_polled": "2026-06-04T10:44:02Z",
+    "last_polled": "2026-06-05T10:54:07Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -812,7 +812,7 @@
   "RC-1-Gold-0.33/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:02Z",
+    "last_polled": "2026-06-05T10:54:07Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -832,7 +832,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 73,
-    "last_polled": "2026-06-04T10:44:02Z",
+    "last_polled": "2026-06-05T10:54:07Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -861,7 +861,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 43,
-    "last_polled": "2026-06-04T10:44:02Z",
+    "last_polled": "2026-06-05T10:54:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 1,
@@ -881,7 +881,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 74,
-    "last_polled": "2026-06-04T10:44:02Z",
+    "last_polled": "2026-06-05T10:54:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -900,7 +900,7 @@
   "RC-1-Gold-0.34/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:03Z",
+    "last_polled": "2026-06-05T10:54:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -920,7 +920,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 75,
-    "last_polled": "2026-06-04T10:44:03Z",
+    "last_polled": "2026-06-05T10:54:08Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -949,7 +949,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 47,
-    "last_polled": "2026-06-04T10:44:03Z",
+    "last_polled": "2026-06-05T10:54:09Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -969,7 +969,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 76,
-    "last_polled": "2026-06-04T10:44:03Z",
+    "last_polled": "2026-06-05T10:54:09Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -988,7 +988,7 @@
   "RC-1-Gold-0.35/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:04Z",
+    "last_polled": "2026-06-05T10:54:09Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1008,7 +1008,7 @@
     "engines_flagged": [],
     "filename": "python.exe",
     "issue_number": 77,
-    "last_polled": "2026-06-04T10:44:04Z",
+    "last_polled": "2026-06-05T10:54:10Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1036,7 +1036,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 51,
-    "last_polled": "2026-06-04T10:44:04Z",
+    "last_polled": "2026-06-05T10:54:10Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 1,
@@ -1056,7 +1056,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 78,
-    "last_polled": "2026-06-04T10:44:04Z",
+    "last_polled": "2026-06-05T10:54:10Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1075,7 +1075,7 @@
   "RC-1-Gold-0.36/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:04Z",
+    "last_polled": "2026-06-05T10:54:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 1,
@@ -1094,7 +1094,7 @@
   "RC-1-Gold-0.36/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "last_polled": "2026-06-04T10:44:05Z",
+    "last_polled": "2026-06-05T10:54:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1116,7 +1116,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 79,
-    "last_polled": "2026-06-04T10:44:05Z",
+    "last_polled": "2026-06-05T10:54:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 1,
@@ -1136,7 +1136,7 @@
     "engines_flagged": [],
     "filename": "steam_api64.dll",
     "issue_number": 80,
-    "last_polled": "2026-06-04T10:44:05Z",
+    "last_polled": "2026-06-05T10:54:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1155,7 +1155,7 @@
   "RC-1-Gold-0.37/ffmpeg.exe": {
     "engines_flagged": [],
     "filename": "ffmpeg.exe",
-    "last_polled": "2026-06-04T10:44:05Z",
+    "last_polled": "2026-06-05T10:54:11Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 1,
@@ -1174,7 +1174,7 @@
   "RC-1-Gold-0.37/python.exe": {
     "engines_flagged": [],
     "filename": "python.exe",
-    "last_polled": "2026-06-04T10:44:06Z",
+    "last_polled": "2026-06-05T10:54:12Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1196,7 +1196,7 @@
     ],
     "filename": "raidio-bot.exe",
     "issue_number": 81,
-    "last_polled": "2026-06-04T10:44:06Z",
+    "last_polled": "2026-06-05T10:54:12Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 5,
@@ -1215,7 +1215,7 @@
   "RC-1-Gold-0.37/steam_api64.dll": {
     "engines_flagged": [],
     "filename": "steam_api64.dll",
-    "last_polled": "2026-06-04T10:44:06Z",
+    "last_polled": "2026-06-05T10:54:12Z",
     "last_seen_stats": {
       "confirmed-timeout": 0,
       "failure": 0,
@@ -1228,6 +1228,300 @@
     },
     "sha256": "e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65",
     "tag": "RC-1-Gold-0.37",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65"
+  },
+  "RC-1-Gold-0.38/ffmpeg.exe": {
+    "engines_flagged": [],
+    "filename": "ffmpeg.exe",
+    "last_polled": "2026-06-05T10:54:12Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 70
+    },
+    "sha256": "ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d",
+    "tag": "RC-1-Gold-0.38",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d"
+  },
+  "RC-1-Gold-0.38/python.exe": {
+    "engines_flagged": [],
+    "filename": "python.exe",
+    "last_polled": "2026-06-05T10:54:13Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+    "tag": "RC-1-Gold-0.38",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+  },
+  "RC-1-Gold-0.38/raidio-bot.exe": {
+    "engines_flagged": [
+      "Trapmine"
+    ],
+    "filename": "raidio-bot.exe",
+    "issue_number": 82,
+    "last_polled": "2026-06-05T10:54:13Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 1,
+      "suspicious": 0,
+      "timeout": 1,
+      "type-unsupported": 4,
+      "undetected": 68
+    },
+    "sha256": "21946d740f92c443cafdcdeeda390def585be52680d3d414cb2b61383b2664c0",
+    "tag": "RC-1-Gold-0.38",
+    "tier": "minor",
+    "vt_link": "https://www.virustotal.com/gui/file/21946d740f92c443cafdcdeeda390def585be52680d3d414cb2b61383b2664c0"
+  },
+  "RC-1-Gold-0.38/steam_api64.dll": {
+    "engines_flagged": [],
+    "filename": "steam_api64.dll",
+    "last_polled": "2026-06-05T10:54:13Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65",
+    "tag": "RC-1-Gold-0.38",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65"
+  },
+  "RC-1-Gold-0.39/ffmpeg.exe": {
+    "engines_flagged": [],
+    "filename": "ffmpeg.exe",
+    "last_polled": "2026-06-05T10:54:14Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 70
+    },
+    "sha256": "ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d",
+    "tag": "RC-1-Gold-0.39",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d"
+  },
+  "RC-1-Gold-0.39/python.exe": {
+    "engines_flagged": [],
+    "filename": "python.exe",
+    "last_polled": "2026-06-05T10:54:14Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+    "tag": "RC-1-Gold-0.39",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+  },
+  "RC-1-Gold-0.39/raidio-bot.exe": {
+    "engines_flagged": [
+      "Trapmine"
+    ],
+    "filename": "raidio-bot.exe",
+    "issue_number": 83,
+    "last_polled": "2026-06-05T10:54:14Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 1,
+      "suspicious": 0,
+      "timeout": 2,
+      "type-unsupported": 4,
+      "undetected": 67
+    },
+    "sha256": "c466bf547c02aa2549c7dd1a28101dcac9d6a8b88bb1d09eb827e0f6b0d2086b",
+    "tag": "RC-1-Gold-0.39",
+    "tier": "minor",
+    "vt_link": "https://www.virustotal.com/gui/file/c466bf547c02aa2549c7dd1a28101dcac9d6a8b88bb1d09eb827e0f6b0d2086b"
+  },
+  "RC-1-Gold-0.39/steam_api64.dll": {
+    "engines_flagged": [],
+    "filename": "steam_api64.dll",
+    "last_polled": "2026-06-05T10:54:14Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65",
+    "tag": "RC-1-Gold-0.39",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65"
+  },
+  "RC-1-Gold-0.40/ffmpeg.exe": {
+    "engines_flagged": [],
+    "filename": "ffmpeg.exe",
+    "last_polled": "2026-06-05T10:54:15Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 70
+    },
+    "sha256": "ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d",
+    "tag": "RC-1-Gold-0.40",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d"
+  },
+  "RC-1-Gold-0.40/python.exe": {
+    "engines_flagged": [],
+    "filename": "python.exe",
+    "last_polled": "2026-06-05T10:54:15Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+    "tag": "RC-1-Gold-0.40",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+  },
+  "RC-1-Gold-0.40/raidio-bot.exe": {
+    "engines_flagged": [
+      "Trapmine"
+    ],
+    "filename": "raidio-bot.exe",
+    "issue_number": 84,
+    "last_polled": "2026-06-05T10:54:15Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 1,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 69
+    },
+    "sha256": "e310737bd516c76333b0faa02ff6c1b6d0b1710226ebfe273ea62f037e04cc6b",
+    "tag": "RC-1-Gold-0.40",
+    "tier": "minor",
+    "vt_link": "https://www.virustotal.com/gui/file/e310737bd516c76333b0faa02ff6c1b6d0b1710226ebfe273ea62f037e04cc6b"
+  },
+  "RC-1-Gold-0.40/steam_api64.dll": {
+    "engines_flagged": [],
+    "filename": "steam_api64.dll",
+    "last_polled": "2026-06-05T10:54:15Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65",
+    "tag": "RC-1-Gold-0.40",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65"
+  },
+  "RC-1-Gold-0.41/ffmpeg.exe": {
+    "engines_flagged": [],
+    "filename": "ffmpeg.exe",
+    "last_polled": "2026-06-05T10:54:16Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 70
+    },
+    "sha256": "ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d",
+    "tag": "RC-1-Gold-0.41",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/ebe854b4149d1b26392e1701607b5428aada5cac83f5dcf362c4c3cfc2af211d"
+  },
+  "RC-1-Gold-0.41/python.exe": {
+    "engines_flagged": [],
+    "filename": "python.exe",
+    "last_polled": "2026-06-05T10:54:16Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a",
+    "tag": "RC-1-Gold-0.41",
+    "tier": "silent",
+    "vt_link": "https://www.virustotal.com/gui/file/4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+  },
+  "RC-1-Gold-0.41/steam_api64.dll": {
+    "engines_flagged": [],
+    "filename": "steam_api64.dll",
+    "last_polled": "2026-06-05T10:54:16Z",
+    "last_seen_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 0,
+      "type-unsupported": 4,
+      "undetected": 71
+    },
+    "sha256": "e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65",
+    "tag": "RC-1-Gold-0.41",
     "tier": "silent",
     "vt_link": "https://www.virustotal.com/gui/file/e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65"
   }
