@@ -34,10 +34,6 @@
         {
           "type": "documentation",
           "url": "https://github.com/rAIdio-bot/manual"
-        },
-        {
-          "type": "vcs",
-          "url": "https://github.com/neitzert/rAIdio-rust"
         }
       ]
     }

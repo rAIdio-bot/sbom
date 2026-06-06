@@ -168,4 +168,4 @@ drift detected by the scan. Every flagged mismatch is either:
 - a verified false positive (we read the source).
 
 This satisfies the "full rescan to ensure NOTICES.txt is correct"
-ask. Ready for Till's spot-check.
+ask. Ready for the reviewer's spot-check.

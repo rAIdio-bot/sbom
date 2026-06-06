@@ -7,7 +7,7 @@ Date: 2026-05-27
 - Loose .pyd at site-packages root: 5
 - Total .pyd files shipped: 752
 
-Per Till's 2026-05-27 §1 note: "In such cases (.pyd files) you
+Per the reviewer's 2026-05-27 §1 note: "In such cases (.pyd files) you
 should ensure that the corresponding source code is identified
 and scanned." This list feeds the ScanCode integration (Track C).
 

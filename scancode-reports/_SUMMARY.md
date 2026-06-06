@@ -29,7 +29,7 @@ licenses in a project under a permissive license)."
 ## Manual review of flagged conflicts
 
 **`rAIdio_whisper_patch`** flagged 2 conflicts. Both are textbook
-ScanCode false-positives, exactly the kind Till warned about:
+ScanCode false-positives, exactly the kind the reviewer warned about:
 
 - `LICENSE` detected as `GPL-3.0-only AND GPL-3.0-or-later`. The
   file is the canonical GPL-3.0 text. ScanCode picks up the
@@ -49,5 +49,5 @@ ScanCode false-positives, exactly the kind Till warned about:
 - Extend ScanCode coverage from the 13 rAIdio-nodes packages to the
   rest of the SBOM (Python deps + Rust crates), with priority on the
   58 packages in `native-binary-deps.md` (those ship .pyd files
-  whose source must be scanned per Till's §1 .pyd note).
+  whose source must be scanned per the reviewer's §1 .pyd note).
 - Per-component reports live under `scancode-reports/`.
