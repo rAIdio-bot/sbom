@@ -1,0 +1,15 @@
+{
+    "tag":  "RC-1-Gold-0.65",
+    "app_id":  "4600000",
+    "depot_id":  "4600001",
+    "raw_buildid":  "23630368",
+    "generated_at":  "2026-06-08T21:45:02Z",
+    "generator":  "steam/push.ps1",
+    "files":  [
+                  {
+                      "filename":  "raidio-bot.exe",
+                      "sha256":  "da66f07ab9c0479e218012efbeec376597822b15f09f79a75b26eecae6c67f93",
+                      "size":  43693568
+                  }
+              ]
+}

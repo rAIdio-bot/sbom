@@ -2,10 +2,10 @@
 
 Every Steam release submits the native binaries it ships to VirusTotal,
 captures the verdict per binary, and publishes the result alongside the
-SBOM. A daily GitHub Actions workflow on `rAIdio-bot/sbom` re-polls each
-(release, binary) pair so retro-flags (an AV vendor adding a heuristic
-next month and our shipped python.exe lighting up) are caught before
-users do.
+SBOM in this repo (`releases/<tag>/virustotal_<binary>.json`). The
+published results are re-checked over time, so a retro-flag — an AV
+vendor adding a heuristic next month and our shipped `python.exe`
+lighting up — is caught and can be pre-empted with a published note.
 
 ## Which binaries are scanned
 
@@ -24,8 +24,7 @@ What we do NOT submit:
   100,000 other PyTorch installs already confirmed.
 - **AI model weights** (`.safetensors`, `.pt`, `.ckpt`, `.pkl`) — VT's AV
   engines don't meaningfully analyse model files. The defense for this
-  layer is the safetensors-only loader + picklescan / fickling
-  (a separate Item 2 hardening track).
+  layer is the safetensors-only loader + picklescan / fickling.
 - **Python source files** — VT can't scan source meaningfully; tampering
   shows up as a hash mismatch against the pinned wheel.
 
@@ -39,26 +38,39 @@ with a published note.
 
 VT also detects real compromise. If a future release of ours gets
 flagged by Microsoft Defender or one of the major vendors, that is
-either a reproducible false positive we need to file with the vendor,
-or an actual problem that needs the binary pulled. Both deserve fast
-notice.
+either a reproducible false positive we file with the vendor, or an
+actual problem that needs the binary pulled. Both deserve fast notice.
 
-## How it works
+## Known false positives
 
-```
-[push.ps1 step 5]                  [GitHub Actions: daily cron]
-     |                                       |
-     v                                       v
-  POST /files  -> VT analyses          GET /files/{sha256}
-  GET /files/{sha256}                  diff vs virustotal_state.json
-  write virustotal.json                emit decisions.json
-                                       gh issue create / comment / escalate
-                                       commit state file
-```
+GPU-heavy, **unsigned**, freshly-compiled binaries with low prevalence routinely
+trip *machine-learning* AV heuristics — the engine guesses from the binary's
+novelty, not a signature match. We have seen, and assessed as false positives:
 
-### Per-release artefacts
+- **Microsoft `Trojan:Win32/Wacatac.B!ml`** on `raidio-bot.exe` (first seen
+  RC-1-Gold-0.65, 2026-06-08). The `!ml` suffix is a machine-learning verdict;
+  `Wacatac.B!ml` is the most common Defender false positive for new, unsigned,
+  low-prevalence software. **Local Windows Defender — real-time protection on,
+  current signatures — does not flag the binary**; the verdict comes only from
+  VirusTotal's more aggressive cloud-ML configuration.
+- **Trapmine `malicious.moderate.ml.score`** — an ML risk score, recurring.
+- **Kaspersky** heuristic (`HEUR…`) — historically, on earlier builds.
 
-One JSON per binary. `releases/<tag>/virustotal_<filename>.json`:
+How we distinguish these from a real detection: they are ML/heuristic (not
+signature), they appear on a brand-new build hash while the previous build's
+hash scanned clean, they are 2–3 engines out of ~70 (the rest undetected), and
+the on-machine Defender that users actually run does not quarantine the file. A
+genuine compromise would light up multiple signature engines, not a couple of ML
+guesses. (The 0.65 binary differed from 0.64 by a single frontend source file.)
+
+**Durable fix: Authenticode code-signing** (see [signing.md](signing.md)). A
+signed, reputation-bearing binary bypasses the prevalence heuristic and clears
+the vast majority of these `!ml` flags. Until signing ships, each new build hash
+re-rolls the ML and may be flagged transiently until prevalence accrues.
+
+## Per-release artefacts
+
+One JSON per binary, `releases/<tag>/virustotal_<filename>.json`:
 
 ```json
 {
@@ -72,85 +84,19 @@ One JSON per binary. `releases/<tag>/virustotal_<filename>.json`:
 }
 ```
 
-Example release listing:
-
-```
-releases/RC1-UAT1.16/
-  rAIdio.bot-RC1-UAT1.16.cdx.json
-  hashes.json
-  SHA256SUMS
-  virustotal_raidio-bot.exe.json
-  virustotal_steam_api64.dll.json
-  virustotal_python.exe.json
-  virustotal_ffmpeg.exe.json
-```
-
-The poll script tracks each (tag, filename) pair as a separate state
-entry and opens a separate GitHub issue per pair, so a Defender flag
-on `python.exe` doesn't conflate with a Trapmine flag on
-`raidio-bot.exe`.
-
-### Daily monitor
-
-`.github/workflows/virustotal_monitor.yml` in the sbom repo runs
-`tools/virustotal_poll.py` once a day. The poll script reads each
-`virustotal.json`, fetches the current state from VT, compares against
-`tools/virustotal_state.json`, and emits decisions consumed by the
-workflow's `gh issue` calls.
-
-## Alert tiers
-
-Tier logic lives in `tools/virustotal_poll.py:compute_tier`. From least
-to most severe:
-
-| Tier | Trigger | GitHub action | Email? |
-|------|---------|---------------|--------|
-| `silent` | Stats unchanged since last poll. | None — timestamp only. | No |
-| `baseline` | First scan after a release. | Issue created, label `vt-baseline`. | No |
-| `minor` | `malicious + suspicious` ticked up by 1. | Comment on the existing issue. | No |
-| `alert` | `malicious + suspicious` ≥ 3. | Escalate: label `vt-alert`, assign + @mention maintainer. | **Yes** |
-| `major` | ESET / Kaspersky / BitDefender / Sophos / F-Secure / FireEye / Avast / AVG flags. | Escalate: label `vt-major`, assign + @mention. | **Yes** |
-| `defender` | Microsoft Defender flags. | Escalate: label `vt-defender` + `priority/critical`, assign + @mention. | **Yes** |
-
-Defender is the highest-impact tier because ~90% of Windows users run
-it; a Defender flag means SmartScreen warnings and direct user impact.
-
-GitHub mails the maintainer on the email-emitting tiers via two
-independent mechanisms — assignee notification *and* `@mention` — so
-the alert lands even with aggressive notification filters.
-
-## Single-maintainer config
-
-The maintainer routing lives in `tools/virustotal_poll.py`:
-
-```python
-MAINTAINERS = ["neitzert"]   # GitHub usernames; will be assigned issues
-MENTION = "@neitzert"        # Literal string interpolated into issue bodies
-```
-
-To add a co-maintainer, append to both lists. No workflow YAML changes
-needed.
+Each (tag, binary) pair is recorded independently, so a Defender flag on
+`python.exe` doesn't conflate with a heuristic flag on `raidio-bot.exe`.
 
 ## Privacy disclosure
 
 **Uploading a file to VT shares it with VirusTotal enterprise
 customers** — security firms, AV vendors, and threat researchers. For
-rAIdio.bot specifically this is fine: the exe ships publicly via Steam
-to anyone who installs the game, so confidentiality is not lost by VT
-sharing it with security professionals.
+rAIdio.bot specifically this is fine: the binaries ship publicly via
+Steam to anyone who installs the app, so confidentiality is not lost by
+VT sharing them with security professionals.
 
 This concern would matter if we ever submitted artefacts that were
 **not** publicly distributed (internal builds, DRM-bound extracts,
-user-trained voices). The current pipeline submits only the public
-Steam-shipped exe; do not extend it to user data without re-evaluating
-this section.
-
-## Failure modes
-
-| Failure | Behaviour |
-|---------|-----------|
-| API key unset at submit time | The release proceeds without VT submission; the next daily poll picks up no new file but does not fail. |
-| VT API returns 5xx during submission | Submission is best-effort and never gates a release. The next daily poll retries via the cached hash. |
-| VT analysis times out | Submission is logged as incomplete; manual re-run available. |
-| Workflow secret missing | Workflow fails on the poll step with an explicit message; no issues are opened or missed. |
-| `@mention` not delivered | Assignee notification still fires; two-channel design assumes either path can fail. |
+user-trained voices). The pipeline submits only the public
+Steam-shipped binaries; do not extend it to user data without
+re-evaluating this section.
