@@ -3,13 +3,13 @@ rAIdio.bot SBOM enrichment — processing report
 ================================================================
 
 Counts by status:
-  enriched: 996
+  enriched: 998
 
 Skip math:
-  total_in_sbom: 996
-  processed: 996
+  total_in_sbom: 998
+  processed: 998
   skipped: 0
-  enriched: 996
+  enriched: 998
   failed: 0
 
 Per-component (non-success rows only):
@@ -18,9 +18,9 @@ Per-component (non-success rows only):
 Source-tag distribution (enriched components):
   concatenated-dual: 450
   longest-file: 38
-  matched: 389
-  spdx-canonical-fallback: 119
+  matched: 390
+  spdx-canonical-fallback: 120
 
 Evidence pass (file-level SPDX markers from cached tarballs):
-  components with evidence:   50 / 996 (5.0% of enriched)
+  components with evidence:   50 / 998 (5.0% of enriched)
   source files contributing:  2295
