@@ -1,17 +1,17 @@
 {
   "tag": "RC-1-Gold-0.70",
   "filename": "raidio-bot.exe",
-  "sha256": "5f5b8774aafb602c509dc30b1e3b85bf0dc06c024d0951d4761151c7d6cc3691",
-  "vt_link": "https://www.virustotal.com/gui/file/5f5b8774aafb602c509dc30b1e3b85bf0dc06c024d0951d4761151c7d6cc3691",
-  "fetched_at": "2026-06-09T16:32:47Z",
+  "sha256": "018780b8c435233e5a77be9b3e1558cbce58cee759bbac9a1997bf740dbffc7f",
+  "vt_link": "https://www.virustotal.com/gui/file/018780b8c435233e5a77be9b3e1558cbce58cee759bbac9a1997bf740dbffc7f",
+  "fetched_at": "2026-06-09T16:44:39Z",
   "last_analysis_stats": {
-    "malicious": 2,
+    "malicious": 1,
     "suspicious": 0,
     "undetected": 68,
     "harmless": 0,
     "timeout": 0,
     "confirmed-timeout": 0,
-    "failure": 1,
+    "failure": 2,
     "type-unsupported": 4
   },
   "last_analysis_results": {
@@ -47,10 +47,10 @@
       "category": "undetected",
       "result": null
     },
-    "CMC": {
+    "CTX": {
       "method": "blacklist",
-      "engine_name": "CMC",
-      "engine_version": "2.4.2022.1",
+      "engine_name": "CTX",
+      "engine_version": "2024.8.29.1",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -67,7 +67,7 @@
       "method": "blacklist",
       "engine_name": "Skyhigh",
       "engine_version": "v2021.2.0+4045",
-      "engine_update": "20260608",
+      "engine_update": "20260609",
       "category": "undetected",
       "result": null
     },
@@ -106,7 +106,7 @@
     "K7AntiVirus": {
       "method": "blacklist",
       "engine_name": "K7AntiVirus",
-      "engine_version": "14.57.59761",
+      "engine_version": "14.57.59764",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -122,7 +122,7 @@
     "K7GW": {
       "method": "blacklist",
       "engine_name": "K7GW",
-      "engine_version": "14.57.59760",
+      "engine_version": "14.57.59766",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -135,11 +135,19 @@
       "category": "undetected",
       "result": null
     },
+    "Arcabit": {
+      "method": "blacklist",
+      "engine_name": "Arcabit",
+      "engine_version": "2025.0.0.23",
+      "engine_update": "20260609",
+      "category": "undetected",
+      "result": null
+    },
     "VirIT": {
       "method": "blacklist",
       "engine_name": "VirIT",
-      "engine_version": "9.5.1223",
-      "engine_update": "20260608",
+      "engine_version": "9.5.1224",
+      "engine_update": "20260609",
       "category": "undetected",
       "result": null
     },
@@ -154,8 +162,8 @@
     "Elastic": {
       "method": "blacklist",
       "engine_name": "Elastic",
-      "engine_version": "4.0.264",
-      "engine_update": "20260603",
+      "engine_version": "4.0.265",
+      "engine_update": "20260609",
       "category": "undetected",
       "result": null
     },
@@ -191,10 +199,10 @@
       "category": "undetected",
       "result": null
     },
-    "ClamAV": {
+    "Cynet": {
       "method": "blacklist",
-      "engine_name": "ClamAV",
-      "engine_version": "1.5.2.0",
+      "engine_name": "Cynet",
+      "engine_version": "4.0.3.4",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -204,8 +212,8 @@
       "engine_name": "Kaspersky",
       "engine_version": "22.0.1.28",
       "engine_update": "20260609",
-      "category": "malicious",
-      "result": "HEUR:Backdoor.Python.Agent.gen"
+      "category": "undetected",
+      "result": null
     },
     "Alibaba": {
       "method": "blacklist",
@@ -295,10 +303,10 @@
       "category": "malicious",
       "result": "malicious.moderate.ml.score"
     },
-    "CTX": {
+    "CMC": {
       "method": "blacklist",
-      "engine_name": "CTX",
-      "engine_version": "2024.8.29.1",
+      "engine_name": "CMC",
+      "engine_version": "2.4.2022.1",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -311,18 +319,10 @@
       "category": "undetected",
       "result": null
     },
-    "SentinelOne": {
+    "huorong": {
       "method": "blacklist",
-      "engine_name": "SentinelOne",
-      "engine_version": "7.6.3.2",
-      "engine_update": "20260608",
-      "category": "undetected",
-      "result": null
-    },
-    "GData": {
-      "method": "blacklist",
-      "engine_name": "GData",
-      "engine_version": "GD:27.44848AVA:64.31386",
+      "engine_name": "huorong",
+      "engine_version": "29d3768:29d3768:4ff9544:4ff9544",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -343,10 +343,10 @@
       "category": "undetected",
       "result": null
     },
-    "Google": {
+    "Varist": {
       "method": "blacklist",
-      "engine_name": "Google",
-      "engine_version": "1781002884",
+      "engine_name": "Varist",
+      "engine_version": "6.6.1.3",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -355,14 +355,6 @@
       "method": "blacklist",
       "engine_name": "Avira",
       "engine_version": "8.3.3.24",
-      "engine_update": "20260609",
-      "category": "undetected",
-      "result": null
-    },
-    "Varist": {
-      "method": "blacklist",
-      "engine_name": "Varist",
-      "engine_version": "6.6.1.3",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -399,10 +391,10 @@
       "category": "undetected",
       "result": null
     },
-    "Arcabit": {
+    "Microsoft": {
       "method": "blacklist",
-      "engine_name": "Arcabit",
-      "engine_version": "2025.0.0.23",
+      "engine_name": "Microsoft",
+      "engine_version": "1.1.26050.11",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -423,18 +415,18 @@
       "category": "undetected",
       "result": null
     },
-    "Microsoft": {
+    "GData": {
       "method": "blacklist",
-      "engine_name": "Microsoft",
-      "engine_version": "1.1.26050.11",
+      "engine_name": "GData",
+      "engine_version": "GD:27.44849AVA:64.31387",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
     },
-    "Cynet": {
+    "Google": {
       "method": "blacklist",
-      "engine_name": "Cynet",
-      "engine_version": "4.0.3.4",
+      "engine_name": "Google",
+      "engine_version": "1781013689",
       "engine_update": "20260609",
       "category": "undetected",
       "result": null
@@ -491,7 +483,7 @@
       "method": "blacklist",
       "engine_name": "Panda",
       "engine_version": "4.6.4.2",
-      "engine_update": "20260608",
+      "engine_update": "20260609",
       "category": "undetected",
       "result": null
     },
@@ -523,15 +515,15 @@
       "method": "blacklist",
       "engine_name": "TrellixENS",
       "engine_version": "6.0.6.653",
-      "engine_update": "20260608",
+      "engine_update": "20260609",
       "category": "undetected",
       "result": null
     },
-    "huorong": {
+    "SentinelOne": {
       "method": "blacklist",
-      "engine_name": "huorong",
-      "engine_version": "6b75cae:6b75cae:28deb1a:28deb1a",
-      "engine_update": "20260609",
+      "engine_name": "SentinelOne",
+      "engine_version": "7.6.3.2",
+      "engine_update": "20260608",
       "category": "undetected",
       "result": null
     },
@@ -575,6 +567,14 @@
       "category": "undetected",
       "result": null
     },
+    "ClamAV": {
+      "method": "blacklist",
+      "engine_name": "ClamAV",
+      "engine_version": "1.5.2.0",
+      "engine_update": "20260609",
+      "category": "failure",
+      "result": null
+    },
     "Ikarus": {
       "method": "blacklist",
       "engine_name": "Ikarus",
@@ -583,10 +583,10 @@
       "category": "failure",
       "result": null
     },
-    "Trustlook": {
+    "Avast-Mobile": {
       "method": "blacklist",
-      "engine_name": "Trustlook",
-      "engine_version": "1.0",
+      "engine_name": "Avast-Mobile",
+      "engine_version": "260609-00",
       "engine_update": "20260609",
       "category": "type-unsupported",
       "result": null
@@ -607,10 +607,10 @@
       "category": "type-unsupported",
       "result": null
     },
-    "Avast-Mobile": {
+    "Trustlook": {
       "method": "blacklist",
-      "engine_name": "Avast-Mobile",
-      "engine_version": "260609-00",
+      "engine_name": "Trustlook",
+      "engine_version": "1.0",
       "engine_update": "20260609",
       "category": "type-unsupported",
       "result": null

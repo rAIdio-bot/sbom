@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:5a966808-41d1-45e7-864b-9978e0d13eb7",
+  "serialNumber": "urn:uuid:b109ceab-27ab-4a75-9016-2280e64a5788",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-06-09T16:28:54+00:00",
+    "timestamp": "2026-06-09T16:37:53+00:00",
     "tools": [
       {
         "vendor": "rAIdio.bot",

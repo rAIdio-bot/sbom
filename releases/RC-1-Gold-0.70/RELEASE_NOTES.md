@@ -6,9 +6,9 @@
 | Tag date       | 2026-06-09 |
 | Steam AppID    | 4600000 |
 | Depot          | 4600001 |
-| Raw BuildID    | 23645062 |
-| Shipped exe    | raidio-bot.exe (43639296 bytes) |
-| exe SHA-256    | 5f5b8774aafb602c509dc30b1e3b85bf0dc06c024d0951d4761151c7d6cc3691 |
+| Raw BuildID    | 23645214 |
+| Shipped exe    | raidio-bot.exe (43678208 bytes) |
+| exe SHA-256    | 018780b8c435233e5a77be9b3e1558cbce58cee759bbac9a1997bf740dbffc7f |
 | Components     | 1000 (unchanged from RC-1-Gold-0.69) |
 
 ## Artefacts in this directory
