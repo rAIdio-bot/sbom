@@ -1,0 +1,15 @@
+{
+    "tag":  "EA-1.001",
+    "app_id":  "4600000",
+    "depot_id":  "4600001",
+    "raw_buildid":  "23660570",
+    "generated_at":  "2026-06-10T12:09:55Z",
+    "generator":  "steam/push.ps1",
+    "files":  [
+                  {
+                      "filename":  "raidio-bot.exe",
+                      "sha256":  "e6ad5700bb3fd30e0aa3ba3899b93f53dc63cf606b683dbbec61a45cfb7072ac",
+                      "size":  43767808
+                  }
+              ]
+}

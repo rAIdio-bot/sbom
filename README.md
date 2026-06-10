@@ -49,7 +49,8 @@ reconstruction is available via the issue tracker.
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **RC-1-Gold-0.76** | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.76](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.76) | 1000 |
+| **EA-1.001** | CycloneDX 1.5 JSON | [releases/EA-1.001](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.001) | 1000 |
+| RC-1-Gold-0.76 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.76](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.76) | 1000 |
 | RC-1-Gold-0.75 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.75](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.75) | 1000 |
 | RC-1-Gold-0.74 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.74](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.74) | 1000 |
 | RC-1-Gold-0.73 | CycloneDX 1.5 JSON | [releases/RC-1-Gold-0.73](https://github.com/rAIdio-bot/sbom/tree/main/releases/RC-1-Gold-0.73) | 1000 |
