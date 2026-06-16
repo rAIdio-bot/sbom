@@ -49,7 +49,8 @@ reconstruction is available via the issue tracker.
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
-| **EA-1.005** | CycloneDX 1.5 JSON | [releases/EA-1.005](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.005) | 1011 |
+| **EA-1.006** | CycloneDX 1.5 JSON | [releases/EA-1.006](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.006) | 1011 |
+| EA-1.005 | CycloneDX 1.5 JSON | [releases/EA-1.005](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.005) | 1011 |
 | EA-1.004 | CycloneDX 1.5 JSON | [releases/EA-1.004](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.004) | 1010 |
 | EA-1.002 | CycloneDX 1.5 JSON | [releases/EA-1.002](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.002) | 1010 |
 | EA-1.001 | CycloneDX 1.5 JSON | [releases/EA-1.001](https://github.com/rAIdio-bot/sbom/tree/main/releases/EA-1.001) | 1000 |
