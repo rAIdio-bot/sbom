@@ -28,9 +28,9 @@ every component with its line number for quick lookup.
 
 ================================================================
 
-Total entries:                 8
+Total entries:                 10
   blocking:                    0  (push refuses to ship while > 0)
-  multi-license-expected:      8  (audit-trail only; push not blocked)
+  multi-license-expected:      10  (audit-trail only; push not blocked)
 
 license-file detector: fingerprints the LICENSE body content against
   canonical SPDX text. Strong evidence — always classified as blocking.
@@ -56,7 +56,7 @@ Audit workflow:
 While the blocking count is > 0, steam/push.ps1 refuses to push.
 ================================================================
 
---- multi-license-expected (8) ---
+--- multi-license-expected (10) ---
 
   grpcio 1.78.0  [kind=source-header]
     purl:     pkg:pypi/grpcio@1.78.0
@@ -82,6 +82,14 @@ While the blocking count is > 0, steam/push.ps1 refuses to push.
     rationale: multidict (aiohttp family) is Apache-2.0 per its root LICENSE file. The deep scan finds a 0BSD SPDX marker in 1 vendored utility source file. Package-level effective license is Apache-2.0; the 0BSD fragment is a more-permissive utility that can be combined into Apache-2.0 without changing the bundle's effective license.
     files with SPDX markers: 1
 
+  nix 0.29.0  [kind=source-header]
+    purl:     pkg:cargo/nix@0.29.0
+    declared: MIT
+    detected: gpl-2.0+
+    effective_license: MIT per nix Cargo.toml license field + LICENSE file
+    rationale: nix is MIT (its own Cargo.toml `license` + LICENSE). The single GPL-2.0+ SPDX marker is in test/test_kmod/hello_mod/hello.c — a 'hello world' Linux kernel-module source used only by nix's kmod test suite (kernel modules are GPL-2.0 by convention). It is a test-only fixture: NOT compiled into the nix rlib and NOT linked into any shipped rAIdio.bot binary. The crate's binding license for the compiled output is MIT. Detector stays active so a genuine LICENSE change still flags.
+    files with SPDX markers: 1
+
   numba 0.64.0  [kind=source-header]
     purl:     pkg:pypi/numba@0.64.0
     declared: BSD-3-Clause
@@ -104,6 +112,14 @@ While the blocking count is > 0, steam/push.ps1 refuses to push.
     detected: apache-2.0
     effective_license: MIT per upstream LICENSE at github.com/microsoft/onnxruntime
     rationale: Same as onnxruntime@1.24.3 — onnxruntime-gpu is the CUDA-enabled build of the same upstream source. MIT root LICENSE + Apache-2.0 vendored fragments.
+    files with SPDX markers: 7
+
+  onnxruntime-gpu 1.22.0  [kind=source-header]
+    purl:     pkg:pypi/onnxruntime-gpu@1.22.0
+    declared: MIT
+    detected: apache-2.0
+    effective_license: MIT per upstream LICENSE at github.com/microsoft/onnxruntime
+    rationale: Same as onnxruntime-gpu@1.19.0 / onnxruntime@1.24.3 — onnxruntime-gpu 1.22 is the CUDA-enabled build of the same upstream ONNX Runtime source (shipped isolated in python_embeded/wm-ort for the native SilentCipher watermark embedder). MIT root LICENSE + Apache-2.0 vendored fragments; the Apache-2.0 SPDX markers the deep scan finds are those vendored files. MIT is the binding license for the published wheel.
     files with SPDX markers: 7
 
   pillow 12.1.0  [kind=source-header]
