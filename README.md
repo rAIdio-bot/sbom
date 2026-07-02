@@ -1,6 +1,6 @@
 # rAIdio.bot — Software Bill of Materials
 
-Public, machine-readable SBOMs for [rAIdio.bot](https://store.steampowered.com/app/4600000) releases. Every release gets a CycloneDX 1.5 JSON covering every Rust crate, NPM package, Python dependency, ComfyUI custom node, AI model, and system tool shipped in the binary and its bundled backend.
+Public, machine-readable SBOMs for [rAIdio.bot](https://rAIdio.bot) releases. Every release gets a CycloneDX 1.5 JSON covering every Rust crate, NPM package, Python dependency, ComfyUI custom node, AI model, and system tool shipped in the binary and its bundled backend. Per-version SBOMs are archived under [`releases/`](releases/) (`releases/v0.1.9/rAIdio.bot-v0.1.9.cdx.json`), which the in-app **Settings → Licenses** view links to for the exact build you're running.
 
 ## Where to look for a specific component
 
