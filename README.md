@@ -6,7 +6,7 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://rAIdio.bot) releases. Ev
 
 `NOTICES.txt` has grown past 190,000 lines (~1,000+ components). To find any single component, use the **Table of Contents at the top of [`NOTICES.txt`](NOTICES.txt)** — every component is listed alphabetically with the line number where its block starts. For markdown reading, [`NOTICES.md`](NOTICES.md) opens with a clickable per-component TOC linking to anchor headings. Ad-hoc Ctrl-F in the GitHub raw viewer is brittle at this file size; the TOC is faster and reliable.
 
-For machine queries, [`sbom.json`](sbom.json) is the authoritative source — every component carries `purl`, `licenses`, embedded LICENSE text, and several `com.raidio.*` properties for filtering (`com.raidio.depot`, `com.raidio.runs-in`, `com.raidio.scan-coverage`, `com.raidio.embedded-in`).
+For machine queries, [`sbom.json`](sbom.json) is the authoritative source — every component carries `purl`, `licenses`, embedded LICENSE text, and several `com.raidio.*` properties for filtering (`com.raidio.ships-in` = `installer-exe`/`backend-bundle`/`xl-model`, `com.raidio.runs-in`, `com.raidio.scan-coverage`, `com.raidio.embedded-in`).
 
 ## Canonical files (FOSS compliance)
 
@@ -153,27 +153,25 @@ reconstruction is available via the issue tracker.
 
 ## Verify your install
 
-Every release from RC1-UAT1.13 onward publishes the sha256 of the
-shipped `raidio-bot.exe` here. Confirm the binary on your machine
-matches what was released:
+The rAIdio.bot installer and the installed `raidio-bot.exe` are
+Authenticode-signed by Creative Mayhem UG. Confirm the binary on your
+machine is genuine and untampered:
 
 ```powershell
-$tag = 'RC-1-Gold-0.2'   # change to your installed RC (see About dialog)
-$exe = Join-Path ${env:ProgramFiles(x86)} 'Steam\steamapps\common\rAIdio.bot\raidio-bot.exe'
-$local     = (Get-FileHash $exe -Algorithm SHA256).Hash.ToLower()
-$published = (Invoke-RestMethod "https://raw.githubusercontent.com/rAIdio-bot/sbom/main/releases/$tag/SHA256SUMS").Split(' ')[0]
-if ($local -eq $published) { 'OK — matches release' } else { "MISMATCH — local $local vs published $published" }
+$exe = Join-Path $env:ProgramFiles 'rAIdio.bot\raidio-bot.exe'   # adjust to your install dir
+$sig = Get-AuthenticodeSignature -LiteralPath $exe
+"$($sig.Status) - $($sig.SignerCertificate.Subject)"
+# Expect: Valid - CN=Creative Mayhem UG (haftungsbeschraenkt), O=Creative Mayhem UG, L=Berlin, C=DE
 ```
 
-If the values differ, the binary on disk is not the released build —
-either the install is corrupted, an update is in flight, or the binary
-has been replaced. Re-install from Steam or report at the security
-contact in [SECURITY.md][security-md] of the source repo.
+If the status is not `Valid`, or the signer is not Creative Mayhem UG,
+the binary is not a genuine release — re-download the current installer
+from the [releases page](https://github.com/rAIdio-bot/app/releases/latest)
+and reinstall, or report at the security contact in [SECURITY.md][security-md].
 
-A `MISMATCH` is **not** by itself proof of compromise — Steam
-sometimes reshuffles content depots and an old binary may linger after
-an update. Reproduce on a clean install before raising a security
-issue.
+Each per-version SBOM folder (`releases/v<version>/`) also carries a
+`SHA256SUMS` for the SBOM artefacts themselves, so you can confirm you are
+reading the SBOM that was published for your exact build.
 
 This is a hash-publication mechanism. It proves the file you have
 matches what we released; it does not prove we are who we say we are.
@@ -195,8 +193,8 @@ Both URLs are unauthenticated and permanent.
 - **Rust crates** linked into the Tauri binary — pinned by crate version from `cargo metadata`.
 - **NPM packages** bundled into the Svelte frontend — pinned by the resolved version in `package-lock.json`.
 - **Python dependencies** in the bundled ComfyUI backend we vendor (`torchcodec`, `opencv-python-headless`, `opencc-python-reimplemented`, …) — pinned to exact installed versions.
-- **ComfyUI core + custom nodes** — pinned to upstream release tag (ComfyUI itself) or the HEAD SHA of our [memescreamer](https://github.com/memescreamer) mirror that feeds the Steam content depot, or [rAIdio-bot/rAIdio-nodes](https://github.com/rAIdio-bot/rAIdio-nodes) for our own patches.
-- **AI models** distributed via the Steam content depot — pinned to HuggingFace revision SHA of the `memescreamer/*` HF mirror that carries the actual model files.
+- **ComfyUI core + custom nodes** — pinned to upstream release tag (ComfyUI itself) or the HEAD SHA of our [memescreamer](https://github.com/memescreamer) mirror that feeds the backend bundle, or [rAIdio-bot/rAIdio-nodes](https://github.com/rAIdio-bot/rAIdio-nodes) for our own patches.
+- **AI models** distributed in the backend bundle — pinned to HuggingFace revision SHA of the `memescreamer/*` HF mirror that carries the actual model files.
 - **System tools** (ffmpeg, …) — pinned to shipped executable version.
 
 Each component carries an SPDX license identifier, a package URL (purl), a homepage where available, and a `raidio:category` property indicating which of the six layers above it belongs to.
