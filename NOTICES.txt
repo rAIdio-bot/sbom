@@ -165,1042 +165,1042 @@ where the `COMPONENT:` header for that entry begins.
   comfyui-workflow-templates-media-other 0.3.121    line 33108
   comfyui-workflow-templates-media-video 0.3.49     line 33143
   ComfyUI_ACE-Step d4c2dc104a69                     line 33178
-  comfyui_memescreamer_memory_cleaner c700713       line 33264
-  concurrent-queue 2.5.0                            line 33292
-  confection 0.1.5                                  line 33536
-  config 0.14.1                                     line 33571
-  console_log 1.0.0                                 line 33812
-  const-hex 1.18.1                                  line 34052
-  const-oid 0.9.6                                   line 34271
+  comfyui_memescreamer_memory_cleaner c700713       line 33393
+  concurrent-queue 2.5.0                            line 33421
+  confection 0.1.5                                  line 33665
+  config 0.14.1                                     line 33700
+  console_log 1.0.0                                 line 33941
+  const-hex 1.18.1                                  line 34181
+  const-oid 0.9.6                                   line 34400
   ContentVec HuBERT (hubert_base.pt) b0494e0bb44e   line 7095
-  contourpy 1.3.3                                   line 34517
-  convert_case 0.4.0                                line 34560
-  cookie 0.18.1                                     line 34582
-  cookie-factory 0.3.3                              line 34833
-  core-foundation 0.10.1                            line 34855
-  core-foundation 0.9.4                             line 35104
-  core-foundation-sys 0.8.7                         line 35353
-  core-graphics 0.25.0                              line 35604
-  core-graphics-types 0.2.0                         line 35863
-  coreaudio-rs 0.14.0                               line 36110
-  coset 0.4.2                                       line 36356
-  cpal 0.17.3                                       line 36574
-  cpufeatures 0.2.17                                line 36789
+  contourpy 1.3.3                                   line 34646
+  convert_case 0.4.0                                line 34689
+  cookie 0.18.1                                     line 34711
+  cookie-factory 0.3.3                              line 34962
+  core-foundation 0.10.1                            line 34984
+  core-foundation 0.9.4                             line 35233
+  core-foundation-sys 0.8.7                         line 35482
+  core-graphics 0.25.0                              line 35733
+  core-graphics-types 0.2.0                         line 35992
+  coreaudio-rs 0.14.0                               line 36239
+  coset 0.4.2                                       line 36485
+  cpal 0.17.3                                       line 36703
+  cpufeatures 0.2.17                                line 36918
   CPython 3.12.10                                   line 1206
-  crc32fast 1.5.0                                   line 37035
-  crossbeam-channel 0.5.15                          line 37278
-  crossbeam-deque 0.8.6                             line 38126
-  crossbeam-epoch 0.9.18                            line 38374
-  crossbeam-utils 0.8.21                            line 38622
-  crunchy 0.2.4                                     line 38870
-  crypto-bigint 0.5.5                               line 38905
-  crypto-bigint 0.6.1                               line 39151
-  crypto-common 0.1.6                               line 39399
-  cssparser 0.29.6                                  line 39645
-  cssparser 0.36.0                                  line 40032
-  cssparser-macros 0.6.1                            line 40419
-  ctor 0.2.9                                        line 40806
-  ctr 0.9.2                                         line 41031
-  ctranslate2 4.7.1                                 line 41279
-  curve25519-dalek 4.1.3                            line 41301
-  curve25519-dalek-derive 0.1.1                     line 41392
-  cutlet 0.5.0                                      line 41636
-  cycler 0.12.1                                     line 41672
-  cymem 2.0.13                                      line 41712
-  Cython 3.2.4                                      line 41747
-  darling 0.20.11                                   line 41961
-  darling 0.21.3                                    line 41996
-  darling_core 0.20.11                              line 42031
-  darling_core 0.21.3                               line 42066
-  darling_macro 0.20.11                             line 42101
-  darling_macro 0.21.3                              line 42136
-  dasp_sample 0.11.0                                line 42171
-  data-encoding 2.10.0                              line 42193
-  dbus 0.9.11                                       line 42230
-  dbus-secret-service 4.1.0                         line 42471
-  decorator 5.2.1                                   line 42718
-  delegate 0.8.0                                    line 42759
-  demucs 4.0.1                                      line 42781
+  crc32fast 1.5.0                                   line 37164
+  crossbeam-channel 0.5.15                          line 37407
+  crossbeam-deque 0.8.6                             line 38255
+  crossbeam-epoch 0.9.18                            line 38503
+  crossbeam-utils 0.8.21                            line 38751
+  crunchy 0.2.4                                     line 38999
+  crypto-bigint 0.5.5                               line 39034
+  crypto-bigint 0.6.1                               line 39280
+  crypto-common 0.1.6                               line 39528
+  cssparser 0.29.6                                  line 39774
+  cssparser 0.36.0                                  line 40161
+  cssparser-macros 0.6.1                            line 40548
+  ctor 0.2.9                                        line 40935
+  ctr 0.9.2                                         line 41160
+  ctranslate2 4.7.1                                 line 41408
+  curve25519-dalek 4.1.3                            line 41430
+  curve25519-dalek-derive 0.1.1                     line 41521
+  cutlet 0.5.0                                      line 41765
+  cycler 0.12.1                                     line 41801
+  cymem 2.0.13                                      line 41841
+  Cython 3.2.4                                      line 41876
+  darling 0.20.11                                   line 42090
+  darling 0.21.3                                    line 42125
+  darling_core 0.20.11                              line 42160
+  darling_core 0.21.3                               line 42195
+  darling_macro 0.20.11                             line 42230
+  darling_macro 0.21.3                              line 42265
+  dasp_sample 0.11.0                                line 42300
+  data-encoding 2.10.0                              line 42322
+  dbus 0.9.11                                       line 42359
+  dbus-secret-service 4.1.0                         line 42600
+  decorator 5.2.1                                   line 42847
+  delegate 0.8.0                                    line 42888
+  demucs 4.0.1                                      line 42910
   Demucs htdemucs_6s 2fd1cf07cafc                   line 7130
   Demucs htdemucs_ft 2fd1cf07cafc                   line 7164
-  der 0.7.10                                        line 42815
-  der-parser 10.0.0                                 line 43062
-  der_derive 0.7.3                                  line 43308
-  deranged 0.5.8                                    line 43554
-  derive-new 0.5.9                                  line 43796
-  derive_arbitrary 1.4.2                            line 43831
-  derive_more 0.99.20                               line 44079
-  derive_more 2.1.1                                 line 44114
-  derive_more-impl 2.1.1                            line 44149
-  des 0.8.1                                         line 44184
-  descript-audio-codec 1.0.0                        line 44431
-  descript-audiotools 0.7.2                         line 44466
-  diffusers 0.37.0                                  line 44488
-  digest 0.10.7                                     line 44753
-  dirs 5.0.1                                        line 44999
-  dirs 6.0.0                                        line 45212
-  dirs-sys 0.4.1                                    line 45425
-  dirs-sys 0.5.0                                    line 45638
-  dispatch2 0.3.1                                   line 45851
-  displaydoc 0.2.5                                  line 45876
-  dlopen2 0.8.2                                     line 46120
-  dlopen2_derive 0.4.3                              line 46142
-  docopt 0.6.2                                      line 46164
-  docstring_parser 0.17.0                           line 46198
-  dom_query 0.27.0                                  line 46233
-  dora_search 0.1.12                                line 46273
-  downcast-rs 1.2.1                                 line 46307
-  dpi 0.1.2                                         line 46553
-  dtoa 1.0.11                                       line 46831
-  dtoa-short 0.3.5                                  line 47050
-  dunce 1.0.5                                       line 47437
-  dyn-clone 1.0.20                                  line 47572
-  dyn-hash 0.2.2                                    line 47791
-  ecdsa 0.16.9                                      line 48010
-  ed25519 2.2.3                                     line 48257
-  ed25519-dalek 2.2.0                               line 48504
-  einops 0.8.2                                      line 48548
-  either 1.15.0                                     line 48583
-  elliptic-curve 0.13.8                             line 48829
-  elliptic-curve-tools 0.2.0                        line 49075
-  embed_plist 1.2.2                                 line 49319
-  encoding_rs 0.8.35                                line 49562
-  endi 1.1.1                                        line 49860
-  enumflags2 0.7.12                                 line 49897
-  enumflags2_derive 0.7.12                          line 50011
-  env_filter 1.0.0                                  line 50124
-  env_logger 0.11.9                                 line 50365
-  equivalent 1.0.2                                  line 50606
-  erased-serde 0.4.10                               line 50852
-  errno 0.3.14                                      line 51071
-  event-listener 5.4.1                              line 51319
-  event-listener-strategy 0.5.4                     line 51563
-  executing 2.2.1                                   line 51807
-  extended 0.1.0                                    line 51843
-  extfmt 0.2.0                                      line 51876
-  faiss-cpu 1.13.2                                  line 51956
-  fastapi 0.135.1                                   line 52009
-  faster-whisper 1.2.1                              line 52044
-  fastrand 2.3.0                                    line 52079
-  fdeflate 0.3.7                                    line 52323
-  ff 0.13.1                                         line 52545
+  der 0.7.10                                        line 42944
+  der-parser 10.0.0                                 line 43191
+  der_derive 0.7.3                                  line 43437
+  deranged 0.5.8                                    line 43683
+  derive-new 0.5.9                                  line 43925
+  derive_arbitrary 1.4.2                            line 43960
+  derive_more 0.99.20                               line 44208
+  derive_more 2.1.1                                 line 44243
+  derive_more-impl 2.1.1                            line 44278
+  des 0.8.1                                         line 44313
+  descript-audio-codec 1.0.0                        line 44560
+  descript-audiotools 0.7.2                         line 44595
+  diffusers 0.37.0                                  line 44617
+  digest 0.10.7                                     line 44882
+  dirs 5.0.1                                        line 45128
+  dirs 6.0.0                                        line 45341
+  dirs-sys 0.4.1                                    line 45554
+  dirs-sys 0.5.0                                    line 45767
+  dispatch2 0.3.1                                   line 45980
+  displaydoc 0.2.5                                  line 46005
+  dlopen2 0.8.2                                     line 46249
+  dlopen2_derive 0.4.3                              line 46271
+  docopt 0.6.2                                      line 46293
+  docstring_parser 0.17.0                           line 46327
+  dom_query 0.27.0                                  line 46362
+  dora_search 0.1.12                                line 46402
+  downcast-rs 1.2.1                                 line 46436
+  dpi 0.1.2                                         line 46682
+  dtoa 1.0.11                                       line 46960
+  dtoa-short 0.3.5                                  line 47179
+  dunce 1.0.5                                       line 47566
+  dyn-clone 1.0.20                                  line 47701
+  dyn-hash 0.2.2                                    line 47920
+  ecdsa 0.16.9                                      line 48139
+  ed25519 2.2.3                                     line 48386
+  ed25519-dalek 2.2.0                               line 48633
+  einops 0.8.2                                      line 48677
+  either 1.15.0                                     line 48712
+  elliptic-curve 0.13.8                             line 48958
+  elliptic-curve-tools 0.2.0                        line 49204
+  embed_plist 1.2.2                                 line 49448
+  encoding_rs 0.8.35                                line 49691
+  endi 1.1.1                                        line 49989
+  enumflags2 0.7.12                                 line 50026
+  enumflags2_derive 0.7.12                          line 50140
+  env_filter 1.0.0                                  line 50253
+  env_logger 0.11.9                                 line 50494
+  equivalent 1.0.2                                  line 50735
+  erased-serde 0.4.10                               line 50981
+  errno 0.3.14                                      line 51200
+  event-listener 5.4.1                              line 51448
+  event-listener-strategy 0.5.4                     line 51692
+  executing 2.2.1                                   line 51936
+  extended 0.1.0                                    line 51972
+  extfmt 0.2.0                                      line 52005
+  faiss-cpu 1.13.2                                  line 52085
+  fastapi 0.135.1                                   line 52138
+  faster-whisper 1.2.1                              line 52173
+  fastrand 2.3.0                                    line 52208
+  fdeflate 0.3.7                                    line 52452
+  ff 0.13.1                                         line 52674
   ffmpeg 7.1.1-raidio-audio                         line 2892
-  ffmpeg-python 0.2.0                               line 52788
-  ffmpy 1.0.0                                       line 52874
-  fiat-crypto 0.2.9                                 line 52896
-  field-offset 0.3.6                                line 52992
-  filelock 3.20.0                                   line 53209
-  filetime 0.2.29                                   line 53247
-  find-crate 0.6.3                                  line 53493
-  fire 0.7.1                                        line 53713
-  flagset 0.4.7                                     line 53744
-  flatbuffers 25.12.19                              line 53960
-  flate2 1.1.9                                      line 54050
-  flatten-dict 0.4.2                                line 54297
-  fluent 0.16.1                                     line 54332
-  fluent-bundle 0.15.3                              line 54572
-  fluent-langneg 0.13.1                             line 54812
-  fluent-syntax 0.11.1                              line 54898
-  fnv 1.0.7                                         line 55138
-  foldhash 0.1.5                                    line 55384
-  foldhash 0.2.0                                    line 55416
-  fonttools 4.62.1                                  line 55448
-  foreign-types 0.3.2                               line 55892
-  foreign-types 0.5.0                               line 56133
-  foreign-types-macros 0.2.3                        line 56374
-  foreign-types-shared 0.1.1                        line 56615
-  foreign-types-shared 0.3.1                        line 56856
-  form_urlencoded 1.2.2                             line 57097
-  frozenlist 1.8.0                                  line 57344
-  fsspec 2025.12.0                                  line 57559
-  fugashi 1.5.2                                     line 57602
-  funty 2.0.0                                       line 57674
-  futf 0.1.5                                        line 57709
-  future 1.0.0                                      line 57955
-  futures 0.3.32                                    line 58042
-  futures-channel 0.3.32                            line 58291
-  futures-core 0.3.32                               line 58541
-  futures-executor 0.3.32                           line 58790
-  futures-io 0.3.32                                 line 59039
-  futures-lite 2.6.1                                line 59288
-  futures-macro 0.3.32                              line 59582
-  futures-sink 0.3.32                               line 59831
-  futures-task 0.3.32                               line 60080
-  futures-util 0.3.32                               line 60329
-  fxhash 0.2.1                                      line 60578
-  gdk 0.18.2                                        line 60664
-  gdk-pixbuf 0.18.5                                 line 60714
-  gdk-pixbuf-sys 0.18.0                             line 60764
-  gdk-sys 0.18.2                                    line 60796
-  gdkwayland-sys 0.18.2                             line 60828
-  gdkx11 0.18.2                                     line 60860
-  gdkx11-sys 0.18.2                                 line 60910
-  generic-array 0.14.9                              line 60942
-  generic-array 1.4.2                               line 60976
-  getrandom 0.2.17                                  line 61010
-  getrandom 0.3.4                                   line 61258
-  getrandom 0.4.2                                   line 61506
-  ghash 0.5.1                                       line 61754
-  gio 0.18.4                                        line 62000
-  gio-sys 0.18.1                                    line 62050
-  glib 0.18.5                                       line 62082
-  glib-macros 0.18.5                                line 62132
-  glib-sys 0.18.1                                   line 62182
-  glob 0.3.3                                        line 62214
-  gobject-sys 0.18.0                                line 62462
-  greenlet 3.3.1                                    line 62494
-  group 0.13.0                                      line 62593
-  grpcio 1.78.0                                     line 62855
-  gtk 0.18.2                                        line 63557
-  gtk-sys 0.18.2                                    line 63607
-  gtk3-macros 0.18.2                                line 63639
-  h11 0.16.0                                        line 63689
-  h2 0.4.13                                         line 63728
-  half 2.7.1                                        line 63767
-  hangul-romanize 0.1.0                             line 63982
-  hash32 0.3.1                                      line 64022
-  hashbrown 0.12.3                                  line 64268
-  hashbrown 0.14.5                                  line 64514
-  hashbrown 0.15.5                                  line 64760
-  hashbrown 0.16.1                                  line 65006
-  heapless 0.8.0                                    line 65252
-  heck 0.4.1                                        line 65498
-  heck 0.5.0                                        line 65744
-  hermit-abi 0.5.2                                  line 65990
-  hex 0.4.3                                         line 66234
-  hex-literal 1.1.0                                 line 66478
-  hex_fmt 0.3.0                                     line 66726
-  hf-xet 1.2.0                                      line 66978
-  hkdf 0.12.4                                       line 67193
-  hmac 0.12.1                                       line 67440
-  hound 3.5.1                                       line 67686
-  html5ever 0.29.1                                  line 67904
-  html5ever 0.38.0                                  line 68151
-  http 1.4.0                                        line 68399
-  http-body 1.0.1                                   line 68646
-  http-body-util 0.1.3                              line 68685
-  http-range 0.1.5                                  line 68724
-  httparse 1.10.1                                   line 68759
-  httpcore 1.0.9                                    line 69000
-  httpx 0.28.1                                      line 69041
-  huggingface_hub 0.36.2                            line 69067
-  humanfriendly 10.0                                line 69289
-  hybrid-array 0.4.10                               line 69323
-  hyper 1.8.1                                       line 69569
-  hyper-connections 0.4.9                           line 69602
-  hyper-rustls 0.27.7                               line 69637
-  hyper-tls 0.6.0                                   line 69916
-  hyper-util 0.1.20                                 line 70157
-  i18n-config 0.4.8                                 line 70190
-  i18n-embed 0.15.4                                 line 70212
-  i18n-embed-fl 0.9.4                               line 70234
-  i18n-embed-impl 0.8.4                             line 70256
-  iana-time-zone 0.1.65                             line 70278
-  iana-time-zone-haiku 0.1.2                        line 70525
-  ico 0.5.0                                         line 70772
-  icu_collections 2.1.1                             line 70807
-  icu_locale_core 2.1.1                             line 70869
-  icu_normalizer 2.1.1                              line 70930
-  icu_normalizer_data 2.1.1                         line 70991
-  icu_properties 2.1.2                              line 71052
-  icu_properties_data 2.1.2                         line 71113
-  icu_provider 2.1.1                                line 71174
-  id-arena 2.3.0                                    line 71235
-  id3 1.16.4                                        line 71481
-  ident_case 1.0.1                                  line 71516
-  idna 1.1.0                                        line 71551
-  idna 3.11                                         line 71800
-  idna_adapter 1.2.1                                line 71845
-  img-parts 0.4.0                                   line 72091
-  importlib_metadata 8.7.1                          line 72333
-  importlib_resources 6.5.2                         line 72420
-  indexmap 1.9.3                                    line 72636
-  indexmap 2.13.0                                   line 72882
-  indoc 2.0.7                                       line 73128
-  infer 0.19.0                                      line 73347
-  inout 0.1.4                                       line 73382
-  intl-memoizer 0.5.3                               line 73630
-  intl_pluralrules 7.0.2                            line 73870
-  io_tee 0.1.1                                      line 73956
-  ipnet 2.12.0                                      line 73978
-  ipython 9.11.0                                    line 74206
-  ipython_pygments_lexers 1.1.1                     line 74734
-  iref 3.2.2                                        line 74778
-  iref-core 3.2.2                                   line 75022
-  iri-string 0.7.11                                 line 75044
-  is-docker 0.2.0                                   line 75291
-  is-wsl 0.4.0                                      line 75326
-  is_terminal_polyfill 1.70.2                       line 75362
-  itertools 0.10.5                                  line 75603
-  itertools 0.12.1                                  line 75849
-  itertools 0.13.0                                  line 76095
-  itoa 1.0.18                                       line 76341
-  jaconv 0.5.0                                      line 76560
-  javascriptcore-rs 1.1.2                           line 76595
-  javascriptcore-rs-sys 1.1.1                       line 76632
-  jedi 0.19.2                                       line 76668
-  jfifdump 0.6.0                                    line 76960
-  jiff 0.2.23                                       line 76982
-  jiff-static 0.2.23                                line 77019
-  Jinja2 3.1.6                                      line 77056
-  jni 0.21.1                                        line 77098
-  jni-sys 0.3.1                                     line 77340
-  jni-sys 0.4.1                                     line 77581
-  jni-sys-macros 0.4.1                              line 77822
-  joblib 1.5.3                                      line 77844
-  js-sys 0.3.91                                     line 77891
-  json-patch 3.0.1                                  line 78137
-  json5 0.13.0                                      line 78379
-  jsonptr 0.6.3                                     line 78680
-  julius 0.2.7                                      line 78923
-  keccak 0.1.6                                      line 78953
-  keyboard-types 0.7.0                              line 79199
-  keyring 3.6.3                                     line 79437
-  kiwisolver 1.5.0                                  line 79683
-  kornia 0.8.2                                      line 79769
-  kornia_rs 0.1.10                                  line 79959
-  kuchikiki 0.8.8-speedreader                       line 80379
+  ffmpeg-python 0.2.0                               line 52917
+  ffmpy 1.0.0                                       line 53003
+  fiat-crypto 0.2.9                                 line 53025
+  field-offset 0.3.6                                line 53121
+  filelock 3.20.0                                   line 53338
+  filetime 0.2.29                                   line 53376
+  find-crate 0.6.3                                  line 53622
+  fire 0.7.1                                        line 53842
+  flagset 0.4.7                                     line 53873
+  flatbuffers 25.12.19                              line 54089
+  flate2 1.1.9                                      line 54179
+  flatten-dict 0.4.2                                line 54426
+  fluent 0.16.1                                     line 54461
+  fluent-bundle 0.15.3                              line 54701
+  fluent-langneg 0.13.1                             line 54941
+  fluent-syntax 0.11.1                              line 55027
+  fnv 1.0.7                                         line 55267
+  foldhash 0.1.5                                    line 55513
+  foldhash 0.2.0                                    line 55545
+  fonttools 4.62.1                                  line 55577
+  foreign-types 0.3.2                               line 56021
+  foreign-types 0.5.0                               line 56262
+  foreign-types-macros 0.2.3                        line 56503
+  foreign-types-shared 0.1.1                        line 56744
+  foreign-types-shared 0.3.1                        line 56985
+  form_urlencoded 1.2.2                             line 57226
+  frozenlist 1.8.0                                  line 57473
+  fsspec 2025.12.0                                  line 57688
+  fugashi 1.5.2                                     line 57731
+  funty 2.0.0                                       line 57803
+  futf 0.1.5                                        line 57838
+  future 1.0.0                                      line 58084
+  futures 0.3.32                                    line 58171
+  futures-channel 0.3.32                            line 58420
+  futures-core 0.3.32                               line 58670
+  futures-executor 0.3.32                           line 58919
+  futures-io 0.3.32                                 line 59168
+  futures-lite 2.6.1                                line 59417
+  futures-macro 0.3.32                              line 59711
+  futures-sink 0.3.32                               line 59960
+  futures-task 0.3.32                               line 60209
+  futures-util 0.3.32                               line 60458
+  fxhash 0.2.1                                      line 60707
+  gdk 0.18.2                                        line 60793
+  gdk-pixbuf 0.18.5                                 line 60843
+  gdk-pixbuf-sys 0.18.0                             line 60893
+  gdk-sys 0.18.2                                    line 60925
+  gdkwayland-sys 0.18.2                             line 60957
+  gdkx11 0.18.2                                     line 60989
+  gdkx11-sys 0.18.2                                 line 61039
+  generic-array 0.14.9                              line 61071
+  generic-array 1.4.2                               line 61105
+  getrandom 0.2.17                                  line 61139
+  getrandom 0.3.4                                   line 61387
+  getrandom 0.4.2                                   line 61635
+  ghash 0.5.1                                       line 61883
+  gio 0.18.4                                        line 62129
+  gio-sys 0.18.1                                    line 62179
+  glib 0.18.5                                       line 62211
+  glib-macros 0.18.5                                line 62261
+  glib-sys 0.18.1                                   line 62311
+  glob 0.3.3                                        line 62343
+  gobject-sys 0.18.0                                line 62591
+  greenlet 3.3.1                                    line 62623
+  group 0.13.0                                      line 62722
+  grpcio 1.78.0                                     line 62984
+  gtk 0.18.2                                        line 63686
+  gtk-sys 0.18.2                                    line 63736
+  gtk3-macros 0.18.2                                line 63768
+  h11 0.16.0                                        line 63818
+  h2 0.4.13                                         line 63857
+  half 2.7.1                                        line 63896
+  hangul-romanize 0.1.0                             line 64111
+  hash32 0.3.1                                      line 64151
+  hashbrown 0.12.3                                  line 64397
+  hashbrown 0.14.5                                  line 64643
+  hashbrown 0.15.5                                  line 64889
+  hashbrown 0.16.1                                  line 65135
+  heapless 0.8.0                                    line 65381
+  heck 0.4.1                                        line 65627
+  heck 0.5.0                                        line 65873
+  hermit-abi 0.5.2                                  line 66119
+  hex 0.4.3                                         line 66363
+  hex-literal 1.1.0                                 line 66607
+  hex_fmt 0.3.0                                     line 66855
+  hf-xet 1.2.0                                      line 67107
+  hkdf 0.12.4                                       line 67322
+  hmac 0.12.1                                       line 67569
+  hound 3.5.1                                       line 67815
+  html5ever 0.29.1                                  line 68033
+  html5ever 0.38.0                                  line 68280
+  http 1.4.0                                        line 68528
+  http-body 1.0.1                                   line 68775
+  http-body-util 0.1.3                              line 68814
+  http-range 0.1.5                                  line 68853
+  httparse 1.10.1                                   line 68888
+  httpcore 1.0.9                                    line 69129
+  httpx 0.28.1                                      line 69170
+  huggingface_hub 0.36.2                            line 69196
+  humanfriendly 10.0                                line 69418
+  hybrid-array 0.4.10                               line 69452
+  hyper 1.8.1                                       line 69698
+  hyper-connections 0.4.9                           line 69731
+  hyper-rustls 0.27.7                               line 69766
+  hyper-tls 0.6.0                                   line 70045
+  hyper-util 0.1.20                                 line 70286
+  i18n-config 0.4.8                                 line 70319
+  i18n-embed 0.15.4                                 line 70341
+  i18n-embed-fl 0.9.4                               line 70363
+  i18n-embed-impl 0.8.4                             line 70385
+  iana-time-zone 0.1.65                             line 70407
+  iana-time-zone-haiku 0.1.2                        line 70654
+  ico 0.5.0                                         line 70901
+  icu_collections 2.1.1                             line 70936
+  icu_locale_core 2.1.1                             line 70998
+  icu_normalizer 2.1.1                              line 71059
+  icu_normalizer_data 2.1.1                         line 71120
+  icu_properties 2.1.2                              line 71181
+  icu_properties_data 2.1.2                         line 71242
+  icu_provider 2.1.1                                line 71303
+  id-arena 2.3.0                                    line 71364
+  id3 1.16.4                                        line 71610
+  ident_case 1.0.1                                  line 71645
+  idna 1.1.0                                        line 71680
+  idna 3.11                                         line 71929
+  idna_adapter 1.2.1                                line 71974
+  img-parts 0.4.0                                   line 72220
+  importlib_metadata 8.7.1                          line 72462
+  importlib_resources 6.5.2                         line 72549
+  indexmap 1.9.3                                    line 72765
+  indexmap 2.13.0                                   line 73011
+  indoc 2.0.7                                       line 73257
+  infer 0.19.0                                      line 73476
+  inout 0.1.4                                       line 73511
+  intl-memoizer 0.5.3                               line 73759
+  intl_pluralrules 7.0.2                            line 73999
+  io_tee 0.1.1                                      line 74085
+  ipnet 2.12.0                                      line 74107
+  ipython 9.11.0                                    line 74335
+  ipython_pygments_lexers 1.1.1                     line 74863
+  iref 3.2.2                                        line 74907
+  iref-core 3.2.2                                   line 75151
+  iri-string 0.7.11                                 line 75173
+  is-docker 0.2.0                                   line 75420
+  is-wsl 0.4.0                                      line 75455
+  is_terminal_polyfill 1.70.2                       line 75491
+  itertools 0.10.5                                  line 75732
+  itertools 0.12.1                                  line 75978
+  itertools 0.13.0                                  line 76224
+  itoa 1.0.18                                       line 76470
+  jaconv 0.5.0                                      line 76689
+  javascriptcore-rs 1.1.2                           line 76724
+  javascriptcore-rs-sys 1.1.1                       line 76761
+  jedi 0.19.2                                       line 76797
+  jfifdump 0.6.0                                    line 77089
+  jiff 0.2.23                                       line 77111
+  jiff-static 0.2.23                                line 77148
+  Jinja2 3.1.6                                      line 77185
+  jni 0.21.1                                        line 77227
+  jni-sys 0.3.1                                     line 77469
+  jni-sys 0.4.1                                     line 77710
+  jni-sys-macros 0.4.1                              line 77951
+  joblib 1.5.3                                      line 77973
+  js-sys 0.3.91                                     line 78020
+  json-patch 3.0.1                                  line 78266
+  json5 0.13.0                                      line 78508
+  jsonptr 0.6.3                                     line 78809
+  julius 0.2.7                                      line 79052
+  keccak 0.1.6                                      line 79082
+  keyboard-types 0.7.0                              line 79328
+  keyring 3.6.3                                     line 79566
+  kiwisolver 1.5.0                                  line 79812
+  kornia 0.8.2                                      line 79898
+  kornia_rs 0.1.10                                  line 80088
+  kuchikiki 0.8.8-speedreader                       line 80508
   lame 3.100                                        line 4901
-  lameenc 1.8.2                                     line 80416
-  lazy-loader 0.5                                   line 80598
-  lazy_static 1.5.0                                 line 80641
-  leb128fmt 0.1.0                                   line 80888
-  libappindicator 0.9.0                             line 81132
-  libappindicator-sys 0.9.0                         line 81378
-  libbz2-rs-sys 0.2.5                               line 81464
-  libc 0.2.183                                      line 81530
-  libdbus-sys 0.2.7                                 line 81751
-  libloading 0.7.4                                  line 82664
-  libloading 0.8.9                                  line 82690
-  libm 0.2.16                                       line 82716
+  lameenc 1.8.2                                     line 80545
+  lazy-loader 0.5                                   line 80727
+  lazy_static 1.5.0                                 line 80770
+  leb128fmt 0.1.0                                   line 81017
+  libappindicator 0.9.0                             line 81261
+  libappindicator-sys 0.9.0                         line 81507
+  libbz2-rs-sys 0.2.5                               line 81593
+  libc 0.2.183                                      line 81659
+  libdbus-sys 0.2.7                                 line 81880
+  libloading 0.7.4                                  line 82793
+  libloading 0.8.9                                  line 82819
+  libm 0.2.16                                       line 82845
   libogg 1.3.5                                      line 5524
-  libredox 0.1.14                                   line 83000
-  librosa 0.11.0                                    line 83035
-  libsndfile 1.2.2                                  line 83064
+  libredox 0.1.14                                   line 83129
+  librosa 0.11.0                                    line 83164
+  libsndfile 1.2.2                                  line 83193
   libvorbis 1.3.7                                   line 5568
-  lightning-utilities 0.15.3                        line 83581
-  linux-keyutils 0.2.5                              line 83796
-  linux-raw-sys 0.12.1                              line 83882
-  litemap 0.8.1                                     line 84383
-  llvmlite 0.46.0                                   line 84444
-  local-attention 1.11.2                            line 84711
-  lock_api 0.4.14                                   line 84746
-  log 0.4.29                                        line 84994
-  loguru 0.7.3                                      line 85242
-  lru-slab 0.1.2                                    line 85264
-  lzma-rust2 0.16.4                                 line 85516
-  mac 0.1.1                                         line 85730
-  mach2 0.5.0                                       line 85752
-  Mako 1.3.10                                       line 86000
-  maplit 1.0.2                                      line 86038
-  Markdown 3.10.2                                   line 86284
-  markdown-it-py 4.0.0                              line 86343
-  markdown2 2.5.5                                   line 86407
-  markup5ever 0.14.1                                line 86485
-  markup5ever 0.38.0                                line 86732
-  MarkupSafe 3.0.2                                  line 86979
-  match_token 0.1.0                                 line 87021
-  matches 0.1.10                                    line 87043
-  matplotlib 3.10.8                                 line 87082
-  matplotlib-inline 0.2.1                           line 88414
-  matrix-pickle 0.2.2                               line 88457
-  matrix-pickle-derive 0.2.2                        line 88545
-  matrixmultiply 0.3.10                             line 88631
-  mdurl 0.1.2                                       line 88888
-  memchr 2.8.0                                      line 88949
-  memmap2 0.9.11                                    line 88986
-  memoffset 0.9.1                                   line 89234
-  MIDIUtil 1.2.1                                    line 89267
-  mido 1.3.3                                        line 89311
-  mime 0.3.17                                       line 89347
-  mime_guess 2.0.5                                  line 89588
-  minimal-lexical 0.2.1                             line 89624
-  miniz_oxide 0.8.9                                 line 89910
-  miniz_oxide 0.9.1                                 line 90182
-  mio 1.1.1                                         line 90454
-  mir_eval 0.8.2                                    line 90487
-  mojimoji 0.0.13                                   line 90522
-  more-itertools 10.8.0                             line 90549
-  mp4 0.14.0                                        line 90602
-  mpmath 1.3.0                                      line 90636
-  msgpack 1.1.2                                     line 90678
-  muda 0.17.1                                       line 90708
-  multidict 6.7.1                                   line 90975
-  multiexp 0.4.2                                    line 91002
-  munch 4.0.0                                       line 91037
-  murmurhash 1.0.15                                 line 91070
-  native-tls 0.2.18                                 line 91106
-  ndarray 0.16.1                                    line 91347
-  ndk 0.9.0                                         line 91607
-  ndk-context 0.1.1                                 line 91629
-  ndk-sys 0.6.0+11769913                            line 91651
-  networkx 3.6.1                                    line 91673
-  new_debug_unreachable 1.0.6                       line 91724
-  nix 0.29.0                                        line 91763
-  nodrop 0.1.14                                     line 91799
-  nom 7.1.3                                         line 92045
-  non-empty-string 0.2.6                            line 92079
-  nonempty-collections 1.3.0                        line 92320
-  ntapi 0.4.3                                       line 92353
-  num 0.4.3                                         line 92591
-  num-bigint 0.4.6                                  line 92838
-  num-bigint-dig 0.8.6                              line 93086
-  num-complex 0.4.6                                 line 93335
-  num-conv 0.1.0                                    line 93582
-  num-derive 0.4.2                                  line 93824
-  num-integer 0.1.46                                line 94072
-  num-iter 0.1.45                                   line 94319
-  num-rational 0.4.2                                line 94566
-  num-traits 0.2.19                                 line 94813
-  num2words 0.5.14                                  line 95060
-  num_enum 0.7.6                                    line 95219
-  num_enum_derive 0.7.6                             line 95469
-  numba 0.64.0                                      line 95719
-  numpy 2.2.6                                       line 95760
-  nvml-wrapper 0.10.0                               line 99847
-  nvml-wrapper-sys 0.8.0                            line 99869
-  objc2 0.6.4                                       line 99891
-  objc2-app-kit 0.3.2                               line 99913
-  objc2-audio-toolbox 0.3.2                         line 99938
-  objc2-avf-audio 0.3.2                             line 99963
-  objc2-core-audio 0.3.2                            line 99988
-  objc2-core-audio-types 0.3.2                      line 100013
-  objc2-core-foundation 0.3.2                       line 100038
-  objc2-core-graphics 0.3.2                         line 100063
-  objc2-encode 4.1.0                                line 100088
-  objc2-exception-helper 0.1.1                      line 100110
-  objc2-foundation 0.3.2                            line 100135
-  objc2-io-surface 0.3.2                            line 100157
-  objc2-quartz-core 0.3.2                           line 100182
-  objc2-ui-kit 0.3.2                                line 100207
-  objc2-web-kit 0.3.2                               line 100232
-  oid-registry 0.8.1                                line 100257
-  omegaconf 2.3.0                                   line 100503
-  once_cell 1.21.4                                  line 100546
-  once_cell_polyfill 1.70.2                         line 100790
-  onnxruntime 1.24.3                                line 101031
-  onnxruntime-gpu 1.19.0                            line 101070
-  onnxruntime-gpu 1.22.0                            line 101108
-  opaque-debug 0.3.1                                line 101146
-  open 5.3.3                                        line 101392
-  openai-whisper 20250625                           line 101431
-  opencc-python-reimplemented 0.1.7                 line 101466
-  opencv-python-headless 4.13.0.92                  line 101666
-  openssl 0.10.76                                   line 108939
-  openssl-macros 0.1.1                              line 109174
-  openssl-probe 0.2.1                               line 109415
-  openssl-sys 0.9.112                               line 109661
-  openunmix 1.3.0                                   line 109700
-  option-ext 0.2.0                                  line 109735
+  lightning-utilities 0.15.3                        line 83710
+  linux-keyutils 0.2.5                              line 83925
+  linux-raw-sys 0.12.1                              line 84011
+  litemap 0.8.1                                     line 84512
+  llvmlite 0.46.0                                   line 84573
+  local-attention 1.11.2                            line 84840
+  lock_api 0.4.14                                   line 84875
+  log 0.4.29                                        line 85123
+  loguru 0.7.3                                      line 85371
+  lru-slab 0.1.2                                    line 85393
+  lzma-rust2 0.16.4                                 line 85645
+  mac 0.1.1                                         line 85859
+  mach2 0.5.0                                       line 85881
+  Mako 1.3.10                                       line 86129
+  maplit 1.0.2                                      line 86167
+  Markdown 3.10.2                                   line 86413
+  markdown-it-py 4.0.0                              line 86472
+  markdown2 2.5.5                                   line 86536
+  markup5ever 0.14.1                                line 86614
+  markup5ever 0.38.0                                line 86861
+  MarkupSafe 3.0.2                                  line 87108
+  match_token 0.1.0                                 line 87150
+  matches 0.1.10                                    line 87172
+  matplotlib 3.10.8                                 line 87211
+  matplotlib-inline 0.2.1                           line 88543
+  matrix-pickle 0.2.2                               line 88586
+  matrix-pickle-derive 0.2.2                        line 88674
+  matrixmultiply 0.3.10                             line 88760
+  mdurl 0.1.2                                       line 89017
+  memchr 2.8.0                                      line 89078
+  memmap2 0.9.11                                    line 89115
+  memoffset 0.9.1                                   line 89363
+  MIDIUtil 1.2.1                                    line 89396
+  mido 1.3.3                                        line 89440
+  mime 0.3.17                                       line 89476
+  mime_guess 2.0.5                                  line 89717
+  minimal-lexical 0.2.1                             line 89753
+  miniz_oxide 0.8.9                                 line 90039
+  miniz_oxide 0.9.1                                 line 90311
+  mio 1.1.1                                         line 90583
+  mir_eval 0.8.2                                    line 90616
+  mojimoji 0.0.13                                   line 90651
+  more-itertools 10.8.0                             line 90678
+  mp4 0.14.0                                        line 90731
+  mpmath 1.3.0                                      line 90765
+  msgpack 1.1.2                                     line 90807
+  muda 0.17.1                                       line 90837
+  multidict 6.7.1                                   line 91104
+  multiexp 0.4.2                                    line 91131
+  munch 4.0.0                                       line 91166
+  murmurhash 1.0.15                                 line 91199
+  native-tls 0.2.18                                 line 91235
+  ndarray 0.16.1                                    line 91476
+  ndk 0.9.0                                         line 91736
+  ndk-context 0.1.1                                 line 91758
+  ndk-sys 0.6.0+11769913                            line 91780
+  networkx 3.6.1                                    line 91802
+  new_debug_unreachable 1.0.6                       line 91853
+  nix 0.29.0                                        line 91892
+  nodrop 0.1.14                                     line 91928
+  nom 7.1.3                                         line 92174
+  non-empty-string 0.2.6                            line 92208
+  nonempty-collections 1.3.0                        line 92449
+  ntapi 0.4.3                                       line 92482
+  num 0.4.3                                         line 92720
+  num-bigint 0.4.6                                  line 92967
+  num-bigint-dig 0.8.6                              line 93215
+  num-complex 0.4.6                                 line 93464
+  num-conv 0.1.0                                    line 93711
+  num-derive 0.4.2                                  line 93953
+  num-integer 0.1.46                                line 94201
+  num-iter 0.1.45                                   line 94448
+  num-rational 0.4.2                                line 94695
+  num-traits 0.2.19                                 line 94942
+  num2words 0.5.14                                  line 95189
+  num_enum 0.7.6                                    line 95348
+  num_enum_derive 0.7.6                             line 95598
+  numba 0.64.0                                      line 95848
+  numpy 2.2.6                                       line 95889
+  nvml-wrapper 0.10.0                               line 99976
+  nvml-wrapper-sys 0.8.0                            line 99998
+  objc2 0.6.4                                       line 100020
+  objc2-app-kit 0.3.2                               line 100042
+  objc2-audio-toolbox 0.3.2                         line 100067
+  objc2-avf-audio 0.3.2                             line 100092
+  objc2-core-audio 0.3.2                            line 100117
+  objc2-core-audio-types 0.3.2                      line 100142
+  objc2-core-foundation 0.3.2                       line 100167
+  objc2-core-graphics 0.3.2                         line 100192
+  objc2-encode 4.1.0                                line 100217
+  objc2-exception-helper 0.1.1                      line 100239
+  objc2-foundation 0.3.2                            line 100264
+  objc2-io-surface 0.3.2                            line 100286
+  objc2-quartz-core 0.3.2                           line 100311
+  objc2-ui-kit 0.3.2                                line 100336
+  objc2-web-kit 0.3.2                               line 100361
+  oid-registry 0.8.1                                line 100386
+  omegaconf 2.3.0                                   line 100632
+  once_cell 1.21.4                                  line 100675
+  once_cell_polyfill 1.70.2                         line 100919
+  onnxruntime 1.24.3                                line 101160
+  onnxruntime-gpu 1.19.0                            line 101199
+  onnxruntime-gpu 1.22.0                            line 101237
+  opaque-debug 0.3.1                                line 101275
+  open 5.3.3                                        line 101521
+  openai-whisper 20250625                           line 101560
+  opencc-python-reimplemented 0.1.7                 line 101595
+  opencv-python-headless 4.13.0.92                  line 101795
+  openssl 0.10.76                                   line 109068
+  openssl-macros 0.1.1                              line 109303
+  openssl-probe 0.2.1                               line 109544
+  openssl-sys 0.9.112                               line 109790
+  openunmix 1.3.0                                   line 109829
+  option-ext 0.2.0                                  line 109864
   opus 1.5.2                                        line 5615
-  ordered-stream 0.2.0                              line 110122
-  ort 2.0.0-rc.10                                   line 110366
-  ort-sys 2.0.0-rc.10                               line 110611
-  os_pipe 1.2.3                                     line 110856
-  p256 0.13.2                                       line 110889
-  p384 0.13.1                                       line 111135
-  p521 0.13.3                                       line 111382
-  packaging 26.0                                    line 111629
-  pango 0.18.3                                      line 111849
-  pango-sys 0.18.0                                  line 111899
-  parking 2.2.1                                     line 111931
-  parking_lot 0.12.5                                line 112188
-  parking_lot_core 0.9.12                           line 112435
-  parsenic 0.2.1                                    line 112682
-  parso 0.8.6                                       line 112924
-  password-hash 0.5.0                               line 113105
-  paste 1.0.15                                      line 113351
-  pathdiff 0.2.3                                    line 113570
-  pbkdf2 0.12.2                                     line 113815
-  pcsc 2.9.0                                        line 114063
-  pcsc-sys 1.3.0                                    line 114085
-  pct-str 2.0.0                                     line 114107
-  pem 3.0.6                                         line 114351
-  pem-rfc7468 0.7.0                                 line 114388
-  percent-encoding 2.3.2                            line 114634
-  phf 0.10.1                                        line 114881
-  phf 0.11.3                                        line 114903
-  phf 0.13.1                                        line 114937
-  phf 0.8.0                                         line 114971
-  phf_generator 0.10.0                              line 114993
-  phf_generator 0.11.3                              line 115015
-  phf_generator 0.13.1                              line 115049
-  phf_macros 0.10.0                                 line 115083
-  phf_macros 0.11.3                                 line 115105
-  phf_macros 0.13.1                                 line 115139
-  phf_shared 0.10.0                                 line 115173
-  phf_shared 0.11.3                                 line 115195
-  phf_shared 0.13.1                                 line 115229
-  phf_shared 0.8.0                                  line 115263
-  picklescan 1.0.4                                  line 115285
-  pillow 12.1.0                                     line 115714
-  pin-project 1.1.13                                line 116009
-  pin-project-internal 1.1.13                       line 116229
-  pin-project-lite 0.2.17                           line 116449
-  pin-utils 0.1.0                                   line 116669
-  pip 26.0.1                                        line 116916
-  piper 0.2.5                                       line 118209
-  pix 0.14.0                                        line 118453
-  pkcs1 0.7.5                                       line 118707
-  pkcs8 0.10.2                                      line 118953
-  platformdirs 4.9.4                                line 119199
-  plist 1.8.0                                       line 119234
-  png 0.17.16                                       line 119266
-  png_pong 0.10.0                                   line 119512
-  polling 3.11.0                                    line 119728
-  poly1305 0.8.0                                    line 119972
-  polyval 0.6.2                                     line 120218
-  pooch 1.9.0                                       line 120465
-  portable-atomic 1.13.1                            line 120505
-  portable-atomic-util 0.2.6                        line 120725
-  potential_utf 0.1.4                               line 120945
-  powerfmt 0.2.0                                    line 121006
-  ppmd-rust 1.4.0                                   line 121248
-  ppv-lite86 0.2.21                                 line 121401
-  praat-parselmouth 0.4.7                           line 121648
-  precomputed-hash 0.1.1                            line 122535
-  preshed 3.0.12                                    line 122570
-  pretty_midi 0.2.11                                line 122606
-  prettyplease 0.2.37                               line 122641
-  primal-check 0.3.4                                line 122860
-  primeorder 0.13.6                                 line 123105
-  proc-macro-crate 1.3.1                            line 123351
-  proc-macro-crate 2.0.2                            line 123595
-  proc-macro-crate 3.5.0                            line 123839
-  proc-macro-error 1.0.4                            line 124083
-  proc-macro-error-attr 1.0.4                       line 124326
-  proc-macro-error-attr2 2.0.0                      line 124569
-  proc-macro-error2 2.0.1                           line 124812
-  proc-macro-hack 0.5.20+deprecated                 line 125055
-  proc-macro2 1.0.106                               line 125301
-  prompt_toolkit 3.0.52                             line 125520
-  propcache 0.4.1                                   line 125561
-  proptest 1.10.0                                   line 125794
-  prost 0.11.9                                      line 126053
-  prost 0.14.4                                      line 126268
-  prost-derive 0.11.9                               line 126483
-  prost-derive 0.14.4                               line 126698
-  protobuf 3.19.6                                   line 126913
-  provcheck 0.7.0                                   line 126960
-  provcheck-attestation-spec 0.7.0                  line 127046
-  provcheck-audioseal 0.7.0                         line 127132
-  provcheck-sign 0.7.0                              line 127218
-  provcheck-watermark 0.7.0                         line 127304
-  provcheck-wavmark 0.7.0                           line 127390
-  provcheck-weights 0.7.0                           line 127476
-  psutil 7.2.1                                      line 127562
-  pure_eval 0.2.3                                   line 127605
-  py3langid 0.3.0                                   line 127640
-  pyasn1 0.6.2                                      line 127686
-  pyasn1_modules 0.4.2                              line 127724
-  pycparser 3.0                                     line 127762
-  pydantic 2.12.5                                   line 127803
-  pydantic-settings 2.12.0                          line 127838
-  pydantic_core 2.41.5                              line 127873
-  pydub 0.25.1                                      line 127908
-  Pygments 2.19.2                                   line 127941
-  pyloudnorm 0.2.0                                  line 127982
-  pyparsing 3.3.2                                   line 128017
-  pypinyin 0.55.0                                   line 128065
-  pyreadline3 3.5.4                                 line 128100
-  pystoi 0.4.1                                      line 128235
-  python-dateutil 2.9.0.post0                       line 128270
-  python-dotenv 1.2.1                               line 128339
-  pytorch-lightning 2.6.1                           line 128411
-  pyworld 0.3.5                                     line 128628
-  PyYAML 6.0.3                                      line 128711
-  quick-xml 0.38.4                                  line 128746
-  quick-xml 0.39.2                                  line 128783
-  quinn 0.11.11                                     line 128820
-  quinn-proto 0.11.15                               line 129048
-  quinn-udp 0.5.14                                  line 129276
-  quote 1.0.45                                      line 129504
+  ordered-stream 0.2.0                              line 110251
+  ort 2.0.0-rc.10                                   line 110495
+  ort-sys 2.0.0-rc.10                               line 110740
+  os_pipe 1.2.3                                     line 110985
+  p256 0.13.2                                       line 111018
+  p384 0.13.1                                       line 111264
+  p521 0.13.3                                       line 111511
+  packaging 26.0                                    line 111758
+  pango 0.18.3                                      line 111978
+  pango-sys 0.18.0                                  line 112028
+  parking 2.2.1                                     line 112060
+  parking_lot 0.12.5                                line 112317
+  parking_lot_core 0.9.12                           line 112564
+  parsenic 0.2.1                                    line 112811
+  parso 0.8.6                                       line 113053
+  password-hash 0.5.0                               line 113234
+  paste 1.0.15                                      line 113480
+  pathdiff 0.2.3                                    line 113699
+  pbkdf2 0.12.2                                     line 113944
+  pcsc 2.9.0                                        line 114192
+  pcsc-sys 1.3.0                                    line 114214
+  pct-str 2.0.0                                     line 114236
+  pem 3.0.6                                         line 114480
+  pem-rfc7468 0.7.0                                 line 114517
+  percent-encoding 2.3.2                            line 114763
+  phf 0.10.1                                        line 115010
+  phf 0.11.3                                        line 115032
+  phf 0.13.1                                        line 115066
+  phf 0.8.0                                         line 115100
+  phf_generator 0.10.0                              line 115122
+  phf_generator 0.11.3                              line 115144
+  phf_generator 0.13.1                              line 115178
+  phf_macros 0.10.0                                 line 115212
+  phf_macros 0.11.3                                 line 115234
+  phf_macros 0.13.1                                 line 115268
+  phf_shared 0.10.0                                 line 115302
+  phf_shared 0.11.3                                 line 115324
+  phf_shared 0.13.1                                 line 115358
+  phf_shared 0.8.0                                  line 115392
+  picklescan 1.0.4                                  line 115414
+  pillow 12.1.0                                     line 115843
+  pin-project 1.1.13                                line 116138
+  pin-project-internal 1.1.13                       line 116358
+  pin-project-lite 0.2.17                           line 116578
+  pin-utils 0.1.0                                   line 116798
+  pip 26.0.1                                        line 117045
+  piper 0.2.5                                       line 118338
+  pix 0.14.0                                        line 118582
+  pkcs1 0.7.5                                       line 118836
+  pkcs8 0.10.2                                      line 119082
+  platformdirs 4.9.4                                line 119328
+  plist 1.8.0                                       line 119363
+  png 0.17.16                                       line 119395
+  png_pong 0.10.0                                   line 119641
+  polling 3.11.0                                    line 119857
+  poly1305 0.8.0                                    line 120101
+  polyval 0.6.2                                     line 120347
+  pooch 1.9.0                                       line 120594
+  portable-atomic 1.13.1                            line 120634
+  portable-atomic-util 0.2.6                        line 120854
+  potential_utf 0.1.4                               line 121074
+  powerfmt 0.2.0                                    line 121135
+  ppmd-rust 1.4.0                                   line 121377
+  ppv-lite86 0.2.21                                 line 121530
+  praat-parselmouth 0.4.7                           line 121777
+  precomputed-hash 0.1.1                            line 122664
+  preshed 3.0.12                                    line 122699
+  pretty_midi 0.2.11                                line 122735
+  prettyplease 0.2.37                               line 122770
+  primal-check 0.3.4                                line 122989
+  primeorder 0.13.6                                 line 123234
+  proc-macro-crate 1.3.1                            line 123480
+  proc-macro-crate 2.0.2                            line 123724
+  proc-macro-crate 3.5.0                            line 123968
+  proc-macro-error 1.0.4                            line 124212
+  proc-macro-error-attr 1.0.4                       line 124455
+  proc-macro-error-attr2 2.0.0                      line 124698
+  proc-macro-error2 2.0.1                           line 124941
+  proc-macro-hack 0.5.20+deprecated                 line 125184
+  proc-macro2 1.0.106                               line 125430
+  prompt_toolkit 3.0.52                             line 125649
+  propcache 0.4.1                                   line 125690
+  proptest 1.10.0                                   line 125923
+  prost 0.11.9                                      line 126182
+  prost 0.14.4                                      line 126397
+  prost-derive 0.11.9                               line 126612
+  prost-derive 0.14.4                               line 126827
+  protobuf 3.19.6                                   line 127042
+  provcheck 0.7.0                                   line 127089
+  provcheck-attestation-spec 0.7.0                  line 127175
+  provcheck-audioseal 0.7.0                         line 127261
+  provcheck-sign 0.7.0                              line 127347
+  provcheck-watermark 0.7.0                         line 127433
+  provcheck-wavmark 0.7.0                           line 127519
+  provcheck-weights 0.7.0                           line 127605
+  psutil 7.2.1                                      line 127691
+  pure_eval 0.2.3                                   line 127734
+  py3langid 0.3.0                                   line 127769
+  pyasn1 0.6.2                                      line 127815
+  pyasn1_modules 0.4.2                              line 127853
+  pycparser 3.0                                     line 127891
+  pydantic 2.12.5                                   line 127932
+  pydantic-settings 2.12.0                          line 127967
+  pydantic_core 2.41.5                              line 128002
+  pydub 0.25.1                                      line 128037
+  Pygments 2.19.2                                   line 128070
+  pyloudnorm 0.2.0                                  line 128111
+  pyparsing 3.3.2                                   line 128146
+  pypinyin 0.55.0                                   line 128194
+  pyreadline3 3.5.4                                 line 128229
+  pystoi 0.4.1                                      line 128364
+  python-dateutil 2.9.0.post0                       line 128399
+  python-dotenv 1.2.1                               line 128468
+  pytorch-lightning 2.6.1                           line 128540
+  pyworld 0.3.5                                     line 128757
+  PyYAML 6.0.3                                      line 128840
+  quick-xml 0.38.4                                  line 128875
+  quick-xml 0.39.2                                  line 128912
+  quinn 0.11.11                                     line 128949
+  quinn-proto 0.11.15                               line 129177
+  quinn-udp 0.5.14                                  line 129405
+  quote 1.0.45                                      line 129633
   Qwen3-TTS 0.6B Base a81b3a547af5                  line 7198
   Qwen3-TTS 0.6B CustomVoice be5c4cf9473e           line 7413
   Qwen3-TTS 1.7B Base 8ed08da77b63                  line 7628
   Qwen3-TTS 1.7B CustomVoice f1ce73f98515           line 7843
   Qwen3-TTS 1.7B VoiceDesign efe663638df8           line 8058
   Qwen3-TTS Tokenizer b928115acc44                  line 8273
-  r-efi 5.3.0                                       line 129723
-  r-efi 6.0.0                                       line 129745
-  radium 0.7.0                                      line 129767
-  rAIdio_aimdo_reset c700713                        line 129802
-  rAIdio_nodes c700713                              line 129830
-  rAIdio_watermark c700713                          line 129916
-  rAIdio_whisper_patch c700713                      line 129944
-  rAIdio_xl_patch c700713                           line 129972
-  rains-license-client 0.1.0                        line 130000
-  rand 0.8.5                                        line 130086
-  rand 0.9.2                                        line 130331
-  rand_chacha 0.3.1                                 line 130578
-  rand_chacha 0.9.0                                 line 130845
-  rand_core 0.6.4                                   line 131087
-  rand_core 0.9.5                                   line 131340
-  rand_distr 0.4.3                                  line 131593
-  rand_xorshift 0.4.0                               line 131847
-  randomname 0.2.1                                  line 132087
-  range-set 0.1.0                                   line 132122
-  range-traits 0.3.2                                line 132337
-  rasn 0.28.10                                      line 132359
-  rasn-cms 0.28.10                                  line 132414
-  rasn-derive 0.28.10                               line 132436
-  rasn-derive-impl 0.28.10                          line 132491
-  rasn-ocsp 0.28.10                                 line 132546
-  rasn-pkix 0.28.10                                 line 132568
-  raw-window-handle 0.6.2                           line 132590
-  rawpointer 0.2.1                                  line 132824
-  rayon 1.11.0                                      line 133071
-  rayon-core 1.13.0                                 line 133317
-  rcgen 0.14.7                                      line 133563
-  realfft 3.5.0                                     line 133793
-  redox_syscall 0.5.18                              line 133815
-  redox_users 0.4.6                                 line 133851
-  redox_users 0.5.2                                 line 133887
-  ref-cast 1.0.25                                   line 133923
-  ref-cast-impl 1.0.25                              line 134142
-  regex 1.12.3                                      line 134361
-  regex 2026.2.28                                   line 134607
-  regex-automata 0.4.14                             line 134834
-  regex-syntax 0.8.10                               line 135080
-  requests 2.32.5                                   line 135388
-  reqwest 0.12.28                                   line 135585
-  reqwest 0.13.2                                    line 135827
-  resampy 0.4.3                                     line 136069
-  retrying 1.4.2                                    line 136098
-  rfc6979 0.4.0                                     line 136322
-  rfd 0.16.0                                        line 136569
-  rich 14.3.3                                       line 136604
-  riff 2.0.0                                        line 136637
-  ring 0.17.14                                      line 136668
+  r-efi 5.3.0                                       line 129852
+  r-efi 6.0.0                                       line 129874
+  radium 0.7.0                                      line 129896
+  rAIdio_aimdo_reset c700713                        line 129931
+  rAIdio_nodes c700713                              line 129959
+  rAIdio_watermark c700713                          line 130045
+  rAIdio_whisper_patch c700713                      line 130073
+  rAIdio_xl_patch c700713                           line 130101
+  rains-license-client 0.1.0                        line 130129
+  rand 0.8.5                                        line 130215
+  rand 0.9.2                                        line 130460
+  rand_chacha 0.3.1                                 line 130707
+  rand_chacha 0.9.0                                 line 130974
+  rand_core 0.6.4                                   line 131216
+  rand_core 0.9.5                                   line 131469
+  rand_distr 0.4.3                                  line 131722
+  rand_xorshift 0.4.0                               line 131976
+  randomname 0.2.1                                  line 132216
+  range-set 0.1.0                                   line 132251
+  range-traits 0.3.2                                line 132466
+  rasn 0.28.10                                      line 132488
+  rasn-cms 0.28.10                                  line 132543
+  rasn-derive 0.28.10                               line 132565
+  rasn-derive-impl 0.28.10                          line 132620
+  rasn-ocsp 0.28.10                                 line 132675
+  rasn-pkix 0.28.10                                 line 132697
+  raw-window-handle 0.6.2                           line 132719
+  rawpointer 0.2.1                                  line 132953
+  rayon 1.11.0                                      line 133200
+  rayon-core 1.13.0                                 line 133446
+  rcgen 0.14.7                                      line 133692
+  realfft 3.5.0                                     line 133922
+  redox_syscall 0.5.18                              line 133944
+  redox_users 0.4.6                                 line 133980
+  redox_users 0.5.2                                 line 134016
+  ref-cast 1.0.25                                   line 134052
+  ref-cast-impl 1.0.25                              line 134271
+  regex 1.12.3                                      line 134490
+  regex 2026.2.28                                   line 134736
+  regex-automata 0.4.14                             line 134963
+  regex-syntax 0.8.10                               line 135209
+  requests 2.32.5                                   line 135517
+  reqwest 0.12.28                                   line 135714
+  reqwest 0.13.2                                    line 135956
+  resampy 0.4.3                                     line 136198
+  retrying 1.4.2                                    line 136227
+  rfc6979 0.4.0                                     line 136451
+  rfd 0.16.0                                        line 136698
+  rich 14.3.3                                       line 136733
+  riff 2.0.0                                        line 136766
+  ring 0.17.14                                      line 136797
   RMVPE Pitch Extractor 169031db493a                line 8488
-  rsa 0.9.10                                        line 137286
-  rubato 0.16.2                                     line 137528
-  rust-embed 8.11.0                                 line 137560
-  rust-embed-impl 8.11.0                            line 137596
-  rust-embed-utils 8.11.0                           line 137632
-  rustc-hash 1.1.0                                  line 137668
-  rustc-hash 2.1.1                                  line 137912
-  rustfft 6.4.1                                     line 138129
-  rusticata-macros 4.1.0                            line 138370
-  rustix 1.1.4                                      line 138616
-  rustls 0.23.37                                    line 139117
-  rustls-pki-types 1.14.0                           line 139382
-  rustls-webpki 0.103.10                            line 139629
-  rustversion 1.0.22                                line 139667
+  rsa 0.9.10                                        line 137415
+  rubato 0.16.2                                     line 137657
+  rust-embed 8.11.0                                 line 137689
+  rust-embed-impl 8.11.0                            line 137725
+  rust-embed-utils 8.11.0                           line 137761
+  rustc-hash 1.1.0                                  line 137797
+  rustc-hash 2.1.1                                  line 138041
+  rustfft 6.4.1                                     line 138258
+  rusticata-macros 4.1.0                            line 138499
+  rustix 1.1.4                                      line 138745
+  rustls 0.23.37                                    line 139246
+  rustls-pki-types 1.14.0                           line 139511
+  rustls-webpki 0.103.10                            line 139758
+  rustversion 1.0.22                                line 139796
   RVC WebUI Pretrained b0494e0bb44e                 line 8574
-  ryu 1.0.23                                        line 139886
-  safetensors 0.7.0                                 line 140105
-  salsa20 0.10.2                                    line 140730
-  same-file 1.0.6                                   line 140976
-  scan_fmt 0.2.6                                    line 141013
-  schannel 0.1.29                                   line 141050
-  schemars 0.8.22                                   line 141071
-  schemars 0.9.0                                    line 141106
-  schemars 1.2.1                                    line 141142
-  schemars_derive 0.8.22                            line 141178
-  scikit-learn 1.8.0                                line 141214
-  scipy 1.17.1                                      line 141348
-  scopeguard 1.2.0                                  line 145551
-  scrypt 0.11.0                                     line 145797
-  sec1 0.7.3                                        line 146043
-  secrecy 0.10.3                                    line 146289
-  secrecy 0.8.0                                     line 146532
-  secret-service 4.0.0                              line 146775
-  security-framework 2.11.1                         line 147023
-  security-framework 3.7.0                          line 147264
-  security-framework-sys 2.17.0                     line 147505
+  ryu 1.0.23                                        line 140015
+  safetensors 0.7.0                                 line 140234
+  salsa20 0.10.2                                    line 140859
+  same-file 1.0.6                                   line 141105
+  scan_fmt 0.2.6                                    line 141142
+  schannel 0.1.29                                   line 141179
+  schemars 0.8.22                                   line 141200
+  schemars 0.9.0                                    line 141235
+  schemars 1.2.1                                    line 141271
+  schemars_derive 0.8.22                            line 141307
+  scikit-learn 1.8.0                                line 141343
+  scipy 1.17.1                                      line 141477
+  scopeguard 1.2.0                                  line 145680
+  scrypt 0.11.0                                     line 145926
+  sec1 0.7.3                                        line 146172
+  secrecy 0.10.3                                    line 146418
+  secrecy 0.8.0                                     line 146661
+  secret-service 4.0.0                              line 146904
+  security-framework 2.11.1                         line 147152
+  security-framework 3.7.0                          line 147393
+  security-framework-sys 2.17.0                     line 147634
   Seed-VC 169031db493a                              line 8612
-  SeedVC-ComfyUI 0f6481215b64                       line 147746
-  selectors 0.24.0                                  line 147774
-  selectors 0.36.1                                  line 147931
-  self_cell 0.10.3                                  line 148088
-  self_cell 1.2.2                                   line 148303
-  semver 1.0.27                                     line 148862
-  sentencepiece 0.2.1                               line 149081
-  serde 1.0.228                                     line 149589
-  serde-transcode 1.1.1                             line 149808
-  serde-untagged 0.1.9                              line 150049
-  serde-wasm-bindgen 0.6.5                          line 150268
-  serde_bytes 0.11.19                               line 150303
-  serde_core 1.0.228                                line 150522
-  serde_derive 1.0.228                              line 150741
-  serde_derive_internals 0.29.1                     line 150960
-  serde_json 1.0.149                                line 151179
-  serde_repr 0.1.20                                 line 151398
-  serde_spanned 0.6.9                               line 151617
-  serde_spanned 1.0.4                               line 151858
-  serde_urlencoded 0.7.1                            line 152099
-  serde_with 3.17.0                                 line 152320
-  serde_with_macros 3.17.0                          line 152566
-  serdect 0.2.0                                     line 152812
-  serdect 0.3.0                                     line 153055
-  serialize-to-javascript 0.1.2                     line 153298
-  serialize-to-javascript-impl 0.1.2                line 153540
-  servo_arc 0.2.0                                   line 153782
-  servo_arc 0.4.3                                   line 154026
-  setuptools 70.2.0                                 line 154270
-  sevenz-rust2 0.20.2                               line 154327
-  sha1 0.10.6                                       line 154541
-  sha2 0.10.9                                       line 154791
-  sha2-asm 0.6.4                                    line 155041
-  sha3 0.10.9                                       line 155086
-  shared_child 1.1.1                                line 155338
-  shellingham 1.5.4                                 line 155371
-  sigchld 0.2.4                                     line 155398
-  signal-hook 0.3.18                                line 155420
-  signal-hook-registry 1.4.8                        line 155666
-  signature 2.2.0                                   line 155912
-  silentcipher 1.0.5                                line 156158
+  SeedVC-ComfyUI 0f6481215b64                       line 147875
+  selectors 0.24.0                                  line 147910
+  selectors 0.36.1                                  line 148067
+  self_cell 0.10.3                                  line 148224
+  self_cell 1.2.2                                   line 148439
+  semver 1.0.27                                     line 148998
+  sentencepiece 0.2.1                               line 149217
+  serde 1.0.228                                     line 149725
+  serde-transcode 1.1.1                             line 149944
+  serde-untagged 0.1.9                              line 150185
+  serde-wasm-bindgen 0.6.5                          line 150404
+  serde_bytes 0.11.19                               line 150439
+  serde_core 1.0.228                                line 150658
+  serde_derive 1.0.228                              line 150877
+  serde_derive_internals 0.29.1                     line 151096
+  serde_json 1.0.149                                line 151315
+  serde_repr 0.1.20                                 line 151534
+  serde_spanned 0.6.9                               line 151753
+  serde_spanned 1.0.4                               line 151994
+  serde_urlencoded 0.7.1                            line 152235
+  serde_with 3.17.0                                 line 152456
+  serde_with_macros 3.17.0                          line 152702
+  serdect 0.2.0                                     line 152948
+  serdect 0.3.0                                     line 153191
+  serialize-to-javascript 0.1.2                     line 153434
+  serialize-to-javascript-impl 0.1.2                line 153676
+  servo_arc 0.2.0                                   line 153918
+  servo_arc 0.4.3                                   line 154162
+  setuptools 70.2.0                                 line 154406
+  sevenz-rust2 0.20.2                               line 154463
+  sha1 0.10.6                                       line 154677
+  sha2 0.10.9                                       line 154927
+  sha2-asm 0.6.4                                    line 155177
+  sha3 0.10.9                                       line 155222
+  shared_child 1.1.1                                line 155474
+  shellingham 1.5.4                                 line 155507
+  sigchld 0.2.4                                     line 155534
+  signal-hook 0.3.18                                line 155556
+  signal-hook-registry 1.4.8                        line 155802
+  signature 2.2.0                                   line 156048
+  silentcipher 1.0.5                                line 156294
   SilentCipher 44.1kHz Watermark 6be5b145a057       line 9299
-  simd-adler32 0.3.8                                line 156193
-  siphasher 0.3.11                                  line 156228
-  siphasher 1.0.2                                   line 156254
-  six 1.17.0                                        line 156280
-  slab 0.4.12                                       line 156312
-  smallvec 1.15.1                                   line 156351
-  smallvec 2.0.0-alpha.10                           line 156597
-  smart_open 7.5.1                                  line 156843
-  snafu 0.8.9                                       line 156883
-  snafu-derive 0.8.9                                line 157129
-  socket2 0.6.3                                     line 157375
-  softbuffer 0.4.8                                  line 157622
-  soundfile 0.13.1                                  line 157863
-  soup3 0.5.0                                       line 157906
-  soup3-sys 0.5.0                                   line 157942
-  soxr 1.0.0                                        line 157978
-  spacy 3.8.11                                      line 159462
-  spacy-legacy 3.0.12                               line 159497
-  spacy-loggers 1.0.5                               line 159532
-  spandrel 0.4.1                                    line 159567
-  spin 0.10.0                                       line 159592
-  spin 0.9.8                                        line 159627
-  spki 0.7.3                                        line 159662
-  SQLAlchemy 2.0.46                                 line 159908
-  srsly 2.5.2                                       line 159983
-  stable_deref_trait 1.2.1                          line 160023
-  stack-data 0.6.3                                  line 160269
-  starlette 0.52.1                                  line 160304
-  static-iref 3.0.0                                 line 160345
-  static-regular-grammar 2.0.2                      line 160589
-  static_assertions 1.1.0                           line 160611
-  std-shims 0.1.5                                   line 160854
-  strength_reduce 0.2.4                             line 160889
-  string-interner 0.15.0                            line 161130
-  string_cache 0.8.9                                line 161187
-  string_cache 0.9.0                                line 161434
-  strsim 0.11.1                                     line 161681
-  submitit 1.5.4                                    line 161720
-  subtle 2.6.1                                      line 161755
-  swift-rs 1.0.7                                    line 161800
-  symphonia 0.5.5                                   line 162041
-  symphonia-bundle-flac 0.5.5                       line 162198
-  symphonia-bundle-mp3 0.5.5                        line 162355
-  symphonia-codec-aac 0.5.5                         line 162512
-  symphonia-codec-adpcm 0.5.5                       line 162669
-  symphonia-codec-pcm 0.5.5                         line 162826
-  symphonia-codec-vorbis 0.5.5                      line 162983
-  symphonia-core 0.5.5                              line 163140
-  symphonia-format-isomp4 0.5.5                     line 163298
-  symphonia-format-mkv 0.5.5                        line 163455
-  symphonia-format-ogg 0.5.5                        line 163612
-  symphonia-format-riff 0.5.5                       line 163769
-  symphonia-metadata 0.5.5                          line 163927
-  symphonia-utils-xiph 0.5.5                        line 164085
-  sympy 1.14.0                                      line 164242
-  syn 1.0.109                                       line 164469
-  syn 2.0.117                                       line 164713
-  sync_wrapper 1.0.2                                line 164932
-  synstructure 0.13.2                               line 165123
-  sysinfo 0.33.1                                    line 165144
-  system-configuration 0.7.0                        line 165180
-  system-configuration-sys 0.6.0                    line 165427
-  tabulate 0.10.0                                   line 165674
-  tao 0.34.8                                        line 165708
-  tao-macros 0.1.3                                  line 165947
-  tap 1.0.1                                         line 165969
-  tar 0.4.46                                        line 166004
-  tauri 2.10.3                                      line 166250
-  tauri-codegen 2.5.5                               line 166469
-  tauri-macros 2.5.5                                line 166687
-  tauri-plugin-dialog 2.6.0                         line 166905
-  tauri-plugin-fs 2.4.5                             line 167144
-  tauri-plugin-shell 2.3.5                          line 167384
-  tauri-runtime 2.10.1                              line 167623
-  tauri-runtime-wry 2.10.1                          line 167841
-  tauri-utils 2.8.3                                 line 168059
-  tempfile 3.27.0                                   line 168277
-  tendril 0.4.3                                     line 168525
-  tendril 0.5.0                                     line 168771
-  tensorboard 2.20.0                                line 169017
-  tensorboard-data-server 0.7.2                     line 169585
-  tensorboardX 2.6.4                                line 169803
-  termcolor 3.3.0                                   line 169840
-  thinc 8.3.10                                      line 169873
-  thiserror 1.0.69                                  line 169908
-  thiserror 2.0.18                                  line 170127
-  thiserror-impl 1.0.69                             line 170346
-  thiserror-impl 2.0.18                             line 170565
-  threadpoolctl 3.6.0                               line 170784
-  tiktoken 0.12.0                                   line 170821
-  time 0.3.45                                       line 170856
-  time-core 0.1.7                                   line 171072
-  time-macros 0.2.25                                line 171288
-  tinystr 0.8.2                                     line 171504
-  tinyvec 1.11.0                                    line 171565
-  tinyvec_macros 0.1.1                              line 171807
-  tls_codec 0.4.2                                   line 172076
-  tls_codec_derive 0.4.2                            line 172322
-  tokenizers 0.22.2                                 line 172568
-  tokio 1.50.0                                      line 172783
-  tokio-macros 2.6.1                                line 172818
-  tokio-native-tls 0.3.1                            line 172854
-  tokio-rustls 0.26.4                               line 172893
-  tokio-tungstenite 0.29.0                          line 173140
-  tokio-util 0.7.18                                 line 173175
-  toml 0.5.11                                       line 173210
-  toml 0.8.2                                        line 173457
-  toml 0.9.12+spec-1.1.0                            line 173698
-  toml 1.0.7+spec-1.1.0                             line 173939
-  toml_datetime 0.6.3                               line 174180
-  toml_datetime 0.7.5+spec-1.1.0                    line 174426
-  toml_datetime 1.0.1+spec-1.1.0                    line 174667
-  toml_edit 0.19.15                                 line 174908
-  toml_edit 0.20.2                                  line 175149
-  toml_edit 0.25.5+spec-1.1.0                       line 175390
-  toml_parser 1.0.10+spec-1.1.0                     line 175631
-  toml_writer 1.0.7+spec-1.1.0                      line 175872
-  torch 2.10.0                                      line 176113
-  torch 2.10.0+cu128                                line 185681
-  torch-einops-utils 0.0.30                         line 185705
-  torch-stoi 0.2.3                                  line 185740
-  torchaudio 2.10.0                                 line 185775
-  torchaudio 2.10.0+cu128                           line 185814
-  torchcodec 0.11.0                                 line 186093
-  torchcrepe 0.0.24                                 line 186136
-  torchfcpe 0.0.4                                   line 186171
-  torchmetrics 1.9.0                                line 186206
-  torchsde 0.2.6                                    line 186426
-  torchvision 0.25.0+cu128                          line 186642
-  tornado 6.5.5                                     line 186687
-  tower 0.5.3                                       line 186907
-  tower-http 0.6.8                                  line 186946
-  tower-layer 0.3.3                                 line 186985
-  tower-service 0.3.3                               line 187024
-  tqdm 4.67.3                                       line 187063
-  tracing 0.1.44                                    line 187128
-  tracing-attributes 0.1.31                         line 187167
-  tracing-core 0.1.36                               line 187206
-  tract-core 0.21.10                                line 187271
-  tract-data 0.21.10                                line 187531
-  tract-hir 0.21.10                                 line 187791
-  tract-linalg 0.21.10                              line 188051
-  tract-nnef 0.21.10                                line 188311
-  tract-onnx 0.21.10                                line 188571
-  tract-onnx-opl 0.21.10                            line 188831
-  traitful 0.3.0                                    line 189091
-  traitlets 5.14.3                                  line 189333
-  trampoline 0.1.2                                  line 189378
-  transformers 4.57.3                               line 189400
-  transpose 0.2.3                                   line 189691
-  tray-icon 0.21.3                                  line 189938
-  treetable 0.2.6                                   line 190203
-  triton-windows 3.6.0.post26                       line 190241
-  try-lock 0.2.5                                    line 190282
-  tungstenite 0.29.0                                line 190318
-  type-map 0.5.1                                    line 190560
-  typed-path 0.12.3                                 line 191062
-  typeid 1.0.3                                      line 191281
-  typenum 1.19.0                                    line 191500
-  typer-slim 0.21.1                                 line 191742
-  typing-inspection 0.4.2                           line 191777
-  typing_extensions 4.15.0                          line 191812
-  uc-micro-py 2.0.0                                 line 192106
-  uds_windows 1.2.1                                 line 192166
-  unarray 0.1.4                                     line 192201
-  unic-char-property 0.9.0                          line 192443
-  unic-char-range 0.9.0                             line 192465
-  unic-common 0.9.0                                 line 192488
-  unic-langid 0.9.6                                 line 192510
-  unic-langid-impl 0.9.6                            line 192754
-  unic-ucd-ident 0.9.0                              line 192998
-  unic-ucd-version 0.9.0                            line 193021
-  unicase 2.9.0                                     line 193043
-  unicode-ident 1.0.24                              line 193284
-  unicode-segmentation 1.12.0                       line 193546
-  unicode-xid 0.2.6                                 line 193808
-  universal-hash 0.5.1                              line 194066
-  untrusted 0.9.0                                   line 194312
-  ureq 2.12.1                                       line 194342
-  url 2.5.8                                         line 194819
-  urllib3 2.6.3                                     line 195069
-  urlpattern 0.3.0                                  line 195104
-  utf-8 0.7.6                                       line 195140
-  utf8-decode 1.0.1                                 line 195359
-  utf8_iter 1.0.4                                   line 195603
-  utf8parse 0.2.2                                   line 195896
-  uuid 1.22.0                                       line 196117
-  uvicorn 0.41.0                                    line 196367
-  vodozemac 0.10.0                                  line 196408
-  vsss-rs 5.4.0                                     line 196607
-  walkdir 2.5.0                                     line 196851
-  want 0.3.1                                        line 196888
-  wasabi 1.1.3                                      line 196922
-  wasi 0.11.1+wasi-snapshot-preview1                line 196957
-  wasip2 1.0.1+wasi-0.2.4                           line 197425
-  wasip3 0.4.0+wasi-0.3.0-rc-2026-01-06             line 197511
-  wasm-bindgen 0.2.114                              line 197597
-  wasm-bindgen-futures 0.4.64                       line 197843
-  wasm-bindgen-macro 0.2.114                        line 198089
-  wasm-bindgen-macro-support 0.2.114                line 198335
-  wasm-bindgen-shared 0.2.114                       line 198581
-  wasm-encoder 0.244.0                              line 198827
-  wasm-metadata 0.244.0                             line 198913
-  wasm-streams 0.4.2                                line 198999
-  wasm-streams 0.5.0                                line 199218
-  wasmparser 0.244.0                                line 199437
-  wavesurfer.js 7.12.5                              line 199527
-  wcwidth 0.6.0                                     line 199570
-  weasel 0.4.3                                      line 199611
-  web-sys 0.3.91                                    line 199646
-  web-time 1.1.0                                    line 199892
-  web_atoms 0.2.3                                   line 200135
-  webkit2gtk 2.0.2                                  line 200382
-  webkit2gtk-sys 2.0.2                              line 200416
-  webpki-roots 0.26.11                              line 200448
-  webpki-roots 1.0.8                                line 200523
-  webview2-com 0.38.2                               line 200598
-  webview2-com-macros 0.8.1                         line 200620
-  webview2-com-sys 0.38.2                           line 200642
-  Werkzeug 3.1.6                                    line 200664
+  simd-adler32 0.3.8                                line 156329
+  siphasher 0.3.11                                  line 156364
+  siphasher 1.0.2                                   line 156390
+  six 1.17.0                                        line 156416
+  slab 0.4.12                                       line 156448
+  smallvec 1.15.1                                   line 156487
+  smallvec 2.0.0-alpha.10                           line 156733
+  smart_open 7.5.1                                  line 156979
+  snafu 0.8.9                                       line 157019
+  snafu-derive 0.8.9                                line 157265
+  socket2 0.6.3                                     line 157511
+  softbuffer 0.4.8                                  line 157758
+  soundfile 0.13.1                                  line 157999
+  soup3 0.5.0                                       line 158042
+  soup3-sys 0.5.0                                   line 158078
+  soxr 1.0.0                                        line 158114
+  spacy 3.8.11                                      line 159598
+  spacy-legacy 3.0.12                               line 159633
+  spacy-loggers 1.0.5                               line 159668
+  spandrel 0.4.1                                    line 159703
+  spin 0.10.0                                       line 159728
+  spin 0.9.8                                        line 159763
+  spki 0.7.3                                        line 159798
+  SQLAlchemy 2.0.46                                 line 160044
+  srsly 2.5.2                                       line 160119
+  stable_deref_trait 1.2.1                          line 160159
+  stack-data 0.6.3                                  line 160405
+  starlette 0.52.1                                  line 160440
+  static-iref 3.0.0                                 line 160481
+  static-regular-grammar 2.0.2                      line 160725
+  static_assertions 1.1.0                           line 160747
+  std-shims 0.1.5                                   line 160990
+  strength_reduce 0.2.4                             line 161025
+  string-interner 0.15.0                            line 161266
+  string_cache 0.8.9                                line 161323
+  string_cache 0.9.0                                line 161570
+  strsim 0.11.1                                     line 161817
+  submitit 1.5.4                                    line 161856
+  subtle 2.6.1                                      line 161891
+  swift-rs 1.0.7                                    line 161936
+  symphonia 0.5.5                                   line 162177
+  symphonia-bundle-flac 0.5.5                       line 162334
+  symphonia-bundle-mp3 0.5.5                        line 162491
+  symphonia-codec-aac 0.5.5                         line 162648
+  symphonia-codec-adpcm 0.5.5                       line 162805
+  symphonia-codec-pcm 0.5.5                         line 162962
+  symphonia-codec-vorbis 0.5.5                      line 163119
+  symphonia-core 0.5.5                              line 163276
+  symphonia-format-isomp4 0.5.5                     line 163434
+  symphonia-format-mkv 0.5.5                        line 163591
+  symphonia-format-ogg 0.5.5                        line 163748
+  symphonia-format-riff 0.5.5                       line 163905
+  symphonia-metadata 0.5.5                          line 164063
+  symphonia-utils-xiph 0.5.5                        line 164221
+  sympy 1.14.0                                      line 164378
+  syn 1.0.109                                       line 164605
+  syn 2.0.117                                       line 164849
+  sync_wrapper 1.0.2                                line 165068
+  synstructure 0.13.2                               line 165259
+  sysinfo 0.33.1                                    line 165280
+  system-configuration 0.7.0                        line 165316
+  system-configuration-sys 0.6.0                    line 165563
+  tabulate 0.10.0                                   line 165810
+  tao 0.34.8                                        line 165844
+  tao-macros 0.1.3                                  line 166083
+  tap 1.0.1                                         line 166105
+  tar 0.4.46                                        line 166140
+  tauri 2.10.3                                      line 166386
+  tauri-codegen 2.5.5                               line 166605
+  tauri-macros 2.5.5                                line 166823
+  tauri-plugin-dialog 2.6.0                         line 167041
+  tauri-plugin-fs 2.4.5                             line 167280
+  tauri-plugin-shell 2.3.5                          line 167520
+  tauri-runtime 2.10.1                              line 167759
+  tauri-runtime-wry 2.10.1                          line 167977
+  tauri-utils 2.8.3                                 line 168195
+  tempfile 3.27.0                                   line 168413
+  tendril 0.4.3                                     line 168661
+  tendril 0.5.0                                     line 168907
+  tensorboard 2.20.0                                line 169153
+  tensorboard-data-server 0.7.2                     line 169721
+  tensorboardX 2.6.4                                line 169939
+  termcolor 3.3.0                                   line 169976
+  thinc 8.3.10                                      line 170009
+  thiserror 1.0.69                                  line 170044
+  thiserror 2.0.18                                  line 170263
+  thiserror-impl 1.0.69                             line 170482
+  thiserror-impl 2.0.18                             line 170701
+  threadpoolctl 3.6.0                               line 170920
+  tiktoken 0.12.0                                   line 170957
+  time 0.3.45                                       line 170992
+  time-core 0.1.7                                   line 171208
+  time-macros 0.2.25                                line 171424
+  tinystr 0.8.2                                     line 171640
+  tinyvec 1.11.0                                    line 171701
+  tinyvec_macros 0.1.1                              line 171943
+  tls_codec 0.4.2                                   line 172212
+  tls_codec_derive 0.4.2                            line 172458
+  tokenizers 0.22.2                                 line 172704
+  tokio 1.50.0                                      line 172919
+  tokio-macros 2.6.1                                line 172954
+  tokio-native-tls 0.3.1                            line 172990
+  tokio-rustls 0.26.4                               line 173029
+  tokio-tungstenite 0.29.0                          line 173276
+  tokio-util 0.7.18                                 line 173311
+  toml 0.5.11                                       line 173346
+  toml 0.8.2                                        line 173593
+  toml 0.9.12+spec-1.1.0                            line 173834
+  toml 1.0.7+spec-1.1.0                             line 174075
+  toml_datetime 0.6.3                               line 174316
+  toml_datetime 0.7.5+spec-1.1.0                    line 174562
+  toml_datetime 1.0.1+spec-1.1.0                    line 174803
+  toml_edit 0.19.15                                 line 175044
+  toml_edit 0.20.2                                  line 175285
+  toml_edit 0.25.5+spec-1.1.0                       line 175526
+  toml_parser 1.0.10+spec-1.1.0                     line 175767
+  toml_writer 1.0.7+spec-1.1.0                      line 176008
+  torch 2.10.0                                      line 176249
+  torch 2.10.0+cu128                                line 185817
+  torch-einops-utils 0.0.30                         line 185841
+  torch-stoi 0.2.3                                  line 185876
+  torchaudio 2.10.0                                 line 185911
+  torchaudio 2.10.0+cu128                           line 185950
+  torchcodec 0.11.0                                 line 186229
+  torchcrepe 0.0.24                                 line 186272
+  torchfcpe 0.0.4                                   line 186307
+  torchmetrics 1.9.0                                line 186342
+  torchsde 0.2.6                                    line 186562
+  torchvision 0.25.0+cu128                          line 186778
+  tornado 6.5.5                                     line 186823
+  tower 0.5.3                                       line 187043
+  tower-http 0.6.8                                  line 187082
+  tower-layer 0.3.3                                 line 187121
+  tower-service 0.3.3                               line 187160
+  tqdm 4.67.3                                       line 187199
+  tracing 0.1.44                                    line 187264
+  tracing-attributes 0.1.31                         line 187303
+  tracing-core 0.1.36                               line 187342
+  tract-core 0.21.10                                line 187407
+  tract-data 0.21.10                                line 187667
+  tract-hir 0.21.10                                 line 187927
+  tract-linalg 0.21.10                              line 188187
+  tract-nnef 0.21.10                                line 188447
+  tract-onnx 0.21.10                                line 188707
+  tract-onnx-opl 0.21.10                            line 188967
+  traitful 0.3.0                                    line 189227
+  traitlets 5.14.3                                  line 189469
+  trampoline 0.1.2                                  line 189514
+  transformers 4.57.3                               line 189536
+  transpose 0.2.3                                   line 189827
+  tray-icon 0.21.3                                  line 190074
+  treetable 0.2.6                                   line 190339
+  triton-windows 3.6.0.post26                       line 190377
+  try-lock 0.2.5                                    line 190418
+  tungstenite 0.29.0                                line 190454
+  type-map 0.5.1                                    line 190696
+  typed-path 0.12.3                                 line 191198
+  typeid 1.0.3                                      line 191417
+  typenum 1.19.0                                    line 191636
+  typer-slim 0.21.1                                 line 191878
+  typing-inspection 0.4.2                           line 191913
+  typing_extensions 4.15.0                          line 191948
+  uc-micro-py 2.0.0                                 line 192242
+  uds_windows 1.2.1                                 line 192302
+  unarray 0.1.4                                     line 192337
+  unic-char-property 0.9.0                          line 192579
+  unic-char-range 0.9.0                             line 192601
+  unic-common 0.9.0                                 line 192624
+  unic-langid 0.9.6                                 line 192646
+  unic-langid-impl 0.9.6                            line 192890
+  unic-ucd-ident 0.9.0                              line 193134
+  unic-ucd-version 0.9.0                            line 193157
+  unicase 2.9.0                                     line 193179
+  unicode-ident 1.0.24                              line 193420
+  unicode-segmentation 1.12.0                       line 193682
+  unicode-xid 0.2.6                                 line 193944
+  universal-hash 0.5.1                              line 194202
+  untrusted 0.9.0                                   line 194448
+  ureq 2.12.1                                       line 194478
+  url 2.5.8                                         line 194955
+  urllib3 2.6.3                                     line 195205
+  urlpattern 0.3.0                                  line 195240
+  utf-8 0.7.6                                       line 195276
+  utf8-decode 1.0.1                                 line 195495
+  utf8_iter 1.0.4                                   line 195739
+  utf8parse 0.2.2                                   line 196032
+  uuid 1.22.0                                       line 196253
+  uvicorn 0.41.0                                    line 196503
+  vodozemac 0.10.0                                  line 196544
+  vsss-rs 5.4.0                                     line 196743
+  walkdir 2.5.0                                     line 196987
+  want 0.3.1                                        line 197024
+  wasabi 1.1.3                                      line 197058
+  wasi 0.11.1+wasi-snapshot-preview1                line 197093
+  wasip2 1.0.1+wasi-0.2.4                           line 197561
+  wasip3 0.4.0+wasi-0.3.0-rc-2026-01-06             line 197647
+  wasm-bindgen 0.2.114                              line 197733
+  wasm-bindgen-futures 0.4.64                       line 197979
+  wasm-bindgen-macro 0.2.114                        line 198225
+  wasm-bindgen-macro-support 0.2.114                line 198471
+  wasm-bindgen-shared 0.2.114                       line 198717
+  wasm-encoder 0.244.0                              line 198963
+  wasm-metadata 0.244.0                             line 199049
+  wasm-streams 0.4.2                                line 199135
+  wasm-streams 0.5.0                                line 199354
+  wasmparser 0.244.0                                line 199573
+  wavesurfer.js 7.12.5                              line 199663
+  wcwidth 0.6.0                                     line 199706
+  weasel 0.4.3                                      line 199747
+  web-sys 0.3.91                                    line 199782
+  web-time 1.1.0                                    line 200028
+  web_atoms 0.2.3                                   line 200271
+  webkit2gtk 2.0.2                                  line 200518
+  webkit2gtk-sys 2.0.2                              line 200552
+  webpki-roots 0.26.11                              line 200584
+  webpki-roots 1.0.8                                line 200659
+  webview2-com 0.38.2                               line 200734
+  webview2-com-macros 0.8.1                         line 200756
+  webview2-com-sys 0.38.2                           line 200778
+  Werkzeug 3.1.6                                    line 200800
   Whisper-small fce938ed4d5c                        line 9321
-  win32_setctime 1.2.0                              line 200706
-  winapi 0.3.9                                      line 200741
-  winapi-i686-pc-windows-gnu 0.4.0                  line 200981
-  winapi-util 0.1.11                                line 201004
-  winapi-x86_64-pc-windows-gnu 0.4.0                line 201041
-  window-vibrancy 0.6.0                             line 201064
-  windows 0.57.0                                    line 201330
-  windows 0.61.3                                    line 201572
-  windows 0.62.2                                    line 201814
-  windows-collections 0.2.0                         line 202056
-  windows-collections 0.3.2                         line 202298
-  windows-core 0.57.0                               line 202540
-  windows-core 0.61.2                               line 202782
-  windows-core 0.62.2                               line 203024
-  windows-future 0.2.1                              line 203266
-  windows-future 0.3.2                              line 203508
-  windows-implement 0.57.0                          line 203750
-  windows-implement 0.60.2                          line 203992
-  windows-interface 0.57.0                          line 204234
-  windows-interface 0.59.3                          line 204476
-  windows-link 0.1.3                                line 204718
-  windows-link 0.2.1                                line 204960
-  windows-numerics 0.2.0                            line 205202
-  windows-numerics 0.3.1                            line 205444
-  windows-registry 0.6.1                            line 205686
-  windows-result 0.1.2                              line 205928
-  windows-result 0.3.4                              line 206170
-  windows-result 0.4.1                              line 206412
-  windows-strings 0.4.2                             line 206654
-  windows-strings 0.5.1                             line 206896
-  windows-sys 0.45.0                                line 207138
-  windows-sys 0.48.0                                line 207380
-  windows-sys 0.52.0                                line 207622
-  windows-sys 0.59.0                                line 207864
-  windows-sys 0.60.2                                line 208106
-  windows-sys 0.61.2                                line 208348
-  windows-targets 0.42.2                            line 208590
-  windows-targets 0.48.5                            line 208832
-  windows-targets 0.52.6                            line 209074
-  windows-targets 0.53.5                            line 209316
-  windows-threading 0.1.0                           line 209558
-  windows-threading 0.2.1                           line 209800
-  windows-version 0.1.7                             line 210042
-  windows_aarch64_gnullvm 0.42.2                    line 210284
-  windows_aarch64_gnullvm 0.48.5                    line 210526
-  windows_aarch64_gnullvm 0.52.6                    line 210768
-  windows_aarch64_gnullvm 0.53.1                    line 211010
-  windows_aarch64_msvc 0.42.2                       line 211252
-  windows_aarch64_msvc 0.48.5                       line 211494
-  windows_aarch64_msvc 0.52.6                       line 211736
-  windows_aarch64_msvc 0.53.1                       line 211978
-  windows_i686_gnu 0.42.2                           line 212220
-  windows_i686_gnu 0.48.5                           line 212462
-  windows_i686_gnu 0.52.6                           line 212704
-  windows_i686_gnu 0.53.1                           line 212946
-  windows_i686_gnullvm 0.52.6                       line 213188
-  windows_i686_gnullvm 0.53.1                       line 213430
-  windows_i686_msvc 0.42.2                          line 213672
-  windows_i686_msvc 0.48.5                          line 213914
-  windows_i686_msvc 0.52.6                          line 214156
-  windows_i686_msvc 0.53.1                          line 214398
-  windows_x86_64_gnu 0.42.2                         line 214640
-  windows_x86_64_gnu 0.48.5                         line 214882
-  windows_x86_64_gnu 0.52.6                         line 215124
-  windows_x86_64_gnu 0.53.1                         line 215366
-  windows_x86_64_gnullvm 0.42.2                     line 215608
-  windows_x86_64_gnullvm 0.48.5                     line 215850
-  windows_x86_64_gnullvm 0.52.6                     line 216092
-  windows_x86_64_gnullvm 0.53.1                     line 216334
-  windows_x86_64_msvc 0.42.2                        line 216576
-  windows_x86_64_msvc 0.48.5                        line 216818
-  windows_x86_64_msvc 0.52.6                        line 217060
-  windows_x86_64_msvc 0.53.1                        line 217302
-  winnow 0.5.40                                     line 217544
-  winnow 0.7.15                                     line 217576
-  winnow 1.0.0                                      line 217608
-  wit-bindgen 0.46.0                                line 217640
-  wit-bindgen 0.51.0                                line 218108
-  wit-bindgen-core 0.51.0                           line 218576
-  wit-bindgen-rust 0.51.0                           line 219044
-  wit-bindgen-rust-macro 0.51.0                     line 219512
-  wit-component 0.244.0                             line 219980
-  wit-parser 0.244.0                                line 220066
-  wrapcenum-derive 0.4.1                            line 220152
-  wrapt 2.1.2                                       line 220393
-  writeable 0.6.2                                   line 220431
-  wry 0.54.4                                        line 220492
-  wyz 0.5.1                                         line 220759
-  x11 2.21.0                                        line 220794
-  x11-dl 2.21.0                                     line 220831
-  x25519-dalek 2.0.1                                line 220868
-  x509-cert 0.2.5                                   line 220916
-  x509-parser 0.18.1                                line 221162
-  xattr 1.6.1                                       line 221408
-  xdg-home 1.3.0                                    line 221654
-  xml-no-std 0.8.26                                 line 221691
-  yarl 1.22.0                                       line 221726
-  yasna 0.5.2                                       line 221959
-  yoke 0.8.1                                        line 221984
-  yoke-derive 0.8.1                                 line 222045
-  yubikey 0.8.0                                     line 222106
-  zbus 4.4.0                                        line 222147
-  zbus_macros 4.4.0                                 line 222186
-  zbus_names 3.0.0                                  line 222225
-  zerocopy 0.8.47                                   line 222262
-  zerocopy-derive 0.8.47                            line 222545
-  zerofrom 0.1.6                                    line 222826
-  zerofrom-derive 0.1.6                             line 222887
-  zeroize 1.8.2                                     line 222948
-  zeroize_derive 1.4.3                              line 223191
-  zerotrie 0.2.3                                    line 223434
-  zerovec 0.11.5                                    line 223495
-  zerovec-derive 0.11.2                             line 223556
-  zip 4.6.1                                         line 223617
-  zip 8.4.0                                         line 223654
-  zipp 3.23.0                                       line 223689
+  win32_setctime 1.2.0                              line 200842
+  winapi 0.3.9                                      line 200877
+  winapi-i686-pc-windows-gnu 0.4.0                  line 201117
+  winapi-util 0.1.11                                line 201140
+  winapi-x86_64-pc-windows-gnu 0.4.0                line 201177
+  window-vibrancy 0.6.0                             line 201200
+  windows 0.57.0                                    line 201466
+  windows 0.61.3                                    line 201708
+  windows 0.62.2                                    line 201950
+  windows-collections 0.2.0                         line 202192
+  windows-collections 0.3.2                         line 202434
+  windows-core 0.57.0                               line 202676
+  windows-core 0.61.2                               line 202918
+  windows-core 0.62.2                               line 203160
+  windows-future 0.2.1                              line 203402
+  windows-future 0.3.2                              line 203644
+  windows-implement 0.57.0                          line 203886
+  windows-implement 0.60.2                          line 204128
+  windows-interface 0.57.0                          line 204370
+  windows-interface 0.59.3                          line 204612
+  windows-link 0.1.3                                line 204854
+  windows-link 0.2.1                                line 205096
+  windows-numerics 0.2.0                            line 205338
+  windows-numerics 0.3.1                            line 205580
+  windows-registry 0.6.1                            line 205822
+  windows-result 0.1.2                              line 206064
+  windows-result 0.3.4                              line 206306
+  windows-result 0.4.1                              line 206548
+  windows-strings 0.4.2                             line 206790
+  windows-strings 0.5.1                             line 207032
+  windows-sys 0.45.0                                line 207274
+  windows-sys 0.48.0                                line 207516
+  windows-sys 0.52.0                                line 207758
+  windows-sys 0.59.0                                line 208000
+  windows-sys 0.60.2                                line 208242
+  windows-sys 0.61.2                                line 208484
+  windows-targets 0.42.2                            line 208726
+  windows-targets 0.48.5                            line 208968
+  windows-targets 0.52.6                            line 209210
+  windows-targets 0.53.5                            line 209452
+  windows-threading 0.1.0                           line 209694
+  windows-threading 0.2.1                           line 209936
+  windows-version 0.1.7                             line 210178
+  windows_aarch64_gnullvm 0.42.2                    line 210420
+  windows_aarch64_gnullvm 0.48.5                    line 210662
+  windows_aarch64_gnullvm 0.52.6                    line 210904
+  windows_aarch64_gnullvm 0.53.1                    line 211146
+  windows_aarch64_msvc 0.42.2                       line 211388
+  windows_aarch64_msvc 0.48.5                       line 211630
+  windows_aarch64_msvc 0.52.6                       line 211872
+  windows_aarch64_msvc 0.53.1                       line 212114
+  windows_i686_gnu 0.42.2                           line 212356
+  windows_i686_gnu 0.48.5                           line 212598
+  windows_i686_gnu 0.52.6                           line 212840
+  windows_i686_gnu 0.53.1                           line 213082
+  windows_i686_gnullvm 0.52.6                       line 213324
+  windows_i686_gnullvm 0.53.1                       line 213566
+  windows_i686_msvc 0.42.2                          line 213808
+  windows_i686_msvc 0.48.5                          line 214050
+  windows_i686_msvc 0.52.6                          line 214292
+  windows_i686_msvc 0.53.1                          line 214534
+  windows_x86_64_gnu 0.42.2                         line 214776
+  windows_x86_64_gnu 0.48.5                         line 215018
+  windows_x86_64_gnu 0.52.6                         line 215260
+  windows_x86_64_gnu 0.53.1                         line 215502
+  windows_x86_64_gnullvm 0.42.2                     line 215744
+  windows_x86_64_gnullvm 0.48.5                     line 215986
+  windows_x86_64_gnullvm 0.52.6                     line 216228
+  windows_x86_64_gnullvm 0.53.1                     line 216470
+  windows_x86_64_msvc 0.42.2                        line 216712
+  windows_x86_64_msvc 0.48.5                        line 216954
+  windows_x86_64_msvc 0.52.6                        line 217196
+  windows_x86_64_msvc 0.53.1                        line 217438
+  winnow 0.5.40                                     line 217680
+  winnow 0.7.15                                     line 217712
+  winnow 1.0.0                                      line 217744
+  wit-bindgen 0.46.0                                line 217776
+  wit-bindgen 0.51.0                                line 218244
+  wit-bindgen-core 0.51.0                           line 218712
+  wit-bindgen-rust 0.51.0                           line 219180
+  wit-bindgen-rust-macro 0.51.0                     line 219648
+  wit-component 0.244.0                             line 220116
+  wit-parser 0.244.0                                line 220202
+  wrapcenum-derive 0.4.1                            line 220288
+  wrapt 2.1.2                                       line 220529
+  writeable 0.6.2                                   line 220567
+  wry 0.54.4                                        line 220628
+  wyz 0.5.1                                         line 220895
+  x11 2.21.0                                        line 220930
+  x11-dl 2.21.0                                     line 220967
+  x25519-dalek 2.0.1                                line 221004
+  x509-cert 0.2.5                                   line 221052
+  x509-parser 0.18.1                                line 221298
+  xattr 1.6.1                                       line 221544
+  xdg-home 1.3.0                                    line 221790
+  xml-no-std 0.8.26                                 line 221827
+  yarl 1.22.0                                       line 221862
+  yasna 0.5.2                                       line 222095
+  yoke 0.8.1                                        line 222120
+  yoke-derive 0.8.1                                 line 222181
+  yubikey 0.8.0                                     line 222242
+  zbus 4.4.0                                        line 222283
+  zbus_macros 4.4.0                                 line 222322
+  zbus_names 3.0.0                                  line 222361
+  zerocopy 0.8.47                                   line 222398
+  zerocopy-derive 0.8.47                            line 222681
+  zerofrom 0.1.6                                    line 222962
+  zerofrom-derive 0.1.6                             line 223023
+  zeroize 1.8.2                                     line 223084
+  zeroize_derive 1.4.3                              line 223327
+  zerotrie 0.2.3                                    line 223570
+  zerovec 0.11.5                                    line 223631
+  zerovec-derive 0.11.2                             line 223692
+  zip 4.6.1                                         line 223753
+  zip 8.4.0                                         line 223790
+  zipp 3.23.0                                       line 223825
   zlib 1.3.1                                        line 5736
-  zlib-rs 0.6.3                                     line 223721
-  zmij 1.0.21                                       line 223754
-  zopfli 0.8.3                                      line 223791
-  zvariant 4.2.0                                    line 224006
-  zvariant_derive 4.2.0                             line 224045
-  zvariant_utils 2.1.0                              line 224084
-  zz_rAIdio_rvc_bool_fix c700713                    line 224121
-  zz_rAIdio_rvc_infer_audio_fix c700713             line 224149
-  zz_rAIdio_rvc_loadaudio_alias c700713             line 224177
-  zz_rAIdio_rvc_train_dir_fix c700713               line 224205
-  zz_rAIdio_rvc_train_quote_fix c700713             line 224233
+  zlib-rs 0.6.3                                     line 223857
+  zmij 1.0.21                                       line 223890
+  zopfli 0.8.3                                      line 223927
+  zvariant 4.2.0                                    line 224142
+  zvariant_derive 4.2.0                             line 224181
+  zvariant_utils 2.1.0                              line 224220
+  zz_rAIdio_rvc_bool_fix c700713                    line 224257
+  zz_rAIdio_rvc_infer_audio_fix c700713             line 224285
+  zz_rAIdio_rvc_loadaudio_alias c700713             line 224313
+  zz_rAIdio_rvc_train_dir_fix c700713               line 224341
+  zz_rAIdio_rvc_train_quote_fix c700713             line 224369
 
 ═══════════════════════════════════════════════════════════════════════════
 
@@ -33187,79 +33187,208 @@ COPYRIGHT
 
 LICENSE TEXT
 ────────────
-Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
 
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
 
-1. Definitions.
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+   1. Definitions.
 
-"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
 
-"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
 
-"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
 
-"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
 
-"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
 
-"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
 
-"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
 
-"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
 
-"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
 
-2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
 
-3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
 
-4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
 
-     (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
 
-     (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
 
-     (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
 
-     (d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
 
-     You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
 
-5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
 
-6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
 
-7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
 
-8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
 
-9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
 
-END OF TERMS AND CONDITIONS
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
 
-APPENDIX: How to apply the Apache License to your work.
+   END OF TERMS AND CONDITIONS
 
-To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+   APPENDIX: How to apply the Apache License to your work.
 
-Copyright [yyyy] [name of copyright owner]
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+   Copyright [2025] Timedomain Inc. and stepfun
 
-http://www.apache.org/licenses/LICENSE-2.0
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 
 ═══════════════════════════════════════════════════════════════════════════
 COMPONENT:    comfyui_memescreamer_memory_cleaner c700713
@@ -147751,25 +147880,32 @@ PURL:         pkg:generic/SeedVC-ComfyUI@0f6481215b64
 
 COPYRIGHT
 ─────────
-(none recorded)
+Copyright (c) 2024 memescreamer
 
 LICENSE TEXT
 ────────────
-GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Software Foundation, Inc. <http://fsf.org/>Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.PreambleThe GNU General Public License is a free, copyleft license for software and other kinds of works.The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights. Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.Developers that use the GNU GPL protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it.For the developers' and authors' protection, the GPL clearly explains that there is no warranty for this free software. For both users' and authors' sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions.Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users' freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.The precise terms and conditions for copying, distribution and modification follow.TERMS AND CONDITIONS
-0. Definitions.
-“This License” refers to version 3 of the GNU General Public License.“Copyright” also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.“The Program” refers to any copyrightable work licensed under this License. Each licensee is addressed as “you”. “Licensees” and “recipients” may be individuals or organizations.To “modify” a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a “modified version” of the earlier work or a work “based on” the earlier work.A “covered work” means either the unmodified Program or a work based on the Program.To “propagate” a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.To “convey” a work means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.An interactive user interface displays “Appropriate Legal Notices” to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion.1. Source Code.The “source code” for a work means the preferred form of the work for making modifications to it. “Object code” means any non-source form of a work.A “Standard Interface” means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language.The “System Libraries” of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A “Major Component”, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.The “Corresponding Source” for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. However, it does not include the work's System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work. For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source.The Corresponding Source for a work in source code form is that same work.2. Basic Permissions.All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force. You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright. Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.Conveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary.3. Protecting Users' Legal Rights From Anti-Circumvention Law.No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.4. Conveying Verbatim Copies.You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.5. Conveying Modified Source Versions.You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:     a) The work must carry prominent notices stating that you modified it, and giving a relevant date.   
-     b) The work must carry prominent notices stating that it is released under this License and any conditions added under section 7. This requirement modifies the requirement in section 4 to “keep intact all notices”.   
-     c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.   
-     d) If the work has interactive user interfaces, each must display Appropriate Legal Notices; however, if the Program has interactive interfaces that do not display Appropriate Legal Notices, your work need not make them do so. A compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an “aggregate” if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation's users beyond what the individual works permit. Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate.6. Conveying Non-Source Forms.You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:     a) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange.   
-     b) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge.      c) Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in accord with subsection 6b.   
-     d) Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to copy the Corresponding Source along with the object code. If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities, provided you maintain clear directions next to the object code saying where to find the Corresponding Source. Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed to satisfy these requirements.   
-     e) Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d. A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work.A “User Product” is either (1) a “consumer product”, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage. For a particular product received by a particular user, “normally used” refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product. A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.“Installation Information” for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source. The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made.If you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information. But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM).The requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed. Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network.Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying.7. Additional Terms.“Additional permissions” are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions.When you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it. (Additional permissions may be written to require their own removal in certain cases when you modify the work.) You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission.Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:     a) Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or   
-     b) Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or   
-     c) Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or   
-     d) Limiting the use for publicity purposes of names of licensors or authors of the material; or   
-     e) Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or   
-     f) Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions directly impose on those licensors and authors. All other non-permissive additional terms are considered “further restrictions” within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term. If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying.If you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms.Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way.8. Termination.You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11).However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10.9. Acceptance Not Required for Having Copies.You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so.10. Automatic Licensing of Downstream Recipients.Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License.An “entity transaction” is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party's predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts.You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.11. Patents.A “contributor” is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor's “contributor version”.A contributor's “essential patent claims” are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version. For purposes of this definition, “control” includes the right to grant patent sublicenses in a manner consistent with the requirements of this License.Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.In the following three paragraphs, a “patent license” is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement). To “grant” such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party.If you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients. “Knowingly relying” means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient's use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid.If, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it.A patent license is “discriminatory” if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007.Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.12. No Surrender of Others' Freedom.If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.13. Use with the GNU Affero General Public License.Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.14. Revised Versions of this License.The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.Each version is given a distinguishing version number. If the Program specifies that a certain numbered version of the GNU General Public License “or any later version” applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation.If the Program specifies that a proxy can decide which future versions of the GNU General Public License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Program.Later license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.15. Disclaimer of Warranty.THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.16. Limitation of Liability.IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.17. Interpretation of Sections 15 and 16.If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.END OF TERMS AND CONDITIONSHow to Apply These Terms to Your New Programs
-If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+MIT License
+
+Copyright (c) 2024 memescreamer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 ═══════════════════════════════════════════════════════════════════════════
 COMPONENT:    selectors 0.24.0
