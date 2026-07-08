@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:454eb836-5b00-4b8d-b8e4-f05fd1babbed",
+  "serialNumber": "urn:uuid:421c97f4-73e0-4ca6-8f2c-d5187a793a47",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-08T22:08:02+00:00",
+    "timestamp": "2026-07-08T22:15:17+00:00",
     "tools": [
       {
         "vendor": "rAIdio.bot",
@@ -2320,7 +2320,7 @@
       "licenses": [
         {
           "license": {
-            "id": "BSD"
+            "id": "BSD-3-Clause"
           }
         }
       ],
@@ -2660,7 +2660,7 @@
       "licenses": [
         {
           "license": {
-            "id": "Apache 2.0"
+            "id": "Apache-2.0"
           }
         }
       ],
@@ -5672,7 +5672,7 @@
       "licenses": [
         {
           "license": {
-            "id": "BSD 3-Clause License"
+            "id": "BSD-3-Clause"
           }
         }
       ],
@@ -6316,7 +6316,7 @@
       "licenses": [
         {
           "license": {
-            "id": "LicenseRef-NVIDIA-SOFTWARE-LICENSE"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -11730,7 +11730,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT License"
+            "id": "MIT"
           }
         }
       ],
@@ -13212,7 +13212,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT License"
+            "id": "MIT"
           }
         }
       ],
@@ -14375,7 +14375,7 @@
       "licenses": [
         {
           "license": {
-            "id": "BSD"
+            "id": "BSD-2-Clause"
           }
         }
       ],
@@ -15711,7 +15711,7 @@
       "licenses": [
         {
           "license": {
-            "id": "Apache License 2.0"
+            "id": "Apache-2.0"
           }
         }
       ],
@@ -16437,7 +16437,7 @@
       "licenses": [
         {
           "license": {
-            "id": "LGPL"
+            "id": "LGPL-2.1"
           }
         }
       ],
@@ -16583,7 +16583,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -16639,7 +16639,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -16695,7 +16695,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -16751,7 +16751,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -16863,7 +16863,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -16919,7 +16919,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -16975,7 +16975,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -17031,7 +17031,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -17087,7 +17087,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -17115,7 +17115,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -17143,7 +17143,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -17255,7 +17255,7 @@
       "licenses": [
         {
           "license": {
-            "id": "NVIDIA Proprietary Software"
+            "id": "LicenseRef-NVIDIA-Proprietary"
           }
         }
       ],
@@ -17339,7 +17339,7 @@
       "licenses": [
         {
           "license": {
-            "id": "Apache 2.0"
+            "id": "Apache-2.0"
           }
         }
       ],
@@ -17367,7 +17367,7 @@
       "licenses": [
         {
           "license": {
-            "id": "Apache 2.0"
+            "id": "Apache-2.0"
           }
         }
       ],
@@ -19889,7 +19889,7 @@
       "licenses": [
         {
           "license": {
-            "id": "GPLv3"
+            "id": "GPL-3.0"
           }
         }
       ],
@@ -20617,7 +20617,7 @@
       "licenses": [
         {
           "license": {
-            "id": "3-Clause BSD License"
+            "id": "BSD-3-Clause"
           }
         }
       ],
@@ -21168,9 +21168,7 @@
       "version": "1.19.1",
       "licenses": [
         {
-          "license": {
-            "id": "GPLv2 with linking exception"
-          }
+          "expression": "GPL-2.0-only WITH linking-exception"
         }
       ],
       "purl": "pkg:pypi/pygit2@1.19.1",
@@ -28099,7 +28097,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT License"
+            "id": "MIT"
           }
         }
       ],
@@ -29027,7 +29025,7 @@
       "licenses": [
         {
           "license": {
-            "id": "MIT License"
+            "id": "MIT"
           }
         }
       ],
@@ -29145,7 +29143,7 @@
       "licenses": [
         {
           "license": {
-            "id": "BSD 3-Clause License"
+            "id": "BSD-3-Clause"
           }
         }
       ],
@@ -29285,7 +29283,7 @@
       "licenses": [
         {
           "license": {
-            "id": "BSD"
+            "id": "BSD-3-Clause"
           }
         }
       ],
@@ -29863,7 +29861,7 @@
       "licenses": [
         {
           "license": {
-            "id": "BSD 3-Clause License"
+            "id": "BSD-3-Clause"
           }
         }
       ],
@@ -30011,7 +30009,7 @@
       "licenses": [
         {
           "license": {
-            "id": "Unlicense license"
+            "id": "Unlicense"
           }
         }
       ],
