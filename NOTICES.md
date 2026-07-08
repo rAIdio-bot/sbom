@@ -56,7 +56,7 @@ _1192 components, alphabetical by name. Click to jump._
 - [`anstyle-query` `1.1.5`](#anstyle-query-115)
 - [`anstyle-wincon` `3.0.11`](#anstyle-wincon-3011)
 - [`antlr4-python3-runtime` `4.9.3`](#antlr4-python3-runtime-493)
-- [`anyhow` `1.0.102`](#anyhow-10102)
+- [`anyhow` `1.0.103`](#anyhow-10103)
 - [`anyio` `4.12.1`](#anyio-4121)
 - [`anymap3` `1.1.0`](#anymap3-110)
 - [`arbitrary` `1.4.2`](#arbitrary-142)
@@ -194,7 +194,7 @@ _1192 components, alphabetical by name. Click to jump._
 - [`crc32fast` `1.5.0`](#crc32fast-150)
 - [`crossbeam-channel` `0.5.15`](#crossbeam-channel-0515)
 - [`crossbeam-deque` `0.8.6`](#crossbeam-deque-086)
-- [`crossbeam-epoch` `0.9.18`](#crossbeam-epoch-0918)
+- [`crossbeam-epoch` `0.9.20`](#crossbeam-epoch-0920)
 - [`crossbeam-utils` `0.8.21`](#crossbeam-utils-0821)
 - [`crunchy` `0.2.4`](#crunchy-024)
 - [`crypto-bigint` `0.5.5`](#crypto-bigint-055)
@@ -550,7 +550,7 @@ _1192 components, alphabetical by name. Click to jump._
 - [`num-bigint` `0.4.6`](#num-bigint-046)
 - [`num-bigint-dig` `0.8.6`](#num-bigint-dig-086)
 - [`num-complex` `0.4.6`](#num-complex-046)
-- [`num-conv` `0.1.0`](#num-conv-010)
+- [`num-conv` `0.2.2`](#num-conv-022)
 - [`num-derive` `0.4.2`](#num-derive-042)
 - [`num-integer` `0.1.46`](#num-integer-0146)
 - [`num-iter` `0.1.45`](#num-iter-0145)
@@ -590,10 +590,10 @@ _1192 components, alphabetical by name. Click to jump._
 - [`openai-whisper` `20250625`](#openai-whisper-20250625)
 - [`opencc-python-reimplemented` `0.1.7`](#opencc-python-reimplemented-017)
 - [`opencv-python-headless` `4.13.0.92`](#opencv-python-headless-413092)
-- [`openssl` `0.10.76`](#openssl-01076)
+- [`openssl` `0.10.80`](#openssl-01080)
 - [`openssl-macros` `0.1.1`](#openssl-macros-011)
 - [`openssl-probe` `0.2.1`](#openssl-probe-021)
-- [`openssl-sys` `0.9.112`](#openssl-sys-09112)
+- [`openssl-sys` `0.9.117`](#openssl-sys-09117)
 - [`openunmix` `1.3.0`](#openunmix-130)
 - [`option-ext` `0.2.0`](#option-ext-020)
 - [`opus` `1.5.2`](#opus-152)
@@ -789,7 +789,7 @@ _1192 components, alphabetical by name. Click to jump._
 - [`rustix` `1.1.4`](#rustix-114)
 - [`rustls` `0.23.37`](#rustls-02337)
 - [`rustls-pki-types` `1.14.0`](#rustls-pki-types-1140)
-- [`rustls-webpki` `0.103.10`](#rustls-webpki-010310)
+- [`rustls-webpki` `0.103.13`](#rustls-webpki-010313)
 - [`rustversion` `1.0.22`](#rustversion-1022)
 - [`RVC WebUI Pretrained` `b0494e0bb44e`](#rvc-webui-pretrained-b0494e0bb44e)
 - [`ryu` `1.0.23`](#ryu-1023)
@@ -946,9 +946,9 @@ _1192 components, alphabetical by name. Click to jump._
 - [`thiserror-impl` `2.0.18`](#thiserror-impl-2018)
 - [`threadpoolctl` `3.6.0`](#threadpoolctl-360)
 - [`tiktoken` `0.12.0`](#tiktoken-0120)
-- [`time` `0.3.45`](#time-0345)
-- [`time-core` `0.1.7`](#time-core-017)
-- [`time-macros` `0.2.25`](#time-macros-0225)
+- [`time` `0.3.47`](#time-0347)
+- [`time-core` `0.1.8`](#time-core-018)
+- [`time-macros` `0.2.27`](#time-macros-0227)
 - [`tinystr` `0.8.2`](#tinystr-082)
 - [`tinyvec` `1.11.0`](#tinyvec-1110)
 - [`tinyvec_macros` `0.1.1`](#tinyvec_macros-011)
@@ -14897,13 +14897,13 @@ THIS SOFTWARE IS PROVIDED BY <<var;name=copyrightHolderAsIs;original=THE COPYRIG
 
 ---
 
-## anyhow 1.0.102
+## anyhow 1.0.103
 
 | Field | Value |
 |---|---|
 | License | `MIT OR Apache-2.0` |
 | Homepage | https://github.com/dtolnay/anyhow |
-| PURL | `pkg:cargo/anyhow@1.0.102` |
+| PURL | `pkg:cargo/anyhow@1.0.103` |
 
 ### License text
 
@@ -39650,13 +39650,13 @@ limitations under the License.
 
 ---
 
-## crossbeam-epoch 0.9.18
+## crossbeam-epoch 0.9.20
 
 | Field | Value |
 |---|---|
 | License | `MIT OR Apache-2.0` |
 | Homepage | https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-epoch |
-| PURL | `pkg:cargo/crossbeam-epoch@0.9.18` |
+| PURL | `pkg:cargo/crossbeam-epoch@0.9.20` |
 
 ### Copyright
 
@@ -97106,27 +97106,20 @@ limitations under the License.
 
 ---
 
-## num-conv 0.1.0
+## num-conv 0.2.2
 
 | Field | Value |
 |---|---|
 | License | `MIT OR Apache-2.0` |
 | Homepage | https://github.com/jhpratt/num-conv |
-| PURL | `pkg:cargo/num-conv@0.1.0` |
-
-### Copyright
-
-```
-Copyright (c) 2023 Jacob Pratt
-Copyright 2023 Jacob Pratt
-```
+| PURL | `pkg:cargo/num-conv@0.2.2` |
 
 ### License text
 
 ```
 === LICENSE-MIT (MIT) ===
 
-Copyright (c) 2023 Jacob Pratt
+Copyright (c) Jacob Pratt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -97326,31 +97319,6 @@ SOFTWARE.
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
-
-   APPENDIX: How to apply the Apache License to your work.
-
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
-
-   Copyright 2023 Jacob Pratt
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
 ```
 
 ---
@@ -113118,13 +113086,13 @@ SOFTWARE.
 
 ---
 
-## openssl 0.10.76
+## openssl 0.10.80
 
 | Field | Value |
 |---|---|
 | License | `Apache-2.0` |
 | Homepage | https://github.com/rust-openssl/rust-openssl |
-| PURL | `pkg:cargo/openssl@0.10.76` |
+| PURL | `pkg:cargo/openssl@0.10.80` |
 
 ### Copyright
 
@@ -113860,13 +113828,13 @@ limitations under the License.
 
 ---
 
-## openssl-sys 0.9.112
+## openssl-sys 0.9.117
 
 | Field | Value |
 |---|---|
 | License | `MIT` |
 | Homepage | https://github.com/rust-openssl/rust-openssl |
-| PURL | `pkg:cargo/openssl-sys@0.9.112` |
+| PURL | `pkg:cargo/openssl-sys@0.9.117` |
 
 ### Copyright
 
@@ -145099,13 +145067,13 @@ limitations under the License.
 
 ---
 
-## rustls-webpki 0.103.10
+## rustls-webpki 0.103.13
 
 | Field | Value |
 |---|---|
 | License | `ISC` |
 | Homepage | https://github.com/rustls/webpki |
-| PURL | `pkg:cargo/rustls-webpki@0.103.10` |
+| PURL | `pkg:cargo/rustls-webpki@0.103.13` |
 
 ### Copyright
 
@@ -178529,13 +178497,13 @@ SOFTWARE.
 
 ---
 
-## time 0.3.45
+## time 0.3.47
 
 | Field | Value |
 |---|---|
 | License | `MIT OR Apache-2.0` |
 | Homepage | https://time-rs.github.io |
-| PURL | `pkg:cargo/time@0.3.45` |
+| PURL | `pkg:cargo/time@0.3.47` |
 
 ### License text
 
@@ -178746,13 +178714,13 @@ SOFTWARE.
 
 ---
 
-## time-core 0.1.7
+## time-core 0.1.8
 
 | Field | Value |
 |---|---|
 | License | `MIT OR Apache-2.0` |
 | Homepage | https://github.com/time-rs/time |
-| PURL | `pkg:cargo/time-core@0.1.7` |
+| PURL | `pkg:cargo/time-core@0.1.8` |
 
 ### License text
 
@@ -178963,13 +178931,13 @@ SOFTWARE.
 
 ---
 
-## time-macros 0.2.25
+## time-macros 0.2.27
 
 | Field | Value |
 |---|---|
 | License | `MIT OR Apache-2.0` |
 | Homepage | https://github.com/time-rs/time |
-| PURL | `pkg:cargo/time-macros@0.2.25` |
+| PURL | `pkg:cargo/time-macros@0.2.27` |
 
 ### License text
 
