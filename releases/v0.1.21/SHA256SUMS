@@ -1,2 +1,4 @@
-31b4626fc6ea4fbc226e8aa4d4af3d187dbfae0f8702985b737385060c484e7b  rAIdio.bot-v0.1.21.sbom.json
-576261d1db486fca6b6eb4c19447047b6bdd7f1f1f3275fd31b12bdaffdc9f5b  rAIdio.bot-v0.1.21.cdx.json
+b9d1748f8b99805738ad4c49fce40f5e38d0f4584e49b6eac69d2e8015005d48 *rAIdio.bot-v0.1.21-linux.cdx.json
+c000d17c97e13057856257999bd94e33f5a190efc32240bebad7fbee28a8949f *rAIdio.bot-v0.1.21-linux.sbom.json
+576261d1db486fca6b6eb4c19447047b6bdd7f1f1f3275fd31b12bdaffdc9f5b *rAIdio.bot-v0.1.21.cdx.json
+31b4626fc6ea4fbc226e8aa4d4af3d187dbfae0f8702985b737385060c484e7b *rAIdio.bot-v0.1.21.sbom.json
