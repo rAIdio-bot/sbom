@@ -9,14 +9,14 @@ TABLE OF CONTENTS
 Total components: 1193. Alphabetical by name; line number is
 where the `COMPONENT:` header for that entry begins.
 
-  00_rAIdio_rvc_patch c700713                       line 9430
-  00_rAIdio_safe_load_patch c700713                 line 9458
-  00_rAIdio_torchaudio_patch c700713                line 9486
+  00_rAIdio_rvc_patch 4160277                       line 9430
+  00_rAIdio_safe_load_patch 4160277                 line 9458
+  00_rAIdio_torchaudio_patch 4160277                line 9486
   @tauri-apps/api 2.0.0                             line 9514
   @tauri-apps/plugin-dialog 2.6.0                   line 9730
   @tauri-apps/plugin-shell 2.0.0                    line 9763
-  _python_embeded_overrides_fairseq c700713         line 9796
-  _python_embeded_overrides_sitecustomize c700713   line 9824
+  _python_embeded_overrides_fairseq 4160277         line 9796
+  _python_embeded_overrides_sitecustomize 4160277   line 9824
   abnf 0.13.0                                       line 9852
   abnf-core 0.5.0                                   line 10094
   absl-py 2.4.0                                     line 10336
@@ -152,7 +152,7 @@ where the `COMPONENT:` header for that entry begins.
   comfy-aimdo 0.1.8                                 line 29730
   comfy-kitchen 0.2.7                               line 30424
   ComfyUI 0.14.1                                    line 30736
-  ComfyUI-ChordMidi c700713                         line 30764
+  ComfyUI-ChordMidi 4160277                         line 30764
   ComfyUI-Demucs-AudioSeparator d864b78a2acb        line 30850
   comfyui-embedded-docs 0.4.1                       line 30885
   comfyui-frontend-package 1.38.14                  line 31573
@@ -165,7 +165,7 @@ where the `COMPONENT:` header for that entry begins.
   comfyui-workflow-templates-media-other 0.3.121    line 33131
   comfyui-workflow-templates-media-video 0.3.49     line 33166
   ComfyUI_ACE-Step d4c2dc104a69                     line 33201
-  comfyui_memescreamer_memory_cleaner c700713       line 33416
+  comfyui_memescreamer_memory_cleaner 4160277       line 33416
   concurrent-queue 2.5.0                            line 33444
   confection 0.1.5                                  line 33688
   config 0.14.1                                     line 33723
@@ -725,11 +725,11 @@ where the `COMPONENT:` header for that entry begins.
   r-efi 5.3.0                                       line 129849
   r-efi 6.0.0                                       line 129871
   radium 0.7.0                                      line 129893
-  rAIdio_aimdo_reset c700713                        line 129928
-  rAIdio_nodes c700713                              line 129956
-  rAIdio_watermark c700713                          line 130042
-  rAIdio_whisper_patch c700713                      line 130070
-  rAIdio_xl_patch c700713                           line 130098
+  rAIdio_aimdo_reset 4160277                        line 129928
+  rAIdio_nodes 4160277                              line 129956
+  rAIdio_watermark 4160277                          line 130042
+  rAIdio_whisper_patch 4160277                      line 130070
+  rAIdio_xl_patch 4160277                           line 130098
   rains-license-client 0.1.0                        line 130126
   rand 0.8.5                                        line 130212
   rand 0.9.2                                        line 130457
@@ -1197,11 +1197,11 @@ where the `COMPONENT:` header for that entry begins.
   zvariant 4.2.0                                    line 224139
   zvariant_derive 4.2.0                             line 224178
   zvariant_utils 2.1.0                              line 224217
-  zz_rAIdio_rvc_bool_fix c700713                    line 224254
-  zz_rAIdio_rvc_infer_audio_fix c700713             line 224282
-  zz_rAIdio_rvc_loadaudio_alias c700713             line 224310
-  zz_rAIdio_rvc_train_dir_fix c700713               line 224338
-  zz_rAIdio_rvc_train_quote_fix c700713             line 224366
+  zz_rAIdio_rvc_bool_fix 4160277                    line 224254
+  zz_rAIdio_rvc_infer_audio_fix 4160277             line 224282
+  zz_rAIdio_rvc_loadaudio_alias 4160277             line 224310
+  zz_rAIdio_rvc_train_dir_fix 4160277               line 224338
+  zz_rAIdio_rvc_train_quote_fix 4160277             line 224366
 
 ═══════════════════════════════════════════════════════════════════════════
 
@@ -9428,10 +9428,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    00_rAIdio_rvc_patch c700713
+COMPONENT:    00_rAIdio_rvc_patch 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/00_rAIdio_rvc_patch@c700713
+PURL:         pkg:generic/00_rAIdio_rvc_patch@4160277
 
 COPYRIGHT
 ─────────
@@ -9456,10 +9456,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    00_rAIdio_safe_load_patch c700713
+COMPONENT:    00_rAIdio_safe_load_patch 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/00_rAIdio_safe_load_patch@c700713
+PURL:         pkg:generic/00_rAIdio_safe_load_patch@4160277
 
 COPYRIGHT
 ─────────
@@ -9484,10 +9484,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    00_rAIdio_torchaudio_patch c700713
+COMPONENT:    00_rAIdio_torchaudio_patch 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/00_rAIdio_torchaudio_patch@c700713
+PURL:         pkg:generic/00_rAIdio_torchaudio_patch@4160277
 
 COPYRIGHT
 ─────────
@@ -9794,10 +9794,10 @@ PackageDownloadLocation: git+ssh://github.com/tauri-apps/tauri.git
 Creator: Person: Daniel Thompson-Yvetot
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    _python_embeded_overrides_fairseq c700713
+COMPONENT:    _python_embeded_overrides_fairseq 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/_python_embeded_overrides_fairseq@c700713
+PURL:         pkg:generic/_python_embeded_overrides_fairseq@4160277
 
 COPYRIGHT
 ─────────
@@ -9822,10 +9822,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    _python_embeded_overrides_sitecustomize c700713
+COMPONENT:    _python_embeded_overrides_sitecustomize 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/_python_embeded_overrides_sitecustomize@c700713
+PURL:         pkg:generic/_python_embeded_overrides_sitecustomize@4160277
 
 COPYRIGHT
 ─────────
@@ -30762,10 +30762,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    ComfyUI-ChordMidi c700713
+COMPONENT:    ComfyUI-ChordMidi 4160277
 LICENSE:      Apache-2.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/ComfyUI-ChordMidi@c700713
+PURL:         pkg:generic/ComfyUI-ChordMidi@4160277
 
 COPYRIGHT
 ─────────
@@ -33414,10 +33414,10 @@ LICENSE TEXT
    limitations under the License.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    comfyui_memescreamer_memory_cleaner c700713
+COMPONENT:    comfyui_memescreamer_memory_cleaner 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/comfyui_memescreamer_memory_cleaner@c700713
+PURL:         pkg:generic/comfyui_memescreamer_memory_cleaner@4160277
 
 COPYRIGHT
 ─────────
@@ -129926,10 +129926,10 @@ SOFTWARE.
 
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    rAIdio_aimdo_reset c700713
+COMPONENT:    rAIdio_aimdo_reset 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/rAIdio_aimdo_reset@c700713
+PURL:         pkg:generic/rAIdio_aimdo_reset@4160277
 
 COPYRIGHT
 ─────────
@@ -129954,10 +129954,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    rAIdio_nodes c700713
+COMPONENT:    rAIdio_nodes 4160277
 LICENSE:      Apache-2.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/rAIdio_nodes@c700713
+PURL:         pkg:generic/rAIdio_nodes@4160277
 
 COPYRIGHT
 ─────────
@@ -130040,10 +130040,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    rAIdio_watermark c700713
+COMPONENT:    rAIdio_watermark 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/rAIdio_watermark@c700713
+PURL:         pkg:generic/rAIdio_watermark@4160277
 
 COPYRIGHT
 ─────────
@@ -130068,10 +130068,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    rAIdio_whisper_patch c700713
+COMPONENT:    rAIdio_whisper_patch 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/rAIdio_whisper_patch@c700713
+PURL:         pkg:generic/rAIdio_whisper_patch@4160277
 
 COPYRIGHT
 ─────────
@@ -130096,10 +130096,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    rAIdio_xl_patch c700713
+COMPONENT:    rAIdio_xl_patch 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/rAIdio_xl_patch@c700713
+PURL:         pkg:generic/rAIdio_xl_patch@4160277
 
 COPYRIGHT
 ─────────
@@ -224252,10 +224252,10 @@ DEALINGS IN THE SOFTWARE.
 
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    zz_rAIdio_rvc_bool_fix c700713
+COMPONENT:    zz_rAIdio_rvc_bool_fix 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/zz_rAIdio_rvc_bool_fix@c700713
+PURL:         pkg:generic/zz_rAIdio_rvc_bool_fix@4160277
 
 COPYRIGHT
 ─────────
@@ -224280,10 +224280,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    zz_rAIdio_rvc_infer_audio_fix c700713
+COMPONENT:    zz_rAIdio_rvc_infer_audio_fix 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/zz_rAIdio_rvc_infer_audio_fix@c700713
+PURL:         pkg:generic/zz_rAIdio_rvc_infer_audio_fix@4160277
 
 COPYRIGHT
 ─────────
@@ -224308,10 +224308,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    zz_rAIdio_rvc_loadaudio_alias c700713
+COMPONENT:    zz_rAIdio_rvc_loadaudio_alias 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/zz_rAIdio_rvc_loadaudio_alias@c700713
+PURL:         pkg:generic/zz_rAIdio_rvc_loadaudio_alias@4160277
 
 COPYRIGHT
 ─────────
@@ -224336,10 +224336,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    zz_rAIdio_rvc_train_dir_fix c700713
+COMPONENT:    zz_rAIdio_rvc_train_dir_fix 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/zz_rAIdio_rvc_train_dir_fix@c700713
+PURL:         pkg:generic/zz_rAIdio_rvc_train_dir_fix@4160277
 
 COPYRIGHT
 ─────────
@@ -224364,10 +224364,10 @@ GNU GENERAL PUBLIC LICENSEVersion 3, 29 June 2007Copyright © 2007 Free Softw
 If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.     <one line to give the program's name and a brief idea of what it does.>     Copyright (C) <year>  <name of author>     This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.     You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.Also add information on how to contact you by electronic and paper mail.If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:     <program>  Copyright (C) <year>  <name of author>     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.     This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <http://www.gnu.org/licenses/>.The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    zz_rAIdio_rvc_train_quote_fix c700713
+COMPONENT:    zz_rAIdio_rvc_train_quote_fix 4160277
 LICENSE:      GPL-3.0
 HOMEPAGE:     https://github.com/rAIdio-bot/rAIdio-nodes
-PURL:         pkg:generic/zz_rAIdio_rvc_train_quote_fix@c700713
+PURL:         pkg:generic/zz_rAIdio_rvc_train_quote_fix@4160277
 
 COPYRIGHT
 ─────────

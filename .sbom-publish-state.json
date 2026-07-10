@@ -1,6 +1,6 @@
 ﻿{
-    "last_mode":  "FULL re-scan (--no-cache)",
+    "last_mode":  "incremental (cache-warm)",
     "component_count":  1193,
-    "last_version":  "v0.1.22",
-    "publish_n":  15
+    "last_version":  "v0.1.23",
+    "publish_n":  16
 }
