@@ -28,7 +28,7 @@ from pathlib import Path
 from huggingface_hub import HfApi, metadata_update
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SBOM_PATH = REPO_ROOT / "sbom.json"
+SBOM_PATH = REPO_ROOT / "sbom.windows.json"
 
 # HF license identifiers are SPDX-ish but lowercase.
 SPDX_TO_HF = {

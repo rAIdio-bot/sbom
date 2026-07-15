@@ -12,7 +12,7 @@ This wrapper:
   2. Invokes scancode-toolkit with --license + --copyright.
   3. Parses the JSON output into a per-file license summary.
   4. Compares the dominant SPDX expression to a declared license
-     (passed on the command line or looked up from sbom.json by
+     (passed on the command line or looked up from sbom.windows.json by
      component name).
   5. Flags any file whose detection conflicts with the declared
      license, ranked by ScanCode's score (likely-false-positive vs
@@ -20,7 +20,7 @@ This wrapper:
 
 Usage:
   python tools/sbom_scancode.py --scan PATH [--declared SPDX]
-  python tools/sbom_scancode.py --component NAME    # lookup in sbom.json
+  python tools/sbom_scancode.py --component NAME    # lookup in sbom.windows.json
 
 Output:
   Per-component report at scancode-reports/<component>.md plus a
@@ -39,7 +39,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SBOM_PATH = REPO_ROOT / "sbom.json"
+SBOM_PATH = REPO_ROOT / "sbom.windows.json"
 REPORTS_DIR = REPO_ROOT / "scancode-reports"
 
 
@@ -164,11 +164,11 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--scan", help="Path to scan (a single component's source tree)")
     ap.add_argument("--declared", help="SPDX expression the component declares")
-    ap.add_argument("--component", help="Component name; look up source path + declared SPDX from sbom.json (informational; sbom.json doesn't currently track source paths so --scan is required)")
+    ap.add_argument("--component", help="Component name; look up source path + declared SPDX from sbom.windows.json (informational; sbom.windows.json doesn't currently track source paths so --scan is required)")
     args = ap.parse_args()
 
     if not args.scan:
-        ap.error("--scan PATH is required (sbom.json doesn't currently track per-component source paths)")
+        ap.error("--scan PATH is required (sbom.windows.json doesn't currently track per-component source paths)")
 
     target = Path(args.scan).resolve()
     if not target.exists():

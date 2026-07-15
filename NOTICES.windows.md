@@ -1,6 +1,6 @@
 # rAIdio.bot — Third-Party Notices
 
-Markdown rendering derived from `sbom.json` (CycloneDX 1.5).
+Markdown rendering derived from `sbom.windows.json` (CycloneDX 1.5).
 Per-component verbatim license texts, copyright statements, and
 (when populated) file-level license evidence.
 

@@ -82,7 +82,7 @@ and scanned." This list feeds the ScanCode integration (Track C).
 
 ## Unmatched to SBOM (10)
 
-These directories ship .pyd files but no matching `pkg:pypi/*` component was found in `sbom.json`. Likely vendored sub-packages of another distribution, naming mismatches that need curation, or transitive deps we haven't catalogued.
+These directories ship .pyd files but no matching `pkg:pypi/*` component was found in `sbom.windows.json`. Likely vendored sub-packages of another distribution, naming mismatches that need curation, or transitive deps we haven't catalogued.
 
 - `PIL`
 - `cv2`

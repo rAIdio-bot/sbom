@@ -1,4 +1,4 @@
-"""Aggregate ScanCode full-pass results and diff against sbom.json.
+"""Aggregate ScanCode full-pass results and diff against sbom.windows.json.
 
 Reads JSON files produced by scancode-fullpass/_run_all.sh and produces
 deviations.md — a per-component diff between the ScanCode-detected
@@ -25,7 +25,7 @@ from pathlib import Path
 from typing import Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SBOM_PATH = REPO_ROOT / "sbom.json"
+SBOM_PATH = REPO_ROOT / "sbom.windows.json"
 CURATION_PATH = REPO_ROOT / "tools" / "sbom_drift_curation.json"
 SCANS_DIR = REPO_ROOT / "scancode-fullpass"
 OUT_PATH = REPO_ROOT / "deviations.md"
@@ -286,7 +286,7 @@ def main() -> int:
     sbom_by_prefix = load_sbom()
     curation = load_curation()
     n_records = sum(len(v) for v in sbom_by_prefix.values())
-    print(f"Loaded {n_records} component records from sbom.json across "
+    print(f"Loaded {n_records} component records from sbom.windows.json across "
           f"{len(sbom_by_prefix)} purl prefixes", flush=True)
     print(f"Loaded {len(curation)} curation overrides", flush=True)
 

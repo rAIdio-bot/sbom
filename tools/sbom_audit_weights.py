@@ -19,7 +19,7 @@ Source resolution order:
      LICENSE via the github license API (only meaningful when github
      actually hosts the artefact being licensed).
 
-This tool reports — it does NOT modify sbom.json. ACK / MISMATCH /
+This tool reports — it does NOT modify sbom.windows.json. ACK / MISMATCH /
 UNKNOWN / CURATED per component.
 
 Usage:
@@ -40,7 +40,7 @@ from pathlib import Path
 from typing import Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-SBOM_PATH = REPO_ROOT / "sbom.json"
+SBOM_PATH = REPO_ROOT / "sbom.windows.json"
 CURATION_PATH = REPO_ROOT / "tools" / "sbom_drift_curation.json"
 REPORT_PATH = REPO_ROOT / "audit-report-weights.txt"
 

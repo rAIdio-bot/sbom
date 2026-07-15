@@ -2,7 +2,7 @@
 
 ScanCode v32.5.0 was run against every shipped component bucket on
 2026-05-29 (3 h 54 min wall-clock). Raw per-component output in
-`scancode-fullpass/*.json`; mechanical diff vs `sbom.json` in
+`scancode-fullpass/*.json`; mechanical diff vs `sbom.windows.json` in
 `deviations.md`; this file explains each remaining MISMATCH and
 applies standard ScanCode-triage practice ("there are usually
 false positives — look manually into unexpected findings").
@@ -117,7 +117,7 @@ These components declare a license in package metadata
 not ship a LICENSE file in the distribution and have no per-file
 headers ScanCode could match. NOT a legal-risk pattern: package
 metadata is a valid source for license declaration under each
-ecosystem's conventions; the NOTICES.txt copies the metadata-declared
+ecosystem's conventions; the NOTICES.windows.txt copies the metadata-declared
 value. Sample of the 110:
 
 - `aiohttp` `3.13.3` (`Apache-2.0 AND MIT`, 131 files)
@@ -127,11 +127,11 @@ value. Sample of the 110:
 - `click` `8.3.1` (`BSD-3-Clause`, 35 files)
 - `ffmpeg` `7.1+master-2026-04-07` (`GPL-3.0-or-later`, 18 files —
   metadata only because we ship just the binary; full source comes
-  via the written offer in NOTICES.txt)
+  via the written offer in NOTICES.windows.txt)
 
 ## Unaccounted (1,669)
 
-Directories that exist in a source tree but were not in `sbom.json`.
+Directories that exist in a source tree but were not in `sbom.windows.json`.
 Vast majority is noise:
 
 - **NPM transitive devDeps** (~1,000): packages in `node_modules/`
@@ -154,7 +154,7 @@ Vast majority is noise:
 
 ## Verdict
 
-The `NOTICES.txt` correctly reflects the licenses of every
+The `NOTICES.windows.txt` correctly reflects the licenses of every
 component we ship, modulo the documented curation overrides for
 SeedVC-ComfyUI and comfyui-frontend-package. Zero real declaration
 drift detected by the scan. Every flagged mismatch is either:
@@ -167,5 +167,5 @@ drift detected by the scan. Every flagged mismatch is either:
   leisure); or
 - a verified false positive (we read the source).
 
-This satisfies the "full rescan to ensure NOTICES.txt is correct"
+This satisfies the "full rescan to ensure NOTICES.windows.txt is correct"
 ask. Ready for the reviewer's spot-check.
