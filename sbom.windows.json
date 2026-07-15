@@ -1,22 +1,22 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:fb25c9a2-31f2-4d75-905f-c08b1ae40655",
+  "serialNumber": "urn:uuid:f530bbe4-8c46-41dd-ab72-725ed7062048",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-14T17:21:26+00:00",
+    "timestamp": "2026-07-14T20:14:11+00:00",
     "tools": [
       {
         "vendor": "memescreamer",
         "name": "sbom-enrich",
-        "version": "cdbb924"
+        "version": "d28d4b1"
       }
     ],
     "component": {
       "type": "application",
-      "bom-ref": "pkg:generic/raidio.bot@0.1.26",
+      "bom-ref": "pkg:generic/raidio.bot@0.1.27",
       "name": "rAIdio.bot",
-      "version": "0.1.26",
+      "version": "0.1.27",
       "description": "AI music creation studio that runs entirely on the user's PC. Generates music, clones voices, transcribes, mixes, exports. All models run locally.",
       "licenses": [
         {
@@ -25,7 +25,7 @@
           }
         }
       ],
-      "purl": "pkg:generic/raidio.bot@0.1.26",
+      "purl": "pkg:generic/raidio.bot@0.1.27",
       "externalReferences": [
         {
           "type": "website",

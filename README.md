@@ -6,16 +6,18 @@ Public, machine-readable SBOMs for [rAIdio.bot](https://rAIdio.bot) releases. Ev
 
 `NOTICES.txt` has grown past 190,000 lines (~1,000+ components). To find any single component, use the **Table of Contents at the top of [`NOTICES.txt`](NOTICES.txt)** — every component is listed alphabetically with the line number where its block starts. For markdown reading, [`NOTICES.md`](NOTICES.md) opens with a clickable per-component TOC linking to anchor headings. Ad-hoc Ctrl-F in the GitHub raw viewer is brittle at this file size; the TOC is faster and reliable.
 
-For machine queries, [`sbom.json`](sbom.json) is the authoritative source — every component carries `purl`, `licenses`, embedded LICENSE text, and several `com.raidio.*` properties for filtering (`com.raidio.ships-in` = `installer-exe`/`backend-bundle`/`xl-model`, `com.raidio.runs-in`, `com.raidio.scan-coverage`, `com.raidio.embedded-in`).
+For machine queries, [`sbom.windows.json`](sbom.windows.json) is the authoritative source for the Windows build — every component carries `purl`, `licenses`, embedded LICENSE text, and several `com.raidio.*` properties for filtering (`com.raidio.ships-in` = `installer-exe`/`backend-bundle`/`xl-model`, `com.raidio.runs-in`, `com.raidio.scan-coverage`, `com.raidio.embedded-in`). The Windows and Linux builds ship different component sets, so their canonical SBOMs are kept separate per platform; the Linux canonical `sbom.linux.json` is being finalized, and until it lands the Linux release is covered by its per-version files under [`releases/`](releases/).
 
 ## Canonical files (FOSS compliance)
 
 For per-component **verbatim license texts and copyright notices** (what an OSPO scanner or legal reviewer needs for FOSS compliance audits):
 
-- **[`sbom.json`](sbom.json)** — the canonical enriched CycloneDX 1.5 SBOM. Reflects the most recent release. Every non-proprietary component carries its full LICENSE / COPYING / NOTICE text under `licenses[].license.text` (base64-encoded UTF-8 plain text) and harvested copyright lines under `component.copyright`. The CycloneDX 1.5 spec field for both.
-- **[`NOTICES.txt`](NOTICES.txt)** — plain-text rendering of `sbom.json` for human reading. UTF-8, English, per-component block. Derived from `sbom.json` at release time, never edited by hand.
-- **[`enrich-report.txt`](enrich-report.txt)** — processing summary for the most recent enrichment run: counts by status, per-component failures, source-tag distribution.
-- **[`drift-report.txt`](drift-report.txt)** — queue of components where the declared SPDX license disagrees with what the source LICENSE file actually says. Each entry needs a human-audit decision. While non-empty, the `steam/push.ps1` pipeline refuses to ship the next release.
+These canonical root files are **per-platform** — the Windows and Linux builds are separate with separate component sets, so each has its own set (`sbom.<plat>.json`, `NOTICES.<plat>.*`, `enrich-report.<plat>.txt`, `drift-report.<plat>.txt`). The Windows set is current; the Linux set (`sbom.linux.json` etc.) is being finalized.
+
+- **[`sbom.windows.json`](sbom.windows.json)** — the canonical enriched CycloneDX 1.5 SBOM for the Windows build. Reflects the most recent release. Every non-proprietary component carries its full LICENSE / COPYING / NOTICE text under `licenses[].license.text` (base64-encoded UTF-8 plain text) and harvested copyright lines under `component.copyright`. The CycloneDX 1.5 spec field for both. (`sbom.linux.json` is the Linux equivalent, in preparation.)
+- **[`NOTICES.windows.txt`](NOTICES.windows.txt)** — plain-text rendering of `sbom.windows.json` for human reading. UTF-8, English, per-component block. Derived from the SBOM at release time, never edited by hand. (Markdown variant: [`NOTICES.windows.md`](NOTICES.windows.md).)
+- **[`enrich-report.windows.txt`](enrich-report.windows.txt)** — processing summary for the Windows build's most recent enrichment run: counts by status, per-component failures, source-tag distribution.
+- **[`drift-report.windows.txt`](drift-report.windows.txt)** — queue of components where the declared SPDX license disagrees with what the source LICENSE file actually says. Each entry needs a human-audit decision. While non-empty, the release pipeline refuses to ship the next release (fail-closed drift gate).
 
 **Methodology (per-category — precision matters here, per FOSS-compliance review feedback 2026-05-22):** [`tools/sbom_enrich.py`](tools/sbom_enrich.py) (mirrored here for public auditability; the source-of-truth copy runs from the build pipeline) resolves each component's source to one of several fetch plans depending on its `raidio:category`. Stdlib-only Python; no external dependencies; deterministic and reproducible.
 
@@ -37,7 +39,7 @@ For every category, every extracted LICENSE / COPYING / NOTICE file is base64-em
 
 ## Historical releases
 
-The per-release `releases/RC-1-Gold-0.X/` tree below is the audit trail — what shipped, when. Those snapshots stay unenriched as the historical record; `sbom.json` at the root is the current truth.
+The per-release `releases/RC-1-Gold-0.X/` tree below is the audit trail — what shipped, when. Those snapshots stay unenriched as the historical record; the per-platform `sbom.<plat>.json` at the root is the current truth (`sbom.windows.json` today; `sbom.linux.json` in preparation).
 
 ## Current
 
