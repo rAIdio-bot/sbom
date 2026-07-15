@@ -3,9 +3,9 @@ rAIdio.bot SBOM enrichment — license drift report
 
 WHAT THIS FILE IS (FOSS-compliance review follow-up, 2026-05-22).
 
-drift-report.windows.txt is a TRANSPARENCY LOG, not a missing-components
+drift-report.<platform>.txt is a TRANSPARENCY LOG, not a missing-components
 list. Presence in this report does NOT mean a component is missing
-from NOTICES.windows.txt or the SBOM — every component listed here IS in
+from NOTICES.<platform>.txt or the SBOM — every component listed here IS in
 both. This file enumerates the cases where what we declare as the
 component's license differs from what our deep-scanner observes
 in the source tree, with one of two outcomes:
@@ -22,7 +22,7 @@ in the source tree, with one of two outcomes:
     tools/sbom_drift_curation.json) or corrected (in
     tools/generate_sbom.py).
 
-Look in NOTICES.windows.txt to see what we actually preserve for any
+Look in NOTICES.<platform>.txt to see what we actually preserve for any
 component listed here; the TOC at the top of that file lists
 every component with its line number for quick lookup.
 
