@@ -1,0 +1,7115 @@
+{
+  "platform": "linux",
+  "count": 1044,
+  "components": [
+    {
+      "name": "ACE-Step 1.5 AIO",
+      "version": "b521ef1e632b",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files",
+      "upstream_source_url": "https://github.com/ace-step/ACE-Step",
+      "category": "AI Models"
+    },
+    {
+      "name": "ACE-Step 1.5 CLIP 0.6B",
+      "version": "b521ef1e632b",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files",
+      "upstream_source_url": "https://github.com/ace-step/ACE-Step",
+      "category": "AI Models"
+    },
+    {
+      "name": "ACE-Step 1.5 CLIP 4B",
+      "version": "b521ef1e632b",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files",
+      "upstream_source_url": "https://github.com/ace-step/ACE-Step",
+      "category": "AI Models"
+    },
+    {
+      "name": "ACE-Step 1.5 UNet",
+      "version": "b521ef1e632b",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files",
+      "upstream_source_url": "https://github.com/ace-step/ACE-Step",
+      "category": "AI Models"
+    },
+    {
+      "name": "ACE-Step 1.5 VAE",
+      "version": "b521ef1e632b",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/ace_step_1.5_ComfyUI_files",
+      "upstream_source_url": "https://github.com/ace-step/ACE-Step",
+      "category": "AI Models"
+    },
+    {
+      "name": "ACE-Step 1.5 XL Turbo",
+      "version": "a0e60e0f4ad7",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/ace_step_1.5_xl_turbo",
+      "upstream_source_url": "https://huggingface.co/ACE-Step/acestep-v15-xl-turbo",
+      "category": "AI Models"
+    },
+    {
+      "name": "ACE-Step v1 3.5B",
+      "version": "070d866eef53",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/ACE-Step-v1-3.5B",
+      "upstream_source_url": "https://github.com/ace-step/ACE-Step",
+      "category": "AI Models"
+    },
+    {
+      "name": "BigVGAN 22kHz Vocoder",
+      "version": "42dfaf7cbff4",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/bigvgan_v2_22khz_80band_256x",
+      "upstream_source_url": "https://github.com/NVIDIA/BigVGAN",
+      "embedded_in_component": "SeedVC-ComfyUI@0f6481215b64",
+      "category": "AI Models"
+    },
+    {
+      "name": "BigVGAN 44kHz Vocoder",
+      "version": "66b434c9c1c0",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/bigvgan_v2_44khz_128band_512x",
+      "upstream_source_url": "https://github.com/NVIDIA/BigVGAN",
+      "embedded_in_component": "SeedVC-ComfyUI@0f6481215b64",
+      "category": "AI Models"
+    },
+    {
+      "name": "CAMPPlus Speaker Embedder",
+      "version": "18652420ac91",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/campplus",
+      "upstream_source_url": "https://huggingface.co/funasr/campplus",
+      "category": "AI Models"
+    },
+    {
+      "name": "ContentVec HuBERT (hubert_base.pt)",
+      "version": "b0494e0bb44e",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/VoiceConversionWebUI",
+      "upstream_source_url": "https://github.com/auspicious3000/contentvec",
+      "category": "AI Models"
+    },
+    {
+      "name": "Demucs htdemucs_6s",
+      "version": "2fd1cf07cafc",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/demucs-models",
+      "upstream_source_url": "https://github.com/facebookresearch/demucs",
+      "category": "AI Models"
+    },
+    {
+      "name": "Demucs htdemucs_ft",
+      "version": "2fd1cf07cafc",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/demucs-models",
+      "upstream_source_url": "https://github.com/facebookresearch/demucs",
+      "category": "AI Models"
+    },
+    {
+      "name": "faster-whisper large-v3",
+      "version": "53ebf7a7118f",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/faster-whisper-large-v3",
+      "upstream_source_url": "https://huggingface.co/Systran/faster-whisper-large-v3",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen2.5-1.5B-Instruct",
+      "version": "91cad51170dc",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen2.5",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen3-TTS 0.6B Base",
+      "version": "a81b3a547af5",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-0.6B-Base",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen3-TTS 0.6B CustomVoice",
+      "version": "be5c4cf9473e",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen3-TTS 1.7B Base",
+      "version": "8ed08da77b63",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-1.7B-Base",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen3-TTS 1.7B CustomVoice",
+      "version": "f1ce73f98515",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen3-TTS 1.7B VoiceDesign",
+      "version": "efe663638df8",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "category": "AI Models"
+    },
+    {
+      "name": "Qwen3-TTS Tokenizer",
+      "version": "b928115acc44",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/Qwen3-TTS-Tokenizer-12Hz",
+      "upstream_source_url": "https://github.com/QwenLM/Qwen3-TTS",
+      "category": "AI Models"
+    },
+    {
+      "name": "RMVPE Pitch Extractor",
+      "version": "169031db493a",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Dream-High/RMVPE",
+      "upstream_source_url": "https://github.com/Dream-High/RMVPE",
+      "category": "AI Models"
+    },
+    {
+      "name": "RVC WebUI Pretrained",
+      "version": "b0494e0bb44e",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/VoiceConversionWebUI",
+      "upstream_source_url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "category": "AI Models"
+    },
+    {
+      "name": "Seed-VC",
+      "version": "169031db493a",
+      "license": "GPL-3.0",
+      "homepage": "https://huggingface.co/memescreamer/Seed-VC",
+      "upstream_source_url": "https://github.com/Plachtaa/seed-vc",
+      "category": "AI Models"
+    },
+    {
+      "name": "SilentCipher 44.1kHz Watermark",
+      "version": "6be5b145a057",
+      "license": "MIT",
+      "homepage": "https://huggingface.co/memescreamer/silentcipher",
+      "upstream_source_url": "https://github.com/sony/silentcipher",
+      "category": "AI Models"
+    },
+    {
+      "name": "Whisper-small",
+      "version": "fce938ed4d5c",
+      "license": "Apache-2.0",
+      "homepage": "https://huggingface.co/memescreamer/whisper-small",
+      "upstream_source_url": "https://huggingface.co/openai/whisper-small",
+      "category": "AI Models"
+    },
+    {
+      "name": "00_rAIdio_rvc_patch",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "00_rAIdio_safe_load_patch",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "00_rAIdio_torchaudio_patch",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "ComfyUI",
+      "version": "0.14.1",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/memescreamer/ComfyUI",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "ComfyUI-ChordMidi",
+      "version": "4160277",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "ComfyUI-Demucs-AudioSeparator",
+      "version": "d864b78a2acb",
+      "license": "MIT",
+      "homepage": "https://github.com/memescreamer/ComfyUI-Demucs-AudioSeparator",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "ComfyUI-QwenTTS",
+      "version": "d8122a8ba835",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/memescreamer/ComfyUI-QwenTTS",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "ComfyUI-RVC",
+      "version": "5829db683954",
+      "license": "MIT",
+      "homepage": "https://github.com/memescreamer/ComfyUI-RVC",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "ComfyUI_ACE-Step",
+      "version": "d4c2dc104a69",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/memescreamer/ComfyUI_ACE-Step",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "comfyui_memescreamer_memory_cleaner",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "rAIdio_aimdo_reset",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "rAIdio_nodes",
+      "version": "4160277",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "rAIdio_watermark",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "rAIdio_whisper_patch",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "rAIdio_xl_patch",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "SeedVC-ComfyUI",
+      "version": "0f6481215b64",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/memescreamer/SeedVC-ComfyUI",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "zz_rAIdio_rvc_bool_fix",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "zz_rAIdio_rvc_infer_audio_fix",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "zz_rAIdio_rvc_loadaudio_alias",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "zz_rAIdio_rvc_train_dir_fix",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "zz_rAIdio_rvc_train_quote_fix",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "ComfyUI Nodes"
+    },
+    {
+      "name": "_python_embeded_overrides_fairseq",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "Embedded Python Overrides"
+    },
+    {
+      "name": "_python_embeded_overrides_sitecustomize",
+      "version": "4160277",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/rAIdio-bot/rAIdio-nodes",
+      "category": "Embedded Python Overrides"
+    },
+    {
+      "name": "@tauri-apps/api",
+      "version": "2.0.0",
+      "license": "MIT",
+      "category": "NPM Packages",
+      "homepage": "https://www.npmjs.com/package/@tauri-apps/api"
+    },
+    {
+      "name": "@tauri-apps/plugin-dialog",
+      "version": "2.6.0",
+      "license": "MIT",
+      "category": "NPM Packages",
+      "homepage": "https://www.npmjs.com/package/@tauri-apps/plugin-dialog"
+    },
+    {
+      "name": "@tauri-apps/plugin-shell",
+      "version": "2.0.0",
+      "license": "MIT",
+      "category": "NPM Packages",
+      "homepage": "https://www.npmjs.com/package/@tauri-apps/plugin-shell"
+    },
+    {
+      "name": "wavesurfer.js",
+      "version": "7.12.5",
+      "license": "BSD-3-Clause",
+      "category": "NPM Packages",
+      "homepage": "https://www.npmjs.com/package/wavesurfer.js"
+    },
+    {
+      "name": "absl-py",
+      "version": "2.4.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "accelerate",
+      "version": "1.14.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "license": "PSF-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.1",
+      "license": "Apache-2.0 AND MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "alembic",
+      "version": "1.18.5",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.4",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "antlr4-python3-runtime",
+      "version": "4.9.3",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "anyio",
+      "version": "4.11.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "argbind",
+      "version": "0.3.9",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "asttokens",
+      "version": "3.0.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "audioread",
+      "version": "3.1.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "av",
+      "version": "16.0.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "basic-pitch",
+      "version": "0.4.0",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/spotify/basic-pitch",
+      "category": "Python Packages"
+    },
+    {
+      "name": "blis",
+      "version": "1.3.3",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "catalogue",
+      "version": "2.0.10",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.6.17",
+      "license": "MPL-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cffi",
+      "version": "2.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "click",
+      "version": "8.4.2",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cloudpathlib",
+      "version": "0.24.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "coloredlogs",
+      "version": "15.0.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfy-aimdo",
+      "version": "0.1.8",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/Comfy-Org/comfy-aimdo",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfy-aimdo",
+      "version": "0.4.10",
+      "license": "GPL-3.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfy-kitchen",
+      "version": "0.2.16",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfy-kitchen",
+      "version": "0.2.7",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Comfy-Org/comfy-kitchen",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-embedded-docs",
+      "version": "0.4.1",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/Comfy-Org/embedded-docs",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-frontend-package",
+      "version": "1.38.14",
+      "license": "GPL-3.0",
+      "homepage": "https://github.com/Comfy-Org/ComfyUI_frontend",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-workflow-templates",
+      "version": "0.8.43",
+      "license": "MIT",
+      "homepage": "https://github.com/Comfy-Org/workflow_templates",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-workflow-templates-core",
+      "version": "0.3.145",
+      "license": "MIT",
+      "homepage": "https://github.com/Comfy-Org/workflow_templates",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-workflow-templates-media-api",
+      "version": "0.3.53",
+      "license": "MIT",
+      "homepage": "https://github.com/Comfy-Org/workflow_templates",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-workflow-templates-media-image",
+      "version": "0.3.90",
+      "license": "MIT",
+      "homepage": "https://github.com/Comfy-Org/workflow_templates",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-workflow-templates-media-other",
+      "version": "0.3.121",
+      "license": "MIT",
+      "homepage": "https://github.com/Comfy-Org/workflow_templates",
+      "category": "Python Packages"
+    },
+    {
+      "name": "comfyui-workflow-templates-media-video",
+      "version": "0.3.49",
+      "license": "MIT",
+      "homepage": "https://github.com/Comfy-Org/workflow_templates",
+      "category": "Python Packages"
+    },
+    {
+      "name": "confection",
+      "version": "0.1.5",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "ctranslate2",
+      "version": "4.6.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cuda-bindings",
+      "version": "12.9.4",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cuda-pathfinder",
+      "version": "1.5.6",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cuda-toolkit",
+      "version": "13.0.2",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cutlet",
+      "version": "0.5.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/matplotlib/cycler",
+      "category": "Python Packages"
+    },
+    {
+      "name": "cymem",
+      "version": "2.0.13",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "Cython",
+      "version": "3.2.4",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "decorator",
+      "version": "5.2.1",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/micheles/decorator",
+      "category": "Python Packages"
+    },
+    {
+      "name": "decorator",
+      "version": "5.3.1",
+      "license": "BSD-2-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "demucs",
+      "version": "4.0.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "descript-audio-codec",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "descript-audiotools",
+      "version": "0.7.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "diffusers",
+      "version": "0.37.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "docopt",
+      "version": "0.6.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "docstring_parser",
+      "version": "0.17.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "dora_search",
+      "version": "0.1.12",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "einops",
+      "version": "0.8.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "executing",
+      "version": "2.2.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "faiss-cpu",
+      "version": "1.13.2",
+      "license": "MIT AND BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "fastapi",
+      "version": "0.135.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "faster-whisper",
+      "version": "1.2.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "ffmpeg-python",
+      "version": "0.2.0",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/kkroening/ffmpeg-python",
+      "category": "Python Packages"
+    },
+    {
+      "name": "ffmpy",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "filelock",
+      "version": "3.29.5",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "fire",
+      "version": "0.7.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "flatbuffers",
+      "version": "25.9.23",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "flatten-dict",
+      "version": "0.4.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.63.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.6.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "fugashi",
+      "version": "1.5.2",
+      "license": "MIT AND BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "future",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "greenlet",
+      "version": "3.5.3",
+      "license": "MIT AND PSF-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "grpcio",
+      "version": "1.78.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "hangul-romanize",
+      "version": "0.1.0",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/youknowone/hangul-romanize",
+      "category": "Python Packages"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.5.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "0.36.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "humanfriendly",
+      "version": "10.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "hyper-connections",
+      "version": "0.4.9",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "idna",
+      "version": "3.18",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "importlib_metadata",
+      "version": "9.0.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "importlib_resources",
+      "version": "6.5.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "ipython",
+      "version": "9.11.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "ipython_pygments_lexers",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "jaconv",
+      "version": "0.5.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "jedi",
+      "version": "0.19.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "joblib",
+      "version": "1.5.3",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "json5",
+      "version": "0.13.0",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/dpranke/pyjson5",
+      "category": "Python Packages"
+    },
+    {
+      "name": "julius",
+      "version": "0.2.8",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/nucleic/kiwi",
+      "category": "Python Packages"
+    },
+    {
+      "name": "kornia",
+      "version": "0.8.3",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "kornia_rs",
+      "version": "0.1.14",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "lameenc",
+      "version": "1.8.2",
+      "license": "LGPL-3.0",
+      "homepage": "https://github.com/chrisstaite/lameenc",
+      "category": "Python Packages"
+    },
+    {
+      "name": "lameenc",
+      "version": "1.8.4",
+      "license": "LGPL-3.0-or-later",
+      "category": "Python Packages"
+    },
+    {
+      "name": "lazy-loader",
+      "version": "0.5",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "librosa",
+      "version": "0.11.0",
+      "license": "ISC",
+      "category": "Python Packages"
+    },
+    {
+      "name": "libsndfile",
+      "version": "1.2.2",
+      "license": "LGPL-2.1",
+      "homepage": "https://github.com/memescreamer/libsndfile/tree/1.2.2",
+      "category": "Python Packages"
+    },
+    {
+      "name": "lightning-utilities",
+      "version": "0.15.3",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "llvmlite",
+      "version": "0.45.1",
+      "license": "BSD-2-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "local-attention",
+      "version": "1.11.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "loguru",
+      "version": "0.7.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "Mako",
+      "version": "1.3.12",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "Markdown",
+      "version": "3.10.2",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "markdown2",
+      "version": "2.5.5",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.2",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/pallets/markupsafe",
+      "category": "Python Packages"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.8",
+      "license": "PSF-2.0",
+      "homepage": "https://github.com/matplotlib/matplotlib",
+      "category": "Python Packages"
+    },
+    {
+      "name": "matplotlib-inline",
+      "version": "0.2.1",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/ipython/matplotlib-inline",
+      "category": "Python Packages"
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "MIDIUtil",
+      "version": "1.2.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "mido",
+      "version": "1.3.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "mir_eval",
+      "version": "0.8.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "mojimoji",
+      "version": "0.0.13",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "more-itertools",
+      "version": "10.8.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "msgpack",
+      "version": "1.2.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "multidict",
+      "version": "6.7.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "munch",
+      "version": "4.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "murmurhash",
+      "version": "1.0.15",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.23.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "num2words",
+      "version": "0.5.14",
+      "license": "LGPL-2.1",
+      "category": "Python Packages"
+    },
+    {
+      "name": "numba",
+      "version": "0.62.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/numpy/numpy",
+      "category": "Python Packages"
+    },
+    {
+      "name": "numpy",
+      "version": "2.3.4",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cublas",
+      "version": "13.1.1.3",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.8.4.1",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cuda-cupti",
+      "version": "13.0.85",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cuda-nvrtc",
+      "version": "13.0.88",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cuda-runtime",
+      "version": "13.0.96",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.10.2.21",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cudnn-cu13",
+      "version": "9.20.0.48",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cufft",
+      "version": "12.0.0.61",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.3.3.83",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cufile",
+      "version": "1.15.1.6",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cufile-cu12",
+      "version": "1.13.1.3",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-curand",
+      "version": "10.4.0.35",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.9.90",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cusolver",
+      "version": "12.0.4.66",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cusparse",
+      "version": "12.6.3.3",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.7.1",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-cusparselt-cu13",
+      "version": "0.8.1",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.27.5",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nccl-cu13",
+      "version": "2.29.7",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nvjitlink",
+      "version": "13.0.88",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nvshmem-cu12",
+      "version": "3.4.5",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nvshmem-cu13",
+      "version": "3.4.5",
+      "license": "LicenseRef-NVIDIA-Proprietary",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nvtx",
+      "version": "13.0.85",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.8.90",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "omegaconf",
+      "version": "2.3.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "onnxruntime",
+      "version": "1.23.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "onnxruntime-gpu",
+      "version": "1.19.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "onnxruntime-gpu",
+      "version": "1.22.0",
+      "license": "MIT",
+      "homepage": "https://onnxruntime.ai",
+      "category": "Python Packages"
+    },
+    {
+      "name": "openai-whisper",
+      "version": "20250625",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "opencc-python-reimplemented",
+      "version": "0.1.7",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/yichen0831/opencc-python",
+      "category": "Python Packages"
+    },
+    {
+      "name": "opencv-python-headless",
+      "version": "4.13.0.92",
+      "license": "MIT AND Apache-2.0",
+      "homepage": "https://github.com/opencv/opencv-python",
+      "category": "Python Packages"
+    },
+    {
+      "name": "openunmix",
+      "version": "1.3.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "packaging",
+      "version": "25.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "parso",
+      "version": "0.8.6",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "peft",
+      "version": "0.19.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "picklescan",
+      "version": "1.0.4",
+      "license": "MIT",
+      "homepage": "https://github.com/mmaitre314/picklescan",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pillow",
+      "version": "12.1.0",
+      "license": "HPND",
+      "homepage": "https://github.com/python-pillow/Pillow",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "license": "MIT-CMU",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pip",
+      "version": "26.0.1",
+      "license": "MIT",
+      "homepage": "https://github.com/pypa/pip",
+      "upstream_source_url": "https://github.com/pypa/pip",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pip",
+      "version": "26.1.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.10.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pooch",
+      "version": "1.9.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "praat-parselmouth",
+      "version": "0.4.7",
+      "license": "GPL-3.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "preshed",
+      "version": "3.0.13",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pretty_midi",
+      "version": "0.2.11",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "prompt_toolkit",
+      "version": "3.0.52",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "protobuf",
+      "version": "3.19.6",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/protocolbuffers/protobuf",
+      "category": "Python Packages"
+    },
+    {
+      "name": "protobuf",
+      "version": "6.33.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pure_eval",
+      "version": "0.2.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "py3langid",
+      "version": "0.3.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pyasn1",
+      "version": "0.6.2",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/pyasn1/pyasn1",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pyasn1_modules",
+      "version": "0.4.2",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.4",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.14.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.46.4",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pydub",
+      "version": "0.25.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pygit2",
+      "version": "1.19.1",
+      "license": "GPL-2.0-only WITH linking-exception",
+      "category": "Python Packages"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.20.0",
+      "license": "BSD-2-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pyloudnorm",
+      "version": "0.2.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pypinyin",
+      "version": "0.55.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pyreadline3",
+      "version": "3.5.4",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pystoi",
+      "version": "0.4.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "homepage": "https://github.com/dateutil/dateutil",
+      "category": "Python Packages"
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pytorch-lightning",
+      "version": "2.6.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "pyworld",
+      "version": "0.3.5",
+      "license": "MIT",
+      "homepage": "https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
+      "category": "Python Packages"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "randomname",
+      "version": "0.2.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "regex",
+      "version": "2025.11.3",
+      "license": "Apache-2.0 AND CNRI-Python",
+      "category": "Python Packages"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "resampy",
+      "version": "0.4.3",
+      "license": "ISC",
+      "category": "Python Packages"
+    },
+    {
+      "name": "retrying",
+      "version": "1.4.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "scipy",
+      "version": "1.17.1",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/scipy/scipy",
+      "category": "Python Packages"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "sentencepiece",
+      "version": "0.2.1",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/google/sentencepiece",
+      "category": "Python Packages"
+    },
+    {
+      "name": "setuptools",
+      "version": "70.2.0",
+      "license": "MIT",
+      "homepage": "https://github.com/pypa/setuptools",
+      "upstream_source_url": "https://github.com/pypa/setuptools",
+      "category": "Python Packages"
+    },
+    {
+      "name": "setuptools",
+      "version": "80.10.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4",
+      "license": "ISC",
+      "category": "Python Packages"
+    },
+    {
+      "name": "silentcipher",
+      "version": "1.0.5",
+      "license": "MIT",
+      "homepage": "https://github.com/memescreamer/silentcipher/tree/c11afe0e2df7",
+      "category": "Python Packages"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "smart_open",
+      "version": "7.7.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "soundfile",
+      "version": "0.13.1",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/memescreamer/python-soundfile/tree/0.13.1",
+      "category": "Python Packages"
+    },
+    {
+      "name": "soundfile",
+      "version": "0.14.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "sox",
+      "version": "1.5.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "soxr",
+      "version": "1.1.0",
+      "license": "LGPL-2.1-or-later",
+      "category": "Python Packages"
+    },
+    {
+      "name": "spacy",
+      "version": "3.8.11",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "spacy-legacy",
+      "version": "3.0.12",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "spacy-loggers",
+      "version": "1.0.5",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "spandrel",
+      "version": "0.4.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "SQLAlchemy",
+      "version": "2.0.51",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "srsly",
+      "version": "2.5.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "stack-data",
+      "version": "0.6.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "starlette",
+      "version": "0.52.1",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "submitit",
+      "version": "1.5.4",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/sympy/sympy",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tabulate",
+      "version": "0.10.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tensorboard",
+      "version": "2.20.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tensorboard-data-server",
+      "version": "0.7.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tensorboardX",
+      "version": "2.6.4",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "termcolor",
+      "version": "3.3.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "thinc",
+      "version": "8.3.11",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tiktoken",
+      "version": "0.12.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.22.1",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torch",
+      "version": "2.10.0+cu128",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torch-einops-utils",
+      "version": "0.0.30",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torch-stoi",
+      "version": "0.2.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchaudio",
+      "version": "2.10.0+cu128",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchcodec",
+      "version": "0.11.0",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/pytorch/torchcodec",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchcodec",
+      "version": "0.11.0+cu128",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchcrepe",
+      "version": "0.0.24",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchfcpe",
+      "version": "0.0.4",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchmetrics",
+      "version": "1.9.0",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchsde",
+      "version": "0.2.6",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "torchvision",
+      "version": "0.25.0+cu128",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tornado",
+      "version": "6.5.5",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.67.1",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "traitlets",
+      "version": "5.14.3",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "trampoline",
+      "version": "0.1.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "transformers",
+      "version": "4.57.3",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "treetable",
+      "version": "0.2.6",
+      "license": "Unlicense",
+      "category": "Python Packages"
+    },
+    {
+      "name": "triton",
+      "version": "3.6.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "typer",
+      "version": "0.26.8",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "typer-slim",
+      "version": "0.20.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.2",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "license": "PSF-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.41.0",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "wasabi",
+      "version": "1.1.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.6.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "weasel",
+      "version": "0.4.3",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "Werkzeug",
+      "version": "3.1.6",
+      "license": "BSD-3-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "win32_setctime",
+      "version": "1.2.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "wrapt",
+      "version": "2.1.2",
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/GrahamDumpleton/wrapt",
+      "category": "Python Packages"
+    },
+    {
+      "name": "wrapt",
+      "version": "2.2.2",
+      "license": "BSD-2-Clause",
+      "category": "Python Packages"
+    },
+    {
+      "name": "yarl",
+      "version": "1.24.2",
+      "license": "Apache-2.0",
+      "category": "Python Packages"
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.0",
+      "license": "MIT",
+      "category": "Python Packages"
+    },
+    {
+      "name": "abnf",
+      "version": "0.13.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/duesee/abnf"
+    },
+    {
+      "name": "abnf-core",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/duesee/abnf-core"
+    },
+    {
+      "name": "adler2",
+      "version": "2.0.1",
+      "license": "0BSD OR MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/oyvindln/adler2"
+    },
+    {
+      "name": "aead",
+      "version": "0.5.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "aes",
+      "version": "0.8.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/block-ciphers"
+    },
+    {
+      "name": "aes-gcm",
+      "version": "0.10.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/AEADs"
+    },
+    {
+      "name": "age",
+      "version": "0.11.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/str4d/rage"
+    },
+    {
+      "name": "age-core",
+      "version": "0.11.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/str4d/rage"
+    },
+    {
+      "name": "ahash",
+      "version": "0.8.12",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tkaitchuck/ahash"
+    },
+    {
+      "name": "aho-corasick",
+      "version": "1.1.4",
+      "license": "Unlicense OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/BurntSushi/aho-corasick"
+    },
+    {
+      "name": "alloc-no-stdlib",
+      "version": "2.0.4",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dropbox/rust-alloc-no-stdlib"
+    },
+    {
+      "name": "alloc-stdlib",
+      "version": "0.2.2",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dropbox/rust-alloc-no-stdlib"
+    },
+    {
+      "name": "alsa",
+      "version": "0.11.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/diwic/alsa-rs"
+    },
+    {
+      "name": "alsa-sys",
+      "version": "0.4.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/diwic/alsa-sys"
+    },
+    {
+      "name": "anstream",
+      "version": "0.6.21",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/anstyle.git"
+    },
+    {
+      "name": "anstyle",
+      "version": "1.0.14",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/anstyle.git"
+    },
+    {
+      "name": "anstyle-parse",
+      "version": "0.2.7",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/anstyle.git"
+    },
+    {
+      "name": "anstyle-query",
+      "version": "1.1.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/anstyle.git"
+    },
+    {
+      "name": "anyhow",
+      "version": "1.0.103",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/anyhow"
+    },
+    {
+      "name": "anymap3",
+      "version": "1.1.0",
+      "license": "BlueOak-1.0.0 OR MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/reivilibre/anymap3"
+    },
+    {
+      "name": "arc-swap",
+      "version": "1.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/vorner/arc-swap"
+    },
+    {
+      "name": "argon2",
+      "version": "0.5.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/password-hashes/tree/master/argon2"
+    },
+    {
+      "name": "arrayvec",
+      "version": "0.7.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/arrayvec"
+    },
+    {
+      "name": "asn1-rs",
+      "version": "0.7.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/asn1-rs"
+    },
+    {
+      "name": "asn1-rs-derive",
+      "version": "0.6.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/asn1-rs"
+    },
+    {
+      "name": "asn1-rs-impl",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/asn1-rs"
+    },
+    {
+      "name": "async-broadcast",
+      "version": "0.7.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/async-broadcast"
+    },
+    {
+      "name": "async-generic",
+      "version": "1.1.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/scouten/async-generic"
+    },
+    {
+      "name": "async-trait",
+      "version": "0.1.89",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/async-trait"
+    },
+    {
+      "name": "atk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "atk-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/atomic-waker"
+    },
+    {
+      "name": "atree",
+      "version": "0.5.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/macthecadillac/atree"
+    },
+    {
+      "name": "base16ct",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/base16ct"
+    },
+    {
+      "name": "base64",
+      "version": "0.21.7",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/marshallpierce/rust-base64"
+    },
+    {
+      "name": "base64",
+      "version": "0.22.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/marshallpierce/rust-base64"
+    },
+    {
+      "name": "base64ct",
+      "version": "1.8.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/base64ct"
+    },
+    {
+      "name": "basic-toml",
+      "version": "0.1.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/basic-toml"
+    },
+    {
+      "name": "bcder",
+      "version": "0.7.6",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nlnetlabs/bcder"
+    },
+    {
+      "name": "bech32",
+      "version": "0.9.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-bitcoin/rust-bech32"
+    },
+    {
+      "name": "bit-set",
+      "version": "0.5.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/contain-rs/bit-set"
+    },
+    {
+      "name": "bit-vec",
+      "version": "0.6.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/contain-rs/bit-vec"
+    },
+    {
+      "name": "bitflags",
+      "version": "1.3.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bitflags/bitflags"
+    },
+    {
+      "name": "bitflags",
+      "version": "2.11.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bitflags/bitflags"
+    },
+    {
+      "name": "bitvec",
+      "version": "1.0.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://bitvecto-rs.github.io/bitvec"
+    },
+    {
+      "name": "bitvec-nom2",
+      "version": "0.2.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-bakery/nom-bitvec"
+    },
+    {
+      "name": "blake2",
+      "version": "0.10.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "block-padding",
+      "version": "0.3.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "brotli",
+      "version": "8.0.2",
+      "license": "BSD-3-Clause AND MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dropbox/rust-brotli"
+    },
+    {
+      "name": "brotli-decompressor",
+      "version": "5.0.0",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dropbox/rust-brotli-decompressor"
+    },
+    {
+      "name": "bs58",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Nullus157/bs58-rs"
+    },
+    {
+      "name": "btree-range-map",
+      "version": "0.7.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/btree-range-map"
+    },
+    {
+      "name": "btree-slab",
+      "version": "0.6.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/btree-slab"
+    },
+    {
+      "name": "bumpalo",
+      "version": "3.20.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/fitzgen/bumpalo"
+    },
+    {
+      "name": "bytemuck",
+      "version": "1.25.0",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Lokathor/bytemuck"
+    },
+    {
+      "name": "byteorder",
+      "version": "1.5.0",
+      "license": "Unlicense OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/BurntSushi/byteorder"
+    },
+    {
+      "name": "byteordered",
+      "version": "0.6.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Enet4/byteordered"
+    },
+    {
+      "name": "bytes",
+      "version": "1.11.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/bytes"
+    },
+    {
+      "name": "bzip2",
+      "version": "0.6.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/trifectatechfoundation/bzip2-rs"
+    },
+    {
+      "name": "c2-crypto",
+      "version": "0.1.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rains.io"
+    },
+    {
+      "name": "c2-types",
+      "version": "0.1.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rains.io"
+    },
+    {
+      "name": "c2pa",
+      "version": "0.78.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://contentauthenticity.org"
+    },
+    {
+      "name": "c2pa_cbor",
+      "version": "0.77.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://contentauthenticity.org"
+    },
+    {
+      "name": "cairo-rs",
+      "version": "0.18.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "cairo-sys-rs",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "camino",
+      "version": "1.2.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/camino-rs/camino"
+    },
+    {
+      "name": "cargo-platform",
+      "version": "0.1.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/cargo"
+    },
+    {
+      "name": "cargo_metadata",
+      "version": "0.19.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/oli-obk/cargo_metadata"
+    },
+    {
+      "name": "cbc",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/block-modes"
+    },
+    {
+      "name": "cc-traits",
+      "version": "2.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/cc-traits"
+    },
+    {
+      "name": "cfb",
+      "version": "0.7.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mdsteele/rust-cfb"
+    },
+    {
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/cfg-if"
+    },
+    {
+      "name": "chacha20",
+      "version": "0.9.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/stream-ciphers"
+    },
+    {
+      "name": "chacha20poly1305",
+      "version": "0.10.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305"
+    },
+    {
+      "name": "chrono",
+      "version": "0.4.44",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/chronotope/chrono"
+    },
+    {
+      "name": "ciborium",
+      "version": "0.2.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/enarx/ciborium"
+    },
+    {
+      "name": "ciborium-io",
+      "version": "0.2.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/enarx/ciborium"
+    },
+    {
+      "name": "ciborium-ll",
+      "version": "0.2.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/enarx/ciborium"
+    },
+    {
+      "name": "cipher",
+      "version": "0.4.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "colorchoice",
+      "version": "1.0.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/anstyle.git"
+    },
+    {
+      "name": "concurrent-queue",
+      "version": "2.5.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/concurrent-queue"
+    },
+    {
+      "name": "config",
+      "version": "0.14.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/config-rs"
+    },
+    {
+      "name": "const-hex",
+      "version": "1.18.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/danipopes/const-hex"
+    },
+    {
+      "name": "const-oid",
+      "version": "0.9.6",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/const-oid"
+    },
+    {
+      "name": "convert_case",
+      "version": "0.4.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rutrum/convert-case"
+    },
+    {
+      "name": "cookie",
+      "version": "0.18.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/SergioBenitez/cookie-rs"
+    },
+    {
+      "name": "cookie-factory",
+      "version": "0.3.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-bakery/cookie-factory"
+    },
+    {
+      "name": "coset",
+      "version": "0.4.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/google/coset"
+    },
+    {
+      "name": "cpal",
+      "version": "0.17.3",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustAudio/cpal"
+    },
+    {
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "crc32fast",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/srijs/rust-crc32fast"
+    },
+    {
+      "name": "crossbeam-channel",
+      "version": "0.5.15",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-channel"
+    },
+    {
+      "name": "crossbeam-deque",
+      "version": "0.8.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-deque"
+    },
+    {
+      "name": "crossbeam-epoch",
+      "version": "0.9.20",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-epoch"
+    },
+    {
+      "name": "crossbeam-utils",
+      "version": "0.8.21",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-utils"
+    },
+    {
+      "name": "crypto-bigint",
+      "version": "0.5.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/crypto-bigint"
+    },
+    {
+      "name": "crypto-bigint",
+      "version": "0.6.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/crypto-bigint"
+    },
+    {
+      "name": "crypto-common",
+      "version": "0.1.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "cssparser",
+      "version": "0.29.6",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-cssparser"
+    },
+    {
+      "name": "cssparser-macros",
+      "version": "0.6.1",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-cssparser"
+    },
+    {
+      "name": "ctor",
+      "version": "0.2.9",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mmastrac/rust-ctor"
+    },
+    {
+      "name": "ctr",
+      "version": "0.9.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/block-modes"
+    },
+    {
+      "name": "curve25519-dalek",
+      "version": "4.1.3",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dalek-cryptography/curve25519-dalek"
+    },
+    {
+      "name": "curve25519-dalek-derive",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dalek-cryptography/curve25519-dalek"
+    },
+    {
+      "name": "darling",
+      "version": "0.20.11",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling",
+      "version": "0.21.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling_core",
+      "version": "0.20.11",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling_core",
+      "version": "0.21.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling_macro",
+      "version": "0.20.11",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "darling_macro",
+      "version": "0.21.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/darling"
+    },
+    {
+      "name": "dasp_sample",
+      "version": "0.11.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustaudio/sample"
+    },
+    {
+      "name": "data-encoding",
+      "version": "2.10.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/ia0/data-encoding"
+    },
+    {
+      "name": "dbus",
+      "version": "0.9.11",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/diwic/dbus-rs"
+    },
+    {
+      "name": "dbus-secret-service",
+      "version": "4.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/brotskydotcom/dbus-secret-service"
+    },
+    {
+      "name": "delegate",
+      "version": "0.8.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/kobzol/rust-delegate"
+    },
+    {
+      "name": "der",
+      "version": "0.7.10",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/der"
+    },
+    {
+      "name": "der-parser",
+      "version": "10.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/der-parser"
+    },
+    {
+      "name": "der_derive",
+      "version": "0.7.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/der/derive"
+    },
+    {
+      "name": "deranged",
+      "version": "0.5.8",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jhpratt/deranged"
+    },
+    {
+      "name": "derive-new",
+      "version": "0.5.9",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nrc/derive-new"
+    },
+    {
+      "name": "derive_more",
+      "version": "0.99.20",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/JelteF/derive_more"
+    },
+    {
+      "name": "des",
+      "version": "0.8.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/block-ciphers"
+    },
+    {
+      "name": "digest",
+      "version": "0.10.7",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "dirs",
+      "version": "5.0.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/soc/dirs-rs"
+    },
+    {
+      "name": "dirs",
+      "version": "6.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/soc/dirs-rs"
+    },
+    {
+      "name": "dirs-sys",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dirs-dev/dirs-sys-rs"
+    },
+    {
+      "name": "dirs-sys",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dirs-dev/dirs-sys-rs"
+    },
+    {
+      "name": "displaydoc",
+      "version": "0.2.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/yaahc/displaydoc"
+    },
+    {
+      "name": "dlopen2",
+      "version": "0.8.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/OpenByteDev/dlopen2"
+    },
+    {
+      "name": "dlopen2_derive",
+      "version": "0.4.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/OpenByteDev/dlopen2"
+    },
+    {
+      "name": "downcast-rs",
+      "version": "1.2.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/marcianx/downcast-rs"
+    },
+    {
+      "name": "dpi",
+      "version": "0.1.2",
+      "license": "Apache-2.0 AND MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-windowing/winit"
+    },
+    {
+      "name": "dtoa",
+      "version": "1.0.11",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/dtoa"
+    },
+    {
+      "name": "dtoa-short",
+      "version": "0.3.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/upsuper/dtoa-short"
+    },
+    {
+      "name": "dunce",
+      "version": "1.0.5",
+      "license": "CC0-1.0 OR MIT-0 OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://lib.rs/crates/dunce"
+    },
+    {
+      "name": "dyn-clone",
+      "version": "1.0.20",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/dyn-clone"
+    },
+    {
+      "name": "dyn-hash",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/dyn-hash"
+    },
+    {
+      "name": "ecdsa",
+      "version": "0.16.9",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/signatures/tree/master/ecdsa"
+    },
+    {
+      "name": "ed25519",
+      "version": "2.2.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/signatures/tree/master/ed25519"
+    },
+    {
+      "name": "ed25519-dalek",
+      "version": "2.2.0",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dalek-cryptography/curve25519-dalek"
+    },
+    {
+      "name": "either",
+      "version": "1.15.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rayon-rs/either"
+    },
+    {
+      "name": "elliptic-curve",
+      "version": "0.13.8",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits/tree/master/elliptic-curve"
+    },
+    {
+      "name": "elliptic-curve-tools",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mikelodder7/elliptic-curve-tools"
+    },
+    {
+      "name": "encoding_rs",
+      "version": "0.8.35",
+      "license": "(Apache-2.0 OR MIT) AND BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://docs.rs/encoding_rs/"
+    },
+    {
+      "name": "endi",
+      "version": "1.1.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zeenix/endi"
+    },
+    {
+      "name": "enumflags2",
+      "version": "0.7.12",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/meithecatte/enumflags2"
+    },
+    {
+      "name": "enumflags2_derive",
+      "version": "0.7.12",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/meithecatte/enumflags2"
+    },
+    {
+      "name": "env_filter",
+      "version": "1.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/env_logger"
+    },
+    {
+      "name": "env_logger",
+      "version": "0.11.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-cli/env_logger"
+    },
+    {
+      "name": "equivalent",
+      "version": "1.0.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/indexmap-rs/equivalent"
+    },
+    {
+      "name": "erased-serde",
+      "version": "0.4.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/erased-serde"
+    },
+    {
+      "name": "errno",
+      "version": "0.3.14",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/lambda-fairy/rust-errno"
+    },
+    {
+      "name": "event-listener",
+      "version": "5.4.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/event-listener"
+    },
+    {
+      "name": "event-listener-strategy",
+      "version": "0.5.4",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/event-listener-strategy"
+    },
+    {
+      "name": "extended",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/depp/extended-rs"
+    },
+    {
+      "name": "extfmt",
+      "version": "0.2.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Gilnaa/extfmt"
+    },
+    {
+      "name": "fastrand",
+      "version": "2.3.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/fastrand"
+    },
+    {
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/image-rs/fdeflate"
+    },
+    {
+      "name": "ff",
+      "version": "0.13.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zkcrypto/ff"
+    },
+    {
+      "name": "field-offset",
+      "version": "0.3.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Diggsey/rust-field-offset"
+    },
+    {
+      "name": "filetime",
+      "version": "0.2.29",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/alexcrichton/filetime"
+    },
+    {
+      "name": "find-crate",
+      "version": "0.6.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/taiki-e/find-crate"
+    },
+    {
+      "name": "flagset",
+      "version": "0.4.7",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/enarx/flagset"
+    },
+    {
+      "name": "flate2",
+      "version": "1.1.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/flate2-rs"
+    },
+    {
+      "name": "fluent",
+      "version": "0.16.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "http://www.projectfluent.org"
+    },
+    {
+      "name": "fluent-bundle",
+      "version": "0.15.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "http://www.projectfluent.org"
+    },
+    {
+      "name": "fluent-langneg",
+      "version": "0.13.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "http://projectfluent.org/"
+    },
+    {
+      "name": "fluent-syntax",
+      "version": "0.11.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "http://www.projectfluent.org"
+    },
+    {
+      "name": "fnv",
+      "version": "1.0.7",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-fnv"
+    },
+    {
+      "name": "foldhash",
+      "version": "0.2.0",
+      "license": "Zlib",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/orlp/foldhash"
+    },
+    {
+      "name": "foreign-types",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/foreign-types"
+    },
+    {
+      "name": "foreign-types-shared",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/foreign-types"
+    },
+    {
+      "name": "form_urlencoded",
+      "version": "1.2.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-url"
+    },
+    {
+      "name": "funty",
+      "version": "2.0.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/myrrlyn/funty"
+    },
+    {
+      "name": "futf",
+      "version": "0.1.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/futf"
+    },
+    {
+      "name": "futures",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-channel",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-core",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-executor",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-io",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-macro",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-sink",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-task",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "futures-util",
+      "version": "0.3.32",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-lang.github.io/futures-rs"
+    },
+    {
+      "name": "fxhash",
+      "version": "0.2.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/cbreeden/fxhash"
+    },
+    {
+      "name": "gdk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gdk-pixbuf",
+      "version": "0.18.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gdk-pixbuf-sys",
+      "version": "0.18.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gdk-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gdkwayland-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gdkx11",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gdkx11-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "generic-array",
+      "version": "0.14.9",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/fizyk20/generic-array.git"
+    },
+    {
+      "name": "generic-array",
+      "version": "1.4.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/fizyk20/generic-array.git"
+    },
+    {
+      "name": "getrandom",
+      "version": "0.2.17",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-random/getrandom"
+    },
+    {
+      "name": "getrandom",
+      "version": "0.3.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-random/getrandom"
+    },
+    {
+      "name": "getrandom",
+      "version": "0.4.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-random/getrandom"
+    },
+    {
+      "name": "ghash",
+      "version": "0.5.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/universal-hashes"
+    },
+    {
+      "name": "gio",
+      "version": "0.18.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gio-sys",
+      "version": "0.18.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "glib",
+      "version": "0.18.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "glib-macros",
+      "version": "0.18.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "glib-sys",
+      "version": "0.18.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "glob",
+      "version": "0.3.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/glob"
+    },
+    {
+      "name": "gobject-sys",
+      "version": "0.18.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "group",
+      "version": "0.13.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zkcrypto/group"
+    },
+    {
+      "name": "gtk",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gtk-sys",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "gtk3-macros",
+      "version": "0.18.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "h2",
+      "version": "0.4.13",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hyperium/h2"
+    },
+    {
+      "name": "half",
+      "version": "2.7.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/VoidStarKat/half-rs"
+    },
+    {
+      "name": "hash32",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/japaric/hash32"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.12.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.14.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "hashbrown",
+      "version": "0.16.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/hashbrown"
+    },
+    {
+      "name": "heapless",
+      "version": "0.8.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-embedded/heapless"
+    },
+    {
+      "name": "heck",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/withoutboats/heck"
+    },
+    {
+      "name": "heck",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/withoutboats/heck"
+    },
+    {
+      "name": "hex",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/KokaKiwi/rust-hex"
+    },
+    {
+      "name": "hex-literal",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "hex_fmt",
+      "version": "0.3.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/poanetwork/hex_fmt"
+    },
+    {
+      "name": "hkdf",
+      "version": "0.12.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/KDFs/"
+    },
+    {
+      "name": "hmac",
+      "version": "0.12.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/MACs"
+    },
+    {
+      "name": "hound",
+      "version": "3.5.1",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/ruuda/hound"
+    },
+    {
+      "name": "html5ever",
+      "version": "0.29.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "http",
+      "version": "1.4.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hyperium/http"
+    },
+    {
+      "name": "http-body",
+      "version": "1.0.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hyperium/http-body"
+    },
+    {
+      "name": "http-body-util",
+      "version": "0.1.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hyperium/http-body"
+    },
+    {
+      "name": "http-range",
+      "version": "0.1.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bancek/rust-http-range.git"
+    },
+    {
+      "name": "httparse",
+      "version": "1.10.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/seanmonstar/httparse"
+    },
+    {
+      "name": "hybrid-array",
+      "version": "0.4.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/hybrid-array"
+    },
+    {
+      "name": "hyper",
+      "version": "1.8.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://hyper.rs"
+    },
+    {
+      "name": "hyper-rustls",
+      "version": "0.27.7",
+      "license": "Apache-2.0 OR ISC OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/hyper-rustls"
+    },
+    {
+      "name": "hyper-tls",
+      "version": "0.6.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://hyper.rs"
+    },
+    {
+      "name": "hyper-util",
+      "version": "0.1.20",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://hyper.rs"
+    },
+    {
+      "name": "i18n-config",
+      "version": "0.4.8",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/kellpossible/cargo-i18n/tree/master/i18n-config"
+    },
+    {
+      "name": "i18n-embed",
+      "version": "0.15.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/kellpossible/cargo-i18n/tree/master/i18n-embed"
+    },
+    {
+      "name": "i18n-embed-fl",
+      "version": "0.9.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/kellpossible/cargo-i18n/tree/master/i18n-embed-fl"
+    },
+    {
+      "name": "i18n-embed-impl",
+      "version": "0.8.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/kellpossible/cargo-i18n/tree/master/i18n-embed"
+    },
+    {
+      "name": "iana-time-zone",
+      "version": "0.1.65",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/strawlab/iana-time-zone"
+    },
+    {
+      "name": "ico",
+      "version": "0.5.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mdsteele/rust-ico"
+    },
+    {
+      "name": "icu_collections",
+      "version": "2.1.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "icu_locale_core",
+      "version": "2.1.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "icu_normalizer",
+      "version": "2.1.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "icu_normalizer_data",
+      "version": "2.1.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "icu_properties",
+      "version": "2.1.2",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "icu_properties_data",
+      "version": "2.1.2",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "icu_provider",
+      "version": "2.1.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "id3",
+      "version": "1.16.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://codeberg.org/polyfloyd/rust-id3"
+    },
+    {
+      "name": "ident_case",
+      "version": "1.0.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TedDriggs/ident_case"
+    },
+    {
+      "name": "idna",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-url/"
+    },
+    {
+      "name": "idna_adapter",
+      "version": "1.2.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://docs.rs/crate/idna_adapter/latest"
+    },
+    {
+      "name": "img-parts",
+      "version": "0.4.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/paolobarbolini/img-parts"
+    },
+    {
+      "name": "indexmap",
+      "version": "1.9.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/indexmap"
+    },
+    {
+      "name": "indexmap",
+      "version": "2.13.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/indexmap-rs/indexmap"
+    },
+    {
+      "name": "indoc",
+      "version": "2.0.7",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/indoc"
+    },
+    {
+      "name": "infer",
+      "version": "0.19.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bojand/infer"
+    },
+    {
+      "name": "inout",
+      "version": "0.1.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "intl-memoizer",
+      "version": "0.5.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://www.projectfluent.org"
+    },
+    {
+      "name": "intl_pluralrules",
+      "version": "7.0.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zbraniecki/pluralrules"
+    },
+    {
+      "name": "io_tee",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TheOnlyMrCat/io_tee"
+    },
+    {
+      "name": "ipnet",
+      "version": "2.12.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/krisprice/ipnet"
+    },
+    {
+      "name": "iref",
+      "version": "3.2.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/iref"
+    },
+    {
+      "name": "iref-core",
+      "version": "3.2.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/iref"
+    },
+    {
+      "name": "iri-string",
+      "version": "0.7.11",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/lo48576/iri-string"
+    },
+    {
+      "name": "is-docker",
+      "version": "0.2.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TheLarkInn/is-docker"
+    },
+    {
+      "name": "is-wsl",
+      "version": "0.4.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/TheLarkInn/is-wsl"
+    },
+    {
+      "name": "is_terminal_polyfill",
+      "version": "1.70.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/polyfill-rs/is_terminal_polyfill"
+    },
+    {
+      "name": "itertools",
+      "version": "0.10.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-itertools/itertools"
+    },
+    {
+      "name": "itertools",
+      "version": "0.12.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-itertools/itertools"
+    },
+    {
+      "name": "itertools",
+      "version": "0.13.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-itertools/itertools"
+    },
+    {
+      "name": "itoa",
+      "version": "1.0.18",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/itoa"
+    },
+    {
+      "name": "javascriptcore-rs",
+      "version": "1.1.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/javascriptcore-rs"
+    },
+    {
+      "name": "javascriptcore-rs-sys",
+      "version": "1.1.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/javascriptcore-rs"
+    },
+    {
+      "name": "jfifdump",
+      "version": "0.6.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/vstroebel/jfifdump.git"
+    },
+    {
+      "name": "jiff",
+      "version": "0.2.23",
+      "license": "Unlicense OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/BurntSushi/jiff"
+    },
+    {
+      "name": "json-patch",
+      "version": "3.0.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/idubrov/json-patch"
+    },
+    {
+      "name": "jsonptr",
+      "version": "0.6.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/chanced/jsonptr"
+    },
+    {
+      "name": "keccak",
+      "version": "0.1.6",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/sponges/tree/master/keccak"
+    },
+    {
+      "name": "keyboard-types",
+      "version": "0.7.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pyfisch/keyboard-types"
+    },
+    {
+      "name": "keyring",
+      "version": "3.6.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hwchen/keyring-rs"
+    },
+    {
+      "name": "kuchikiki",
+      "version": "0.8.8-speedreader",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/brave/kuchikiki"
+    },
+    {
+      "name": "lazy_static",
+      "version": "1.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang-nursery/lazy-static.rs"
+    },
+    {
+      "name": "libappindicator",
+      "version": "0.9.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": ""
+    },
+    {
+      "name": "libappindicator-sys",
+      "version": "0.9.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": ""
+    },
+    {
+      "name": "libbz2-rs-sys",
+      "version": "0.2.5",
+      "license": "bzip2-1.0.6",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/trifectatechfoundation/libbzip2-rs"
+    },
+    {
+      "name": "libc",
+      "version": "0.2.183",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/libc"
+    },
+    {
+      "name": "libdbus-sys",
+      "version": "0.2.7",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/diwic/dbus-rs"
+    },
+    {
+      "name": "libloading",
+      "version": "0.7.4",
+      "license": "ISC",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nagisa/rust_libloading/"
+    },
+    {
+      "name": "libloading",
+      "version": "0.8.9",
+      "license": "ISC",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nagisa/rust_libloading/"
+    },
+    {
+      "name": "libm",
+      "version": "0.2.16",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/compiler-builtins"
+    },
+    {
+      "name": "linux-keyutils",
+      "version": "0.2.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/landhb/linux-keyutils"
+    },
+    {
+      "name": "linux-raw-sys",
+      "version": "0.12.1",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sunfishcode/linux-raw-sys"
+    },
+    {
+      "name": "litemap",
+      "version": "0.8.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "lock_api",
+      "version": "0.4.14",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Amanieu/parking_lot"
+    },
+    {
+      "name": "log",
+      "version": "0.4.29",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/log"
+    },
+    {
+      "name": "lru-slab",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Ralith/lru-slab"
+    },
+    {
+      "name": "lzma-rust2",
+      "version": "0.16.4",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hasenbanck/lzma-rust2/"
+    },
+    {
+      "name": "mac",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/reem/rust-mac.git"
+    },
+    {
+      "name": "maplit",
+      "version": "1.0.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/maplit"
+    },
+    {
+      "name": "markup5ever",
+      "version": "0.14.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "match_token",
+      "version": "0.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/html5ever"
+    },
+    {
+      "name": "matches",
+      "version": "0.1.10",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/SimonSapin/rust-std-candidates"
+    },
+    {
+      "name": "matrix-pickle",
+      "version": "0.2.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/matrix-org/matrix-pickle"
+    },
+    {
+      "name": "matrix-pickle-derive",
+      "version": "0.2.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/matrix-org/matrix-pickle"
+    },
+    {
+      "name": "matrixmultiply",
+      "version": "0.3.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/matrixmultiply/"
+    },
+    {
+      "name": "memchr",
+      "version": "2.8.0",
+      "license": "Unlicense OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/BurntSushi/memchr"
+    },
+    {
+      "name": "memmap2",
+      "version": "0.9.11",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RazrFalcon/memmap2-rs"
+    },
+    {
+      "name": "memoffset",
+      "version": "0.9.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Gilnaa/memoffset"
+    },
+    {
+      "name": "mime",
+      "version": "0.3.17",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hyperium/mime"
+    },
+    {
+      "name": "mime_guess",
+      "version": "2.0.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/abonander/mime_guess"
+    },
+    {
+      "name": "minimal-lexical",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Alexhuszagh/minimal-lexical"
+    },
+    {
+      "name": "minisign-verify",
+      "version": "0.2.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jedisct1/rust-minisign-verify"
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+    },
+    {
+      "name": "miniz_oxide",
+      "version": "0.9.1",
+      "license": "MIT OR Zlib OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide"
+    },
+    {
+      "name": "mio",
+      "version": "1.1.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/mio"
+    },
+    {
+      "name": "mp4",
+      "version": "0.14.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/alfg/mp4-rust"
+    },
+    {
+      "name": "muda",
+      "version": "0.17.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/amrbashir/muda"
+    },
+    {
+      "name": "multiexp",
+      "version": "0.4.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/serai-dex/serai/tree/develop/crypto/multiexp"
+    },
+    {
+      "name": "native-tls",
+      "version": "0.2.18",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://lib.rs/crates/native-tls"
+    },
+    {
+      "name": "ndarray",
+      "version": "0.16.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-ndarray/ndarray"
+    },
+    {
+      "name": "new_debug_unreachable",
+      "version": "1.0.6",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mbrubeck/rust-debug-unreachable"
+    },
+    {
+      "name": "nix",
+      "version": "0.29.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nix-rust/nix"
+    },
+    {
+      "name": "nodrop",
+      "version": "0.1.14",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/arrayvec"
+    },
+    {
+      "name": "nom",
+      "version": "7.1.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Geal/nom"
+    },
+    {
+      "name": "non-empty-string",
+      "version": "0.2.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/MidasLamb/non-empty-string"
+    },
+    {
+      "name": "nonempty-collections",
+      "version": "1.3.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/fosskers/nonempty-collections"
+    },
+    {
+      "name": "num",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num"
+    },
+    {
+      "name": "num-bigint",
+      "version": "0.4.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num-bigint"
+    },
+    {
+      "name": "num-bigint-dig",
+      "version": "0.8.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dignifiedquire/num-bigint"
+    },
+    {
+      "name": "num-complex",
+      "version": "0.4.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num-complex"
+    },
+    {
+      "name": "num-conv",
+      "version": "0.2.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jhpratt/num-conv"
+    },
+    {
+      "name": "num-integer",
+      "version": "0.1.46",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num-integer"
+    },
+    {
+      "name": "num-iter",
+      "version": "0.1.45",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num-iter"
+    },
+    {
+      "name": "num-rational",
+      "version": "0.4.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num-rational"
+    },
+    {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-num/num-traits"
+    },
+    {
+      "name": "nvml-wrapper",
+      "version": "0.10.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Cldfire/nvml-wrapper"
+    },
+    {
+      "name": "nvml-wrapper-sys",
+      "version": "0.8.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Cldfire/nvml-wrapper"
+    },
+    {
+      "name": "oid-registry",
+      "version": "0.8.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/oid-registry"
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/matklad/once_cell"
+    },
+    {
+      "name": "opaque-debug",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "name": "open",
+      "version": "5.3.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Byron/open-rs"
+    },
+    {
+      "name": "openssl",
+      "version": "0.10.80",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-openssl/rust-openssl"
+    },
+    {
+      "name": "openssl-macros",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": ""
+    },
+    {
+      "name": "openssl-probe",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/openssl-probe"
+    },
+    {
+      "name": "openssl-sys",
+      "version": "0.9.117",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-openssl/rust-openssl"
+    },
+    {
+      "name": "option-ext",
+      "version": "0.2.0",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/soc/option-ext"
+    },
+    {
+      "name": "ordered-stream",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/danieldg/ordered-stream"
+    },
+    {
+      "name": "ort",
+      "version": "2.0.0-rc.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://ort.pyke.io/"
+    },
+    {
+      "name": "ort-sys",
+      "version": "2.0.0-rc.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://ort.pyke.io/"
+    },
+    {
+      "name": "os_pipe",
+      "version": "1.2.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/oconnor663/os_pipe.rs"
+    },
+    {
+      "name": "p256",
+      "version": "0.13.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/p256"
+    },
+    {
+      "name": "p384",
+      "version": "0.13.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/p384"
+    },
+    {
+      "name": "p521",
+      "version": "0.13.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/p521"
+    },
+    {
+      "name": "pango",
+      "version": "0.18.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "pango-sys",
+      "version": "0.18.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org/"
+    },
+    {
+      "name": "parking",
+      "version": "2.2.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/smol-rs/parking"
+    },
+    {
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Amanieu/parking_lot"
+    },
+    {
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Amanieu/parking_lot"
+    },
+    {
+      "name": "parsenic",
+      "version": "0.2.1",
+      "license": "Apache-2.0 OR BSL-1.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/ardaku/parsenic/blob/v0/CHANGELOG.md"
+    },
+    {
+      "name": "password-hash",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits/tree/master/password-hash"
+    },
+    {
+      "name": "paste",
+      "version": "1.0.15",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/paste"
+    },
+    {
+      "name": "pathdiff",
+      "version": "0.2.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Manishearth/pathdiff"
+    },
+    {
+      "name": "pbkdf2",
+      "version": "0.12.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2"
+    },
+    {
+      "name": "pcsc",
+      "version": "2.9.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluetech/pcsc-rust"
+    },
+    {
+      "name": "pcsc-sys",
+      "version": "1.3.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluetech/pcsc-rust"
+    },
+    {
+      "name": "pct-str",
+      "version": "2.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/pct-str"
+    },
+    {
+      "name": "pem",
+      "version": "3.0.6",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jcreekmore/pem-rs.git"
+    },
+    {
+      "name": "pem-rfc7468",
+      "version": "0.7.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/pem-rfc7468"
+    },
+    {
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-url/"
+    },
+    {
+      "name": "phf",
+      "version": "0.10.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/rust-phf"
+    },
+    {
+      "name": "phf",
+      "version": "0.11.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf",
+      "version": "0.8.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/rust-phf"
+    },
+    {
+      "name": "phf_generator",
+      "version": "0.10.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/rust-phf"
+    },
+    {
+      "name": "phf_generator",
+      "version": "0.11.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_macros",
+      "version": "0.10.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/rust-phf"
+    },
+    {
+      "name": "phf_macros",
+      "version": "0.11.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_shared",
+      "version": "0.10.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/rust-phf"
+    },
+    {
+      "name": "phf_shared",
+      "version": "0.11.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-phf/rust-phf"
+    },
+    {
+      "name": "phf_shared",
+      "version": "0.8.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/rust-phf"
+    },
+    {
+      "name": "pin-project",
+      "version": "1.1.13",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/taiki-e/pin-project"
+    },
+    {
+      "name": "pin-project-internal",
+      "version": "1.1.13",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/taiki-e/pin-project"
+    },
+    {
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/taiki-e/pin-project-lite"
+    },
+    {
+      "name": "pin-utils",
+      "version": "0.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang-nursery/pin-utils"
+    },
+    {
+      "name": "pix",
+      "version": "0.14.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/DougLau/pix"
+    },
+    {
+      "name": "pkcs1",
+      "version": "0.7.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/pkcs1"
+    },
+    {
+      "name": "pkcs8",
+      "version": "0.10.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/pkcs8"
+    },
+    {
+      "name": "png",
+      "version": "0.17.16",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/image-rs/image-png"
+    },
+    {
+      "name": "png_pong",
+      "version": "0.10.0",
+      "license": "Apache-2.0 OR Zlib",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/AldaronLau/png_pong/releases"
+    },
+    {
+      "name": "poly1305",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/universal-hashes"
+    },
+    {
+      "name": "polyval",
+      "version": "0.6.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/universal-hashes"
+    },
+    {
+      "name": "portable-atomic",
+      "version": "1.13.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/taiki-e/portable-atomic"
+    },
+    {
+      "name": "potential_utf",
+      "version": "0.1.4",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "powerfmt",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jhpratt/powerfmt"
+    },
+    {
+      "name": "ppmd-rust",
+      "version": "1.4.0",
+      "license": "CC0-1.0 OR MIT-0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hasenbanck/ppmd-rust"
+    },
+    {
+      "name": "ppv-lite86",
+      "version": "0.2.21",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/cryptocorrosion/cryptocorrosion"
+    },
+    {
+      "name": "precomputed-hash",
+      "version": "0.1.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/emilio/precomputed-hash"
+    },
+    {
+      "name": "primal-check",
+      "version": "0.3.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/huonw/primal"
+    },
+    {
+      "name": "primeorder",
+      "version": "0.13.6",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/primeorder"
+    },
+    {
+      "name": "proc-macro-crate",
+      "version": "1.3.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bkchr/proc-macro-crate"
+    },
+    {
+      "name": "proc-macro-crate",
+      "version": "2.0.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bkchr/proc-macro-crate"
+    },
+    {
+      "name": "proc-macro-crate",
+      "version": "3.5.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bkchr/proc-macro-crate"
+    },
+    {
+      "name": "proc-macro-error",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://gitlab.com/CreepySkeleton/proc-macro-error"
+    },
+    {
+      "name": "proc-macro-error-attr",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://gitlab.com/CreepySkeleton/proc-macro-error"
+    },
+    {
+      "name": "proc-macro-error-attr2",
+      "version": "2.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/GnomedDev/proc-macro-error-2"
+    },
+    {
+      "name": "proc-macro-error2",
+      "version": "2.0.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/GnomedDev/proc-macro-error-2"
+    },
+    {
+      "name": "proc-macro-hack",
+      "version": "0.5.20+deprecated",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/proc-macro-hack"
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.106",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/proc-macro2"
+    },
+    {
+      "name": "proptest",
+      "version": "1.10.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://proptest-rs.github.io/proptest/proptest/index.html"
+    },
+    {
+      "name": "prost",
+      "version": "0.11.9",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/prost"
+    },
+    {
+      "name": "prost",
+      "version": "0.14.4",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/prost"
+    },
+    {
+      "name": "prost-derive",
+      "version": "0.11.9",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/prost"
+    },
+    {
+      "name": "prost-derive",
+      "version": "0.14.4",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/prost"
+    },
+    {
+      "name": "provcheck",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "provcheck-attestation-spec",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "provcheck-audioseal",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "provcheck-sign",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "provcheck-watermark",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "provcheck-wavmark",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "provcheck-weights",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://provcheck.ai"
+    },
+    {
+      "name": "quick-xml",
+      "version": "0.39.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tafia/quick-xml"
+    },
+    {
+      "name": "quinn",
+      "version": "0.11.11",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "quinn-proto",
+      "version": "0.11.15",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "quinn-udp",
+      "version": "0.5.14",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/quinn-rs/quinn"
+    },
+    {
+      "name": "quote",
+      "version": "1.0.45",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/quote"
+    },
+    {
+      "name": "radium",
+      "version": "0.7.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bitvecto-rs/radium"
+    },
+    {
+      "name": "rains-license-client",
+      "version": "0.1.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rains.io"
+    },
+    {
+      "name": "rand",
+      "version": "0.8.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand",
+      "version": "0.9.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.3.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand_core",
+      "version": "0.6.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand_core",
+      "version": "0.9.5",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand_distr",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "rand_xorshift",
+      "version": "0.4.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://rust-random.github.io/book"
+    },
+    {
+      "name": "range-set",
+      "version": "0.1.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/spearman/range-set"
+    },
+    {
+      "name": "range-traits",
+      "version": "0.3.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/range-traits"
+    },
+    {
+      "name": "rasn",
+      "version": "0.28.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/librasn/rasn.git"
+    },
+    {
+      "name": "rasn-cms",
+      "version": "0.28.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/librasn/rasn.git"
+    },
+    {
+      "name": "rasn-derive",
+      "version": "0.28.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/librasn/rasn.git"
+    },
+    {
+      "name": "rasn-derive-impl",
+      "version": "0.28.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/librasn/rasn.git"
+    },
+    {
+      "name": "rasn-ocsp",
+      "version": "0.28.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/librasn/rasn.git"
+    },
+    {
+      "name": "rasn-pkix",
+      "version": "0.28.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/librasn/rasn.git"
+    },
+    {
+      "name": "raw-window-handle",
+      "version": "0.6.2",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-windowing/raw-window-handle"
+    },
+    {
+      "name": "rawpointer",
+      "version": "0.2.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/rawpointer/"
+    },
+    {
+      "name": "rayon",
+      "version": "1.11.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "name": "rayon-core",
+      "version": "1.13.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rayon-rs/rayon"
+    },
+    {
+      "name": "rcgen",
+      "version": "0.14.7",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/rcgen"
+    },
+    {
+      "name": "realfft",
+      "version": "3.5.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/HEnquist/realfft"
+    },
+    {
+      "name": "ref-cast",
+      "version": "1.0.25",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/ref-cast"
+    },
+    {
+      "name": "ref-cast-impl",
+      "version": "1.0.25",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/ref-cast"
+    },
+    {
+      "name": "regex",
+      "version": "1.12.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/regex"
+    },
+    {
+      "name": "regex-automata",
+      "version": "0.4.14",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/regex/tree/master/regex-automata"
+    },
+    {
+      "name": "regex-syntax",
+      "version": "0.8.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/regex/tree/master/regex-syntax"
+    },
+    {
+      "name": "reqwest",
+      "version": "0.12.28",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/seanmonstar/reqwest"
+    },
+    {
+      "name": "rfc6979",
+      "version": "0.4.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/signatures/tree/master/rfc6979"
+    },
+    {
+      "name": "rfd",
+      "version": "0.16.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/PolyMeilex/rfd"
+    },
+    {
+      "name": "riff",
+      "version": "2.0.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/frabert/riff"
+    },
+    {
+      "name": "ring",
+      "version": "0.17.14",
+      "license": "Apache-2.0 AND ISC",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/briansmith/ring"
+    },
+    {
+      "name": "rsa",
+      "version": "0.9.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/RSA"
+    },
+    {
+      "name": "rubato",
+      "version": "0.16.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/HEnquist/rubato"
+    },
+    {
+      "name": "rust-embed",
+      "version": "8.11.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://pyrossh.dev/repos/rust-embed"
+    },
+    {
+      "name": "rust-embed-impl",
+      "version": "8.11.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://pyrossh.dev/repos/rust-embed"
+    },
+    {
+      "name": "rust-embed-utils",
+      "version": "8.11.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://pyrossh.dev/repos/rust-embed"
+    },
+    {
+      "name": "rustc-hash",
+      "version": "1.1.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang-nursery/rustc-hash"
+    },
+    {
+      "name": "rustc-hash",
+      "version": "2.1.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/rustc-hash"
+    },
+    {
+      "name": "rustfft",
+      "version": "6.4.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/ejmahler/RustFFT"
+    },
+    {
+      "name": "rusticata-macros",
+      "version": "4.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/rusticata-macros"
+    },
+    {
+      "name": "rustix",
+      "version": "1.1.4",
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bytecodealliance/rustix"
+    },
+    {
+      "name": "rustls",
+      "version": "0.23.37",
+      "license": "Apache-2.0 OR ISC OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/rustls"
+    },
+    {
+      "name": "rustls-pki-types",
+      "version": "1.14.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/pki-types"
+    },
+    {
+      "name": "rustls-webpki",
+      "version": "0.103.13",
+      "license": "ISC",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/webpki"
+    },
+    {
+      "name": "rustversion",
+      "version": "1.0.22",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/rustversion"
+    },
+    {
+      "name": "ryu",
+      "version": "1.0.23",
+      "license": "Apache-2.0 OR BSL-1.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/ryu"
+    },
+    {
+      "name": "salsa20",
+      "version": "0.10.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/stream-ciphers"
+    },
+    {
+      "name": "same-file",
+      "version": "1.0.6",
+      "license": "Unlicense OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/BurntSushi/same-file"
+    },
+    {
+      "name": "scan_fmt",
+      "version": "0.2.6",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/wlentz/scan_fmt"
+    },
+    {
+      "name": "schemars",
+      "version": "0.8.22",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://graham.cool/schemars/"
+    },
+    {
+      "name": "schemars",
+      "version": "0.9.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://graham.cool/schemars/"
+    },
+    {
+      "name": "schemars",
+      "version": "1.2.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://graham.cool/schemars/"
+    },
+    {
+      "name": "schemars_derive",
+      "version": "0.8.22",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://graham.cool/schemars/"
+    },
+    {
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/bluss/scopeguard"
+    },
+    {
+      "name": "scrypt",
+      "version": "0.11.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/password-hashes/tree/master/scrypt"
+    },
+    {
+      "name": "sec1",
+      "version": "0.7.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/sec1"
+    },
+    {
+      "name": "secrecy",
+      "version": "0.10.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/iqlusioninc/crates/"
+    },
+    {
+      "name": "secrecy",
+      "version": "0.8.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/iqlusioninc/crates/"
+    },
+    {
+      "name": "secret-service",
+      "version": "4.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hwchen/secret-service-rs.git"
+    },
+    {
+      "name": "selectors",
+      "version": "0.24.0",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/servo"
+    },
+    {
+      "name": "self_cell",
+      "version": "0.10.3",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Voultapher/self_cell"
+    },
+    {
+      "name": "self_cell",
+      "version": "1.2.2",
+      "license": "Apache-2.0 OR GPL-2.0-only",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Voultapher/self_cell"
+    },
+    {
+      "name": "semver",
+      "version": "1.0.27",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/semver"
+    },
+    {
+      "name": "serde",
+      "version": "1.0.228",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://serde.rs"
+    },
+    {
+      "name": "serde-transcode",
+      "version": "1.1.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/sfackler/serde-transcode"
+    },
+    {
+      "name": "serde-untagged",
+      "version": "0.1.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/serde-untagged"
+    },
+    {
+      "name": "serde_bytes",
+      "version": "0.11.19",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/serde-rs/bytes"
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.228",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://serde.rs"
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.228",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://serde.rs"
+    },
+    {
+      "name": "serde_derive_internals",
+      "version": "0.29.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://serde.rs"
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.149",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/serde-rs/json"
+    },
+    {
+      "name": "serde_repr",
+      "version": "0.1.20",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/serde-repr"
+    },
+    {
+      "name": "serde_spanned",
+      "version": "0.6.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "serde_spanned",
+      "version": "1.0.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nox/serde_urlencoded"
+    },
+    {
+      "name": "serde_with",
+      "version": "3.17.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jonasbb/serde_with/"
+    },
+    {
+      "name": "serde_with_macros",
+      "version": "3.17.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/jonasbb/serde_with/"
+    },
+    {
+      "name": "serdect",
+      "version": "0.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/serdect"
+    },
+    {
+      "name": "serdect",
+      "version": "0.3.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/serdect"
+    },
+    {
+      "name": "serialize-to-javascript",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/chippers/serialize-to-javascript"
+    },
+    {
+      "name": "serialize-to-javascript-impl",
+      "version": "0.1.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/chippers/serialize-to-javascript"
+    },
+    {
+      "name": "servo_arc",
+      "version": "0.2.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/servo"
+    },
+    {
+      "name": "sevenz-rust2",
+      "version": "0.20.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/hasenbanck/sevenz-rust2"
+    },
+    {
+      "name": "sha1",
+      "version": "0.10.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "sha2",
+      "version": "0.10.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "sha2-asm",
+      "version": "0.6.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/asm-hashes"
+    },
+    {
+      "name": "sha3",
+      "version": "0.10.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/hashes"
+    },
+    {
+      "name": "shared_child",
+      "version": "1.1.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/oconnor663/shared_child.rs"
+    },
+    {
+      "name": "sigchld",
+      "version": "0.2.4",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/oconnor663/sigchld.rs"
+    },
+    {
+      "name": "signal-hook",
+      "version": "0.3.18",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/vorner/signal-hook"
+    },
+    {
+      "name": "signal-hook-registry",
+      "version": "1.4.8",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/vorner/signal-hook"
+    },
+    {
+      "name": "signature",
+      "version": "2.2.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits/tree/master/signature"
+    },
+    {
+      "name": "simd-adler32",
+      "version": "0.3.8",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mcountryman/simd-adler32"
+    },
+    {
+      "name": "siphasher",
+      "version": "0.3.11",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://docs.rs/siphasher"
+    },
+    {
+      "name": "siphasher",
+      "version": "1.0.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://docs.rs/siphasher"
+    },
+    {
+      "name": "slab",
+      "version": "0.4.12",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tokio-rs/slab"
+    },
+    {
+      "name": "smallvec",
+      "version": "1.15.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "name": "smallvec",
+      "version": "2.0.0-alpha.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-smallvec"
+    },
+    {
+      "name": "snafu",
+      "version": "0.8.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/shepmaster/snafu"
+    },
+    {
+      "name": "snafu-derive",
+      "version": "0.8.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/shepmaster/snafu"
+    },
+    {
+      "name": "socket2",
+      "version": "0.6.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rust-lang/socket2"
+    },
+    {
+      "name": "soup3",
+      "version": "0.5.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gitlab.gnome.org/World/Rust/soup3-rs"
+    },
+    {
+      "name": "soup3-sys",
+      "version": "0.5.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://gtk-rs.org"
+    },
+    {
+      "name": "spin",
+      "version": "0.10.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mvdnes/spin-rs.git"
+    },
+    {
+      "name": "spin",
+      "version": "0.9.8",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mvdnes/spin-rs.git"
+    },
+    {
+      "name": "spki",
+      "version": "0.7.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/spki"
+    },
+    {
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/storyyeller/stable_deref_trait"
+    },
+    {
+      "name": "static-iref",
+      "version": "3.0.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/static-iref"
+    },
+    {
+      "name": "static-regular-grammar",
+      "version": "2.0.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/static-regular-grammar"
+    },
+    {
+      "name": "static_assertions",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/nvzqz/static-assertions-rs"
+    },
+    {
+      "name": "std-shims",
+      "version": "0.1.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/serai-dex/serai/tree/develop/common/std-shims"
+    },
+    {
+      "name": "strength_reduce",
+      "version": "0.2.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "http://github.com/ejmahler/strength_reduce"
+    },
+    {
+      "name": "string-interner",
+      "version": "0.15.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/robbepop/string-interner"
+    },
+    {
+      "name": "string_cache",
+      "version": "0.8.9",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/string-cache"
+    },
+    {
+      "name": "strsim",
+      "version": "0.11.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rapidfuzz/strsim-rs"
+    },
+    {
+      "name": "subtle",
+      "version": "2.6.1",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://dalek.rs/"
+    },
+    {
+      "name": "symphonia",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-bundle-flac",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-bundle-mp3",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-codec-aac",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-codec-adpcm",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-codec-pcm",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-codec-vorbis",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-core",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-format-isomp4",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-format-mkv",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-format-ogg",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-format-riff",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-metadata",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "symphonia-utils-xiph",
+      "version": "0.5.5",
+      "license": "MPL-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/pdeljanov/Symphonia"
+    },
+    {
+      "name": "syn",
+      "version": "1.0.109",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/syn"
+    },
+    {
+      "name": "syn",
+      "version": "2.0.117",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/syn"
+    },
+    {
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://docs.rs/sync_wrapper"
+    },
+    {
+      "name": "synstructure",
+      "version": "0.13.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mystor/synstructure"
+    },
+    {
+      "name": "sysinfo",
+      "version": "0.33.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/GuillaumeGomez/sysinfo"
+    },
+    {
+      "name": "tao",
+      "version": "0.34.8",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/tao"
+    },
+    {
+      "name": "tap",
+      "version": "1.0.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/myrrlyn/tap"
+    },
+    {
+      "name": "tar",
+      "version": "0.4.46",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/composefs/tar-rs"
+    },
+    {
+      "name": "tauri",
+      "version": "2.10.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tauri.app/"
+    },
+    {
+      "name": "tauri-codegen",
+      "version": "2.5.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tauri.app/"
+    },
+    {
+      "name": "tauri-macros",
+      "version": "2.5.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tauri.app/"
+    },
+    {
+      "name": "tauri-plugin-dialog",
+      "version": "2.6.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-fs",
+      "version": "2.4.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-plugin-shell",
+      "version": "2.3.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/plugins-workspace"
+    },
+    {
+      "name": "tauri-runtime",
+      "version": "2.10.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tauri.app/"
+    },
+    {
+      "name": "tauri-runtime-wry",
+      "version": "2.10.1",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tauri.app/"
+    },
+    {
+      "name": "tauri-utils",
+      "version": "2.8.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tauri.app/"
+    },
+    {
+      "name": "tempfile",
+      "version": "3.27.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://stebalien.com/projects/tempfile-rs/"
+    },
+    {
+      "name": "tendril",
+      "version": "0.4.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/tendril"
+    },
+    {
+      "name": "thiserror",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "thiserror",
+      "version": "2.0.18",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "thiserror-impl",
+      "version": "2.0.18",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/thiserror"
+    },
+    {
+      "name": "time",
+      "version": "0.3.47",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://time-rs.github.io"
+    },
+    {
+      "name": "time-core",
+      "version": "0.1.8",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/time-rs/time"
+    },
+    {
+      "name": "time-macros",
+      "version": "0.2.27",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/time-rs/time"
+    },
+    {
+      "name": "tinystr",
+      "version": "0.8.2",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "tinyvec",
+      "version": "1.11.0",
+      "license": "Zlib OR Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Lokathor/tinyvec"
+    },
+    {
+      "name": "tinyvec_macros",
+      "version": "0.1.1",
+      "license": "MIT OR Apache-2.0 OR Zlib",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Soveu/tinyvec_macros"
+    },
+    {
+      "name": "tls_codec",
+      "version": "0.4.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/tls_codec"
+    },
+    {
+      "name": "tls_codec_derive",
+      "version": "0.4.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/tls_codec/derive"
+    },
+    {
+      "name": "tokio",
+      "version": "1.50.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "tokio-macros",
+      "version": "2.6.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "tokio-native-tls",
+      "version": "0.3.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "tokio-rustls",
+      "version": "0.26.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/tokio-rustls"
+    },
+    {
+      "name": "tokio-tungstenite",
+      "version": "0.29.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snapview/tokio-tungstenite"
+    },
+    {
+      "name": "tokio-util",
+      "version": "0.7.18",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "toml",
+      "version": "0.5.11",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml",
+      "version": "0.8.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml",
+      "version": "0.9.12+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml",
+      "version": "1.0.7+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_datetime",
+      "version": "0.6.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_datetime",
+      "version": "0.7.5+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_datetime",
+      "version": "1.0.1+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_edit",
+      "version": "0.19.15",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_edit",
+      "version": "0.20.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_edit",
+      "version": "0.25.5+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_parser",
+      "version": "1.0.10+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "toml_writer",
+      "version": "1.0.7+spec-1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/toml-rs/toml"
+    },
+    {
+      "name": "tower",
+      "version": "0.5.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tower-rs/tower"
+    },
+    {
+      "name": "tower-http",
+      "version": "0.6.8",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tower-rs/tower-http"
+    },
+    {
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tower-rs/tower"
+    },
+    {
+      "name": "tower-service",
+      "version": "0.3.3",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tower-rs/tower"
+    },
+    {
+      "name": "tracing",
+      "version": "0.1.44",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "tracing-attributes",
+      "version": "0.1.31",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://tokio.rs"
+    },
+    {
+      "name": "tract-core",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "tract-data",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "tract-hir",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "tract-linalg",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "tract-nnef",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "tract-onnx",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "tract-onnx-opl",
+      "version": "0.21.10",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snipsco/tract"
+    },
+    {
+      "name": "traitful",
+      "version": "0.3.0",
+      "license": "Apache-2.0 OR BSL-1.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/ardaku/traitful/blob/stable/CHANGELOG.md"
+    },
+    {
+      "name": "transpose",
+      "version": "0.2.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/ejmahler/transpose"
+    },
+    {
+      "name": "tray-icon",
+      "version": "0.21.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/tray-icon"
+    },
+    {
+      "name": "try-lock",
+      "version": "0.2.5",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/seanmonstar/try-lock"
+    },
+    {
+      "name": "tungstenite",
+      "version": "0.29.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/snapview/tungstenite-rs"
+    },
+    {
+      "name": "type-map",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/kardeiz/type-map"
+    },
+    {
+      "name": "typed-path",
+      "version": "0.12.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/chipsenkbeil/typed-path"
+    },
+    {
+      "name": "typeid",
+      "version": "1.0.3",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/typeid"
+    },
+    {
+      "name": "typenum",
+      "version": "1.19.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/paholg/typenum"
+    },
+    {
+      "name": "unarray",
+      "version": "0.1.4",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/cameron1024/unarray"
+    },
+    {
+      "name": "unic-char-property",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-char-range",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-common",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-langid",
+      "version": "0.9.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zbraniecki/unic-locale"
+    },
+    {
+      "name": "unic-langid-impl",
+      "version": "0.9.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zbraniecki/unic-locale"
+    },
+    {
+      "name": "unic-ucd-ident",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unic-ucd-version",
+      "version": "0.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/open-i18n/rust-unic/"
+    },
+    {
+      "name": "unicase",
+      "version": "2.9.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/seanmonstar/unicase"
+    },
+    {
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/unicode-ident"
+    },
+    {
+      "name": "unicode-segmentation",
+      "version": "1.12.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-rs/unicode-segmentation"
+    },
+    {
+      "name": "universal-hash",
+      "version": "0.5.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/traits"
+    },
+    {
+      "name": "untrusted",
+      "version": "0.9.0",
+      "license": "ISC",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/briansmith/untrusted"
+    },
+    {
+      "name": "ureq",
+      "version": "2.12.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/algesten/ureq"
+    },
+    {
+      "name": "url",
+      "version": "2.5.8",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/servo/rust-url"
+    },
+    {
+      "name": "urlpattern",
+      "version": "0.3.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/denoland/rust-urlpattern"
+    },
+    {
+      "name": "utf-8",
+      "version": "0.7.6",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/SimonSapin/rust-utf8"
+    },
+    {
+      "name": "utf8-decode",
+      "version": "1.0.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/timothee-haudebourg/utf8-decode"
+    },
+    {
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://docs.rs/utf8_iter/"
+    },
+    {
+      "name": "utf8parse",
+      "version": "0.2.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/alacritty/vte"
+    },
+    {
+      "name": "uuid",
+      "version": "1.22.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/uuid-rs/uuid"
+    },
+    {
+      "name": "vodozemac",
+      "version": "0.10.0",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/matrix-org/vodozemac"
+    },
+    {
+      "name": "vsss-rs",
+      "version": "5.4.0",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/mikelodder7/vsss-rs"
+    },
+    {
+      "name": "walkdir",
+      "version": "2.5.0",
+      "license": "Unlicense OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/BurntSushi/walkdir"
+    },
+    {
+      "name": "want",
+      "version": "0.3.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/seanmonstar/want"
+    },
+    {
+      "name": "web-time",
+      "version": "1.1.0",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/daxpedda/web-time"
+    },
+    {
+      "name": "webkit2gtk",
+      "version": "2.0.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/webkit2gtk-rs"
+    },
+    {
+      "name": "webkit2gtk-sys",
+      "version": "2.0.2",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/webkit2gtk-rs"
+    },
+    {
+      "name": "webpki-roots",
+      "version": "0.26.11",
+      "license": "CDLA-Permissive-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/webpki-roots"
+    },
+    {
+      "name": "webpki-roots",
+      "version": "1.0.8",
+      "license": "CDLA-Permissive-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rustls/webpki-roots"
+    },
+    {
+      "name": "winnow",
+      "version": "0.5.40",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/winnow-rs/winnow"
+    },
+    {
+      "name": "winnow",
+      "version": "0.7.15",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/winnow-rs/winnow"
+    },
+    {
+      "name": "winnow",
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/winnow-rs/winnow"
+    },
+    {
+      "name": "wrapcenum-derive",
+      "version": "0.4.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Cldfire/wrapcenum-derive"
+    },
+    {
+      "name": "writeable",
+      "version": "0.6.2",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "wry",
+      "version": "0.54.4",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/tauri-apps/wry"
+    },
+    {
+      "name": "wyz",
+      "version": "0.5.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://myrrlyn.net/crates/wyz"
+    },
+    {
+      "name": "x11",
+      "version": "2.21.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/AltF02/x11-rs.git"
+    },
+    {
+      "name": "x11-dl",
+      "version": "2.21.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/AltF02/x11-rs.git"
+    },
+    {
+      "name": "x25519-dalek",
+      "version": "2.0.1",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dalek-cryptography/curve25519-dalek"
+    },
+    {
+      "name": "x509-cert",
+      "version": "0.2.5",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/formats/tree/master/x509-cert"
+    },
+    {
+      "name": "x509-parser",
+      "version": "0.18.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/rusticata/x509-parser"
+    },
+    {
+      "name": "xattr",
+      "version": "1.6.1",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/Stebalien/xattr"
+    },
+    {
+      "name": "xdg-home",
+      "version": "1.3.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zeenix/xdg-home"
+    },
+    {
+      "name": "xml-no-std",
+      "version": "0.8.26",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://lib.rs/crates/xml-no-std"
+    },
+    {
+      "name": "yasna",
+      "version": "0.5.2",
+      "license": "MIT OR Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/qnighy/yasna.rs"
+    },
+    {
+      "name": "yoke",
+      "version": "0.8.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "yoke-derive",
+      "version": "0.8.1",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "yubikey",
+      "version": "0.8.0",
+      "license": "BSD-3-Clause",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/iqlusioninc/yubikey.rs"
+    },
+    {
+      "name": "zbus",
+      "version": "4.4.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dbus2/zbus/"
+    },
+    {
+      "name": "zbus_macros",
+      "version": "4.4.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dbus2/zbus/"
+    },
+    {
+      "name": "zbus_names",
+      "version": "3.0.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dbus2/zbus/"
+    },
+    {
+      "name": "zerocopy",
+      "version": "0.8.47",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/google/zerocopy"
+    },
+    {
+      "name": "zerocopy-derive",
+      "version": "0.8.47",
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/google/zerocopy"
+    },
+    {
+      "name": "zerofrom",
+      "version": "0.1.6",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zerofrom-derive",
+      "version": "0.1.6",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zeroize",
+      "version": "1.8.2",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils/tree/master/zeroize"
+    },
+    {
+      "name": "zeroize_derive",
+      "version": "1.4.3",
+      "license": "Apache-2.0 OR MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/RustCrypto/utils/tree/master/zeroize/derive"
+    },
+    {
+      "name": "zerotrie",
+      "version": "0.2.3",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://icu4x.unicode.org"
+    },
+    {
+      "name": "zerovec",
+      "version": "0.11.5",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zerovec-derive",
+      "version": "0.11.2",
+      "license": "Unicode-3.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/unicode-org/icu4x"
+    },
+    {
+      "name": "zip",
+      "version": "4.6.1",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zip-rs/zip2.git"
+    },
+    {
+      "name": "zip",
+      "version": "8.4.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zip-rs/zip2"
+    },
+    {
+      "name": "zlib-rs",
+      "version": "0.6.3",
+      "license": "Zlib",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/trifectatechfoundation/zlib-rs"
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.21",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dtolnay/zmij"
+    },
+    {
+      "name": "zopfli",
+      "version": "0.8.3",
+      "license": "Apache-2.0",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/zopfli-rs/zopfli"
+    },
+    {
+      "name": "zvariant",
+      "version": "4.2.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dbus2/zbus/"
+    },
+    {
+      "name": "zvariant_derive",
+      "version": "4.2.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dbus2/zbus/"
+    },
+    {
+      "name": "zvariant_utils",
+      "version": "2.1.0",
+      "license": "MIT",
+      "category": "Rust Crates",
+      "homepage": "https://github.com/dbus2/zbus/"
+    },
+    {
+      "name": "CPython",
+      "version": "3.12.10",
+      "license": "PSF-2.0",
+      "homepage": "https://www.python.org/",
+      "upstream_source_url": "https://github.com/python/cpython",
+      "category": "System Tools"
+    },
+    {
+      "name": "ffmpeg",
+      "version": "7.1.1-raidio-audio",
+      "license": "LGPL-2.1-or-later",
+      "homepage": "https://ffmpeg.org/",
+      "upstream_source_url": "https://github.com/FFmpeg/FFmpeg",
+      "category": "System Tools"
+    },
+    {
+      "name": "lame",
+      "version": "3.100",
+      "license": "LGPL-2.0-or-later",
+      "homepage": "https://lame.sourceforge.io/",
+      "upstream_source_url": "https://sourceforge.net/projects/lame/",
+      "embedded_in_component": "ffmpeg",
+      "category": "System Tools"
+    },
+    {
+      "name": "libogg",
+      "version": "1.3.5",
+      "license": "BSD-3-Clause",
+      "homepage": "https://xiph.org/ogg/",
+      "upstream_source_url": "https://gitlab.xiph.org/xiph/ogg",
+      "embedded_in_component": "ffmpeg",
+      "category": "System Tools"
+    },
+    {
+      "name": "libvorbis",
+      "version": "1.3.7",
+      "license": "BSD-3-Clause",
+      "homepage": "https://xiph.org/vorbis/",
+      "upstream_source_url": "https://gitlab.xiph.org/xiph/vorbis",
+      "embedded_in_component": "ffmpeg",
+      "category": "System Tools"
+    },
+    {
+      "name": "llama.cpp (llama-server)",
+      "version": "b10066",
+      "license": "MIT",
+      "homepage": "https://github.com/ggml-org/llama.cpp",
+      "upstream_source_url": "https://github.com/ggml-org/llama.cpp",
+      "category": "System Tools"
+    },
+    {
+      "name": "opus",
+      "version": "1.5.2",
+      "license": "BSD-3-Clause",
+      "homepage": "https://opus-codec.org/",
+      "upstream_source_url": "https://gitlab.xiph.org/xiph/opus",
+      "embedded_in_component": "ffmpeg",
+      "category": "System Tools"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.1",
+      "license": "Zlib",
+      "homepage": "https://zlib.net/",
+      "upstream_source_url": "https://github.com/madler/zlib",
+      "embedded_in_component": "ffmpeg",
+      "category": "System Tools"
+    }
+  ]
+}
