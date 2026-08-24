@@ -361,7 +361,7 @@ _1196 components, alphabetical by name. Click to jump._
 - [`gtk-sys` `0.18.2`](#gtk-sys-0182)
 - [`gtk3-macros` `0.18.2`](#gtk3-macros-0182)
 - [`h11` `0.16.0`](#h11-0160)
-- [`h2` `0.4.13`](#h2-0413)
+- [`h2` `0.4.18`](#h2-0418)
 - [`half` `2.7.1`](#half-271)
 - [`hangul-romanize` `0.1.0`](#hangul-romanize-010)
 - [`hash32` `0.3.1`](#hash32-031)
@@ -66514,13 +66514,13 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
-## h2 0.4.13
+## h2 0.4.18
 
 | Field | Value |
 |---|---|
 | License | `MIT` |
 | Homepage | https://github.com/hyperium/h2 |
-| PURL | `pkg:cargo/h2@0.4.13` |
+| PURL | `pkg:cargo/h2@0.4.18` |
 
 ### Copyright
 

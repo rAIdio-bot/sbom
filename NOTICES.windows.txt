@@ -357,7 +357,7 @@ where the `COMPONENT:` header for that entry begins.
   gtk-sys 0.18.2                                    line 64214
   gtk3-macros 0.18.2                                line 64246
   h11 0.16.0                                        line 64296
-  h2 0.4.13                                         line 64335
+  h2 0.4.18                                         line 64335
   half 2.7.1                                        line 64374
   hangul-romanize 0.1.0                             line 64589
   hash32 0.3.1                                      line 64629
@@ -64333,10 +64333,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ═══════════════════════════════════════════════════════════════════════════
-COMPONENT:    h2 0.4.13
+COMPONENT:    h2 0.4.18
 LICENSE:      MIT
 HOMEPAGE:     https://github.com/hyperium/h2
-PURL:         pkg:cargo/h2@0.4.13
+PURL:         pkg:cargo/h2@0.4.18
 
 COPYRIGHT
 ─────────
