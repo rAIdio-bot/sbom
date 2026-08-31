@@ -37,17 +37,61 @@ For every category, every extracted LICENSE / COPYING / NOTICE file is base64-em
 
 **ScanCode-style file-level evidence** in the CycloneDX `evidence[]` field is populated by the offline [`tools/sbom_deep_scan.py`](tools/sbom_deep_scan.py) pass for components where the sampling cap is insufficient. Deep-scan runs at release cadence and feeds the in-pipeline enricher with cached source archives.
 
-## Historical releases
+## Current releases
 
-The per-release `releases/RC-1-Gold-0.X/` tree below is the audit trail — what shipped, when. Those snapshots stay unenriched as the historical record; the per-platform `sbom.<plat>.json` at the root is the current truth (`sbom.windows.json` today; `sbom.linux.json` in preparation).
+The current release line. This table is generated from the archived SBOMs at
+publish time — every release adds a row automatically.
 
-## Current
+<!-- AUTO:CURRENT-RELEASES START -->
 
-Releases `0.16` through `0.21` were Steam-pushed without their SBOM
-artefacts being archived to this repository at push time. The
-dependency state at those tags is reconstructable from source via the
-SBOM pipeline described in `## Generation` below; on-request
-reconstruction is available via the issue tracker.
+| Version | Components | Platforms | SBOM |
+|---------|-----------:|-----------|------|
+| **v0.1.36** | 1196 | Windows · Linux | [releases/v0.1.36](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.36) |
+| v0.1.35 | 1196 | Windows · Linux | [releases/v0.1.35](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.35) |
+| v0.1.34 | 1196 | Windows · Linux | [releases/v0.1.34](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.34) |
+| v0.1.33 | 1196 | Windows · Linux | [releases/v0.1.33](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.33) |
+| v0.1.32 | 1196 | Windows · Linux | [releases/v0.1.32](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.32) |
+| v0.1.31 | 1194 | Windows · Linux | [releases/v0.1.31](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.31) |
+| v0.1.30 | 1194 | Windows · Linux | [releases/v0.1.30](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.30) |
+| v0.1.29 | 1194 | Windows · Linux | [releases/v0.1.29](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.29) |
+| v0.1.28 | 1194 | Windows | [releases/v0.1.28](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.28) |
+| v0.1.27 | 1193 | Windows · Linux | [releases/v0.1.27](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.27) |
+| v0.1.26 | 1193 | Windows · Linux | [releases/v0.1.26](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.26) |
+| v0.1.25 | 1193 | Windows · Linux | [releases/v0.1.25](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.25) |
+| v0.1.24 | 1193 | Windows · Linux | [releases/v0.1.24](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.24) |
+| v0.1.23 | 1193 | Windows | [releases/v0.1.23](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.23) |
+| v0.1.22 | 1193 | Windows · Linux | [releases/v0.1.22](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.22) |
+| v0.1.21 | 1192 | Windows · Linux | [releases/v0.1.21](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.21) |
+| v0.1.20 | 1192 | Windows · Linux | [releases/v0.1.20](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.20) |
+| v0.1.19 | 1192 | Windows · Linux | [releases/v0.1.19](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.19) |
+| v0.1.18 | 1192 | Windows · Linux | [releases/v0.1.18](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.18) |
+| v0.1.17 | 1192 | Windows | [releases/v0.1.17](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.17) |
+| v0.1.16 | 1192 | Windows | [releases/v0.1.16](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.16) |
+| v0.1.15 | 1192 | Windows | [releases/v0.1.15](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.15) |
+| v0.1.14 | 1192 | Windows | [releases/v0.1.14](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.14) |
+| v0.1.13 | 1192 | Windows | [releases/v0.1.13](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.13) |
+| v0.1.12 | 1192 | Windows | [releases/v0.1.12](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.12) |
+| v0.1.11 | 1192 | Windows | [releases/v0.1.11](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.11) |
+| v0.1.10 | 1192 | Windows | [releases/v0.1.10](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.10) |
+| v0.1.9 | 1194 | Windows | [releases/v0.1.9](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.9) |
+| v0.1.8 | 1194 | Windows | [releases/v0.1.8](https://github.com/rAIdio-bot/sbom/tree/main/releases/v0.1.8) |
+
+<!-- AUTO:CURRENT-RELEASES END -->
+
+Each version directory under [`releases/`](releases/) holds the enriched
+CycloneDX 1.5 SBOM, the light CycloneDX, and a `SHA256SUMS` manifest, per
+platform (the Linux build's files carry a `-linux` suffix). The per-platform
+`sbom.<plat>.json` at the repo root always reflects the most recent release
+(`sbom.windows.json` today; `sbom.linux.json` in preparation).
+
+## Historical releases (pre-1.0)
+
+The `EA-*`, `RC1-UAT*`, and `RC-1-Gold-0.X` trees below are the audit trail of
+what shipped before the 0.1.x line — the historical record, kept unenriched.
+Some early builds were pushed without their SBOM artefacts archived here at push
+time; the dependency state at those tags is reconstructable from source via the
+SBOM pipeline described in `## Generation` below, on request via the issue
+tracker.
 
 | Release | Format | File | Components |
 |---------|--------|------|------------|
